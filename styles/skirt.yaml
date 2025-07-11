@@ -1,0 +1,86 @@
+skirt:
+  style:
+    - boho
+    - cargo
+    - casual
+    - gypsy
+    - layered
+    - peplum
+    - wrap
+  cut:
+    - a-line
+    - (accordion:0.8)
+    - asymmetrical
+    - circle
+    - draped
+    - fit-and-flare
+    - flared
+    - flounce
+    - gathered
+    - godet
+    - gored
+    - handkerchief
+    - high-low
+    - low-slit
+    - panel
+    - pleat
+    - slit
+    - (swing:0.8)
+    - tiered
+    - trapeze
+    - wrap
+  hem:
+    - fringe
+    - layered
+    - raw
+    - sharkbite
+    - slanted
+    - tiered
+    - __fash/styles/common/trim__
+  #yoke:
+  #  - __fash/styles/common/yoke__
+  material:
+    - corduroy
+    - denim
+    - knit
+    - linen
+  length:
+    short:
+      - mini
+      - short
+      - above-knee
+    medium:
+      - knee-length
+      - below-knee
+      - midi length
+    long:
+      - midi length
+      - maxi length
+      - ankle-length
+      - floor-length
+
+    casual:
+      - mini
+      - short
+      - above-knee
+      - knee-length
+      - below-knee
+      - midi length
+    smart:
+      - knee-length
+      - below-knee
+      - midi length
+      - maxi length
+    formal:
+      - midi length
+      - maxi length
+      - ankle-length
+      - floor-length
+    intimate:
+      - mini
+      - short
+      - above-knee
+      - knee-length
+    sexy:
+      - micro
+      - mini

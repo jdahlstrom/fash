@@ -1,0 +1,83 @@
+camisole:
+  style:
+    - babydoll
+    - boho
+    - crop
+    - draped
+    - flowy
+    - flyaway
+    - gathered
+    - longline
+    - peplum
+    - ruched-waist
+    - smock
+    - tiered
+    # Hem
+    - flared-hem
+    - flounce-hem
+    - godet-hem
+    - tiered-hem
+    # Material
+    - linen
+    #- denim Doesn't work well
+    #- __fash/styles/common/trim__-{hem|trim|yoke}
+    #- open-front Unreliable with SDXL
+    #- split-front # TODO these are a thing but not understood by SDXL
+
+  # These work best with loose variants like smock
+  smock:
+    - crop
+    #- open-front bow/knot detail etc
+    - layered
+    - tiered
+    - open-front
+    - empire-waist
+    - ruched-waist
+    - gathered-waist
+    - high-low-hem
+    - high-low-hem crop
+
+  hemline:
+    # Not reliable in general
+    #- __fash/styles/top/hemline__
+
+  neckline:
+    common:
+      - crewneck
+      - crossback
+      - drape-neckline
+      - flounce-neckline
+      - gathered-neckline
+      - halter
+      - henley
+      - keyhole
+      - o-ring neckline
+      - (plunging:0.9)
+      - scoop neck
+      - square neck
+      - surplice
+      - strapless
+      - strappy
+      - sweetheart neck
+      - triangle neck
+      - v-neck
+      #- droop neck Doesn't work well
+      #- split neck Doesn't work well
+    halter:
+      # Almost same as common...
+      - crewneck
+      - drape-neckline
+      - flounce-neckline
+      - gathered-neckline
+      - henley
+      - keyhole
+      - o-ring neckline
+      - (plunging:0.9)
+      - scoop neck
+      - square neck
+      - surplice
+      - strappy
+      - sweetheart neck
+      - triangle neck
+      - twisted
+      - v-neck

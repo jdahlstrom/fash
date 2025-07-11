@@ -1,0 +1,87 @@
+sweater:
+  style:
+    - asymmetric
+    - crop
+    - godet
+    - hooded
+    - (kangaroo pocket:0.9)
+    - longline
+    - peplum
+    - poncho
+    - pullover
+    - smock
+    - '{|short} high-low'
+    - tunic
+    - ugly
+    - woolly pully # TODO should be an "army-style" pullover
+
+  cardigan:
+    - Aran
+    - boyfriend
+    - cable-knit
+    - collarless
+    - cold-shoulder
+    - crop
+    - flyaway-hem
+    - hooded
+    - longline
+    - off-shoulder
+    - pointelle knit
+    - raglan
+    - rib knit
+    - (shawl-collared:0.8)
+    - short-sleeved
+    - zipper
+    # TODO more
+
+  closure: # TODO already in necklines
+    - half-zip
+    - half-button
+    - popover
+    - zip-up
+  fit:
+    - boyfriend
+    - chunky
+    - fitted
+    - oversize
+  knit:
+    - __fash/styles/common/knit__
+  traditional:
+    - Aran
+    - Fair Isle
+    - Guernsey
+    - Icelandic
+    - Jersey
+    - Norwegian
+    - Shetland
+  sleeve:
+    # TODO Unify with generic top sleeves
+    - batwing
+    - bell-sleeve
+    - (cap:0.6)-sleeve
+    - cold shoulder
+    - dolman-sleeve
+    - drop shoulder
+    - flared-sleeve
+    - gathered-sleeve
+    - puff-sleeve
+    - raglan
+    - rolled-sleeve
+    - sleeveless
+  # Trim
+  #  - lace-{yoke|trim} # TODO trims should be separate...
+
+  # Note: include only those not in t-shirt/neckline!
+  neckline:
+    - button-up
+    - '{|(plunging:0.9)} cowl neck' # plunging makes a looser cowl
+    - '{|loose} drape neckline'
+    - half-zip
+    - lace-up
+    - fold-over off-shoulder
+    - polo
+    - popover
+    - roll neck
+    - (shawl-collared:0.8) # Concept bleeding with SDXL
+    - turtleneck
+    - zip-up

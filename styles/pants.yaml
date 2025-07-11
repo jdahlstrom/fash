@@ -1,0 +1,68 @@
+pants:
+  generic-fit:
+    - bush pants
+    - '{|drawstring} cargo pants'
+    - capri pants
+    - chinos
+    - corduroy pants
+    - godet pants
+    - hiking pants
+    - khakis
+    - '{|cargo} joggers'
+    - linen pants
+    - velvet pants
+  specific-fit:
+    - culottes
+    - harem pants
+    - jeggings
+    - leggings
+    - lounge pants
+    - parachute pants
+    - sports pants
+    - '{|cargo} sweatpants'
+    - treggings
+    - yoga pants
+  waistline:
+    - low-rise
+    - hiphugger
+    - high-waist
+    - midrise
+  jeans:
+    - bell-bottom
+    - boot cut
+    - boyfriend
+    - cargo
+    - carpenter
+    #- cropped Concept bleeding...
+    #- gathered-ankle
+    - girlfriend
+    - flared
+    - jogger
+    - kick flare
+    - mom
+    - rolled
+    - slit-leg
+    - straight-leg
+    - tapered
+    #- trumpet cut Concept bleeding...
+    - wide-leg
+  shorts:
+    - beach shorts
+    - bermuda shorts
+    - board shorts
+    - boyfriend shorts
+    - cargo shorts
+    - chino shorts
+    - culottes shorts
+    - cut-off shorts
+    - denim shorts
+    - fleece shorts
+    - hiking shorts
+    - hot pants
+    - jamaican shorts
+    - linen shorts
+    - paperbag shorts
+    - skort
+    - spandex shorts
+    - sports shorts
+    - walking shorts

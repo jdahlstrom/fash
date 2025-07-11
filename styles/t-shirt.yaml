@@ -1,0 +1,67 @@
+t-shirt:
+  style:
+    - babydoll
+    - backless
+    - baseball
+    - boyfriend
+    - cold-shoulder
+    - contrast-yoke
+    - (cutout:0.9)
+    - godet
+    - peplum
+    - pocket
+    - raglan
+    - ringer
+    - smock
+    - wrap
+  length:
+    - __fash/styles/top/length__
+  fit:
+    - __fash/styles/common/fit/casual__
+  hemline:
+    - __fash/styles/top/hemline__
+  gather:
+    - __fash/styles/common/gather__
+  sleeve:
+    - cap
+    - short
+    - above-elbow
+    - elbow-length
+    - below-elbow
+    - long
+  neckline:
+    - '{|wide} boatneck'        # wide, shallow cut neckline
+    - collared
+    - crewneck                  # basic round t-shirt neckline
+    - (cutout:0.9) neckline     # cutout exposing cleavage, "boob window"
+    - draped neckline
+    #- flounce neckline should be separate, with other trims
+    - half-button
+    - henley-neck               # button-up neck without a collar
+    - keyhole neck              # small cutout, exposing a bit of cleavage
+    - mock neck                 # tubular collar, lower than polo or turtleneck
+    - off-shoulder              # usually horizontal neckline leaving shoulders bare
+    - (off-one-shoulder:0.9)    # asymmetric, leaves one shoulder bare
+    - one-shoulder              # asymmetric, with only one sleeve
+    - one-cold-shoulder         # one shoulder strap, both shoulders bare
+    - (plunging:0.9)            # deep cut neckline exposing leavage
+    - scoop neck                # wide, front cut lower than back
+    - split neck                # round neck with a v-shaped cut
+    - square neck               # rectangular neckline
+    - surplice                  # overlapping left and right sides
+    - v-neck                    # v-shaped, angular neck
+  back:
+    - backless
+    - cutout-back
+    - keyhole-back
+    - open-back
+    - tied-back
+
+    #__clothing/neckline/_keyhole__ # "boob window" TODO not all of these work reliably
+    #- keyhole __fash/clothing/neckline/_keyhole__ # TODO not all of these work reliably
+    #- plunging __fash/clothing/neckline/_plunging__
+    #- '{curved|wide|deep} v-neck'
+
+  deco:
+    - embroidered
+    - print

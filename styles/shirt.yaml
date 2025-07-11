@@ -1,0 +1,92 @@
+shirt:
+  style:
+    - aloha
+    - button-down
+    - cabana
+    - cargo
+    - cold-shoulder
+    - collarless
+    - godet
+    - half-button
+    - lumberjack
+    - peasant
+    - peplum
+    - polo
+    - popover
+    - sleeveless
+    - split-front
+    - tunic
+    # Material
+    - denim
+    - flannel
+    - linen
+
+    #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke}
+    #- zip-{neck|up}
+
+    # Too much concept bleed with SDXL at least, try Flux
+    # - military
+    # - western
+
+  sleeve:
+    - __fash/styles/top/sleeve/*__
+
+  blouse:
+    - boho
+    - (bow-knot:0.9)
+    - crop
+    - empire-waist # TODO
+    - flowy
+    - front-lacing
+    - half-button
+    - open-front smock
+    - peplum
+    - poncho
+    - polo
+    - ruched-waist
+    - smock
+    - split-front
+    - tie-front
+    - wrap
+
+  sweatshirt:
+    - ''
+    # - baja TODO check non-distilled model
+    - crop
+    - flannel
+    - half-zip
+    - oversize
+    - raglan
+    - sports
+    - zip-up
+
+  hoodie:
+    - __fash/styles/shirt/sweatshirt__
+
+  tunic:
+    - boho
+    - (bow-knot:0.9)
+    - cold-shoulder
+    - flowy
+    - godet
+    - henley
+    - high-low-hem
+    - kaftan
+    - longline
+    - mini
+    - open-front smock
+    - peplum
+    - poncho
+    - short
+    - slit-hem
+    - smock
+    - split neck
+    - v-neck
+    - wrap
+    # TODO more?!
+
+  neckline:
+    blouse:
+      - __fash/styles/t-shirt/neckline__
+    tunic:
+      - __fash/styles/t-shirt/neckline__

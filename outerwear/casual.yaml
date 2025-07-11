@@ -1,0 +1,184 @@
+casual:
+  ##############################################################################
+  upper:
+  ##############################################################################
+    - __fash/outerwear/casual/camisole__
+    - __fash/outerwear/casual/cardigan__
+    - __fash/outerwear/casual/hoodie__
+    - __fash/outerwear/casual/shirt__
+    - __fash/outerwear/casual/sweater__
+    - __fash/outerwear/casual/sweatshirt__
+    - __fash/outerwear/casual/t-shirt__
+    - __fash/outerwear/casual/top__
+    - __fash/outerwear/casual/tunic__
+
+  upper-types:
+    - blouse
+    - camisole
+    - cardigan
+    - hoodie
+    - shirt
+    - shrug
+    - sweater
+    - sweatshirt
+    - t-shirt
+    - top
+    - tunic
+
+  # Casual shirt, typically short-sleeved and made of cotton.
+  # Originally an undershirt, they were popularized as outerwear
+  # by Hollywood in the 50s.
+  t-shirt:
+    - __fash/styles/t-shirt/style__ t-shirt
+    - __fash/styles/t-shirt/neckline__ t-shirt
+
+  # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
+  top:
+    - __fash/styles/top/style__ top
+    - __fash/styles/top/hemline__-hemline top
+    - __fash/styles/top/neckline/common__ top
+    - __fash/outerwear/casual/sleeved-top__
+    - __fash/outerwear/casual/sleeveless-top__
+
+  #
+  sleeved-top:
+    - top with __fash/styles/top/sleeve/*__ sleeves
+
+  #
+  sleeveless-top:
+    - __fash/outerwear/casual/strapless-top__
+    - __fash/outerwear/casual/tank-top__
+    #- sleeveless top with xyz neckline
+    #- __fash/outerwear/casual/camisole__ Include or not?
+
+  #
+  strapless-top:
+    - __fash/outerwear/casual/bandeau-top__
+    - __fash/outerwear/casual/tube-top__
+
+  # Tank top variants.
+  tank-top:
+    - __fash/styles/top/neckline/tank-top__ tank top
+
+  # Bandeau top variants.
+  bandeau-top:
+    - bandeau top
+    - __fash/styles/top/neckline/bandeau__ bandeau top
+
+  # Halterneck variants.
+  halter-top:
+    #- halter top
+    - __fash/styles/top/neckline/halter__ halter top
+
+  # Almost synonymous with bandeau.
+  tube-top:
+    - tube top
+    - __fash/styles/top/neckline/bandeau__ tube top
+
+  # Womens' sleeveless top, typically with spaghetti straps.
+  # Originally only used as underwear.
+  camisole:
+    - __fash/styles/camisole/necklin/common__ camisole
+    - __fash/styles/camisole/style__ camisole
+
+  # Button-closure shirt, usually with a collar. Can range from casual to formal.
+  shirt:
+    - __fash/styles/shirt/style__ shirt
+
+  # Loose-fitting shirt.
+  blouse:
+    - __fash/styles/shirt/blouse__ blouse
+    - blouse with __fash/styles/top/sleeve/*__ sleeves
+
+  # Knitted or crocheted shirt, usually long-sleeved, often woolen.
+  sweater:
+    - __fash/styles/sweater/knit__ sweater
+    - __fash/styles/sweater/style__ sweater
+    - __fash/styles/sweater/neckline__ sweater
+    - __fash/styles/t-shirt/neckline__ sweater
+    - __fash/styles/sweater/sleeve__ sweater
+    - sweater with __fash/styles/sweater/traditional__ {pattern|yoke}
+
+  # Open-front sweater, usually button-closure.
+  cardigan:
+    - __fash/styles/sweater/cardigan__ cardigan
+
+  sweatshirt:
+    - __fash/styles/shirt/sweatshirt__ sweatshirt
+
+  hoodie:
+    - __fash/styles/shirt/sweatshirt__ hoodie
+
+  tunic:
+    - __fash/styles/shirt/tunic__ tunic
+    - tunic with __fash/styles/top/sleeve/*__ sleeves
+
+
+  ##############################################################################
+  lower:
+  ##############################################################################
+    - __fash/outerwear/casual/pants__
+    - __fash/outerwear/casual/shorts__
+    - __fash/outerwear/casual/skirt__
+
+  pants:
+    - __fash/styles/pants/generic-fit__
+    - __fash/styles/pants/specific-fit__
+
+  jeans:
+    - __fash/styles/pants/jeans__ jeans
+
+  shorts:
+    - __fash/styles/pants/shorts__
+
+  skirt:
+    - __fash/styles/skirt/cut__ skirt
+    - __fash/styles/skirt/hem__-hemline skirt
+    - __fash/styles/skirt/material__ skirt
+    - __fash/styles/skirt/style__ skirt
+    - __fash/styles/skirt/length/casual__ skirt
+    - __fash/styles/common/gather__ skirt
+    - __fash/styles/common/yoke__ skirt
+
+    # TODO
+    #- drawstring
+    #- pegged
+    #- yoked
+
+  ##############################################################################
+  one-piece:
+  ##############################################################################
+    - __fash/outerwear/casual/legged__
+    - __fash/outerwear/casual/dress__ dress
+
+  legged:
+    - playsuit
+    - romper suit
+    - jumpsuit
+    - overalls
+
+  dress:
+    - __fash/styles/dress/bodice__ dress
+    - __fash/styles/dress/skirt__ dress
+    - dress with __fash/styles/top/sleeve/*__ sleeves
+
+  sundress:
+    - __fash/styles/sundress/neckline__ __fash/styles/sundress/bodice__ sundress # TODO
+    - __fash/styles/sundress/neckline__ __fash/styles/sundress/skirt__ sundress # TODO
+    - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/bodice__ sundress # TODO
+
+  cami-dress:
+    - __fash/styles/camisole/neckline__ cami dress
+  denim-dress:
+    - __fash/styles/common/denim/wash__ denim dress
+  shirt-dress:
+    - __fash/outerwear/casual/shirt__ dress # TODO
+  sweater-dress:
+    - __fash/outerwear/casual/sweater__ dress
+  t-shirt-dress:
+    - __fash/outerwear/casual/t-shirt__ dress
+    # TODO other t-shirt stuff like print
+  tank-dress:
+   - __fash/styles/top/neckline/tank-top__ tank dress
+  tunic-dress:
+   - __fash/outerwear/casual/tunic__ dress # TODO

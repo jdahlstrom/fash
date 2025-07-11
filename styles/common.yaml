@@ -1,0 +1,192 @@
+common:
+  gather:
+    - gathered
+    - ruched
+    - shirred
+    - smocked
+    #- tuck    # TODO
+    #- pintuck # Not sure if these should be here
+  trim:
+    - contrast
+    - cutwork
+    - flounce
+    - flutter
+    - frill
+    - lace
+    - (lettuce:0.8)
+    - picot
+    - pintuck
+    - scallop
+    - stitch
+  stitch:
+    - stitch
+    - chain-stitch
+    - cable chain stitch
+    - crewel stitch
+    - knot stitch
+    - '{satin|damask} stitch'
+    - French knot stitch
+  pleat:
+    - box
+    - cartridge
+    - fluted
+    - inverted
+    - kick
+    - knife
+    - organ
+    - plissé
+    - rolled
+  knit:
+    - botanical knit
+    - cable-knit
+    - crocheted
+    - fine knit
+    - floral knit
+    - geometric knit
+    - hole-knit
+    - jersey-knit
+    - knit
+    - lace knit
+    - pointelle knit
+    - rib knit
+    - textured-knit
+    - tricot knit
+    - welt knit
+
+  yoke:
+    - __fash/styles/common/gather__-yoke
+  waist:
+    - __fash/styles/common/gather__-waist
+  hem:
+    - __fash/styles/common/trim__-hem
+
+  fit:
+    tight:
+      - (skinny:0.8) fit # Concept bleed
+      - tight fit
+      - slim fit
+      - fitted
+    regular:
+      - slim fit
+      - regular fit
+      - comfort fit
+      - relaxed fit
+    loose:
+      - boxy fit
+      - loose fit
+      - baggy
+      - oversize
+
+    casual:
+      - (skinny:0.8) fit
+      - tight fit
+      - slim fit
+      - regular fit
+      - comfort fit
+      - relaxed fit
+      - loose fit
+      - baggy
+      - oversize
+    smart:
+      - tight fit
+      - slim fit
+      - fitted
+      - regular fit
+      - comfort fit
+    formal:
+      - tight fit
+      - slim fit
+      - fitted
+      - comfort fit
+    sleepwear:
+      - comfort fit
+      - relaxed fit
+      - loose fit
+
+  back:
+    - backless
+    - bowtie back
+    - deep v-back
+    - draped back
+    - halter back
+    - high back
+    - keyhole back
+    - lace-up back
+    - open-back
+    - plunging back
+    - scoop-back
+    - strap-back
+    - v-back
+    - zip back
+
+  # Common neckline variants
+  neckline:
+    bandeau:
+      - (bow:0.8)
+      - (bow-knot:0.8)
+      - criss-cross
+      - gathered
+      - keyhole
+      - knot
+      - o-ring
+      - o-ring keyhole
+      - ruched
+      - spaghetti
+      - string keyhole
+      - sweetheart-neck
+      - twisted
+      - underwired
+      - wireless
+    halter:
+      - scoop-neck
+      - spaghetti strap
+      - square-neck
+      - strappy
+      - surplice
+      - sweetheart-neck
+      #- tied-back Gives weird results...
+      - triangle-neck
+      - twisted
+    keyhole:
+      - (bow-knot:0.9)
+      - boatneck
+      - cleavage
+      - crewneck
+      - high neck
+      - mock neck
+      - string-closure
+      - turtleneck
+    off-shoulder:
+      - foldover
+      - halter
+      - high halter
+      - ruched
+      - strap
+    plunging:
+      - cowl neck
+      - drape neckline
+      - surplice
+      - v-neck
+      - keyhole
+
+  # TODO to material
+  denim:
+    wash:
+      - acid wash
+      - bleached
+      - dirty wash
+      - sandwashed
+      - stonewashed
+      - vintage wash
+      - whisker-washed
+    wear:
+      - raw-edge
+      - lightly faded
+      - faded
+      - lightly worn
+      - frayed
+      - distressed
+      - worn
+      - heavily worn
+      - torn
+      - ripped

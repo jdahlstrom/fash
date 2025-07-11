@@ -1,0 +1,56 @@
+ dress:
+  bodice:
+    # sleeveless
+    - apron
+    - overall
+    - pinafore
+    # specific bodice type
+    - kaftan
+    - polo
+    - sari
+    - smock
+    - wrap
+    # closure
+    #- half-zip
+    #- zipper
+    # necklines specific to the bodice type
+    - babydoll
+    - cami
+    - shirt
+    - sweater
+    - t-shirt
+    - tank
+    - tunic
+    # generic cut TODO
+    - blouson
+    - sheath # TODO too smart?
+    - shift
+    - sun
+    - tent
+
+    # hem
+    #- frill-hem
+    #- pleat-hem # TODO SDXL tends to make whole dress pleated
+
+    # material
+    - crochet
+    - denim
+    - linen
+
+  skirt:
+    - __fash/styles/skirt/cut__
+    - __fash/styles/skirt/style__
+    - __fash/styles/skirt/hem__-hemline
+
+  waist:
+    - contrast
+    - drop
+    - empire
+    - tied
+    - gathered
+    - drawstring
+
+    # Gather
+    #- __fash/styles/common/gather__-waist
+    #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke} # TODO could be modifier
+    #- __fash/clothing/cut/lacing__
