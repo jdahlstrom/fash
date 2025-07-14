@@ -1,0 +1,53 @@
+bra:
+  style:
+    - cami
+    - contour
+    - crop-top
+    - padded
+    - push-up
+    - sports
+    - t-shirt
+    - wireless
+
+    # Not recognized by SDXL (TODO test Flux)
+    # - balconette
+    # - balcony
+    # - demi
+    # - front-closure (or front-fasten)
+    # - shelf
+    # - wireless (or soft cup)
+
+  neckline:
+    common:
+      - bandeau                   # band-like
+      - (cage:0.8)-neck           # with multiple straps in the front or back
+      - halterneck                # straps forming a loop behind the neck
+      - plunging
+      - scoop neck
+      - (spaghetti:0.8) strap     # very thin straps
+      - square neck               # shallower angle between cups
+      - strapless
+      - strappy
+      - sweetheart neck           # round, heart-like cup shape
+      - triangle neck             # triangular cup shape
+
+    bandeau:
+      - __fash/common/neckline/bandeau__
+    halter:
+      - __fash/common/neckline/halter__
+
+    sports:
+      - crossback
+      - halterneck {|keyhole|mesh}
+      - keyhole {|boatneck|crewneck}
+      - mesh {|yoke}
+      - mock neck
+      - one-shoulder
+      - racerback
+      - scoop neck
+      - square neck
+      - (spaghetti:0.8) {|halter}
+      - strapless
+      - sweetheart neck
+      - tube
+      - v-neck

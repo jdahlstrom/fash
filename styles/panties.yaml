@@ -1,0 +1,32 @@
+panties:
+  briefs:
+    - ''
+    #- bikini
+    - boxer
+    - high-waist
+    - high-cut
+    - low-rise
+    - cheeky
+    - hipsters
+    - hiphugger
+  boxers:
+    - ''
+    - boyfriend
+    - girl
+    - low-rise girl
+    - high-waist girl
+    - performance
+    - loose
+  boyshorts:
+    - ''
+    - cheeky
+    - high-waist
+    - low-rise
+  thong:
+    - ''
+    - low-rise
+    - high-cut
+    - high-waist
+    - strappy
+    - string
+    - dipped
