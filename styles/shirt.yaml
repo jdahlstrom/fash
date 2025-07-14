@@ -1,6 +1,7 @@
 shirt:
   style:
     - aloha
+    - boyfriend
     - button-down
     - cabana
     - cargo
@@ -32,17 +33,21 @@ shirt:
     - __fash/styles/top/sleeve/*__
 
   blouse:
+    - billowy
     - boho
     - (bow-knot:0.9)
+    - button-down
     - crop
     - empire-waist # TODO
     - flowy
     - front-lacing
     - half-button
     - open-front smock
+    - peasant
     - peplum
     - poncho
     - polo
+    - puff
     - ruched-waist
     - smock
     - split-front
