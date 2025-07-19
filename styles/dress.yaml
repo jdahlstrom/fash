@@ -55,3 +55,16 @@
     #- __fash/styles/common/gather__-waist
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke} # TODO could be modifier
     #- __fash/clothing/cut/lacing__
+
+  denim:
+    - ''
+    - apron
+    - cami
+    - cargo
+    - overall
+    - pinafore
+    - shirt
+    - tank
+
+    - halter
+    - strapless

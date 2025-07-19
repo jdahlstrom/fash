@@ -125,11 +125,18 @@ casual:
     - __fash/outerwear/casual/skirt__
 
   pants:
-    - __fash/styles/pants/generic-fit__
-    - __fash/styles/pants/specific-fit__
+    - __fash/styles/pants/jeans__ jeans
+    - __fash/styles/pants/any-fit__
+    - __fash/styles/pants/loose-fit__
+    - __fash/styles/pants/slim-fit__
+
+  fit-pants:
+    - __fash/styles/common/fit/casual__ __fash/styles/pants/any-fit__
 
   jeans:
     - __fash/styles/pants/jeans__ jeans
+    - __fash/styles/common/fit/casual__ jeans
+    - __fash/styles/common/denim/*__ jeans
 
   shorts:
     - __fash/styles/pants/shorts__
@@ -165,6 +172,10 @@ casual:
     - __fash/styles/dress/skirt__ dress
     - dress with __fash/styles/top/sleeve/*__ sleeves
 
+  denim-dress:
+    - __fash/styles/dress/denim__ denim dress
+    - __fash/styles/common/denim/wash__ denim dress
+
   sundress:
     - __fash/styles/sundress/neckline__ __fash/styles/sundress/bodice__ sundress # TODO
     - __fash/styles/sundress/neckline__ __fash/styles/sundress/skirt__ sundress # TODO
@@ -172,8 +183,6 @@ casual:
 
   cami-dress:
     - __fash/styles/camisole/neckline__ cami dress
-  denim-dress:
-    - __fash/styles/common/denim/wash__ denim dress
   shirt-dress:
     - __fash/outerwear/casual/shirt__ dress # TODO
   sweater-dress:
