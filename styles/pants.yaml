@@ -1,5 +1,5 @@
 pants:
-  generic-fit:
+  any-fit:
     - bush pants
     - '{|drawstring} cargo pants'
     - capri pants
@@ -11,17 +11,18 @@ pants:
     - '{|cargo} joggers'
     - linen pants
     - velvet pants
-  specific-fit:
-    - culottes
-    - harem pants
+  slim-fit:
     - jeggings
     - leggings
+    - treggings
+    - yoga pants
+  loose-fit:
+    - '{|cargo} sweatpants'
+    - culottes
+    - harem pants
     - lounge pants
     - parachute pants
     - sports pants
-    - '{|cargo} sweatpants'
-    - treggings
-    - yoga pants
   waistline:
     - low-rise
     - hiphugger
