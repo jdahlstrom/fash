@@ -23,12 +23,8 @@ t-shirt:
   gather:
     - __fash/styles/common/gather__
   sleeve:
-    - cap
-    - short
-    - above-elbow
-    - elbow-length
-    - below-elbow
-    - long
+    - __fash/styles/top/sleeve/length__
+    - __fash/styles/top/sleeve/style-short__
   neckline:
     - '{|wide} boatneck'        # wide, shallow cut neckline
     - collared

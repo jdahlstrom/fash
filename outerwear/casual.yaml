@@ -31,6 +31,7 @@ casual:
   t-shirt:
     - __fash/styles/t-shirt/style__ t-shirt
     - __fash/styles/t-shirt/neckline__ t-shirt
+    - t-shirt with __fash/styles/t-shirt/sleeve__ sleeves
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
@@ -78,7 +79,7 @@ casual:
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
   camisole:
-    - __fash/styles/camisole/necklin/common__ camisole
+    - __fash/styles/camisole/neckline/common__ camisole
     - __fash/styles/camisole/style__ camisole
 
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
@@ -88,6 +89,7 @@ casual:
   # Loose-fitting shirt.
   blouse:
     - __fash/styles/shirt/blouse__ blouse
+    - __fash/styles/shirt/neckline/blouse__ blouse
     - blouse with __fash/styles/top/sleeve/*__ sleeves
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
@@ -111,6 +113,7 @@ casual:
 
   tunic:
     - __fash/styles/shirt/tunic__ tunic
+    - __fash/styles/shirt/neckline/tunic__ tunic
     - tunic with __fash/styles/top/sleeve/*__ sleeves
 
 
