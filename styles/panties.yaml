@@ -1,8 +1,14 @@
 panties:
+  trim:
+    - lace
+    - eyelet
+    - scallop
+  edge:
+    - lace
+    - picot # TODO only in crochet/knitting?
   briefs:
     - ''
     #- bikini
-    - boxer
     - high-waist
     - high-cut
     - low-rise
@@ -27,6 +33,6 @@ panties:
     - low-rise
     - high-cut
     - high-waist
-    - strappy
-    - string
+    #- strappy
+    #- string
     - dipped

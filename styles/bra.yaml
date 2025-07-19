@@ -6,7 +6,7 @@ bra:
     - padded
     - push-up
     - sports
-    - t-shirt
+    - (t-shirt:0.8)
     - wireless
 
     # Not recognized by SDXL (TODO test Flux)
@@ -37,13 +37,11 @@ bra:
       - __fash/common/neckline/halter__
 
     sports:
-      - crossback
       - halterneck {|keyhole|mesh}
       - keyhole {|boatneck|crewneck}
-      - mesh {|yoke}
+      - mesh{|-yoke}
       - mock neck
       - one-shoulder
-      - racerback
       - scoop neck
       - square neck
       - (spaghetti:0.8) {|halter}
@@ -51,3 +49,10 @@ bra:
       - sweetheart neck
       - tube
       - v-neck
+
+      - crossback
+      - cutout-back
+      - racerback
+      - t-back
+      - x-back
+      - y-back

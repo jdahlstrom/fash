@@ -1,15 +1,15 @@
- dress:
+dress:
+  # The upper part of the dress.
   bodice:
     # sleeveless
     - apron
     - overall
     - pinafore
-    # specific bodice type
+    # specific style, no custom necklines etc
     - kaftan
     - peasant
     - polo
     - sari
-    - smock
     - wrap
     # closure
     #- half-zip
@@ -26,6 +26,7 @@
     - blouson
     - sheath # TODO too smart?
     - shift
+    - smock
     - sun
     - tent
 
@@ -38,6 +39,7 @@
     - denim
     - linen
 
+  # The lower part of the dress.
   skirt:
     - __fash/styles/skirt/cut__
     - __fash/styles/skirt/style__

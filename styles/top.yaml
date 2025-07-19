@@ -95,9 +95,10 @@ top:
     - keyhole back
     #- '{criss-cross|popover|string} keyhole back'
     - lace-up back
-    - lace-up backless
+    - lace-up open-back
     - mesh back
     - open-back #{|popover} {|closure}
+    - open-back halter
     - plunging back
     - scoop-back
     - split-back #{|popover} {|closure}
@@ -187,7 +188,7 @@ top:
 
     # Sleeveless, strapless, tube-like.
     bandeau:
-      - __fash/common/neckline/bandeau__
+      - __fash/styles/common/neckline/bandeau__
 
     # Sleeveless with shoulder strap(s).
     tank-top:

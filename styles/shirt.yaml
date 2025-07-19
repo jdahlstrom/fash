@@ -35,21 +35,24 @@ shirt:
   blouse:
     - billowy
     - boho
-    - (bow-knot:0.9)
-    - button-down
     - crop
     - empire-waist # TODO
     - flowy
-    - front-lacing
-    - half-button
-    - open-front smock
+    - kaftan
     - peasant
     - peplum
     - poncho
     - polo
     - puff
+    - ruched smock
     - ruched-waist
     - smock
+    # Closure
+    - (bow-knot:0.9)
+    - button-down
+    - front-lacing
+    - half-button
+    - open-front smock
     - split-front
     - tie-front
     - wrap
@@ -74,7 +77,6 @@ shirt:
     - cold-shoulder
     - flowy
     - godet
-    - henley
     - high-low-hem
     - kaftan
     - longline
@@ -85,8 +87,6 @@ shirt:
     - short
     - slit-hem
     - smock
-    - split neck
-    - v-neck
     - wrap
     # TODO more?!
 
