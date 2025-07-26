@@ -1,26 +1,27 @@
 shirt:
-  style:
+  button:
     - aloha
     - boyfriend
-    - button-down
     - cabana
     - cargo
-    - cold-shoulder
     - collarless
+    - crop
     - godet
-    - half-button
     - lumberjack
-    - peasant
-    - peplum
     - polo
+    - pocket
+    - safari
+    #- sleeveless button-down
+    # Closure
+    - button-down
+    - half-button
     - popover
-    - sleeveless
     - split-front
-    - tunic
-    # Material
-    - denim
-    - flannel
-    - linen
+    - open-front smock
+    - tied crop
+  style:
+    - __fash/styles/shirt/button__
+    - button-down __fash/styles/upper/common__
 
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke}
     #- zip-{neck|up}
@@ -33,11 +34,21 @@ shirt:
     - __fash/styles/top/sleeve/*__
 
   blouse:
+    - __fash/styles/upper/common__
+    - __fash/styles/upper/blouse-tunic__
+    - __fash/styles/upper/blouse-tunic-closure__
+    # TODO backs
+
+  blouse_x:
     - billowy
     - boho
+    - cold-shoulder
+    - collarless
     - crop
     - empire-waist # TODO
     - flowy
+    - godet
+    - high-low-hem
     - kaftan
     - peasant
     - peplum
@@ -72,25 +83,42 @@ shirt:
     - __fash/styles/shirt/sweatshirt__
 
   tunic:
+    - __fash/styles/shirt/blouse__
+
+  tunic_x:
+    - billowy
     - boho
-    - (bow-knot:0.9)
     - cold-shoulder
+    - empire-waist
     - flowy
     - godet
     - high-low-hem
     - kaftan
     - longline
     - mini
-    - open-front smock
+    - peasant
     - peplum
     - poncho
+    - polo
+    - puff
+    - ruched smock
+    - ruched-waist
     - short
     - slit-hem
     - smock
+    # Closure
+    - (bow-knot:0.9)
+    - button-down
+    - front-lacing
+    - half-button
+    - open-front smock
+    - split-front
+    - tie-front
     - wrap
     # TODO more?!
 
   neckline:
+    # TODO
     blouse:
       - __fash/styles/t-shirt/neckline__
     tunic:
