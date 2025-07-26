@@ -40,14 +40,14 @@ casual:
     - __fash/styles/top/style__ top
     - __fash/styles/top/hemline__-hemline top
     - __fash/styles/top/neckline/common__ top
-    - top with __fash/styles/top/sleeve/*__ sleeves
+    - top with __fash/styles/upper/sleeve/*__ sleeves
 
     #- __fash/outerwear/casual/sleeved-top__
     #- __fash/outerwear/casual/sleeveless-top__
 
   #
   sleeved-top:
-    - top with __fash/styles/top/sleeve/*__ sleeves
+    - top with __fash/styles/upper/sleeve/*__ sleeves
 
   #
   sleeveless-top:
@@ -89,12 +89,13 @@ casual:
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
   shirt:
     - __fash/styles/shirt/style__ shirt
+    - shirt with __fash/styles/upper/sleeve/*__ sleeves
 
   # Loose-fitting shirt.
   blouse:
     - __fash/styles/shirt/blouse__ blouse
     - __fash/styles/shirt/neckline/blouse__ blouse
-    - blouse with __fash/styles/top/sleeve/*__ sleeves
+    - blouse with __fash/styles/upper/sleeve/*__ sleeves
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
@@ -118,7 +119,7 @@ casual:
   tunic:
     - __fash/styles/shirt/tunic__ tunic
     - __fash/styles/shirt/neckline/tunic__ tunic
-    - tunic with __fash/styles/top/sleeve/*__ sleeves
+    - tunic with __fash/styles/upper/sleeve/*__ sleeves
 
 
   ##############################################################################
@@ -179,7 +180,7 @@ casual:
     - __fash/styles/dress/bodice__ dress
     - __fash/styles/dress/skirt__ dress
 
-    - dress with __fash/styles/top/sleeve/*__ sleeves
+    - dress with __fash/styles/upper/sleeve/*__ sleeves
 
   denim-dress:
     - __fash/styles/dress/denim__ denim dress
