@@ -1,27 +1,19 @@
 top:
+  # Only unique styles not in upper/*
   style:
     - babydoll
     - backless
-    - boho
-    - cold-shoulder
-    - crop
-    - flowy
+    - flyaway-hem
     - gathered
     - gored
     - godet
     - longline
-    - open-back
+    #- open-back
     - open-front {|smock}
     - peplum
     - poncho
-    - smock
-    - tank
-    - tube
     - tied-front
     - twist{|-front}
-    # Material
-    - denim
-    - linen
   length:
     - crop
     - hip-length

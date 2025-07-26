@@ -1,32 +1,22 @@
 dress:
-  # The upper part of the dress.
+  # The upper part of the dress, covering the torso.
+  # Only styles not in upper/* common styles!
   bodice:
-    # sleeveless
+    # specific style, no custom necklines etc
     - apron
     - overall
     - pinafore
-    # specific style, no custom necklines etc
     - kaftan
-    - peasant
-    - polo
     - sari
-    - wrap
-    # closure
-    #- half-zip
-    #- zipper
     # necklines specific to the bodice type
     - babydoll
-    - cami
     - shirt
     - sweater
     - t-shirt
-    - tank
     - tunic
     # generic cut TODO
-    - blouson
     - sheath # TODO too smart?
     - shift
-    - smock
     - sun
     - tent
 
@@ -36,14 +26,15 @@ dress:
 
     # material
     - crochet
-    - denim
-    - linen
+    #- denim
+    #- linen
 
-  # The lower part of the dress.
+  # The lower part of the dress, covering the legs
   skirt:
     - __fash/styles/skirt/cut__
     - __fash/styles/skirt/style__
     - __fash/styles/skirt/hem__-hemline
+    - __fash/styles/skirt/trim__-hemline
 
   waist:
     - contrast

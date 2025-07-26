@@ -35,11 +35,15 @@ casual:
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
+    - __fash/styles/upper/common__ top
+    - __fash/styles/upper/top-dress-legged__ top
     - __fash/styles/top/style__ top
     - __fash/styles/top/hemline__-hemline top
     - __fash/styles/top/neckline/common__ top
-    - __fash/outerwear/casual/sleeved-top__
-    - __fash/outerwear/casual/sleeveless-top__
+    - top with __fash/styles/top/sleeve/*__ sleeves
+
+    #- __fash/outerwear/casual/sleeved-top__
+    #- __fash/outerwear/casual/sleeveless-top__
 
   #
   sleeved-top:
@@ -158,8 +162,8 @@ casual:
   ##############################################################################
   one-piece:
   ##############################################################################
+    - __fash/outerwear/casual/dress__
     - __fash/outerwear/casual/legged__
-    - __fash/outerwear/casual/dress__ dress
 
   legged:
     - playsuit
@@ -167,9 +171,14 @@ casual:
     - jumpsuit
     - overalls
 
+  ##############################################################################
   dress:
+    - __fash/styles/upper/common__ dress
+    - __fash/styles/upper/top-dress-legged__ dress
+
     - __fash/styles/dress/bodice__ dress
     - __fash/styles/dress/skirt__ dress
+
     - dress with __fash/styles/top/sleeve/*__ sleeves
 
   denim-dress:
