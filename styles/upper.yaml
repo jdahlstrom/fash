@@ -1,0 +1,68 @@
+upper:
+  # Factor common top/shirt/blouse/tunic/dress/*suit styles
+
+  common:
+    - billowy
+    - boho
+    - cold-shoulder
+    - flowy
+    - peasant
+    - polo
+    - ruched smock
+    - ruched-waist
+    - smock
+    # Material
+    - denim
+    - flannel
+    - linen
+
+  top-dress-legged:
+    - blouson
+
+    - cami
+    - tank
+    - tube
+
+    - wrap
+
+    # Closure
+    - front-lacing
+    - half-button
+    - tied-waist
+
+    # Back
+    - backless
+    - open-back {halter|}
+
+    # Gather
+    - ruched
+
+  blouse-tunic:
+    - empire-waist
+    - flared
+    - flyaway-hem
+    - godet
+    - high-low-hem
+    - kaftan
+
+    - peplum
+    - poncho
+    - puff
+    - short
+    - slit-hem
+    - wrap
+
+  blouse-tunic-closure:
+    - (bow-knot:0.9)
+    - button-down
+    - front-lacing
+    - half-button
+    - open-front smock
+    - split-front
+    - tied-waist
+    - wrap
+
+  blouse-tunic-length:
+    - crop
+    - longline
+    - mini
