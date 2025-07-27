@@ -1,17 +1,9 @@
 top:
   # Only unique styles not in upper/*
   style:
-    - babydoll
-    - backless
-    - flyaway-hem
-    - gathered
+    - basketball
     - gored
-    - godet
     - longline
-    #- open-back
-    - open-front {|smock}
-    - peplum
-    - poncho
     - tied-front
     - twist{|-front}
   length:
@@ -19,23 +11,11 @@ top:
     - hip-length
     - longline
     - waist-length
-  hemline:
-    # TODO Most of these aren't reliable
-    #- asymmetric
-    - draped
-    - flyaway
-    - high-low
-    - knot
-    - sharkbite
-    - slanted
-    - (swing:0.8)
-    - tiered
-    - step
-    #- __fash/styles/common/trim__
 
   # TODO not yet used anywhere
   back:
     - back-closure
+    - back-lacing
     - backless
     - bowtie back
     - button-back
@@ -48,8 +28,8 @@ top:
     - high back
     - keyhole back
     #- '{criss-cross|popover|string} keyhole back'
-    - lace-up back
-    - lace-up open-back
+    #- lace-up back
+    #- lace-up open-back
     - mesh back
     - open-back #{|popover} {|closure}
     - open-back halter
@@ -72,6 +52,14 @@ top:
       - __fash/styles/top/neckline/common__
       - __fash/styles/top/neckline/strapless__
       - __fash/styles/top/neckline/shoulderless__
+
+    sleeved:
+      - __fash/styles/t-shirt/neckline__
+      - __fash/styles/top/neckline/common__
+
+    sleeveless2:
+      - sleeveless __fash/styles/top/neckline/common__
+      - __fash/styles/top/neckline/strapless__
 
     # Doesn't either require or preclude sleeves
     # TODO Not applicable to strapless/bandeau though so "common" maybe misnomer
@@ -106,6 +94,7 @@ top:
       - henley
       - keyhole
       #- o-ring
+      - plunging
       - ruched
       - spaghetti-strap
       - split-neck

@@ -1,22 +1,45 @@
+ # Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
+ # Currently excluded are t-shirts, sweaters, sweatshirts, and similar.
+ #
+ # Includes:
+ #
+ # * General styles
+ # * Backs
+ # * Closures
+ # * Necklines
+ # * Sleeves
+ # * Waists
 upper:
-  # Factor common top/shirt/blouse/tunic/dress/*suit styles
 
+  # Styles common to all
   common:
     - billowy
     - boho
     - cold-shoulder
+    - collarless
     - flowy
     - peasant
     - polo
     - ruched smock
     - ruched-waist
     - smock
+    - smocked
     # Material
     - denim
     - flannel
     - linen
 
+  legged:
+    - apron
+    - culottes
+    - shirt
+    - t-shirt
+    - sweater
+    - pinafore
+    - skirted
+
   top-dress-legged:
+    - basque
     - blouson
 
     - cami
@@ -37,35 +60,50 @@ upper:
     # Gather
     - ruched
 
-  blouse-tunic:
+  top-blouse-tunic:
+    - babydoll
     - empire-waist
     - flared
-    - flyaway-hem
+    - gathered-waist
     - godet
-    - high-low-hem
     - kaftan
-
+    - open-front {babydoll|flyaway|smock}
     - peplum
     - poncho
     - puff
     - short
+    - skirted
     - slit-hem
+    - (swing:0.8)
     - wrap
 
-  blouse-tunic-closure:
+  top-blouse-tunic-closure:
     - (bow-knot:0.9)
     - button-down
     - front-lacing
     - half-button
-    - open-front smock
+    - open-front {knot|strappy|tied}
     - split-front
     - tied-waist
-    - wrap
 
   blouse-tunic-length:
     - crop
+    - short
+    - (short:0.8)
+    - (longline:0.8)
     - longline
     - mini
+
+  top-blouse-tunic-hem:
+    - draped
+    - flared
+    - flounce
+    - flyaway
+    - godet
+    - high-low
+    - knot
+    - sharkbite
+    - tiered
 
   sleeve:
     length:

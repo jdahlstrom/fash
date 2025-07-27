@@ -21,7 +21,7 @@ shirt:
     - tied crop
   style:
     - __fash/styles/shirt/button__
-    - button-down __fash/styles/upper/common__
+    - '{button-down|} __fash/styles/upper/common__'
 
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke}
     #- zip-{neck|up}
@@ -35,38 +35,11 @@ shirt:
 
   blouse:
     - __fash/styles/upper/common__
-    - __fash/styles/upper/blouse-tunic__
-    - __fash/styles/upper/blouse-tunic-closure__
+    - __fash/styles/upper/blouse-tunic-length__
+    - __fash/styles/upper/top-blouse-tunic__
+    - __fash/styles/upper/top-blouse-tunic-hem__
+    - __fash/styles/upper/top-blouse-tunic-closure__
     # TODO backs
-
-  blouse_x:
-    - billowy
-    - boho
-    - cold-shoulder
-    - collarless
-    - crop
-    - empire-waist # TODO
-    - flowy
-    - godet
-    - high-low-hem
-    - kaftan
-    - peasant
-    - peplum
-    - poncho
-    - polo
-    - puff
-    - ruched smock
-    - ruched-waist
-    - smock
-    # Closure
-    - (bow-knot:0.9)
-    - button-down
-    - front-lacing
-    - half-button
-    - open-front smock
-    - split-front
-    - tie-front
-    - wrap
 
   sweatshirt:
     - ''
@@ -85,41 +58,8 @@ shirt:
   tunic:
     - __fash/styles/shirt/blouse__
 
-  tunic_x:
-    - billowy
-    - boho
-    - cold-shoulder
-    - empire-waist
-    - flowy
-    - godet
-    - high-low-hem
-    - kaftan
-    - longline
-    - mini
-    - peasant
-    - peplum
-    - poncho
-    - polo
-    - puff
-    - ruched smock
-    - ruched-waist
-    - short
-    - slit-hem
-    - smock
-    # Closure
-    - (bow-knot:0.9)
-    - button-down
-    - front-lacing
-    - half-button
-    - open-front smock
-    - split-front
-    - tie-front
-    - wrap
-    # TODO more?!
-
   neckline:
-    # TODO
     blouse:
-      - __fash/styles/t-shirt/neckline__
+      - __fash/styles/t-shirt/neckline__ # TODO
     tunic:
-      - __fash/styles/t-shirt/neckline__
+      - __fash/styles/t-shirt/neckline__ # TODO
