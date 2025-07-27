@@ -11,6 +11,7 @@ skirt:
     - a-line
     - (accordion:0.8)
     - asymmetrical
+    - bubble
     - circle
     - draped
     - fit-and-flare
@@ -37,6 +38,8 @@ skirt:
     - sharkbite
     - slanted
     - tiered
+    - tulip
+  trim:
     - __fash/styles/common/trim__
   #yoke:
   #  - __fash/styles/common/yoke__

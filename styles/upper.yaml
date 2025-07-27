@@ -1,0 +1,120 @@
+ # Styles for tops, shirts, blouses, tunics, dresses and legged one-pieces.
+upper:
+
+  # Styles common to all
+  common:
+    - billowy
+    - boho
+    - cold-shoulder
+    - flowy
+    - peasant
+    - polo
+    - ruched smock
+    - ruched-waist
+    - smock
+    # Material
+    - denim
+    - flannel
+    - linen
+
+  top-dress-legged:
+    - blouson
+
+    - cami
+    - tank
+    - tube
+
+    - wrap
+
+    # Closure
+    - front-lacing
+    - half-button
+    - tied-waist
+
+    # Back
+    - backless
+    - open-back {halter|}
+
+    # Gather
+    - ruched
+
+  top-blouse-tunic:
+    - babydoll
+    - empire-waist
+    - flared
+    - flyaway-hem
+    - gathered-waist
+    - godet
+    - high-low-hem
+    - kaftan
+
+    - peplum
+    - poncho
+    - puff
+    - short
+    - slit-hem
+    - wrap
+
+  blouse-tunic-closure:
+    - (bow-knot:0.9)
+    - button-down
+    - front-lacing
+    - half-button
+    - open-front smock
+    - split-front
+    - tied-waist
+    - wrap
+
+  blouse-tunic-length:
+    - crop
+    - longline
+    - mini
+
+  top-blouse-tunic-hem:
+    - flared-hem
+    - flounce-hem
+    - flyaway-hem
+    - godet-hem
+    - high-low-hem
+    - knot-hem
+    - tiered-hem
+
+  sleeve:
+    length:
+      - (cap:0.8)
+      - short
+      - above-elbow
+      - elbow-length
+      - below-elbow
+      - 3/4-length
+      - long
+    style:
+      common:
+        - batwing
+        - cold-shoulder
+        - dolman
+        - drop-shoulder
+        - flounce
+        - gathered
+        - puff
+        - raglan
+      short:
+        - flutter
+        - knot
+        - lace
+        - (petal:0.8)
+        - ruched
+        - (scallop:0.8)
+        - (tulip:0.8)
+      long:
+        - bell
+        - bishop
+        - flared
+        - juliet
+        - rolled
+        - roll-up tab
+        - (slit:0.8)
+
+      #- (peplum:0.8) Bleeds to hemline
+      #- __fash/styles/common/gather__
+      #- __fash/styles/common/trim__

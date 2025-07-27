@@ -1,27 +1,20 @@
 top:
+  # Only unique styles not in upper/*
   style:
-    - babydoll
-    - backless
-    - boho
-    - cold-shoulder
-    - crop
-    - flowy
-    - gathered
+    #- babydoll
+    #- backless
+    #- flyaway-hem
+    #- gathered
+    - basketball
     - gored
-    - godet
+    #- godet
     - longline
-    - open-back
+    #- open-back
     - open-front {|smock}
-    - peplum
-    - poncho
-    - smock
-    - tank
-    - tube
+    #- peplum
+    #- poncho
     - tied-front
     - twist{|-front}
-    # Material
-    - denim
-    - linen
   length:
     - crop
     - hip-length
@@ -29,59 +22,23 @@ top:
     - waist-length
   hemline:
     # TODO Most of these aren't reliable
+    # TODO Moving to upper
     #- asymmetric
     - draped
     - flyaway
-    - high-low
+    #- high-low
     - knot
     - sharkbite
-    - slanted
+    #- slanted
     - (swing:0.8)
     - tiered
-    - step
+    #- step
     #- __fash/styles/common/trim__
-  sleeve:
-    length:
-      - (cap:0.8)
-      - short
-      - above-elbow
-      - elbow-length
-      - below-elbow
-      - 3/4-length
-      - long
-    style:
-      common:
-        - batwing
-        - cold shoulder
-        - dolman
-        - drop shoulder
-        - flounce
-        - gathered
-        - puff
-        - raglan
-      short:
-        - flutter
-        - lace
-        - (petal:0.8)
-        - ruched
-        - (scallop:0.8)
-        - (tulip:0.8)
-      long:
-        - bell
-        - bishop
-        - flared
-        - juliet
-        - rolled
-        - roll-up tab
-        - (slit:0.8)
-
-      #- (peplum:0.8) Bleeds to hemline
-      #- __fash/styles/common/gather__
-      #- __fash/styles/common/trim__
 
   # TODO not yet used anywhere
   back:
     - back-closure
+    - back-lacing
     - backless
     - bowtie back
     - button-back
@@ -94,8 +51,8 @@ top:
     - high back
     - keyhole back
     #- '{criss-cross|popover|string} keyhole back'
-    - lace-up back
-    - lace-up open-back
+    #- lace-up back
+    #- lace-up open-back
     - mesh back
     - open-back #{|popover} {|closure}
     - open-back halter
@@ -118,6 +75,14 @@ top:
       - __fash/styles/top/neckline/common__
       - __fash/styles/top/neckline/strapless__
       - __fash/styles/top/neckline/shoulderless__
+
+    sleeved:
+      - __fash/styles/t-shirt/neckline__
+      - __fash/styles/top/neckline/common__
+
+    sleeveless2:
+      - sleeveless __fash/styles/top/neckline/common__
+      - __fash/styles/top/neckline/strapless__
 
     # Doesn't either require or preclude sleeves
     # TODO Not applicable to strapless/bandeau though so "common" maybe misnomer
@@ -152,6 +117,7 @@ top:
       - henley
       - keyhole
       #- o-ring
+      - plunging
       - ruched
       - spaghetti-strap
       - split-neck

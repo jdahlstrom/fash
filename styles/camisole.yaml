@@ -1,21 +1,23 @@
 camisole:
+  # TODO unify styles with upper/
   style:
     - babydoll
     - boho
-    - crop
     - draped
     - flowy
-    - flyaway
     - gathered
-    - longline
-    - peplum
     - ruched-waist
     - smock
-    - tiered
-    # Hem
+    #- tiered
+    # Length
+    - crop
+    - longline
+    # Hem TODO moving to upper
     - flared-hem
     - flounce-hem
+    - flyaway-hem
     - godet-hem
+    - peplum
     - tiered-hem
     # Material
     - linen
@@ -36,10 +38,6 @@ camisole:
     - gathered-waist
     - high-low-hem
     - high-low-hem crop
-
-  hemline:
-    # Not reliable in general
-    #- __fash/styles/top/hemline__
 
   neckline:
     common:

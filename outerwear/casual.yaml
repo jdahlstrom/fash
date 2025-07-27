@@ -35,15 +35,22 @@ casual:
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
+    - __fash/styles/upper/common__ top
+    - __fash/styles/upper/top-dress-legged__ top
+    - __fash/styles/upper/top-blouse-tunic__ top
+
     - __fash/styles/top/style__ top
-    - __fash/styles/top/hemline__-hemline top
+    - __fash/styles/upper/top-blouse-tunic-hem top
     - __fash/styles/top/neckline/common__ top
-    - __fash/outerwear/casual/sleeved-top__
-    - __fash/outerwear/casual/sleeveless-top__
+
+    - top with __fash/styles/upper/sleeve/*__ sleeves
+
+    #- __fash/outerwear/casual/sleeved-top__
+    #- __fash/outerwear/casual/sleeveless-top__
 
   #
   sleeved-top:
-    - top with __fash/styles/top/sleeve/*__ sleeves
+    - top with __fash/styles/upper/sleeve/*__ sleeves
 
   #
   sleeveless-top:
@@ -66,12 +73,12 @@ casual:
     - bandeau top
     - __fash/styles/top/neckline/bandeau__ bandeau top
 
-  # Halterneck variants.
+  # Halterneck top variants.
   halter-top:
     #- halter top
     - __fash/styles/top/neckline/halter__ halter top
 
-  # Almost synonymous with bandeau.
+  # Tube top variants, almost synonymous with bandeau.
   tube-top:
     - tube top
     - __fash/styles/top/neckline/bandeau__ tube top
@@ -85,12 +92,13 @@ casual:
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
   shirt:
     - __fash/styles/shirt/style__ shirt
+    - shirt with __fash/styles/upper/sleeve/*__ sleeves
 
   # Loose-fitting shirt.
   blouse:
     - __fash/styles/shirt/blouse__ blouse
     - __fash/styles/shirt/neckline/blouse__ blouse
-    - blouse with __fash/styles/top/sleeve/*__ sleeves
+    - blouse with __fash/styles/upper/sleeve/*__ sleeves
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
@@ -114,7 +122,7 @@ casual:
   tunic:
     - __fash/styles/shirt/tunic__ tunic
     - __fash/styles/shirt/neckline/tunic__ tunic
-    - tunic with __fash/styles/top/sleeve/*__ sleeves
+    - tunic with __fash/styles/upper/sleeve/*__ sleeves
 
 
   ##############################################################################
@@ -158,19 +166,39 @@ casual:
   ##############################################################################
   one-piece:
   ##############################################################################
+    - __fash/outerwear/casual/dress__
     - __fash/outerwear/casual/legged__
-    - __fash/outerwear/casual/dress__ dress
 
   legged:
-    - playsuit
-    - romper suit
-    - jumpsuit
-    - overalls
+    - __fash/outerwear/casual/jumpsuit__
+    - __fash/outerwear/casual/playsuit__
+    - __fash/outerwear/casual/romper__
+    - overalls {shorts|} # TODO
 
+  jumpsuit:
+    - __fash/styles/jumpsuit__ playsuit
+    - jumpsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/all__ jumpsuit
+
+  playsuit:
+    - __fash/styles/playsuit__ playsuit
+    - playsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/all__ playsuit
+
+  romper:
+    - __fash/styles/romper__ romper suit
+    - romper suit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/all__ romper suit
+
+  ##############################################################################
   dress:
+    - __fash/styles/upper/common__ dress
+    - __fash/styles/upper/top-dress-legged__ dress
+
     - __fash/styles/dress/bodice__ dress
     - __fash/styles/dress/skirt__ dress
-    - dress with __fash/styles/top/sleeve/*__ sleeves
+
+    - dress with __fash/styles/upper/sleeve/*__ sleeves
 
   denim-dress:
     - __fash/styles/dress/denim__ denim dress
