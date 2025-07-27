@@ -1,0 +1,14 @@
+# Jumpsuits, playsuits, and rompers.
+#
+# TODO Are playsuits and rompers distinct enough?
+
+# A one-piece suit with long legs.
+jumpsuit:
+  - __fash/styles/upper/top-dress-legged__
+
+# A one-piece suit with short legs.
+playsuit:
+  - __fash/styles/upper/top-dress-legged__
+
+romper:
+  - __fash/styles/upper/top-dress-legged__

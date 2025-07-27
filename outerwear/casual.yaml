@@ -76,12 +76,12 @@ casual:
     - bandeau top
     - __fash/styles/top/neckline/bandeau__ bandeau top
 
-  # Halterneck variants.
+  # Halterneck top variants.
   halter-top:
     #- halter top
     - __fash/styles/top/neckline/halter__ halter top
 
-  # Almost synonymous with bandeau.
+  # Tube top variants, almost synonymous with bandeau.
   tube-top:
     - tube top
     - __fash/styles/top/neckline/bandeau__ tube top
@@ -173,10 +173,25 @@ casual:
     - __fash/outerwear/casual/legged__
 
   legged:
-    - playsuit
-    - romper suit
-    - jumpsuit
-    - overalls
+    - __fash/outerwear/casual/jumpsuit__
+    - __fash/outerwear/casual/playsuit__
+    - __fash/outerwear/casual/romper__
+    - overalls {shorts|} # TODO
+
+  jumpsuit:
+    - __fash/styles/jumpsuit__ playsuit
+    - jumpsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/all__ jumpsuit
+
+  playsuit:
+    - __fash/styles/playsuit__ playsuit
+    - playsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/all__ playsuit
+
+  romper:
+    - __fash/styles/romper__ romper suit
+    - romper suit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/all__ romper suit
 
   ##############################################################################
   dress:
