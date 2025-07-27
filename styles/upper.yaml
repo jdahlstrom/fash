@@ -1,6 +1,7 @@
+ # Styles for tops, shirts, blouses, tunics, dresses and legged one-pieces.
 upper:
-  # Factor common top/shirt/blouse/tunic/dress/*suit styles
 
+  # Styles common to all
   common:
     - billowy
     - boho
@@ -37,10 +38,12 @@ upper:
     # Gather
     - ruched
 
-  blouse-tunic:
+  top-blouse-tunic:
+    - babydoll
     - empire-waist
     - flared
     - flyaway-hem
+    - gathered-waist
     - godet
     - high-low-hem
     - kaftan
@@ -66,6 +69,15 @@ upper:
     - crop
     - longline
     - mini
+
+  top-blouse-tunic-hem:
+    - flared-hem
+    - flounce-hem
+    - flyaway-hem
+    - godet-hem
+    - high-low-hem
+    - knot-hem
+    - tiered-hem
 
   sleeve:
     length:
