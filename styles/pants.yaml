@@ -28,30 +28,37 @@ pants:
     - hiphugger
     - high-waist
     - midrise
-  jeans:
+  leg:
     - bell-bottom
     - boot cut
+    - flared-leg
+    - kick flare
+    - rolled-up
+    - slit-leg
+    - straight-leg
+    - tapered-leg
+    - wide-leg
+  length:
+    - below-knee
+    - 3/4-length
+    - ankle-length
+    - floor-length
+  jeans:
     - boyfriend
     - cargo
     - carpenter
     #- cropped Concept bleeding...
     #- gathered-ankle
     - girlfriend
-    - flared
     - jogger
-    - kick flare
     - mom
-    - rolled
-    - slit-leg
-    - straight-leg
-    - tapered
     #- trumpet cut Concept bleeding...
-    - wide-leg
   shorts:
     - beach shorts
     - bermuda shorts
     - board shorts
     - boyfriend shorts
+    - bubble shorts
     - cargo shorts
     - chino shorts
     - culottes shorts
