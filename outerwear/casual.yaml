@@ -193,22 +193,34 @@ casual:
     - __fash/outerwear/casual/jumpsuit__
     - __fash/outerwear/casual/playsuit__
     - __fash/outerwear/casual/romper__
-    - overalls {shorts|} # TODO
+    - __fash/outerwear/casual/overalls__
+    -
 
   jumpsuit:
-    - __fash/styles/jumpsuit__ playsuit
-    - jumpsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/jumpsuit__ jumpsuit
     - __fash/styles/top/neckline/all__ jumpsuit
+    - __fash/styles/pants/leg__ jumpsuit
+    - __fash/styles/pants/length__ jumpsuit
+    - jumpsuit with __fash/styles/upper/sleeve/*__ sleeves
 
   playsuit:
     - __fash/styles/playsuit__ playsuit
-    - playsuit with __fash/styles/upper/sleeve/*__ sleeves
     - __fash/styles/top/neckline/all__ playsuit
+    - playsuit with __fash/styles/upper/sleeve/*__ sleeves
 
   romper:
-    - __fash/styles/romper__ romper suit
-    - romper suit with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/top/neckline/all__ romper suit
+    - __fash/styles/romper__ romper
+    - __fash/styles/top/neckline/all__ romper
+    - romper with __fash/styles/upper/sleeve/*__ sleeves
+
+  # TODO Should possibly count as lower, as they typically need a top
+  overalls:
+    - __fash/styles/pants/leg__ overalls
+    - __fash/styles/pants/length__ overalls
+    - cargo overalls
+    - overalls
+    - overalls shorts
+    - overalls skort
 
   ##############################################################################
   dress:
