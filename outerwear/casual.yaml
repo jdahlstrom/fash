@@ -147,15 +147,24 @@ casual:
 
   pants-all:
     - __fash/outerwear/casual/jeans__
-    - __fash/styles/pants/loose-fit__
-    - __fash/styles/pants/slim-fit__
+    - __fash/outerwear/casual/loose-pants__
+    - __fash/outerwear/casual/slim-pants__
+    - __fash/outerwear/casual/any-fit-pants__
+    - __fash/outerwear/casual/any-fit-pants__
+
+  loose-pants:
+    - __fash/styles/pants/length__ __fash/styles/pants/loose-fit__
+    - __fash/styles/pants/waistline__ __fash/styles/pants/loose-fit__
+
+  slim-pants:
+    - __fash/styles/pants/length__ __fash/styles/pants/slim-fit__
+    - __fash/styles/pants/waistline__ __fash/styles/pants/slim-fit__
+
+  any-fit-pants:
     - __fash/styles/common/fit/casual__ __fash/styles/pants/any-fit__
     - __fash/styles/pants/leg__ __fash/styles/pants/any-fit__
     - __fash/styles/pants/length__ __fash/styles/pants/any-fit__
     - __fash/styles/pants/waistline__ __fash/styles/pants/any-fit__
-
-  fit-pants:
-    - __fash/styles/common/fit/casual__ __fash/styles/pants/any-fit__
 
   jeans:
     - __fash/styles/common/denim/wash__ jeans
