@@ -1,14 +1,15 @@
- # Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
- # Currently excluded are t-shirts, sweaters, sweatshirts, and similar.
- #
- # Includes:
- #
- # * General styles
- # * Backs
- # * Closures
- # * Necklines
- # * Sleeves
- # * Waists
+# Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
+# Currently excluded are t-shirts, sweaters, sweatshirts, and similar.
+#
+# Includes:
+#
+# * General styles
+# * Backs
+# * Closures
+# * Necklines
+# * Sleeves
+# * Waists
+
 upper:
 
   # Styles common to all
@@ -86,7 +87,7 @@ upper:
     - split-front
     - tied-waist
 
-  blouse-tunic-length:
+  top-blouse-tunic-length:
     - crop
     - short
     - (short:0.8)
