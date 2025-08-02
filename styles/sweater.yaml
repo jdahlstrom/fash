@@ -71,17 +71,5 @@ sweater:
   # Trim
   #  - lace-{yoke|trim} # TODO trims should be separate...
 
-  # Note: include only those not in t-shirt/neckline!
   neckline:
-    - button-up
-    - '{|(plunging:0.9)} cowl neck' # plunging makes a looser cowl
-    - '{|loose} drape neckline'
-    - half-zip
-    - lace-up
-    - fold-over off-shoulder
-    - polo
-    - popover
-    - roll neck
-    - (shawl-collared:0.8) # Concept bleeding with SDXL
-    - turtleneck
-    - zip-up
+    - __fash/styles/neckline/sweater__
