@@ -22,18 +22,18 @@
 #   010 Strap/sleeveless, shoulders: N/A
 #   011 Strapless, sleeved, shoulders: N/A
 #
-#   100 Shoulder/sleeveless, straps "cami" or "tank top"
+#   100 Shoulder/sleeveless, straps "cami", "tank top", "bra"
 #     * cami/spaghetti-strap
-#       * top, dress, camisole
+#       * top, dress, camisole, bra
 #     * halter cami/spaghetti-strap
-#       * top, dress, camisole
+#       * top, dress, camisole, bra
 #     * shoulder/sleeveless high/crew/scoop/...
-#       * top, dress
+#       * top, dress, bikini
 #     * halter shoulder/sleeveless high/crew/scoop/...
-#       * top, dress
+#       * top, dress, bikini
 #     * tank top types here?...
 #     * backless
-#       * top, dress, more
+#       * top, dress, suits, more
 #
 #   101 Shoulderless, sleeved, straps "off-shoulder strap"
 #     * spaghetti off-shoulder sleeved
@@ -63,76 +63,151 @@
 #          thl
 #  OUTER   000 001 100 101 110 111
 #  top      x   x   x   x   x   x   super general, overlaps w cami, t-shirt etc
-#  cami             x               almost by definition
 #  dress    x   x   x   x   x   x   anything goes, very flexible
-#  t-shirt      x       x   ?   x   needs sleeves OR shoulders
-#  sweater      x       x   x   x   - '' -
-#  blouse       ?       ?   x   x   needs shoulders or not?
-#  tunic        ?       ?   x   x   - '' -
 #  x-suit   x   x   x   x   x   x   anything goes
 #  sundrs?  x   x   x   x   x   ?   almost anything goes, but should show skin
+#  sweater      x       x   x   x   - '' -
+#  t-shirt      x       x   ?   x   needs sleeves OR shoulders
+#  blouse       ?       x   x   x   needs shoulders or not? cold-shulder okay
+#  tunic        ?       x   x   x   - '' -
+#  cami             x               almost by definition
+#  vest                     x       shoulders, no sleeves
 
 #  UNDER   000 001 100 101 110 111
+#  bodsuit  x   x   x   x   x   x   anything goes
+#  t-shirt      x       x   x   x   needs sleeves OR shoulders
 #  bra      x       x               no sleeves, no shoulders
 #  cami             x               almost by definition
-#  t-shirt      x       x   x   x   needs sleeves OR shoulders
-#  bodsuit  x   x   x   x   x   x   anything goes
 
 #  BEACH   000 001 100 101 110 111
+#  one-pc   x   x   x   x   x   x   sleeved are more rare but exist
+#  tankini  x   x   x   x   x   x   tank-top-like, but any top in general?
 #  bikini   x   ?   x   ?           almost like bra but maybe sleeves?
 #  mono             x               always halter, bare arms and shoulders
-#  tankini  x   x   x   x   x   x   tank-top-like, but any top in general?
-#  one-pc   x   x   x   x   x   x   sleeved are more rare but exist
 
 #  LOUNGE  000 001 100 101 110 111
+#  bodsuit  x   x   x   x   x   x   anything goes
+#  x-suit   x   x   x   x   x   x   - '' -
+#  nightdr  ?   ?   x   ?   x   x   needs testing
+#  gown                     x   x   probably needs shoulders
+#  nightsh                  x   x   shirt-like
 #  cami             x               almost by definition
 #  chemise          x               almost by definition, just a long camisole
-#  x-suit   x   x   x   x   x   x   anything goes
-#  bodsuit  x   x   x   x   x   x   - '' -
-#  gown                     x   x   probably needs shoulders
-#  pyjama
-#  nightdr  ?   ?   x   ?   x   x
-#  nightsh                  x   x
+#  pyjama                   ?   x   shirt-like
+
+#  halter           x   x           straps, not shoulders, sleeves optional
 
 # TODO what about one-shoulder?!?!
 
 
 neckline:
 
-  example:
-    top-dress-suit:
-      # tube
-      - strapless __*/000-tube/strapless__
-      - tube __*/000-tube/tube__
-      - bandeau __*/000-tube/bandeau__
+  # Outerwear
 
-      # off-shoulder
-      -  off-shoulder __*/001-off-shoulder-strapless/off-shoulder__
-      -  off-one-shoulder __*/001-off-shoulder-strapless/off-one-shoulder__
+  top-dress-suit:
+    tube-like:
+      - strapless __**/000-tube-like/strapless__
+      - __**/000-tube-like/tube__ tube
+      # bandeau only applies to tops
 
-      # cami
-      - __*/100-cami-tank-top/cami__ spaghetti-strap
-      - __*/100-cami-tank-top/halter-cami__ halter spaghetti-strap
+    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
+    # Leaves shoulders bare, but may also have thin shoulder straps!
+    off-shoulder-strapless:
+      - off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
+      - off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
 
-      # off-shoulder straps
-      - off-shoulder __*/101-off-shoulder-with-straps/spaghetti-strap__
-      - off-shoulder halter __*/101-off-shoulder-with-straps/halter__
-      - cold-shoulder __*/101-off-shoulder-with-straps/cold-shoulder__
+    cami-like:
+      - __**/100-cami-tank-top/cami__ spaghetti-strap
+      - __**/100-cami-tank-top/halter__ halter
 
-      # vest
-      - sleeveless __*/110-vest-like/sleeveless__
+    off-shoulder-straps:
+      - off-shoulder spaghetti-strap __**/101-off-shoulder-with-straps/spaghetti-strap__
+      - off-shoulder halter __**/101-off-shoulder-with-straps/halter__
+      - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
 
-      # t-shirt
-      - __*/111-t-shirt-like/sleeved__
+    vest-like:
+      - sleeveless __**/110-vest-like/sleeveless__
 
-    cami-chemise:
-      - __*/100-cami-tank-top/cami__
-      - __*/100-cami-tank-top/halter-cami__ halter
+    t-shirt-like:
+      - __**/111-t-shirt-like/sleeved__
 
+  sweater:
+    # TODO probabilities
+    - __**/001-off-shoulder-strapless/*__
+    - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
+    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+    - __fash/styles/neckline/111-t-shirt-like/sleeved__
 
+    # TODO High neck
+    - polo
+    - '{|(plunging:0.9)} cowl neck' # plunging makes a looser cowl
+    - roll neck
+    - (shawl-collared:0.8) # Concept bleeding with SDXL
+    - turtleneck
 
+  t-shirt:
+    # TODO probabilities
+    - |
+      {off-shoulder __**/001-off-shoulder-strapless/*__
+      |cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
+      |sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+      |3::__fash/styles/neckline/111-t-shirt-like/sleeved__}
 
-  000-tube:
+  blouse-tunic:
+    - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
+    - sleeveless __**/110-vest-like/sleeveless__
+    - __**/111-t-shirt-like/sleeved__
+
+  cami-chemise:
+    - __**/100-cami-tank-top/cami__
+    - __**/100-cami-tank-top/halter__ halter
+
+  sleeveless-shirt:
+    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+
+  # Underwear
+
+  bra:
+    - __**/000-tube-like/bandeau__
+    - strapless __**/000-tube-like/strapless__
+    - __fash/styles/neckline/100-cami-tank-top/*__
+
+  # Beachwear
+
+  swimsuit:
+    - __fash/styles/neckline/top-dress-suit/*__
+
+  tankini:
+    - __fash/styles/neckline/top-dress-suit/*__
+
+  bikini:
+    - __fash/styles/neckline/bra__
+    # TODO separate swim top with sleeve etc options?
+    -  off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
+    -  off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
+
+  monokini:
+    # TODO probably needs a bit more specialized set
+    - __fash/styles/neckline/100-cami-tank-top/cami__ halter
+
+  # Loungewear
+
+  nightdress:
+    - __fash/styles/neckline/100-cami-tank-top/cami__
+    - __fash/styles/neckline/100-cami-tank-top/cami__ halter
+    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+    - __fash/styles/neckline/111-t-shirt-like/sleeved__
+    # TODO maybe 000, 001, 101
+
+  gown-nightshirt:
+    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+    - __fash/styles/neckline/111-t-shirt-like/sleeved__
+
+  pyjama:
+    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+    - __fash/styles/neckline/111-t-shirt-like/sleeved__
+
+  000-tube-like:
     strapless:
       - fold-over
       - keyhole
@@ -141,11 +216,14 @@ neckline:
       # TODO trims&gathers
       - flounce
       - ruched
-
-    backless:
-      - strapless backless
     tube:
-      - ''
+      - ' '
+      - fold-over
+      - keyhole
+      # TODO trims&gathers
+      - flounce
+      - ruched
+      # TODO more??
     bandeau:
       - (bow:0.8)
       - (bow-knot:0.8)
@@ -167,16 +245,19 @@ neckline:
   001-off-shoulder-strapless:
     off-shoulder:
       - asymmetric
+      - bardot
       - drawstring
       - fold-over
       - henley
       - keyhole
-      - plunging
+      #- (plunging:0.9)
       - split-neck
       - sweetheart
       - tied
       # TODO gather
       - ruched
+
+      # portrait not understood
 
       # straps
       #- halterneck
@@ -187,19 +268,15 @@ neckline:
       #- o-ring
 
     off-one-shoulder:
-      - ''
+      - ' '
       # any others?
 
   100-cami-tank-top:
     cami:
-      - strapless
       - crossback
-      - halter
       # TODO the rest are same as halter...
       - crewneck
       - drape-neckline
-      - flounce-neckline
-      - gathered-neckline
       - henley
       - o-ring neckline
       - keyhole
@@ -211,15 +288,16 @@ neckline:
       - sweetheart neck
       - triangle neck
       - v-neck
+      # TODO trim/gather
+      - flounce-neckline
+      - gathered-neckline
       #- droop neck Doesn't work well
       #- split neck Doesn't work well
-    halter-cami:
+    halter:
       # Almost same as above...
       - backless
       - crewneck
       - drape-neckline
-      - flounce-neckline
-      - gathered-neckline
       - henley
       - keyhole
       - o-ring neckline
@@ -232,14 +310,12 @@ neckline:
       - triangle neck
       - twisted
       - v-neck
-
-    high-neck:
-      - crewneck
-      - high neck
-      - mock neck
-      - v-neck
+      # TODO trim/gather
+      - flounce-neckline
+      - gathered-neckline
 
     tank-top:
+      # Also mostly the same as cami, and t-shirt?
       - boatneck
       - crewneck
       - henley
@@ -256,8 +332,7 @@ neckline:
       - backless
       - crossback
       - racerback
-    halter-tank-top:
-      - __fash/styles/neckline/100-cami-tank-top/halter-cami__
+      # Grecian not understood
 
     backless:
       - backless spaghetti-strap
@@ -267,13 +342,12 @@ neckline:
     spaghetti-strap:
       - __fash/styles/neckline/100-cami-tank-top/cami__
     halter:
-      - __fash/styles/neckline/100-cami-tank-top/halter-cami__
+      - __fash/styles/neckline/100-cami-tank-top/halter__
     cold-shoulder:
       - asymmetric
       - boatneck
       - crewneck
       - draped neckline
-      - halterneck
       - high-neck
       - keyhole
       - mock neck
@@ -307,11 +381,56 @@ neckline:
 
 
 
-
-
   # Additional variants
 
+  halter:
+    - __fash/styles/neckline/101-off-shoulder-with-straps/halter__
+
+
+  standard-neck:
+    - boatneck
+    - crewneck
+    - henley
+    - keyhole
+    - split-neck
+    - square-neck
+    - surplice
+    - v-neck
+
+  high-neck:
+    - high neck
+    - mock neck
+    - roll neck
+    - turtleneck
+    - v-neck
+
+  low-neck: # shows cleavage
+    - (cutout:0.9) neckline
+    - draped neckline
+    - (plunging:0.9)
+    - (plunging:0.9) __fash/styles/neckline/plunging__
+    - scoop neck
+
+  plunging:
+    - drape-neckline
+    - keyhole
+    - scoop-neck
+    - strappy
+    - surplice
+    - v-neck
+
   spaghetti-strap-halter:
+    - scoop-neck
+    - spaghetti strap
+    - square-neck
+    - strappy
+    - surplice
+    - sweetheart-neck
+    #- tied-back Gives weird results...
+    - triangle-neck
+    - twisted
+
+  common-halter:
     - scoop-neck
     - spaghetti strap
     - square-neck
@@ -349,9 +468,3 @@ neckline:
     - high halter
     - ruched
     - strap
-  plunging:
-    - cowl neck
-    - drape neckline
-    - surplice
-    - v-neck
-    - keyhole-back
