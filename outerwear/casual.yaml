@@ -228,7 +228,7 @@ casual:
     - __fash/styles/upper/top-dress-legged__ dress
 
     - __fash/styles/dress/bodice__ dress
-    - __fash/styles/dress/skirt__ dress
+    - __fash/styles/dress/skirt__-skirted dress
 
     - dress with __fash/styles/upper/sleeve/*__ sleeves
 
@@ -238,8 +238,9 @@ casual:
 
   sundress:
     - __fash/styles/sundress/neckline__ __fash/styles/sundress/bodice__ sundress # TODO
-    - __fash/styles/sundress/neckline__ __fash/styles/sundress/skirt__ sundress # TODO
+    - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/neckline__ sundress # TODO
     - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/bodice__ sundress # TODO
+    - sundress with __fash/styles/sundress/sleeve__ sleeves
 
   cami-dress:
     - __fash/styles/camisole/neckline__ cami dress

@@ -31,8 +31,8 @@ dress:
 
   # The lower part of the dress, covering the legs
   skirt:
-    - __fash/styles/skirt/cut__
-    - __fash/styles/skirt/style__
+    - __fash/styles/skirt/cut__-skirted
+    - __fash/styles/skirt/style__-skirted
     - __fash/styles/skirt/hem__-hemline
     - __fash/styles/skirt/trim__-hemline
 
@@ -61,3 +61,5 @@ dress:
 
     - halter
     - strapless
+
+  neckline:

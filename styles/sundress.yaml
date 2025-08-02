@@ -4,7 +4,7 @@
 # shoulder straps, and may be backless. A sundress is typically worn without a layering top
 # and is not usually worn over a blouse, sweater, or t-shirt, or with leggings."
 sundress:
-  sleeves:
+  sleeves-x:
     - flutter {short|cap}-sleeved
     - off-shoulder {short-sleeved}
     - '{boat|plunging|scoop|v} neck {short|cap}-sleeved'
@@ -12,21 +12,26 @@ sundress:
     - fallen-shoulder
     - __fash/styles/common/gather__-sleeved
 
-  neckline:
-    - boatneck
-    - cami
-    - draped neckline
-    - halterneck
-    - gathered neckline
-    - keyhole
-    - off-shoulder
-    - off-one-shoulder
-    - scoop neck
-    - strapless
-    - sweetheart neckline
-    - triangle neckline
+  sleeve:
+    - '{(cap:0.8)|short} __fash/styles/upper/sleeve/style/short__'
+    - short __fash/styles/upper/sleeve/style/common__
 
-  neckline-extra:
+  neckline:
+    - __fash/styles/camisole/neckline/common__
+    - __fash/styles/camisole/neckline/halter__ halter
+    - __fash/styles/top/neckline/halter__ halter
+    - cold-shoulder __fash/styles/top/neckline/cold-shoulder__
+    - off-shoulder __fash/styles/top/neckline/off-shoulder__
+    - strapless __fash/styles/top/neckline/strapless-variants__
+
+  neckline-sleeved:
+    - keyhole
+    - scoop neck
+    - surplice
+    - scoop v-neck
+    - draped neckline
+
+  neckline-extra-x:
     - bandeau {|keyhole|spaghetti}
     - flutter-neckline
     - criss-cross strappy
@@ -36,7 +41,7 @@ sundress:
     - ruffle-neckline
     - __fash/styles/common/gather__
 
-  bodice:
+  bodice: # TODO unify
     - babydoll
     - '{belt|ribbon-waist|waistband}'
     - boho
@@ -48,28 +53,17 @@ sundress:
     - drawstring
     - empire-waist
     #- '{|lace-|pointelle-|welt-}knit'
-    #- sheath
+    - shift
+    - smock
     - tied-waist
     - wrap
     - __fash/styles/common/gather__-waist
     - __fash/styles/common/gather__-yoke
 
   skirt:
-    - a-line
-    - asymmetrical
-    - circle
-    - flared
-    - flounce
-    - godet
-    - handkerchief
-    - high-low
-    - low-slit
-    - pleated
-    - (swing:0.8)
-    - tiered
-    - trapeze
-    - __fash/styles/common/trim__-hem
-    - __fash/styles/common/gather__-hem
+    - __fash/styles/skirt/cut__
+    #- __fash/styles/common/trim__-hem
+    #- __fash/styles/common/gather__-hem
 
   material:
     - cotton
