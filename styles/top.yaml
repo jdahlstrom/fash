@@ -16,19 +16,55 @@ top:
 
   neckline:
     all:
-      - __fash/styles/t-shirt/neckline__
-      - __fash/styles/top/neckline/common__
-      - __fash/styles/top/neckline/strapless__
-      - __fash/styles/top/neckline/shoulderless__
+      - __fash/styles/top/neckline/sleeved__ # should have specified sleeves...
+      - __fash/styles/top/neckline/sleeveless__
 
     sleeved:
-      - __fash/styles/t-shirt/neckline__
-      - __fash/styles/top/neckline/common__
+      - __fash/styles/neckline/top-dress-suit/t-shirt-like__
+      - __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
+      - __fash/styles/neckline/top-dress-suit/off-shoulder-straps__
 
-    sleeveless2:
-      - sleeveless __fash/styles/top/neckline/common__
-      - __fash/styles/top/neckline/strapless__
+    sleeveless:
+      - __fash/styles/top/neckline/bandeau__
+      - __fash/styles/neckline/top-dress-suit/tube-like__
+      - __fash/styles/neckline/top-dress-suit/cami-like__
+      - __fash/styles/neckline/top-dress-suit/vest-like__
 
+    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
+    # Leaves shoulders bare, but may also have thin shoulder straps!
+    off-shoulder:
+      - __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
+      - __fash/styles/neckline/top-dress-suit/off-shoulder-straps__
+
+    cold-shoulder:
+      - __fash/styles/neckline/101-off-shoulder-with-straps/cold-shoulder__
+
+    # Held up with a strap or loop around the neck,
+    # leaving the upper back and shoulders bare.
+    halter:
+      - __fash/styles/neckline/halter__
+
+    # Sleeveless, strapless, tube-like.
+    bandeau:
+      - __fash/styles/neckline/000-tube-like/bandeau__
+
+    # Sleeveless, strapless, tube-like.
+    tube:
+      - __fash/styles/neckline/000-tube-like/tube__
+
+    # Sleeveless with (thin) shoulder strap(s).
+    tank-top:
+      - __fash/styles/neckline/100-cami-tank-top/tank-top__
+      - __fash/styles/neckline/100-cami-tank-top/halter__ halter
+
+
+
+
+
+
+
+
+neckline-xxx:
     # Doesn't either require or preclude sleeves
     # TODO Not applicable to strapless/bandeau though so "common" maybe misnomer
     #
@@ -43,81 +79,12 @@ top:
       - shawl collar
       - sweetheart neck
       - turtleneck
-
       #- ({lace|sheer|mesh}:0.8) high-neck TODO These work mostly with dresses
       #- Queen Anne neckline Not well understood?
       #- plunging sweetheart neck Works only well with shoulderless
       #- (illusion:0.8) {crew|high|mock}-neck Not well understood
       #- portrait neck Not understood
       #- Sabrina neck # just a boatneck
-
-    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
-    # Leaves shoulders bare, but may also have thin shoulder straps!
-    off-shoulder:
-      - asymmetric
-      - drawstring
-      - fold-over
-      - halterneck
-      - o-ring halter
-      - henley
-      - keyhole
-      #- o-ring
-      - plunging
-      - ruched
-      - spaghetti-strap
-      - split-neck
-      - sweetheart
-      # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
-
-    cold-shoulder:
-      - asymmetric
-      - boatneck
-      - crewneck
-      - halterneck
-      - high-neck
-      - keyhole
-      - mock neck
-      - roll-neck
-      - scoop neck
-      - v-neck
-
-    # Held up with a strap or loop around the neck, leaving the upper back bare.
-    halter:
-      - __fash/styles/common/neckline/halter__
-      - __fash/styles/top/neckline/_halter__
-    _halter:
-      - backless
-      - crewneck {|keyhole}
-      #- (cowl:0.8) neck # needs cowl in negative prompt, prefer drape
-      - crossing #criss-cross, crossover
-      - drape-neckline
-      - high-neck
-      - keyhole high-neck
-      - o-ring
-      - mock neck
-      - v-neck
-
-    # Sleeveless, strapless, tube-like.
-    bandeau:
-      - __fash/styles/common/neckline/bandeau__
-
-    # Sleeveless with shoulder strap(s).
-    tank-top:
-      - backless
-      - boatneck
-      - crewneck
-      - crossback
-      - henley
-      - keyhole {|crewneck}
-      - one-shoulder
-      - (plunging:0.9)
-      - racerback
-      - scoop neck
-      - split neck
-      - surplice
-      - '{|deep} v-neck'
-      #- off-one-shoulder
-      #- square neck Just a camisole
 
     #
     # TODO These are still a mess
@@ -140,7 +107,7 @@ top:
       #- sweetheart {2::|plunging|keyhole}
       #- twisted
     # Always sleeveless
-    sleeveless:
+    sleeveless-x:
       - strapless
       - crossback
       - racerback
