@@ -12,38 +12,6 @@ top:
     - longline
     - waist-length
 
-  # TODO not yet used anywhere
-  back:
-    - back-closure
-    - back-lacing
-    - backless
-    - bowtie back
-    - button-back
-    - crossback
-    - criss-cross {|string} back
-    - (cutout:0.9) back
-    - deep v-back
-    - draped back
-    - halter back
-    - high back
-    - keyhole back
-    #- '{criss-cross|popover|string} keyhole back'
-    #- lace-up back
-    #- lace-up open-back
-    - mesh back
-    - open-back #{|popover} {|closure}
-    - open-back halter
-    - plunging back
-    - scoop-back
-    - split-back #{|popover} {|closure}
-    - strap-back
-    - string-back
-    - racerback
-    - tied-back halter
-    - v-back
-    - y-back
-    - zip back
-
   waist:
 
   neckline:

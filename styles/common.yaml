@@ -103,22 +103,6 @@ common:
       - relaxed fit
       - loose fit
 
-  back:
-    - backless
-    - bowtie back
-    - deep v-back
-    - draped back
-    - halter back
-    - high back
-    - keyhole back
-    - lace-up back
-    - open-back
-    - plunging back
-    - scoop-back
-    - strap-back
-    - v-back
-    - zip back
-
   # Common neckline variants
   neckline:
     bandeau:
