@@ -63,3 +63,5 @@ dress:
     - strapless
 
   neckline:
+    # TODO Should separate sleeved and sleeveless necklines etc
+    - __fash/styles/neckline/top-dress-suit/*__
