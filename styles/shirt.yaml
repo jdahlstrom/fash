@@ -60,6 +60,6 @@ shirt:
 
   neckline:
     blouse:
-      - __fash/styles/t-shirt/neckline__ # TODO
+      - __fash/styles/neckline/blouse-tunic__
     tunic:
-      - __fash/styles/t-shirt/neckline__ # TODO
+      - __fash/styles/neckline/blouse-tunic__
