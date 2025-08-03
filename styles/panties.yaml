@@ -7,7 +7,7 @@ panties:
     - lace
     - picot # TODO only in crochet/knitting?
   briefs:
-    - ''
+    - ' '
     #- bikini
     - high-waist
     - high-cut
@@ -16,7 +16,7 @@ panties:
     - hipsters
     - hiphugger
   boxers:
-    - ''
+    - ' '
     - boyfriend
     - girl
     - low-rise girl
@@ -24,12 +24,12 @@ panties:
     - performance
     - loose
   boyshorts:
-    - ''
+    - ' '
     - cheeky
     - high-waist
     - low-rise
   thong:
-    - ''
+    - ' '
     - low-rise
     - high-cut
     - high-waist
