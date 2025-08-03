@@ -8,27 +8,16 @@ camisole:
     - gathered
     - ruched-waist
     - smock
-    #- tiered
-    # Length
-    - crop
-    - longline
-    # Hem TODO moving to upper
-    - flared-hem
-    - flounce-hem
-    - flyaway-hem
-    - godet-hem
-    - peplum
-    - tiered-hem
-    # Material
+    - __fash/styles/camisole/smock__ smock
+    #  Material
     - linen
     #- denim Doesn't work well
-    #- __fash/styles/common/trim__-{hem|trim|yoke}
-    #- open-front Unreliable with SDXL
-    #- split-front # TODO these are a thing but not understood by SDXL
+
+    #- __fash/styles/common/trim__-{hem|trim|yoke} TODO
+
 
   # These work best with loose variants like smock
   smock:
-    - crop
     #- open-front bow/knot detail etc
     - layered
     - tiered
@@ -36,8 +25,14 @@ camisole:
     - empire-waist
     - ruched-waist
     - gathered-waist
-    - high-low-hem
-    - high-low-hem crop
+
+    #- crop
+    #- high-low-hem
+    #- high-low-hem crop
 
   neckline:
     - __fash/styles/neckline/cami-chemise__
+
+  hem:
+    - __fash/styles/upper/top-blouse-tunic-length__
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem
