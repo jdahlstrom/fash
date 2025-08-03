@@ -98,8 +98,10 @@ casual:
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
   camisole:
+    - __fash/styles/camisole/hem__ camisole
     - __fash/styles/camisole/neckline__ camisole
     - __fash/styles/camisole/style__ camisole
+
 
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
   shirt:
