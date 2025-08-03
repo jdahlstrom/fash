@@ -42,26 +42,28 @@ casual:
     - __fash/styles/upper/top-blouse-tunic-length__ top
 
     - __fash/styles/top/style__ top
-    - __fash/styles/top/neckline/common__ top
+
+    - __fash/styles/top/neckline/sleeveless__ top # TODO
 
     - top with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/sleeved__ top with sleeves #__fash/styles/upper/sleeve/*__ sleeves
 
     #- __fash/outerwear/casual/sleeved-top__
     #- __fash/outerwear/casual/sleeveless-top__
 
   #
   sleeved-top:
-    - top with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/top/neckline/sleeved__ top with __fash/styles/upper/sleeve/*__ sleeves
+
 
   #
   sleeveless-top:
     - __fash/outerwear/casual/strapless-top__
-    - __fash/outerwear/casual/tank-top__
-    #- sleeveless top with xyz neckline
-    #- __fash/outerwear/casual/camisole__ Include or not?
+    - sleeveless __fash/styles/top/neckline/sleeveless__ top
 
   #
   strapless-top:
+    - strapless __fash/styles/neckline/000-tube-like/strapless__ top # TODO
     - __fash/outerwear/casual/bandeau-top__
     - __fash/outerwear/casual/tube-top__
 
@@ -78,18 +80,19 @@ casual:
 
   # Halterneck top variants.
   halter-top:
-    #- halter top
+    - halter top
     - __fash/styles/top/neckline/halter__ halter top
 
   # Tube top variants, almost synonymous with bandeau.
   tube-top:
     - tube top
-    - __fash/styles/top/neckline/bandeau__ tube top
+    - __fash/styles/top/neckline/tube__ tube top
+
 
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
   camisole:
-    - __fash/styles/camisole/neckline/common__ camisole
+    - __fash/styles/camisole/neckline__ camisole
     - __fash/styles/camisole/style__ camisole
 
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
@@ -105,12 +108,13 @@ casual:
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
+    - __fash/styles/sweater/closure__ sweater
     - __fash/styles/sweater/knit__ sweater
     - __fash/styles/sweater/style__ sweater
     - __fash/styles/sweater/neckline__ sweater
-    - __fash/styles/t-shirt/neckline__ sweater
     - __fash/styles/sweater/sleeve__ sweater
     - sweater with __fash/styles/sweater/traditional__ {pattern|yoke}
+    - sleeveless sweater # TODO params
 
   # Open-front sweater, usually button-closure.
   cardigan:
@@ -237,10 +241,14 @@ casual:
     - __fash/styles/upper/top-dress-legged__ dress
 
     - __fash/styles/dress/bodice__ dress
-    - __fash/styles/dress/skirt__-skirted dress
+    - __fash/styles/dress/skirt__ dress
+
+    - __fash/styles/dress/neckline__ dress
 
     - dress with __fash/styles/upper/sleeve/*__ sleeves
 
+
+  # TODO These could all have at least skirt options and maybe more
   denim-dress:
     - __fash/styles/dress/denim__ denim dress
     - __fash/styles/common/denim/wash__ denim dress
@@ -249,7 +257,10 @@ casual:
     - __fash/styles/sundress/neckline__ __fash/styles/sundress/bodice__ sundress # TODO
     - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/neckline__ sundress # TODO
     - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/bodice__ sundress # TODO
-    - sundress with __fash/styles/sundress/sleeve__ sleeves
+    # TODO neckline+sleeves - needs neckline org
+    # Sleeved
+    -  __fash/styles/sundress/bodice__ sundress with __fash/styles/sundress/sleeve__ sleeves
+    - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
   cami-dress:
     - __fash/styles/camisole/neckline__ cami dress
