@@ -263,15 +263,24 @@ casual:
     - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
   cami-dress:
-    - __fash/styles/camisole/neckline__ cami dress
+    - __fash/outerwear/casual/camisole__ dress
+    - __fash/styles/dress/skirt__ camisole dress
   shirt-dress:
     - __fash/outerwear/casual/shirt__ dress # TODO
+    - __fash/styles/skirt/length/casual__ shirt dress
   sweater-dress:
     - __fash/outerwear/casual/sweater__ dress
+    - __fash/styles/skirt/length/casual__ sweater dress
   t-shirt-dress:
     - __fash/outerwear/casual/t-shirt__ dress
+    - __fash/styles/skirt/length/casual__ t-shirt dress
     # TODO other t-shirt stuff like print
   tank-dress:
-   - __fash/styles/top/neckline/tank-top__ tank dress
+    - __fash/styles/top/neckline/tank-top__ tank dress
+    - __fash/styles/skirt/length/casual__ tank dress
   tunic-dress:
-   - __fash/outerwear/casual/tunic__ dress # TODO
+    - __fash/outerwear/casual/tunic__ dress # TODO
+    - __fash/styles/skirt/length/casual__tunic dress
+  babydoll-dress:
+    - __fash/styles/camisole/neckline__ babydoll dress
+    - __fash/styles/skirt/length/casual__ babydoll dress
