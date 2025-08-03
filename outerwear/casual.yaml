@@ -17,6 +17,9 @@ casual:
     - camisole
     - cardigan
     - hoodie
+    - jumpsuit
+    - playsuit
+    - romper
     - shirt
     - shrug
     - sweater
@@ -24,6 +27,7 @@ casual:
     - t-shirt
     - top
     - tunic
+    - vest
 
   # Casual shirt, typically short-sleeved and made of cotton.
   # Originally an undershirt, they were popularized as outerwear
@@ -37,6 +41,8 @@ casual:
   top:
     - __fash/styles/upper/common__ top
     - __fash/styles/upper/top-dress-legged__ top
+
+    # TODO combine
     - __fash/styles/upper/top-blouse-tunic__ top
     - __fash/styles/upper/top-blouse-tunic-hem__-hem top
     - __fash/styles/upper/top-blouse-tunic-length__ top
@@ -51,17 +57,17 @@ casual:
     #- __fash/outerwear/casual/sleeved-top__
     #- __fash/outerwear/casual/sleeveless-top__
 
-  #
+  # Either strapless or with straps.
   sleeved-top:
     - __fash/styles/top/neckline/sleeved__ top with __fash/styles/upper/sleeve/*__ sleeves
 
 
-  #
+  # Either strapless or with straps.
   sleeveless-top:
     - __fash/outerwear/casual/strapless-top__
     - sleeveless __fash/styles/top/neckline/sleeveless__ top
 
-  #
+  # Sleeveless.
   strapless-top:
     - strapless __fash/styles/neckline/000-tube-like/strapless__ top # TODO
     - __fash/outerwear/casual/bandeau-top__
