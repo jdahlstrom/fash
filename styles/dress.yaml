@@ -33,6 +33,7 @@ dress:
   skirt:
     - __fash/styles/skirt/cut__-skirted
     - __fash/styles/skirt/style__-skirted
+    - __fash/styles/skirt/length/casual__
     - __fash/styles/skirt/hem__-hemline
     - __fash/styles/skirt/trim__-hemline
 
@@ -50,7 +51,7 @@ dress:
     #- __fash/clothing/cut/lacing__
 
   denim:
-    - ''
+    - ' '
     - apron
     - cami
     - cargo
