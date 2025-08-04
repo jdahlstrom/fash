@@ -13,6 +13,7 @@ sundress:
     - __fash/styles/common/gather__-sleeved
 
   sleeve:
+    - '{(cap:0.8)|short}'
     - '{(cap:0.8)|short} __fash/styles/upper/sleeve/style/short__'
     - short __fash/styles/upper/sleeve/style/common__
 
@@ -43,22 +44,21 @@ sundress:
 
   bodice: # TODO unify
     - babydoll
-    - '{belt|ribbon-waist|waistband}'
     - boho
     - button-down
-    - crocheted
     - '{front|back}-lacing'
     - backless
     - blouson
     - drawstring
-    - empire-waist
-    #- '{|lace-|pointelle-|welt-}knit'
     - shift
     - smock
-    - tied-waist
     - wrap
-    - __fash/styles/common/gather__-waist
     - __fash/styles/common/gather__-yoke
+    # Waist
+    - empire-waist
+    - tied-waist
+    - __fash/styles/common/gather__-waist
+    - '{belt|ribbon-waist|waistband}'
 
   skirt:
     - __fash/styles/skirt/cut__
@@ -67,5 +67,7 @@ sundress:
 
   material:
     - cotton
+    - crocheted
+    - '{|lace-|pointelle-|welt-}knit'
     - linen
     - muslin

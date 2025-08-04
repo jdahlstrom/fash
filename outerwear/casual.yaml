@@ -93,6 +93,7 @@ casual:
   tube-top:
     - tube top
     - __fash/styles/top/neckline/tube__ tube top
+    # TODO variants other than neckline?
 
 
   # Womens' sleeveless top, typically with spaghetti straps.
@@ -108,11 +109,17 @@ casual:
     - __fash/styles/shirt/style__ shirt
     - shirt with __fash/styles/upper/sleeve/*__ sleeves
 
-  # Loose-fitting shirt.
+  # Loose-fitting shirt. Ranges from casual to smart.
   blouse:
     - __fash/styles/shirt/blouse__ blouse
     - __fash/styles/shirt/neckline/blouse__ blouse
     - blouse with __fash/styles/upper/sleeve/*__ sleeves
+
+  # Casual, blouse-like but longer
+  tunic:
+    - __fash/styles/shirt/tunic__ tunic
+    - __fash/styles/shirt/neckline/tunic__ tunic
+    - tunic with __fash/styles/upper/sleeve/*__ sleeves
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
@@ -133,11 +140,6 @@ casual:
 
   hoodie:
     - __fash/styles/shirt/sweatshirt__ hoodie
-
-  tunic:
-    - __fash/styles/shirt/tunic__ tunic
-    - __fash/styles/shirt/neckline/tunic__ tunic
-    - tunic with __fash/styles/upper/sleeve/*__ sleeves
 
 
   ##############################################################################
@@ -263,8 +265,8 @@ casual:
 
   # TODO These could all have at least skirt options and maybe more
   denim-dress:
-    - __fash/styles/dress/denim__ denim dress
-    - __fash/styles/common/denim/wash__ denim dress
+    - denim __fash/styles/dress/denim__ dress
+    - __fash/styles/common/denim/wash__ denim dress # Not always reliable
 
   sundress:
     - __fash/styles/sundress/neckline__ __fash/styles/sundress/bodice__ sundress # TODO
@@ -282,9 +284,10 @@ casual:
     -  __fash/styles/dress/neckline/sleeved__ sundress with __fash/styles/sundress/sleeve__ sleeves
     - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
+  # Skirted versions of upper-body clothing.
   cami-dress:
-    - __fash/outerwear/casual/camisole__ dress
-    - __fash/styles/dress/skirt__ camisole dress
+    - __fash/outerwear/casual/camisole__ dress # TODO includes hem length via camisole/hem
+    - __fash/styles/dress/skirt/*__ camisole dress
   shirt-dress:
     - __fash/outerwear/casual/shirt__ dress # TODO
     - __fash/styles/skirt/length/casual__ shirt dress
@@ -300,7 +303,7 @@ casual:
     - __fash/styles/skirt/length/casual__ tank dress
   tunic-dress:
     - __fash/outerwear/casual/tunic__ dress # TODO
-    - __fash/styles/skirt/length/casual__tunic dress
+    - __fash/styles/skirt/length/casual__ tunic dress
   babydoll-dress:
     - __fash/styles/camisole/neckline__ babydoll dress
     - __fash/styles/skirt/length/casual__ babydoll dress

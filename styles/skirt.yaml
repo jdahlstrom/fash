@@ -5,13 +5,12 @@ skirt:
     - casual
     - gypsy
     - layered
-    - peplum
     - wrap
   cut:
     - a-line
     - (accordion:0.8)
     - asymmetrical
-    - bubble
+    - (bubble:0.9)
     - circle
     - draped
     - fit-and-flare
@@ -34,6 +33,7 @@ skirt:
   hem:
     - fringe
     - layered
+    - (peplum:0.8) # Tends to bleed to top
     - raw
     - sharkbite
     - slanted
@@ -70,6 +70,7 @@ skirt:
       - knee-length
       - below-knee
       - midi length
+      - maxi length
     smart:
       - knee-length
       - below-knee
