@@ -16,25 +16,26 @@ sweater:
     - woolly pully # TODO should be an "army-style" pullover
 
   cardigan:
-    - Aran
     - boyfriend
-    - cable-knit
-    - collarless
     - cold-shoulder
     - crop
     - flyaway-hem
     - hooded
     - longline
     - off-shoulder
-    - pointelle knit
     - raglan
-    - rib knit
     - (shawl-collared:0.8)
     - short-sleeved
-    - zipper
+    #- zipper
+    # Knit
+    - Aran
+    - cable-knit
+    - pointelle knit
+    - rib knit
     # TODO more
 
   closure: # TODO already in necklines
+    - button-down
     - half-zip
     - half-button
     - popover

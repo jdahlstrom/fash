@@ -1,12 +1,11 @@
 # Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
-# Currently excluded are t-shirts, sweaters, sweatshirts, and similar.
+# Currently excluded are camis, t-shirts, sweaters, sweatshirts, and similar.
 #
 # Includes:
 #
 # * General styles
 # * Backs
 # * Closures
-# * Necklines
 # * Sleeves
 # * Waists
 
@@ -16,8 +15,8 @@ upper:
   common:
     - billowy
     - boho
-    - cold-shoulder
-    - collarless
+    - cold-shoulder # TODO now part of necklines
+    - collarless    # Necklines?
     - flowy
     - peasant
     - polo
@@ -30,6 +29,7 @@ upper:
     - flannel
     - linen
 
+  # Body/jump/play/romper suits
   legged:
     - apron
     - culottes
@@ -52,7 +52,7 @@ upper:
     # Closure
     - front-lacing
     - half-button
-    - tied-waist
+    - tied-waist # TODO waist
 
     # Back
     - backless
@@ -64,7 +64,6 @@ upper:
   top-blouse-tunic:
     - babydoll
     - empire-waist
-    - flared
     - gathered-waist
     - godet
     - kaftan
@@ -72,9 +71,8 @@ upper:
     - peplum
     - poncho
     - puff
-    - short
-    - skirted
-    - slit-hem
+    - short   # TODO length
+    - skirted # TODO to hems?
     - (swing:0.8)
     - wrap
 
@@ -103,8 +101,13 @@ upper:
     - godet
     - high-low
     - knot
+    - (ruffle:0.9)
     - sharkbite
+    - skirted
+    #- slit TODO does even this work?
     - tiered
+
+  waist:
 
   sleeve:
     length:
@@ -129,8 +132,9 @@ upper:
         - flutter
         - knot
         - lace
-        - (petal:0.8)
+        - (petal:0.8) # Works poorly
         - ruched
+        - ruffle
         - (scallop:0.8)
         - (tulip:0.8)
       long:

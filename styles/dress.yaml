@@ -2,18 +2,21 @@ dress:
   # The upper part of the dress, covering the torso.
   # Only styles not in upper/* common styles!
   bodice:
+
     # specific style, no custom necklines etc
     - apron
     - overall
     - pinafore
     - kaftan
     - sari
+
     # necklines specific to the bodice type
     - babydoll
     - shirt
     - sweater
     - t-shirt
     - tunic
+
     # generic cut TODO
     - sheath # TODO too smart?
     - shift
@@ -23,11 +26,6 @@ dress:
     # hem
     #- frill-hem
     #- pleat-hem # TODO SDXL tends to make whole dress pleated
-
-    # material
-    - crochet
-    #- denim
-    #- linen
 
   # The lower part of the dress, covering the legs
   skirt:
@@ -41,6 +39,7 @@ dress:
     - contrast
     - drop
     - empire
+    - ruched
     - tied
     - gathered
     - drawstring
@@ -63,6 +62,7 @@ dress:
     - halter
     - strapless
 
+  # TODO Some redundancy with top/neckline, only difference that tops have bandeau
   neckline:
     sleeved:
       - __fash/**/top-dress-suit/off-shoulder-strapless__

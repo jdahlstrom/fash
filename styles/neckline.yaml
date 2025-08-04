@@ -110,8 +110,8 @@ neckline:
       - __**/000-tube-like/tube__ tube
       # bandeau only applies to tops
 
-    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
-    # Leaves shoulders bare, but may also have thin shoulder straps!
+    # Has straps or sleeves that hang off shoulder, leaving the shoulder and neck area bare.
+    # Typically a horizontal neckline.
     off-shoulder-strapless:
       - off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
       - off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
@@ -120,6 +120,7 @@ neckline:
       - __**/100-cami-tank-top/cami__ spaghetti-strap
       - __**/100-cami-tank-top/halter__ halter
 
+    # Has sleeves, shoulder straps, and possibly high neckline, but leaves the shoulders bare.
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __**/101-off-shoulder-with-straps/spaghetti-strap__
       - off-shoulder halter __**/101-off-shoulder-with-straps/halter__
@@ -207,41 +208,55 @@ neckline:
     - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
     - __fash/styles/neckline/111-t-shirt-like/sleeved__
 
+#########################################################################################
+
+  # No straps, no shoulders, no sleeves
   000-tube-like:
     strapless:
+      - (cutout:0.9)
       - fold-over
+      - henley
       - keyhole
       - knot
+      - surplice
       - sweetheart-neck
+
       # TODO trims&gathers
       - flounce
       - ruched
+      - ruffle
     tube:
       - ' '
       - fold-over
-      - keyhole
+      - henley
+      #- keyhole
+      # TODO more??
+
       # TODO trims&gathers
       - flounce
       - ruched
-      # TODO more??
+      - ruffle
     bandeau:
-      - (bow:0.8)
-      - (bow-knot:0.8)
+      - (bow{-knot|}:0.8)
       - criss-cross
+      - (cutout:0.9)
+      - henley
       - keyhole
       - knot
-      - o-ring
-      - o-ring keyhole
-      #- spaghetti
+      - o-ring {keyhole|}
       - string keyhole
       - sweetheart-neck
       - twisted
       - underwired
       - wireless
-      # TODO gathers
+
+      # TODO trims&gathers
+      - flounce
       - gathered
       - ruched
+      - ruffle
 
+  # Sleeves, no shoulders, no straps
   001-off-shoulder-strapless:
     off-shoulder:
       - asymmetric
@@ -269,8 +284,14 @@ neckline:
 
     off-one-shoulder:
       - ' '
+      - fold-over # Doesn't work well
+      - (ruffle:0.9)
       # any others?
 
+  # 010: Shoulders without straps makes no sense
+  # 011:
+
+  # Straps, no shoulders, no sleeves
   100-cami-tank-top:
     cami:
       - crossback
@@ -294,7 +315,7 @@ neckline:
       #- droop neck Doesn't work well
       #- split neck Doesn't work well
     halter:
-      # Almost same as above...
+      - ' '
       - backless
       - crewneck
       - drape-neckline
@@ -344,10 +365,10 @@ neckline:
     halter:
       - __fash/styles/neckline/100-cami-tank-top/halter__
     cold-shoulder:
-      - asymmetric
+      - ' '
       - boatneck
       - crewneck
-      - draped neckline
+      - scoop-neck
       - high-neck
       - keyhole
       - mock neck
@@ -355,12 +376,15 @@ neckline:
       - scoop neck
       - v-neck
 
+  # Straps, shoulders, no sleeves
   110-vest-like:
     sleeveless:
       # As below
       - __fash/styles/neckline/111-t-shirt-like/sleeved__
 
+  # Straps, shoulders, sleeves
   111-t-shirt-like:
+      # As above
     sleeved:
       - '{|wide} boatneck'        # wide, shallow cut neckline
       - collared
@@ -386,6 +410,7 @@ neckline:
   halter:
     - __fash/styles/neckline/101-off-shoulder-with-straps/halter__
 
+  # Some general categories.
 
   standard-neck:
     - boatneck
@@ -402,18 +427,22 @@ neckline:
     - mock neck
     - roll neck
     - turtleneck
-    - v-neck
+    - '{|(plunging:0.9)} cowl neck' # plunging makes a looser cowl
+    - keyhole {high|mock} neck
 
-  low-neck: # shows cleavage
+  # Shows some cleavage.
+  low-neck:
     - (cutout:0.9) neckline
     - draped neckline
     - (plunging:0.9)
     - (plunging:0.9) __fash/styles/neckline/plunging__
     - scoop neck
 
+  # Plunging subtypes. Show a lot of cleavage.
   plunging:
     - drape-neckline
     - keyhole
+    - ruffle
     - scoop-neck
     - strappy
     - surplice
@@ -435,11 +464,12 @@ neckline:
     - spaghetti strap
     - square-neck
     - strappy
-    - surplice
-    - sweetheart-neck
-    #- tied-back Gives weird results...
+    - sweetheart
     - triangle-neck
     - twisted
+    # TODO trim/gather
+    - flounce-neckline
+    - gathered-neckline
 
   top-halter:
     - crewneck {|keyhole}
@@ -453,6 +483,8 @@ neckline:
     - mock neck
     - v-neck
 
+  # Keyhole neck subtypes.
+  # TODO see if needed or useful anywhere
   keyhole:
     - (bow-knot:0.9)
     - boatneck
