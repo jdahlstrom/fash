@@ -42,7 +42,7 @@ top:
     # Held up with a strap or loop around the neck,
     # leaving the upper back and shoulders bare.
     halter:
-      - __fash/styles/neckline/halter__
+      - __fash/styles/neckline/101-off-shoulder-with-straps/halter__
 
     # Sleeveless, strapless, tube-like.
     bandeau:
@@ -55,7 +55,7 @@ top:
     # Sleeveless with (thin) shoulder strap(s).
     tank-top:
       - __fash/styles/neckline/100-cami-tank-top/tank-top__
-      - __fash/styles/neckline/100-cami-tank-top/halter__ halter
+      - __fash/styles/neckline/100-cami-tank-top/halter-tank-top__ halter
 
 
 
