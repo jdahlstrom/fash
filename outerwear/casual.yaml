@@ -251,7 +251,12 @@ casual:
     - __fash/styles/dress/bodice__ dress
     - __fash/styles/dress/skirt__ dress
 
-    - __fash/styles/dress/neckline__ dress
+    - __fash/styles/dress/neckline/sleeveless__ dress
+
+    # TODO decide how many wildcards per entry.
+    #- __fash/styles/dress/neckline/sleeved__ dress with __fash/styles/upper/sleeve/*__ sleeves
+
+    - __fash/styles/dress/neckline/sleeved__ dress with sleeves
 
     - dress with __fash/styles/upper/sleeve/*__ sleeves
 
@@ -265,9 +270,16 @@ casual:
     - __fash/styles/sundress/neckline__ __fash/styles/sundress/bodice__ sundress # TODO
     - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/neckline__ sundress # TODO
     - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/bodice__ sundress # TODO
-    # TODO neckline+sleeves - needs neckline org
+
+    # Sleeveless
+    - __fash/styles/dress/neckline/sleeveless__ __fash/styles/sundress/bodice__ sundress # TODO
+    - __fash/styles/sundress/skirt__-skirted __fash/styles/dress/neckline/sleeveless__ sundress # TODO
+
     # Sleeved
+    # TODO should maybe have a bit lower probability than 50%
     -  __fash/styles/sundress/bodice__ sundress with __fash/styles/sundress/sleeve__ sleeves
+    # TODO consider only "low" necklines with sleeves
+    -  __fash/styles/dress/neckline/sleeved__ sundress with __fash/styles/sundress/sleeve__ sleeves
     - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
   cami-dress:
