@@ -110,8 +110,8 @@ neckline:
       - __**/000-tube-like/tube__ tube
       # bandeau only applies to tops
 
-    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
-    # Leaves shoulders bare, but may also have thin shoulder straps!
+    # Has straps or sleeves that hang off shoulder, leaving the shoulder and neck area bare.
+    # Typically a horizontal neckline.
     off-shoulder-strapless:
       - off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
       - off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
@@ -120,6 +120,7 @@ neckline:
       - __**/100-cami-tank-top/cami__ spaghetti-strap
       - __**/100-cami-tank-top/halter__ halter
 
+    # Has sleeves, shoulder straps, and possibly high neckline, but leaves the shoulders bare.
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __**/101-off-shoulder-with-straps/spaghetti-strap__
       - off-shoulder halter __**/101-off-shoulder-with-straps/halter__
