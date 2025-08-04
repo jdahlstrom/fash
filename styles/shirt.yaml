@@ -42,11 +42,15 @@ shirt:
     # TODO backs
 
   sweatshirt:
-    - ''
+    - ' '
     # - baja TODO check non-distilled model
+    - boyfriend
+    - chunky
     - crop
+    - fitted
     - flannel
     - half-zip
+    - (kangaroo:0.9)-pocket
     - oversize
     - raglan
     - sports

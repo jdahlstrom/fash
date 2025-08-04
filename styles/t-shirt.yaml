@@ -1,13 +1,13 @@
 t-shirt:
   style:
     - babydoll
-    - backless
     - baseball
     - boyfriend
-    - cold-shoulder
+    #- cold-shoulder Comes from necklines
     - contrast-yoke
     - (cutout:0.9)
     - godet
+    - open-back
     - peplum
     - pocket
     - raglan
@@ -24,7 +24,8 @@ t-shirt:
     - __fash/styles/common/gather__
   sleeve:
     - __fash/styles/upper/sleeve/length__
-    - __fash/styles/upper/sleeve/style/*__
+    - __fash/styles/upper/sleeve/style/short__
+    - short __fash/styles/upper/sleeve/style/common__
   neckline:
     - __fash/styles/neckline/t-shirt__
   back:
@@ -33,11 +34,6 @@ t-shirt:
     - keyhole-back
     - open-back
     - tied-back
-
-    #__clothing/neckline/_keyhole__ # "boob window" TODO not all of these work reliably
-    #- keyhole __fash/clothing/neckline/_keyhole__ # TODO not all of these work reliably
-    #- plunging __fash/clothing/neckline/_plunging__
-    #- '{curved|wide|deep} v-neck'
 
   deco:
     - embroidered

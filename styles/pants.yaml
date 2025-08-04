@@ -24,7 +24,7 @@ pants:
     - parachute pants
     - sports pants
   waistline:
-    - low-rise
+    - low{rise|-waist}
     - hiphugger
     - high-waist
     - midrise
@@ -34,7 +34,7 @@ pants:
     - flared-leg
     - kick flare
     - rolled-up
-    - slit-leg
+    #- slit-leg
     - straight-leg
     - tapered-leg
     - wide-leg
@@ -58,7 +58,7 @@ pants:
     - bermuda shorts
     - board shorts
     - boyfriend shorts
-    - bubble shorts
+    - (bubble:0.9) shorts
     - cargo shorts
     - chino shorts
     - culottes shorts
@@ -68,6 +68,7 @@ pants:
     - hiking shorts
     - hot pants
     - jamaican shorts
+    - jogger shorts
     - linen shorts
     - paperbag shorts
     - skort

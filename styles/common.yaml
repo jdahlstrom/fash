@@ -10,19 +10,19 @@ common:
     - contrast
     - cutwork
     - flounce
-    - flutter
+    #- flutter not a trim, just a sleeve type
     - frill
     - lace
-    - (lettuce:0.8)
-    - picot
-    - pintuck
+    #- (lettuce:0.8) not a trim but edge/hem
+    - picot # specifically crocheted/knitted?
+    #- pintuck not a trim but detail/deco
     - scallop
-    - stitch
+    #- stitch not a trim...
   stitch:
     - stitch
     - chain-stitch
     - cable chain stitch
-    - crewel stitch
+    - crewel stitch # embroidery
     - knot stitch
     - '{satin|damask} stitch'
     - French knot stitch
@@ -104,6 +104,7 @@ common:
       - loose fit
 
   # Common neckline variants
+  # TODO to upper if even used anymore
   neckline:
     bandeau:
       - (bow:0.8)
@@ -170,6 +171,7 @@ common:
       - lightly worn
       - frayed
       - distressed
+      - slashed
       - worn
       - heavily worn
       - torn
