@@ -64,5 +64,11 @@ dress:
     - strapless
 
   neckline:
-    # TODO Should separate sleeved and sleeveless necklines etc
-    - __fash/styles/neckline/top-dress-suit/*__
+    sleeved:
+      - __fash/**/top-dress-suit/off-shoulder-strapless__
+      - __fash/**/top-dress-suit/off-shoulder-straps__
+      - __fash/**/top-dress-suit/t-shirt-like__
+    sleeveless:
+      - __fash/**/top-dress-suit/tube-like__
+      - __fash/**/top-dress-suit/cami-like__
+      - __fash/**/top-dress-suit/vest-like__
