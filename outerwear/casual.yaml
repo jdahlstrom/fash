@@ -217,7 +217,6 @@ casual:
     - __fash/outerwear/casual/playsuit__
     - __fash/outerwear/casual/romper__
     - __fash/outerwear/casual/overalls__
-    -
 
   jumpsuit:
     - __fash/styles/jumpsuit__ jumpsuit
@@ -251,7 +250,7 @@ casual:
     - __fash/styles/upper/top-dress-legged__ dress
 
     - __fash/styles/dress/bodice__ dress
-    - __fash/styles/dress/skirt__ dress
+    - __fash/styles/dress/skirt/*__ dress
 
     - __fash/styles/dress/neckline/sleeveless__ dress
 
