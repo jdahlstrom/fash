@@ -16,8 +16,8 @@ upper:
   common:
     - billowy
     - boho
-    - cold-shoulder
-    - collarless
+    - cold-shoulder # TODO now part of necklines
+    - collarless    # Necklines?
     - flowy
     - peasant
     - polo
@@ -30,6 +30,7 @@ upper:
     - flannel
     - linen
 
+  # Body/jump/play/romper suits
   legged:
     - apron
     - culottes
@@ -64,7 +65,6 @@ upper:
   top-blouse-tunic:
     - babydoll
     - empire-waist
-    - flared
     - gathered-waist
     - godet
     - kaftan

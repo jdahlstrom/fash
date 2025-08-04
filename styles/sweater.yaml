@@ -35,6 +35,7 @@ sweater:
     # TODO more
 
   closure: # TODO already in necklines
+    - button-down
     - half-zip
     - half-button
     - popover

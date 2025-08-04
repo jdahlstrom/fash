@@ -11,7 +11,7 @@ skirt:
     - a-line
     - (accordion:0.8)
     - asymmetrical
-    - bubble
+    - (bubble:0.9)
     - circle
     - draped
     - fit-and-flare
@@ -70,6 +70,7 @@ skirt:
       - knee-length
       - below-knee
       - midi length
+      - maxi length
     smart:
       - knee-length
       - below-knee

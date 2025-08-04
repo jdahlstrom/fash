@@ -42,7 +42,7 @@ shirt:
     # TODO backs
 
   sweatshirt:
-    - ''
+    - ' '
     # - baja TODO check non-distilled model
     - crop
     - flannel
