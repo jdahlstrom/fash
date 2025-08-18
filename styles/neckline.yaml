@@ -100,37 +100,43 @@
 # TODO what about one-shoulder?!?!
 
 
+# TODO Move to upper and individual files
 neckline:
 
   # Outerwear
 
   top-dress-suit:
+
+    cami-like:
+      - __**/100-cami-tank-top/cami__ spaghetti-strap
+      - __**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
+
+    tank-top-like:
+      - __**/100-cami-tank-top/tank-top__ tank
+      - __**/100-cami-tank-top/halter-tank-top__ halter tank
+
+    t-shirt-like:
+      - __**/111-t-shirt-like/sleeved__
+
     tube-like:
       - strapless __**/000-tube-like/strapless__
       - __**/000-tube-like/tube__ tube
       # bandeau only applies to tops
 
+    vest-like:
+      - sleeveless __**/110-vest-like/sleeveless__
+
     # Has straps or sleeves that hang off shoulder, leaving the shoulder and neck area bare.
     # Typically a horizontal neckline.
     off-shoulder-strapless:
       - off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
-      - off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
-
-    cami-like:
-      - __**/100-cami-tank-top/cami__ spaghetti-strap
-      - __**/100-cami-tank-top/halter__ halter
+      - '{off-one-shoulder|one-fallen-shoulder} __**/001-off-shoulder-strapless/off-one-shoulder__'
 
     # Has sleeves, shoulder straps, and possibly high neckline, but leaves the shoulders bare.
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __**/101-off-shoulder-with-straps/spaghetti-strap__
       - off-shoulder halter __**/101-off-shoulder-with-straps/halter__
       - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
-
-    vest-like:
-      - sleeveless __**/110-vest-like/sleeveless__
-
-    t-shirt-like:
-      - __**/111-t-shirt-like/sleeved__
 
   sweater:
     # TODO probabilities
