@@ -20,48 +20,48 @@ top:
       - __fash/styles/top/neckline/sleeved__ # should have specified sleeves...
       - __fash/styles/top/neckline/sleeveless__
 
+
+  # TODO Some redundancy with dress/neckline, only difference that tops have bandeau
+
     sleeved:
-      - __fash/styles/neckline/top-dress-suit/t-shirt-like__
-      - __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
-      - __fash/styles/neckline/top-dress-suit/off-shoulder-straps__
+      - __fash/styles/neckline/high-neck__
+      - __fash/**/top-dress-suit/t-shirt-like__
+      - __fash/**/top-dress-suit/off-shoulder-strapless__
+      - __fash/**/top-dress-suit/off-shoulder-straps__
 
     sleeveless:
       - __fash/styles/top/neckline/bandeau__
-      - __fash/styles/neckline/top-dress-suit/tube-like__
-      - __fash/styles/neckline/top-dress-suit/cami-like__
-      - __fash/styles/neckline/top-dress-suit/vest-like__
+      - __fash/styles/neckline/high-neck__
+      - __fash/**/top-dress-suit/tube-like__
+      - __fash/**/top-dress-suit/cami-like__
+      - __fash/**/top-dress-suit/vest-like__
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!
     off-shoulder:
-      - __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
-      - __fash/styles/neckline/top-dress-suit/off-shoulder-straps__
+      - __fash/**/top-dress-suit/off-shoulder-strapless__
+      - __fash/**/top-dress-suit/off-shoulder-straps__
 
     cold-shoulder:
-      - __fash/styles/neckline/101-off-shoulder-with-straps/cold-shoulder__
+      - __fash/**/101-off-shoulder-with-straps/cold-shoulder__
 
     # Held up with a strap or loop around the neck,
     # leaving the upper back and shoulders bare.
     halter:
-      - __fash/styles/neckline/101-off-shoulder-with-straps/halter__
+      - __fash/**/101-off-shoulder-with-straps/halter__
 
     # Sleeveless, strapless, tube-like.
     bandeau:
-      - __fash/styles/neckline/000-tube-like/bandeau__
+      - __fash/**/000-tube-like/bandeau__
 
     # Sleeveless, strapless, tube-like.
     tube:
-      - __fash/styles/neckline/000-tube-like/tube__
+      - __fash/**/000-tube-like/tube__
 
-    # Sleeveless with (thin) shoulder strap(s).
+    # Sleeveless with shoulder strap(s).
     tank-top:
-      - __fash/styles/neckline/100-cami-tank-top/tank-top__
-      - __fash/styles/neckline/100-cami-tank-top/halter-tank-top__ halter
-
-
-
-
-
+      - __fash/**/100-cami-tank-top/tank-top__
+      - __fash/**/100-cami-tank-top/halter-tank-top__ halter
 
 
 
