@@ -167,7 +167,7 @@ neckline:
 
   cami-chemise:
     - __**/100-cami-tank-top/cami__
-    - __**/100-cami-tank-top/halter__ halter
+    - __**/100-cami-tank-top/halter-cami__ halter
 
   sleeveless-shirt:
     - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
@@ -194,14 +194,14 @@ neckline:
     -  off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
 
   monokini:
-    # TODO probably needs a bit more specialized set
-    - __fash/styles/neckline/100-cami-tank-top/cami__ halter
+    # TODO may need a bit more specialized set
+    - __fash/styles/neckline/100-cami-tank-top/halter-cami__
 
   # Loungewear
 
   nightdress:
     - __fash/styles/neckline/100-cami-tank-top/cami__
-    - __fash/styles/neckline/100-cami-tank-top/cami__ halter
+    - __fash/styles/neckline/100-cami-tank-top/halter-cami__ halter
     - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
     - __fash/styles/neckline/111-t-shirt-like/sleeved__
     # TODO maybe 000, 001, 101
@@ -300,76 +300,46 @@ neckline:
   # Straps, no shoulders, no sleeves
   100-cami-tank-top:
     cami:
-      - crossback
-      # TODO the rest are same as halter...
-      - crewneck
-      - drape-neckline
-      - henley
-      - o-ring neckline
-      - keyhole
+      - __fash/styles/neckline/specific/cami__
+      - __fash/styles/neckline/with-straps__
+    tank-top:
+      - __fash/styles/neckline/specific/tank-top__
+      - __fash/styles/neckline/with-straps__
+    halter-cami:
+      - __fash/styles/neckline/halter__
+      - __fash/styles/neckline/with-straps__
+    halter-tank-top:
+      - __fash/styles/neckline/halter__
+      - __fash/styles/neckline/with-straps__
+      # Note NO specific/tank-top here, those are non-halters only!
+
+      # TODO should have these here or not?
+      # They should be *somewhere*. Separate high-neck subcategory under 100?
+      #- __fash/styles/neckline/high-neck__
+
+  # Straps, sleeves, no shoulders
+  # TODO Try out with limited variants for now
+  101-off-shoulder-with-straps:
+    spaghetti-strap:
       - (plunging:0.9)
       - scoop neck
       - square neck
-      - surplice
-      - strappy
-      - sweetheart neck
-      - triangle neck
-      - v-neck
-      # TODO trim/gather
-      - flounce-neckline
-      - gathered-neckline
-      #- droop neck Doesn't work well
-      #- split neck Doesn't work well
+      - sweetheart
+      - triangle-neck
+      #- __fash/styles/neckline/100-cami-tank-top/cami__
+      #- __fash/styles/neckline/off-shoulder__
     halter:
       - ' '
       - backless
       - crewneck
-      - drape-neckline
-      - henley
-      - keyhole
-      - o-ring neckline
+      - crossing
+      - high-neck
       - (plunging:0.9)
       - scoop neck
-      - square neck
-      - surplice
-      - strappy
-      - sweetheart neck
-      - triangle neck
-      - twisted
-      - v-neck
-      # TODO trim/gather
-      - flounce-neckline
-      - gathered-neckline
-
-    tank-top:
-      # Also mostly the same as cami, and t-shirt?
-      - boatneck
-      - crewneck
-      - henley
-      - keyhole {|crewneck}
-      - one-shoulder
-      - (plunging:0.9)
-      - scoop neck
-      - split neck
-      - square neck
-      - surplice
-      - triangle neck
-      - '{|deep} v-neck'
-      # Backs
-      - backless
-      - crossback
-      - racerback
-      # Grecian not understood
-
-    backless:
-      - backless spaghetti-strap
-      - backless halter
-
-  101-off-shoulder-with-straps:
-    spaghetti-strap:
-      - __fash/styles/neckline/100-cami-tank-top/cami__
-    halter:
-      - __fash/styles/neckline/100-cami-tank-top/halter__
+      - triangle-neck
+      #- __fash/styles/neckline/with-straps__
+      #- __fash/styles/neckline/high-neck__
+      #- __fash/styles/neckline/halter__
     cold-shoulder:
       - ' '
       - boatneck
@@ -385,45 +355,30 @@ neckline:
   # Straps, shoulders, no sleeves
   110-vest-like:
     sleeveless:
-      # As below
-      - __fash/styles/neckline/111-t-shirt-like/sleeved__
+      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/shouldered__
 
   # Straps, shoulders, sleeves
   111-t-shirt-like:
       # As above
     sleeved:
-      - '{|wide} boatneck'        # wide, shallow cut neckline
-      - collared
-      - crewneck                  # basic round t-shirt neckline
-      - (cutout:0.9) neckline     # cutout exposing cleavage, "boob window"
-      - draped neckline
-      #- flounce neckline should be separate, with other trims
-      - half-button
-      - henley-neck               # button-up neck without a collar
-      - keyhole neck              # small cutout, exposing a bit of cleavage
-      - mock neck                 # tubular collar, lower than polo or turtleneck
-      - (plunging:0.9)            # deep cut neckline exposing leavage
-      - scoop neck                # wide, front cut lower than back
-      - split neck                # round neck with a v-shaped cut
-      - square neck               # rectangular neckline
-      - surplice                  # overlapping left and right sides
-      - v-neck                    # v-shaped, angular neck
+      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/shouldered__
 
-
-
-  # Additional variants
-
-  halter:
-    - __fash/styles/neckline/101-off-shoulder-with-straps/halter__
+#########################################################################################
 
   # Some general categories.
 
-  standard-neck:
-    - boatneck
+  # Common necklines for anything that has shoulders or shoulder straps
+  # of some kind, either with or without sleeves, either halterneck or not.
+  # T-shirts, blouses, camisoles, tank tops etc.
+  with-straps:
+    - backless
     - crewneck
-    - henley
-    - keyhole
-    - split-neck
+    - henley {crewneck|v-neck|scoop-neck|(plunging:0.9)|2::}
+    - keyhole-neckline
+    - (plunging:0.9)
+    - scoop-neck
     - square-neck
     - surplice
     - v-neck
@@ -454,21 +409,12 @@ neckline:
     - surplice
     - v-neck
 
-  spaghetti-strap-halter:
-    - scoop-neck
-    - spaghetti strap
-    - square-neck
-    - strappy
-    - surplice
-    - sweetheart-neck
-    #- tied-back Gives weird results...
-    - triangle-neck
-    - twisted
-
-  common-halter:
-    - scoop-neck
-    - spaghetti strap
-    - square-neck
+  # Specific halterneck subtypes not included in with-straps or high-neck.
+  halter:
+    - crossing
+    - (cutout:0.9)
+    - drape-neckline
+    - o-ring
     - strappy
     - sweetheart
     - triangle-neck
@@ -477,17 +423,6 @@ neckline:
     - flounce-neckline
     - gathered-neckline
 
-  top-halter:
-    - crewneck {|keyhole}
-    - backless
-    #- (cowl:0.8) neck # needs cowl in negative prompt, prefer drape
-    - crossing #criss-cross, crossover
-    - drape-neckline
-    - high-neck
-    - keyhole high-neck
-    - o-ring
-    - mock neck
-    - v-neck
 
   # Keyhole neck subtypes.
   # TODO see if needed or useful anywhere
@@ -506,3 +441,33 @@ neckline:
     - high halter
     - ruched
     - strap
+
+  # Additional neckline types for specific garments
+  specific:
+     # TODO rename to spaghetti-strap?
+     # These aren't really exclusive of off-shoulder sleeves
+    cami:
+      - crossback
+      - drape-neckline
+      - fold-over
+      #- o-ring neckline
+      - strappy
+      - sweetheart-neck
+      - triangle-neck
+      #- droop neck Doesn't work well
+      #- split neck Doesn't work well
+
+      # TODO trim/gather
+      - flounce-neckline
+      - gathered-neckline
+      - ruffle {fold-over|sweetheart-neck|triangle-neck}
+    tank-top:
+      - boatneck
+      - one-shoulder
+      - split neck
+      - triangle neck
+      # - Grecian not understood
+      # Backs
+      - backless
+      - crossback
+      - racerback
