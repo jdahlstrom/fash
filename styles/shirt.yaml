@@ -35,10 +35,7 @@ shirt:
 
   blouse:
     - __fash/styles/upper/common__
-    - __fash/styles/upper/blouse-tunic-length__
-    - __fash/styles/upper/top-blouse-tunic__
-    - __fash/styles/upper/top-blouse-tunic-hem__
-    - __fash/styles/upper/top-blouse-tunic-closure__
+    - __fash/outerwear/casual/tbt__
     # TODO backs
 
   sweatshirt:
