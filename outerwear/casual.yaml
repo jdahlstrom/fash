@@ -39,15 +39,22 @@ casual:
     - __fash/styles/t-shirt/neckline__ t-shirt
     - t-shirt with __fash/styles/t-shirt/sleeve__ sleeves
 
+
+  # TODO placeholder name, move
+  tbt:
+    - __fash/styles/upper/top-blouse-tunic__
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem
+    - __fash/styles/upper/top-blouse-tunic-length__
+    - __fash/styles/upper/top-blouse-tunic-closure__
+
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
     - __fash/styles/upper/common__ top
     - __fash/styles/upper/top-dress-legged__ top
 
-    # TODO combine
-    - __fash/styles/upper/top-blouse-tunic__ top
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem top
-    - __fash/styles/upper/top-blouse-tunic-length__ top
+    # TODO
+    - __fash/outerwear/casual/tbt__ top
+
 
     - __fash/styles/top/style__ top
 
