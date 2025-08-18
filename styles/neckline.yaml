@@ -265,28 +265,7 @@ neckline:
   # Sleeves, no shoulders, no straps
   001-off-shoulder-strapless:
     off-shoulder:
-      - asymmetric
-      - bardot
-      - drawstring
-      - fold-over
-      - henley
-      - keyhole
-      #- (plunging:0.9)
-      - split-neck
-      - sweetheart
-      - tied
-      # TODO gather
-      - ruched
-
-      # portrait not understood
-
-      # straps
-      #- halterneck
-      #- spaghetti-strap
-      #- o-ring halter
-
-      # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
-      #- o-ring
+      - __fash/styles/neckline/off-shoulder__
 
     off-one-shoulder:
       - ' '
@@ -436,11 +415,31 @@ neckline:
     - string-closure
     - turtleneck
   off-shoulder:
-    - foldover
-    - halter
-    - high halter
+    #- asymmetric
+    - bardot
+    - drawstring
+    - fold-over
+    - henley
+    - keyhole
+    #- (plunging:0.9) TODO may not make sense in general
+    - split-neck
+    - surplice
+    - sweetheart-neck
+    - tied
+    # TODO gather
+    - gathered
     - ruched
-    - strap
+    - flounce
+    - ruffle {|fold-over|(plunging:0.9)|sweetheart-neck}
+    # portrait not understood
+
+    # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
+    #- o-ring
+
+  v-neck:
+    - curved
+    - deep
+    - wide
 
   # Additional neckline types for specific garments
   specific:
