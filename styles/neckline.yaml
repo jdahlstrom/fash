@@ -139,33 +139,44 @@ neckline:
       - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
 
   sweater:
-    # TODO probabilities
-    - __**/001-off-shoulder-strapless/*__
-    - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
-    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
-    - __fash/styles/neckline/111-t-shirt-like/sleeved__
+    # TODO probabilities?
+    - >
+      { __fash/styles/neckline/top-dress-suit/t-shirt-like__
+      | __fash/styles/neckline/high-neck__
+      | __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
+      | __fash/styles/neckline/top-dress-suit/off-shoulder-straps__
+      | __fash/styles/neckline/top-dress-suit/vest-like__ }
 
-    # TODO High neck
-    - polo
-    - '{|(plunging:0.9)} cowl neck' # plunging makes a looser cowl
-    - roll neck
-    - (shawl-collared:0.8) # Concept bleeding with SDXL
-    - turtleneck
+    #- (shawl-collared:0.8) # Concept bleeding with SDXL
 
   t-shirt:
     # TODO probabilities
-    - |
-      {off-shoulder __**/001-off-shoulder-strapless/*__
-      |cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
-      |sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
-      |3::__fash/styles/neckline/111-t-shirt-like/sleeved__}
+    - >
+      { 3::__fash/styles/neckline/top-dress-suit/t-shirt-like__
+      | __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
+      | __fash/styles/neckline/top-dress-suit/off-shoulder-straps__ }
+
+    # TODO sleeveless are mostly redundant with generic tops
+    # | __fash/styles/neckline/top-dress-suit/vest-like__
+
+    # TODO check if anything that should be kept
+    #__clothing/neckline/_keyhole__ # "boob window" not all of these work reliably
+    #- keyhole __fash/clothing/neckline/_keyhole__ not all of these work reliably
+    #- plunging __fash/clothing/neckline/_plunging__
+    #- '{curved|wide|deep} v-neck'
+
 
   blouse-tunic:
-    - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
-    - sleeveless __**/110-vest-like/sleeveless__
-    - __**/111-t-shirt-like/sleeved__
+    # TODO probabilities
+    # TODO off-shoulder?
+    - >
+      { 4::__**/111-t-shirt-like/sleeved__
+      | cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__ }
 
-  cami-chemise:
+    # TODO redundant with tops
+    #- sleeveless __**/110-vest-like/sleeveless__
+
+  cami-chemise: # TODO rename to spaghetti-strap?
     - __**/100-cami-tank-top/cami__
     - __**/100-cami-tank-top/halter-cami__ halter
 
@@ -325,11 +336,10 @@ neckline:
       - crewneck
       - scoop-neck
       - high-neck
-      - keyhole
-      - mock neck
-      - roll-neck
-      - scoop neck
       - v-neck
+      #- __fash/styles/neckline/with-straps__
+      #- __fash/styles/neckline/high-neck__
+      #- __fash/styles/neckline/cold-shoulder__
 
   # Straps, shoulders, no sleeves
   110-vest-like:
