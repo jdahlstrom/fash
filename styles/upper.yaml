@@ -15,19 +15,22 @@ upper:
   common:
     - billowy
     - boho
-    - cold-shoulder # TODO now part of necklines
-    - collarless    # Necklines?
     - flowy
     - peasant
-    - polo
     - ruched smock
-    - ruched-waist
+    - ruched-waist # TODO waist
     - smock
     - smocked
-    # Material
+    # TODO material
+    - crocheted
     - denim
     - flannel
+    - knitted
     - linen
+    # TODO necklines, plus not common to camis/strapless etc
+    #- cold-shoulder
+    #- collarless
+    #- polo
 
   # Body/jump/play/romper suits
   legged:
