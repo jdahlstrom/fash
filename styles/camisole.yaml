@@ -1,34 +1,28 @@
 camisole:
-  # TODO unify styles with upper/
+  # Cami-specific styles not in upper/common
+  # TODO See if could unify with upper/top-blouse-tunic
   style:
     - babydoll
-    - boho
     - draped
-    - flowy
     - gathered
-    - ruched-waist
-    - smock
+    - godet
+    - peplum
     - __fash/styles/camisole/smock__ smock
-    #  Material
-    - linen
-    #- denim Doesn't work well
+    - (swing:0.8)
 
     #- __fash/styles/common/trim__-{hem|trim|yoke} TODO
 
-
   # These work best with loose variants like smock
+  # TODO Should be used for common tops too
   smock:
     #- open-front bow/knot detail etc
     - layered
+    - skirted
     - tiered
     - open-front
     - empire-waist
     - ruched-waist
     - gathered-waist
-
-    #- crop
-    #- high-low-hem
-    #- high-low-hem crop
 
   neckline:
     - __fash/styles/neckline/cami-chemise__
