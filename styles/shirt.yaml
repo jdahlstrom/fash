@@ -31,7 +31,9 @@ shirt:
     # - western
 
   sleeve:
-    - __fash/styles/upper/sleeve/*__
+    - __fash/styles/upper/sleeve/short__
+    - '{short|long} __fash/styles/upper/sleeve/common__'
+    - __fash/styles/upper/sleeve/long__
 
   blouse:
     - __fash/styles/upper/common__
