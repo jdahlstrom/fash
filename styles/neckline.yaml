@@ -362,6 +362,26 @@ neckline:
     - surplice
     - v-neck
 
+  # Necklines compatible with ruffles.
+  # TODO not used currently
+  ruffled:
+    - boatneck
+    - fold-over
+    - (plunging:0.9)
+    - scoop-neck
+    - square-neck
+    - straps
+    - sweetheart-neck
+    - triangle-neck
+    - v-neck
+
+    - off-shoulder
+    - tube
+    - bandeau
+    - strapless
+    - off-one-shoulder
+
+  # Covers at least a bit of the neck.
   high-neck:
     - high neck
     - mock neck
@@ -414,6 +434,26 @@ neckline:
     - mock neck
     - string-closure
     - turtleneck
+
+  # Necklines specific to t-shirts, blouses etc with shoulders (sleeved or not).
+  shouldered:
+    - '{|wide} boatneck'
+    - collared
+    #- (cutout:0.9) neckline     # "boob window" TODO maybe just a cutout style
+    - draped neckline
+    - flounce neckline
+    #- half-button               # henley is essentially this already
+    - split neckline             # round neck with a v-shaped cut
+    - __fash/styles/neckline/v-neck__
+
+  # Specific necklines to go with cold-shoulder sleeves.
+  cold-shoulder:
+    - asymmetric
+    - boatneck
+    - draped-neckline
+    - ruffle-neckline
+
+  # Off-shoulder necklines, with straps or not.
   off-shoulder:
     #- asymmetric
     - bardot
