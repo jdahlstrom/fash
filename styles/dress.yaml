@@ -68,10 +68,12 @@ dress:
   # TODO Some redundancy with top/neckline, only difference that tops have bandeau
   neckline:
     sleeved:
+      - __fash/styles/neckline/high-neck__
       - __fash/**/top-dress-suit/off-shoulder-strapless__
       - __fash/**/top-dress-suit/off-shoulder-straps__
       - __fash/**/top-dress-suit/t-shirt-like__
     sleeveless:
+      - __fash/styles/neckline/high-neck__
       - __fash/**/top-dress-suit/tube-like__
       - __fash/**/top-dress-suit/cami-like__
       - __fash/**/top-dress-suit/vest-like__
