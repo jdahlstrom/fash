@@ -10,7 +10,7 @@ t-shirt:
     - open-back
     - peplum
     - pocket
-    - raglan
+    #- raglan Comes from sleeves
     - ringer
     - smock
     - wrap
@@ -31,7 +31,15 @@ t-shirt:
     - __fash/styles/upper/sleeve/style/common__
     - __fash/styles/t-shirt/trim__-trim
   neckline:
-    - __fash/styles/neckline/t-shirt__
+    # TODO probabilities
+    - >
+      { 3::__fash/styles/neckline/top-dress-suit/t-shirt-like__
+      | __fash/styles/neckline/top-dress-suit/off-shoulder__
+      | __fash/styles/t-shirt/trim__-trim }
+
+    # TODO sleeveless are mostly redundant with generic tops
+    # | __fash/styles/neckline/top-dress-suit/vest-like__
+
   back:
     - backless
     - cutout-back
