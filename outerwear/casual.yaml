@@ -35,6 +35,7 @@ casual:
   t-shirt:
     - __fash/styles/t-shirt/style__ t-shirt
     - __fash/styles/t-shirt/fit__ t-shirt
+    - __fash/styles/t-shirt/trim__-trim t-shirt
     - __fash/styles/t-shirt/length__ t-shirt
     - __fash/styles/t-shirt/neckline__ t-shirt
     - t-shirt with __fash/styles/t-shirt/sleeve__ sleeves

@@ -18,14 +18,18 @@ t-shirt:
     - __fash/styles/top/length__
   fit:
     - __fash/styles/common/fit/casual__
-  hemline:
-    - __fash/styles/top/hemline__
+  trim:
+    - contrast
+    - lace
+    - ruffle
+    - scallop
   gather:
     - __fash/styles/common/gather__
   sleeve:
     - __fash/styles/upper/sleeve/length__
     - __fash/styles/upper/sleeve/style/short__
-    - short __fash/styles/upper/sleeve/style/common__
+    - __fash/styles/upper/sleeve/style/common__
+    - __fash/styles/t-shirt/trim__-trim
   neckline:
     - __fash/styles/neckline/t-shirt__
   back:
