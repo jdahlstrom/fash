@@ -149,22 +149,6 @@ neckline:
 
     #- (shawl-collared:0.8) # Concept bleeding with SDXL
 
-  t-shirt:
-    # TODO probabilities
-    - >
-      { 3::__fash/styles/neckline/top-dress-suit/t-shirt-like__
-      | __fash/styles/neckline/top-dress-suit/off-shoulder-strapless__
-      | __fash/styles/neckline/top-dress-suit/off-shoulder-straps__ }
-
-    # TODO sleeveless are mostly redundant with generic tops
-    # | __fash/styles/neckline/top-dress-suit/vest-like__
-
-    # TODO check if anything that should be kept
-    #__clothing/neckline/_keyhole__ # "boob window" not all of these work reliably
-    #- keyhole __fash/clothing/neckline/_keyhole__ not all of these work reliably
-    #- plunging __fash/clothing/neckline/_plunging__
-    #- '{curved|wide|deep} v-neck'
-
 
   blouse-tunic:
     # TODO probabilities
