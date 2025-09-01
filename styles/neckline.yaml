@@ -128,7 +128,6 @@ neckline:
     vest-like:
       - sleeveless __**/110-vest-like/sleeveless__
 
-    # Append "off-shoulder"
     off-shoulder:
       - __fash/**/top-dress-suit/off-shoulder-strapless__
       - __fash/**/top-dress-suit/off-shoulder-straps__
@@ -405,8 +404,7 @@ neckline:
     - deep surplice # TODO test
     - deep v-neck
     - draped neckline
-    - keyhole crewneck
-    - keyhole scoop neck
+    - keyhole {crewneck|(cutout:0.9)|scoop neck}
     - (plunging:0.9)
     - (plunging:0.9) __fash/styles/neckline/plunging__
     - scoop neck
