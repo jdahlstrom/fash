@@ -21,10 +21,10 @@ top:
       - __fash/styles/top/neckline/sleeveless__
 
 
-  # TODO Some redundancy with dress/neckline, only difference that tops have bandeau
+    # TODO Some redundancy with dress/neckline, only difference that tops have bandeau
 
+    # Append "... with ... sleeves" or similar
     sleeved:
-      - __fash/styles/neckline/high-neck__
       - __fash/**/top-dress-suit/t-shirt-like__
       - __fash/styles/neckline/high-neck__
       - __fash/styles/top/neckline/cold-shoulder__
@@ -32,36 +32,38 @@ top:
 
     sleeveless:
       - __fash/styles/top/neckline/bandeau__
-      - __fash/styles/neckline/high-neck__
-      - __fash/**/top-dress-suit/tube-like__
-      - __fash/**/top-dress-suit/cami-like__
-      - __fash/**/top-dress-suit/vest-like__
+      - sleeveless __fash/styles/neckline/high-neck__
+      - __fash/**/top-dress-suit/cami-like__ #spaghetti-strap
+      - __fash/**/top-dress-suit/tank-top-like__
+      - __fash/**/top-dress-suit/tube-like__ #tube TODO super inconsistent
+      - __fash/**/top-dress-suit/vest-like__ #sleeveless
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!
+    # Optionally append "... with ... sleeves" or similar
     off-shoulder:
       - __fash/**/top-dress-suit/off-shoulder__
 
+    # Optionally append "... with ... sleeves" or similar
     cold-shoulder:
       - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
 
     # Held up with a strap or loop around the neck,
     # leaving the upper back and shoulders bare.
     halter:
-      - __fash/**/101-off-shoulder-with-straps/halter__
+      - halter __fash/**/101-off-shoulder-with-straps/halter__
 
     # Sleeveless, strapless, tube-like.
     bandeau:
-      - __fash/**/000-tube-like/bandeau__
+      - __fash/**/000-tube-like/bandeau__ bandeau
 
     # Sleeveless, strapless, tube-like.
     tube:
-      - __fash/**/000-tube-like/tube__
+      - __fash/**/000-tube-like/tube__ tube
 
     # Sleeveless with shoulder strap(s).
     tank-top:
-      - __fash/**/100-cami-tank-top/tank-top__
-      - __fash/**/100-cami-tank-top/halter-tank-top__ halter
+      - __fash/**/top-dress-suit/tank-top-like__
 
 
 
