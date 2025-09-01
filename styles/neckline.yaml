@@ -111,10 +111,12 @@ neckline:
       - __**/100-cami-tank-top/cami__ spaghetti-strap
       - __**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
 
+    # Append just "top" or "dress" or similar
     tank-top-like:
       - __**/100-cami-tank-top/tank-top__ tank
       - __**/100-cami-tank-top/halter-tank-top__ halter tank
 
+    # Apppend "t-shirt" or "... with ... sleeves"
     t-shirt-like:
       - __**/111-t-shirt-like/sleeved__
 
@@ -149,13 +151,12 @@ neckline:
   sweater:
     # TODO probabilities?
     - >
-      { __fash/styles/neckline/top-dress-suit/t-shirt-like__
+      { 2::__fash/styles/neckline/top-dress-suit/t-shirt-like__
       | __fash/styles/neckline/high-neck__
       | __fash/styles/neckline/top-dress-suit/off-shoulder
       | __fash/styles/neckline/top-dress-suit/vest-like__ }
 
     #- (shawl-collared:0.8) # Concept bleeding with SDXL
-
 
   blouse-tunic:
     # TODO probabilities
@@ -208,10 +209,13 @@ neckline:
     - __fash/styles/neckline/111-t-shirt-like/sleeved__
     # TODO maybe 000, 001, 101
 
+  # TODO gowns are like robes, don't really have necklines
+  # Shirts usually button-front
   gown-nightshirt:
     - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
     - __fash/styles/neckline/111-t-shirt-like/sleeved__
 
+  # TODO pyjama tops usually button-front
   pyjama:
     - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
     - __fash/styles/neckline/111-t-shirt-like/sleeved__
@@ -227,7 +231,7 @@ neckline:
       - keyhole
       - knot
       - surplice
-      - sweetheart-neck
+      - sweetheart-neck # May only work well with fitted bodices
 
       # TODO trims&gathers
       - flounce
@@ -241,19 +245,17 @@ neckline:
       # TODO more??
 
       # TODO trims&gathers
-      - flounce
+      - flounce {|fold-over}
       - ruched
       - ruffle
     bandeau:
       - (bow{-knot|}:0.8)
-      - criss-cross
       - (cutout:0.9)
       - henley
       - keyhole
       - knot
       - o-ring {keyhole|}
       - string keyhole
-      - sweetheart-neck
       - twisted
       - underwired
       - wireless
@@ -271,7 +273,6 @@ neckline:
 
     off-one-shoulder:
       - ' '
-      - fold-over # Doesn't work well
       - (ruffle:0.9)
       # any others?
 
@@ -290,9 +291,11 @@ neckline:
       - __fash/styles/neckline/halter__
       - __fash/styles/neckline/with-straps__
     halter-tank-top:
-      - __fash/styles/neckline/halter__
       - __fash/styles/neckline/with-straps__
       # Note NO specific/tank-top here, those are non-halters only!
+
+      # TODO most of these don't work very well with tank top
+      # - __fash/styles/neckline/halter__
 
       # TODO should have these here or not?
       # They should be *somewhere*. Separate high-neck subcategory under 100?
@@ -302,11 +305,15 @@ neckline:
   # TODO Try out with limited variants for now
   101-off-shoulder-with-straps:
     spaghetti-strap:
+      # TODO many of these may not be good with off shoulder
+      # just use  __fash/styles/neckline/100-cami-tank-top/cami__?
       - (plunging:0.9)
+      - ruche-neckline
       - scoop neck
       - square neck
       - sweetheart
       - triangle-neck
+      - '{fold-over|} flounce neckline'
       #- __fash/styles/neckline/100-cami-tank-top/cami__
       #- __fash/styles/neckline/off-shoulder__
     halter:
@@ -314,9 +321,10 @@ neckline:
       - backless
       - crewneck
       - crossing
-      - high-neck
+      - mock-neck
       - (plunging:0.9)
       - scoop neck
+      - spaghetti-strap
       - triangle-neck
       #- __fash/styles/neckline/with-straps__
       #- __fash/styles/neckline/high-neck__
@@ -326,7 +334,7 @@ neckline:
       - boatneck
       - crewneck
       - scoop-neck
-      - high-neck
+      - mock-neck
       - v-neck
       #- __fash/styles/neckline/with-straps__
       #- __fash/styles/neckline/high-neck__
@@ -337,6 +345,7 @@ neckline:
     sleeveless:
       - __fash/styles/neckline/with-straps__
       - __fash/styles/neckline/shouldered__
+      # TODO halter? Probably not, use halter-tank-top
 
   # Straps, shoulders, sleeves
   111-t-shirt-like:
@@ -355,13 +364,12 @@ neckline:
   with-straps:
     - backless
     - crewneck
-    - henley {crewneck|v-neck|scoop-neck|(plunging:0.9)|2::}
+    - henley
     - keyhole-neckline
     - (plunging:0.9)
     - scoop-neck
     - square-neck
     - surplice
-    - v-neck
 
   # Necklines compatible with ruffles.
   # TODO not used currently
@@ -394,10 +402,15 @@ neckline:
   # Shows some cleavage.
   low-neck:
     - (cutout:0.9) neckline
+    - deep surplice # TODO test
+    - deep v-neck
     - draped neckline
+    - keyhole crewneck
+    - keyhole scoop neck
     - (plunging:0.9)
     - (plunging:0.9) __fash/styles/neckline/plunging__
     - scoop neck
+    - sweetheart neck # Maybe only works well with dresses etc?
 
   # Plunging subtypes. Show a lot of cleavage.
   plunging:
@@ -415,13 +428,23 @@ neckline:
     - (cutout:0.9)
     - drape-neckline
     - o-ring
+    #- split-neck Not good
     - strappy
-    - sweetheart
-    - triangle-neck
+    #- sweetheart May not work well especially with non-fitted
+    - triangle-neck # Doesn't work with tank top at least
     - twisted
     # TODO trim/gather
     - flounce-neckline
     - gathered-neckline
+
+  # Henley neck subtypes.
+  henley:
+    - boatneck
+    - crewneck
+    #- keyhole? TODO check if this works
+    - (plunging:0.9)
+    - scoop-neck
+    - v-neck
 
 
   # Keyhole neck subtypes.
@@ -434,7 +457,7 @@ neckline:
     - high neck
     - mock neck
     - string-closure
-    - turtleneck
+    - mock neck
 
   # Necklines specific to t-shirts, blouses etc with shoulders (sleeved or not).
   shouldered:
@@ -443,9 +466,12 @@ neckline:
     #- (cutout:0.9) neckline     # "boob window" TODO maybe just a cutout style
     - draped neckline
     - flounce neckline
+    - mock neck
+    - ruffle neckline
     #- half-button               # henley is essentially this already
     - split neckline             # round neck with a v-shaped cut
-    - __fash/styles/neckline/v-neck__
+    - '{deep|} v-neck'
+    #- __fash/styles/neckline/v-neck__ v-neck
 
   # Specific necklines to go with cold-shoulder sleeves.
   cold-shoulder:
@@ -457,42 +483,47 @@ neckline:
   # Off-shoulder necklines, with straps or not.
   off-shoulder:
     #- asymmetric
-    - bardot
     - drawstring
     - fold-over
     - henley
     - keyhole
-    #- (plunging:0.9) TODO may not make sense in general
-    - split-neck
-    - surplice
-    - sweetheart-neck
     - tied
-    # TODO gather
-    - gathered
-    - ruched
-    - flounce
-    - ruffle {|fold-over|(plunging:0.9)|sweetheart-neck}
-    # portrait not understood
+    # Gathers
+    - gathered-neckline
+    - ruche-neckline
+    # Trims
+    - flounce {|fold-over}
+    - ruffle {|fold-over}
 
+    # TODO these work best with fitted bodices (eg. some (smart?) tops and dresses)
+    #- bardot
+    #- (plunging:0.9)
+    #- split-neck
+    #- surplice
+    #- sweetheart-neck
+    # ruffle {(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
     #- o-ring
+
+    # portrait not understood
 
   v-neck:
     - curved
     - deep
+    - (plunging:0.9)
     - wide
 
   # Additional neckline types for specific garments
   specific:
      # TODO rename to spaghetti-strap?
-     # These aren't really exclusive of off-shoulder sleeves
+     # These don't really exclude off-shoulder sleeves
     cami:
       - crossback
       - drape-neckline
-      - fold-over
+      - fold-over # Does this work?
       #- o-ring neckline
       - strappy
-      - sweetheart-neck
+      - sweetheart-neck # Does this work well?
       - triangle-neck
       #- droop neck Doesn't work well
       #- split neck Doesn't work well
@@ -500,12 +531,12 @@ neckline:
       # TODO trim/gather
       - flounce-neckline
       - gathered-neckline
-      - ruffle {fold-over|sweetheart-neck|triangle-neck}
+      - ruffle {fold-over|}
     tank-top:
       - boatneck
       - one-shoulder
-      - split neck
-      - triangle neck
+      #- split neck Doesn't work well
+      - triangle neck # Doesn't work well?
       # - Grecian not understood
       # Backs
       - backless
