@@ -10,13 +10,13 @@ common:
     - contrast
     - cutwork
     - flounce
-    #- flutter not a trim, just a sleeve type
     - frill
     - lace
-    #- (lettuce:0.8) not a trim but edge/hem
     - picot # specifically crocheted/knitted?
-    #- pintuck not a trim but detail/deco
     - scallop
+    #- flutter not a trim, just a sleeve type
+    #- (lettuce:0.8) not a trim but edge/hem
+    #- pintuck not a trim but detail/deco
     #- stitch not a trim...
   stitch:
     - stitch

@@ -19,10 +19,8 @@ t-shirt:
   fit:
     - __fash/styles/common/fit/casual__
   trim:
-    - contrast
-    - lace
-    - ruffle
-    - scallop
+    - ' '
+    # TODO- __fash/styles/top/trim__
   gather:
     - __fash/styles/common/gather__
   sleeve:
@@ -34,8 +32,9 @@ t-shirt:
     # TODO probabilities
     - >
       { 3::__fash/styles/neckline/top-dress-suit/t-shirt-like__
-      | __fash/styles/neckline/top-dress-suit/off-shoulder__
-      | __fash/styles/t-shirt/trim__-trim }
+      | __fash/styles/neckline/top-dress-suit/off-shoulder__ }
+
+    # | __fash/styles/t-shirt/trim__-trim }
 
     # TODO sleeveless are mostly redundant with generic tops
     # | __fash/styles/neckline/top-dress-suit/vest-like__
