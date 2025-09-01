@@ -124,34 +124,33 @@ upper:
     style:
       common:
         - batwing
-        - cold-shoulder
+        #- cold-shoulder Comes from necklines now
         - dolman
         - drop-shoulder
         - flounce
         - gathered
         - puff
         - raglan
+        - rolled
+        - roll-up tab
       short:
         - flutter
         - knot
-        - lace
-        - (petal:0.8) # Works poorly
+        - lace{-trim|}
+        #- (petal:0.8) Works poorly, should be same as tulip anyway
         - ruched
-        - ruffle
-        - (scallop:0.8)
+        - ruffle{-trim|}
+        - (scallop:0.8)-trim
         - (tulip:0.8)
       long:
         - bell
         - bishop
         - flared
         - juliet
-        - rolled
-        - roll-up tab
         - (slit:0.8)
+        - straight
 
       #- (peplum:0.8) Bleeds to hemline
-      #- __fash/styles/common/gather__
-      #- __fash/styles/common/trim__
 
   back:
     # TODO not yet used anywhere
