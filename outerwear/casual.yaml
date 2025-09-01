@@ -35,7 +35,7 @@ casual:
   t-shirt:
     - __fash/styles/t-shirt/style__ t-shirt
     - __fash/styles/t-shirt/fit__ t-shirt
-    - __fash/styles/t-shirt/trim__-trim t-shirt
+    # TODO - __fash/styles/t-shirt/trim__-trim t-shirt
     - __fash/styles/t-shirt/length__ t-shirt
     - __fash/styles/t-shirt/neckline__ t-shirt
     - t-shirt with __fash/styles/t-shirt/sleeve__ sleeves
@@ -55,7 +55,6 @@ casual:
 
     # TODO
     - __fash/outerwear/casual/tbt__ top
-
 
     - __fash/styles/top/style__ top
 
@@ -102,6 +101,7 @@ casual:
   bandeau-top:
     - bandeau top
     - __fash/styles/top/neckline/bandeau__ bandeau top
+    #- __fash/styles/common/trim__-trim top
     # TODO variants other than neckline?
     # At least ruched etc
 
@@ -125,11 +125,11 @@ casual:
     - tube top
     - __fash/styles/top/neckline/tube__ tube top
 
-    # TODO variants other than neckline
-    - __fash/styles/upper/common__ tube top # TODO test
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem tube top # TODO test
-    - __fash/styles/upper/top-blouse-tunic-length__ tube top # TODO test
-
+    # TODO test these
+    - __fash/styles/upper/common__ tube top
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem tube top
+    - __fash/styles/upper/top-blouse-tunic-length__ tube top
+    #- __fash/styles/common/trim__-trim top
 
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
@@ -138,6 +138,7 @@ casual:
     - __fash/styles/camisole/hem__ camisole
     - __fash/styles/camisole/neckline__ camisole
     - __fash/styles/camisole/style__ camisole
+    #- __fash/styles/common/trim__-trim camisole
     # TODO additional variants?
 
 
@@ -151,12 +152,15 @@ casual:
     - __fash/styles/shirt/blouse__ blouse
     - __fash/styles/shirt/neckline/blouse__ blouse
     - blouse with __fash/styles/upper/sleeve/*__ sleeves
+    #- __fash/styles/common/trim__-trim blouse
+
 
   # Casual, blouse-like but longer
   tunic:
     - __fash/styles/shirt/tunic__ tunic
     - __fash/styles/shirt/neckline/tunic__ tunic
     - tunic with __fash/styles/upper/sleeve/*__ sleeves
+    #- __fash/styles/common/trim__-trim tunic
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
@@ -293,6 +297,9 @@ casual:
     - __fash/styles/dress/skirt/*__ dress
 
     - __fash/styles/dress/neckline/sleeveless__ dress
+
+    #- __fash/styles/common/trim__-trim dress
+    #- __fash/styles/common/trim__-neckline dress
 
     # TODO decide how many wildcards per entry.
     #- __fash/styles/dress/neckline/sleeved__ dress with __fash/styles/upper/sleeve/*__ sleeves
