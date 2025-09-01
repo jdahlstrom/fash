@@ -26,8 +26,9 @@ top:
     sleeved:
       - __fash/styles/neckline/high-neck__
       - __fash/**/top-dress-suit/t-shirt-like__
-      - __fash/**/top-dress-suit/off-shoulder-strapless__
-      - __fash/**/top-dress-suit/off-shoulder-straps__
+      - __fash/styles/neckline/high-neck__
+      - __fash/styles/top/neckline/cold-shoulder__
+      - __fash/styles/top/neckline/off-shoulder__
 
     sleeveless:
       - __fash/styles/top/neckline/bandeau__
@@ -39,11 +40,10 @@ top:
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!
     off-shoulder:
-      - __fash/**/top-dress-suit/off-shoulder-strapless__
-      - __fash/**/top-dress-suit/off-shoulder-straps__
+      - __fash/**/top-dress-suit/off-shoulder__
 
     cold-shoulder:
-      - __fash/**/101-off-shoulder-with-straps/cold-shoulder__
+      - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
 
     # Held up with a strap or loop around the neck,
     # leaving the upper back and shoulders bare.

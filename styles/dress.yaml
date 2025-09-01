@@ -69,8 +69,8 @@ dress:
   neckline:
     sleeved:
       - __fash/styles/neckline/high-neck__
-      - __fash/**/top-dress-suit/off-shoulder-strapless__
-      - __fash/**/top-dress-suit/off-shoulder-straps__
+      - __fash/**/top-dress-suit/cold-shoulder__
+      - __fash/**/top-dress-suit/off-shoulder__
       - __fash/**/top-dress-suit/t-shirt-like__
     sleeveless:
       - __fash/styles/neckline/high-neck__
