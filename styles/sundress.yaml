@@ -4,43 +4,10 @@
 # shoulder straps, and may be backless. A sundress is typically worn without a layering top
 # and is not usually worn over a blouse, sweater, or t-shirt, or with leggings."
 sundress:
-  sleeves-x:
-    - flutter {short|cap}-sleeved
-    - off-shoulder {short-sleeved}
-    - '{boat|plunging|scoop|v} neck {short|cap}-sleeved'
-    - short-sleeved cold-shoulder
-    - fallen-shoulder
-    - __fash/styles/common/gather__-sleeved
-
   sleeve:
     - '{(cap:0.8)|short}'
     - '{(cap:0.8)|short} __fash/styles/upper/sleeve/style/short__'
     - short __fash/styles/upper/sleeve/style/common__
-
-  neckline:
-    - __fash/styles/camisole/neckline/common__
-    - __fash/styles/camisole/neckline/halter__ halter
-    - __fash/styles/top/neckline/halter__ halter
-    - cold-shoulder __fash/styles/top/neckline/cold-shoulder__
-    - off-shoulder __fash/styles/top/neckline/off-shoulder__
-    - strapless __fash/styles/top/neckline/strapless-variants__
-
-  neckline-sleeved:
-    - keyhole
-    - scoop neck
-    - surplice
-    - scoop v-neck
-    - draped neckline
-
-  neckline-extra-x:
-    - bandeau {|keyhole|spaghetti}
-    - flutter-neckline
-    - criss-cross strappy
-    - keyhole {halter|knot|sweetheart}
-    - off-shoulder {|gathered-neck|spaghetti}
-    - plunging {|spaghetti} {|halter|scoop neck|v-neck}
-    - ruffle-neckline
-    - __fash/styles/common/gather__
 
   bodice: # TODO unify
     - babydoll
@@ -71,3 +38,19 @@ sundress:
     - '{|lace-|pointelle-|welt-}knit'
     - linen
     - muslin
+
+  neckline:
+    sleeved:
+      - __fash/**/top-dress-suit/off-shoulder__
+      - __fash/**/top-dress-suit/cold-shoulder__
+      - __fash/styles/neckline/low-neck__
+
+      # TODO Maybe too little skin?
+      #- __fash/**/top-dress-suit/t-shirt-like__
+    sleeveless:
+      - __fash/**/top-dress-suit/tube-like__
+      - __fash/**/top-dress-suit/cami-like__
+      - __fash/styles/neckline/low-neck__
+
+      # TODO Maybe too little skin?
+      #- __fash/**/top-dress-suit/vest-like__
