@@ -73,4 +73,11 @@ sweater:
   #  - lace-{yoke|trim} # TODO trims should be separate...
 
   neckline:
-    - __fash/styles/neckline/sweater__
+    # TODO probabilities?
+    - >
+      { 2::__fash/styles/neckline/top-dress-suit/t-shirt-like__
+      | __fash/styles/neckline/high-neck__
+      | __fash/styles/neckline/top-dress-suit/off-shoulder
+      | __fash/styles/neckline/top-dress-suit/vest-like__ }
+
+    #- (shawl-collared:0.8) # Concept bleeding with SDXL
