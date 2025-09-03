@@ -25,7 +25,8 @@ camisole:
     - gathered-waist
 
   neckline:
-    - __fash/styles/neckline/cami-chemise__
+    - __fash/**/100-cami-tank-top/cami__
+    - __fash/**/100-cami-tank-top/halter-cami__ halter
 
   hem:
     - __fash/styles/upper/top-blouse-tunic-length__
