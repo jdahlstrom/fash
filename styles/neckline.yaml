@@ -161,9 +161,6 @@ neckline:
     - __**/100-cami-tank-top/cami__
     - __**/100-cami-tank-top/halter-cami__ halter
 
-  sleeveless-shirt:
-    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
-
   # Underwear
 
   bra:
