@@ -2,19 +2,33 @@ casual:
   upper:
     - __fash/underwear/casual/bra__
     - __fash/underwear/casual/camisole__
+  lower:
+    - __fash/underwear/casual/panties__
+  one-piece:
+    - __fash/underwear/casual/one-piece__
+
+  # Upper
+
   bra:
     - __fash/styles/bra/style__ bra
     - __fash/styles/bra/neckline/common__ bra
-    - __fash/styles/bra/style__ bralette
+    - __fash/underwear/casual/bralette__
+    - __fash/underwear/casual/sports-bra__
+    - __fash/underwear/casual/strapless-bra__
 
+  bralette:
+    - __fash/styles/bra/style__ bralette
+    - __fash/styles/bra/neckline/common__ bralette
   sports-bra:
-    - __fash/styles/bra/neckline/sports__ sports bra
+    - __fash/styles/bra/sports__ sports bralette
+    - __fash/styles/bra/sports__ sports bra
+  strapless-bra:
+    - __fash/styles/bra/neckline/strapless__ bra
 
   camisole:
     - __fash/outerwear/casual/camisole__
 
-  lower:
-    - __fash/underwear/casual/panties__
+  # Lower
 
   panties:
     - __fash/styles/panties/briefs__ briefs
@@ -22,5 +36,9 @@ casual:
     - __fash/styles/panties/boyshorts__ boyshorts panties
     - __fash/styles/panties/thong__ thong
 
-  one-piece:
-    - bodysuit
+  # One-piece
+
+  bodysuit:
+    - __fash/styles/bodysuit/neckline/sleeved__ bodysuit
+        {with __fash/styles/bodysuit/sleeve__ sleeves|}
+    - __fash/styles/bodysuit/neckline/sleeveless__ bodysuit
