@@ -154,24 +154,6 @@ neckline:
     - strapless __**/000-tube-like/strapless__
     - __fash/styles/neckline/100-cami-tank-top/*__
 
-  # Beachwear
-
-  swimsuit:
-    - __fash/styles/neckline/top-dress-suit/*__
-
-  tankini:
-    - __fash/styles/neckline/top-dress-suit/*__
-
-  bikini:
-    - __fash/styles/neckline/bra__
-    # TODO separate swim top with sleeve etc options?
-    -  off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
-    -  off-one-shoulder __**/001-off-shoulder-strapless/off-one-shoulder__
-
-  monokini:
-    # TODO may need a bit more specialized set
-    - __fash/styles/neckline/100-cami-tank-top/halter-cami__
-
   # Loungewear
 
   nightdress:
