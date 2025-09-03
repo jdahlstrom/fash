@@ -5,9 +5,27 @@ bra:
     - crop-top
     - padded
     - push-up
+    - seamless
+    - soft
     - sports
     - (t-shirt:0.8)
+    - tank
     - wireless
+
+    # Smart/intimate/ornate
+    # - lacy
+    # - lace-trim
+    # - scallop lace-trim
+    # - flounce-trim
+    # - sheer lace
+    # - embroidered
+    # - sheer embroidered
+    # - rhinestone-detail
+    # - whitework
+    # - needle lace
+    # - cutwork
+    # - eyelet
+    # - eyelet-edge
 
     # Not recognized by SDXL (TODO test Flux)
     # - balconette
@@ -15,9 +33,66 @@ bra:
     # - demi
     # - front-closure (or front-fasten)
     # - shelf
-    # - wireless (or soft cup)
+    # - soft cup
+    # - wireless
+
+  sports:
+    - __fash/styles/bra/neckline/sports__
+    - __fash/styles/bra/neckline/strapless__
+    - __fash/styles/bra/neckline/sports-back__
+    - __fash/styles/bra/neckline/sports-halter__ halter
+
 
   neckline:
+    common:
+      #- __fash/**/100-cami-tank-top/cami__
+      #- __fash/**/100-cami-tank-top/halter-cami__ halter
+
+      - scoop-neck
+      #- square-neck
+      - sweetheart-neck
+      - triangle-neck
+      - plunging
+
+    strapless:
+      - __fash/**/000-tube-like/strapless__ strapless
+      - __fash/**/000-tube-like/bandeau__ bandeau
+    #sports:
+      #- __fash/**/100-cami-tank-top/cami__ spaghetti-strap
+      #- __fash/**/100-cami-tank-top/tank-top__
+      #- __fash/**/100-cami-tank-top/halter-tank-top__ halter
+
+    sports:
+      - crewneck
+      - keyhole {boatneck|crewneck|}
+      - one-shoulder
+      - (plunging:0.9)
+      - scoop-neck
+      - square-neck
+      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
+      - v-neck
+
+      #- mesh{|-yoke}
+
+    sports-back:
+      - crossback
+      - cutout-back
+      - open-back
+      - racerback
+      - strappy-back
+      - t-back
+      - x-back
+      - y-back
+
+    sports-halter:
+      - crewneck
+      - keyhole
+      - scoop neck
+      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
+
+
+
+  neckline-x:
     common:
       - bandeau                   # band-like
       - (cage:0.8)-neck           # with multiple straps in the front or back
@@ -37,17 +112,17 @@ bra:
       - __fash/common/neckline/halter__
 
     sports:
-      - halterneck {|keyhole|mesh}
+      #- halterneck {|keyhole|mesh}
       - keyhole {|boatneck|crewneck}
       - mesh{|-yoke}
-      - mock neck
+      #- mock neck
       - one-shoulder
       - scoop neck
       - square neck
       - (spaghetti:0.8) {|halter}
-      - strapless
-      - sweetheart neck
-      - tube
+      #- strapless
+      #- sweetheart neck
+      #- tube
       - v-neck
 
       - crossback

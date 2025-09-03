@@ -1,0 +1,65 @@
+bodysuit:
+  casual:
+    #- boyshorts Doesnt' work well
+    #- __clothing/cut/lacing__
+    - criss-cross
+    - cutout
+    - high-cut
+    - lace-up
+    - lace-{yoke|trim}
+    - push-up bra
+    - ribbed
+    - ruched
+    - shapewear
+    - skirted # TODO modifier
+    - strappy
+    - string
+    - thong
+    - zip-up
+
+  intimate:
+    - cutout
+    - lace-trim
+    - ruffle
+    - flounce-trim # etc etc
+
+  sexy:
+    - bustier
+    - (cage:0.8)
+    - '{cinch-waist|waist-cinch|waist-cincher|waspie}'
+    - corselette
+
+  sleeve:
+    - '{3::short|2::3/4-length|long}'
+
+  # TODO almost duplicated in top
+  neckline:
+    sleeved:
+      - - __fash/styles/neckline/high-neck__
+      - __fash/styles/neckline/top-dress-suit/cold-shoulder__
+      - __fash/styles/neckline/top-dress-suit/off-shoulder__
+      - __fash/styles/neckline/top-dress-suit/t-shirt-like__
+
+    sleeveless:
+      - __fash/styles/neckline/high-neck__ sleeveless
+      - __fash/styles/neckline/top-dress-suit/cami-like__
+      - __fash/styles/neckline/top-dress-suit/tank-top-like__
+      - __fash/styles/neckline/top-dress-suit/tube-like__
+      - __fash/styles/neckline/top-dress-suit/vest-like__
+
+
+  teddy:
+    #- __clothing/cut/lacing__
+    - bow
+    - chain-straps
+    - __fash/styles/panties/string__
+    - '{|side-}(cutout:0.8)'
+    - flounce
+    - front-closure
+    - harness
+    - lace-up
+    - lace-yoke
+    - o-ring
+    - strappy
+    - thong
+    - triangle
