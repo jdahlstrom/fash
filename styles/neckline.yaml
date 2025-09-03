@@ -147,16 +147,6 @@ neckline:
     cold-shoulder:
       - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
 
-  sweater:
-    # TODO probabilities?
-    - >
-      { 2::__fash/styles/neckline/top-dress-suit/t-shirt-like__
-      | __fash/styles/neckline/high-neck__
-      | __fash/styles/neckline/top-dress-suit/off-shoulder
-      | __fash/styles/neckline/top-dress-suit/vest-like__ }
-
-    #- (shawl-collared:0.8) # Concept bleeding with SDXL
-
   blouse-tunic:
     # TODO probabilities
     # TODO off-shoulder?
