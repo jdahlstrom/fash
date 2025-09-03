@@ -147,20 +147,6 @@ neckline:
     cold-shoulder:
       - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
 
-  blouse-tunic:
-    # TODO probabilities
-    # TODO off-shoulder?
-    - >
-      { 4::__**/111-t-shirt-like/sleeved__
-      | cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__ }
-
-    # TODO redundant with tops
-    #- sleeveless __**/110-vest-like/sleeveless__
-
-  cami-chemise: # TODO rename to spaghetti-strap?
-    - __**/100-cami-tank-top/cami__
-    - __**/100-cami-tank-top/halter-cami__ halter
-
   # Underwear
 
   bra:
