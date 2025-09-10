@@ -75,9 +75,9 @@ sweater:
   neckline:
     # TODO probabilities?
     - >
-      { 2::__fash/styles/neckline/top-dress-suit/t-shirt-like__
+      { 2::__fash/styles/upper/neckline/t-shirt-like__
       | __fash/styles/neckline/high-neck__
-      | __fash/styles/neckline/top-dress-suit/off-shoulder
-      | __fash/styles/neckline/top-dress-suit/vest-like__ }
+      | __fash/styles/upper/neckline/off-shoulder__
+      | __fash/styles/upper/neckline/vest-like__ }
 
     #- (shawl-collared:0.8) # Concept bleeding with SDXL

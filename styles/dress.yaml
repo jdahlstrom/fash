@@ -69,14 +69,14 @@ dress:
   neckline:
     sleeved:
       - __fash/styles/neckline/high-neck__
-      - __fash/**/top-dress-suit/cold-shoulder__
-      - __fash/**/top-dress-suit/off-shoulder__
-      - __fash/**/top-dress-suit/t-shirt-like__
+      - __fash/styles/upper/neckline/cold-shoulder__
+      - __fash/styles/upper/neckline/off-shoulder__
+      - __fash/styles/upper/neckline/t-shirt-like__
     sleeveless:
       - __fash/styles/neckline/high-neck__
-      - __fash/**/top-dress-suit/tube-like__
-      - __fash/**/top-dress-suit/cami-like__
-      - __fash/**/top-dress-suit/vest-like__
+      - __fash/styles/upper/neckline/tube-like__
+      - __fash/styles/upper/neckline/cami-like__
+      - __fash/styles/upper/neckline/vest-like__
 
     nightdress:
       - __fash/styles/neckline/100-cami-tank-top/cami__
