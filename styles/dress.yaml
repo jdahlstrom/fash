@@ -77,3 +77,10 @@ dress:
       - __fash/**/top-dress-suit/tube-like__
       - __fash/**/top-dress-suit/cami-like__
       - __fash/**/top-dress-suit/vest-like__
+
+    nightdress:
+      - __fash/styles/neckline/100-cami-tank-top/cami__
+      - __fash/styles/neckline/100-cami-tank-top/halter-cami__ halter
+      - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
+      - __fash/styles/neckline/111-t-shirt-like/sleeved__
+      # TODO maybe 000, 001, 101
