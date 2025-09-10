@@ -9,11 +9,13 @@ sweater:
     - peplum
     - poncho
     - pullover
+    - ribbed
     - smock
     - '{|short} high-low'
     - tunic
     - ugly
     - woolly pully # TODO should be an "army-style" pullover
+    - wrap
 
   cardigan:
     - boyfriend

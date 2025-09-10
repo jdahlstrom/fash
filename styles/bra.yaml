@@ -42,7 +42,6 @@ bra:
     - __fash/styles/bra/neckline/sports-back__
     - __fash/styles/bra/neckline/sports-halter__ halter
 
-
   neckline:
     common:
       #- __fash/**/100-cami-tank-top/cami__

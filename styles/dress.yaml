@@ -23,6 +23,8 @@ dress:
     - sun
     - tent
 
+    - skort dress # TODO should hve short hemline
+
     # hem
     #- frill-hem
     #- pleat-hem # TODO SDXL tends to make whole dress pleated

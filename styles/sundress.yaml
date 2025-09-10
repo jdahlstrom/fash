@@ -8,15 +8,18 @@ sundress:
     - '{(cap:0.8)|short}'
     - '{(cap:0.8)|short} __fash/styles/upper/sleeve/style/short__'
     - short __fash/styles/upper/sleeve/style/common__
+    - '{3/4-length|above-elbow|below-elbow} {flared|wide}'
 
   bodice: # TODO unify
     - babydoll
     - boho
     - button-down
+    - cross-back
     - '{front|back}-lacing'
     - backless
     - blouson
     - drawstring
+    - open-back
     - shift
     - smock
     - wrap
