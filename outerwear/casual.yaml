@@ -146,6 +146,7 @@ casual:
   shirt:
     - __fash/styles/shirt/style__ shirt
     - shirt with __fash/styles/upper/sleeve/*__ sleeves
+    - sleeveless __fash/styles/shirt/style__ shirt
 
   # Loose-fitting shirt. Ranges from casual to smart.
   blouse:
@@ -158,7 +159,7 @@ casual:
   # Casual, blouse-like but longer
   tunic:
     - __fash/styles/shirt/tunic__ tunic
-    - __fash/styles/shirt/neckline/tunic__ tunic
+    - __fash/styles/shirt/neckline/blouse-tunic__ tunic
     - tunic with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim tunic
 
@@ -170,7 +171,7 @@ casual:
     - __fash/styles/sweater/style__ sweater
     - __fash/styles/sweater/neckline__ sweater
     - __fash/styles/sweater/sleeve__ sweater
-    - sweater with __fash/styles/sweater/traditional__ {pattern|yoke}
+    - sweater with traditional __fash/styles/sweater/traditional__ {pattern|yoke}
     - sleeveless sweater # TODO params
 
   # Open-front sweater, usually button-closure.
@@ -253,14 +254,20 @@ casual:
   ##############################################################################
   one-piece:
   ##############################################################################
-    - __fash/outerwear/casual/dress__
-    - __fash/outerwear/casual/legged__
+    - >
+      {3::__fash/outerwear/casual/dress__
+      |__fash/outerwear/casual/legged__}
 
   legged:
+    - __fash/outerwear/casual/boilersuit__
     - __fash/outerwear/casual/jumpsuit__
     - __fash/outerwear/casual/playsuit__
     - __fash/outerwear/casual/romper__
     - __fash/outerwear/casual/overalls__
+
+  boilersuit:
+    - denim boilersuit
+    - linen boilersuit
 
   jumpsuit:
     - __fash/styles/jumpsuit__ jumpsuit
