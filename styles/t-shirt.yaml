@@ -31,13 +31,13 @@ t-shirt:
   neckline:
     # TODO probabilities
     - >
-      { 3::__fash/styles/neckline/top-dress-suit/t-shirt-like__
-      | __fash/styles/neckline/top-dress-suit/off-shoulder__ }
+      { 3::__fash/styles/upper/neckline/t-shirt-like__
+      | __fash/styles/upper/neckline/off-shoulder__ }
 
     # | __fash/styles/t-shirt/trim__-trim }
 
     # TODO sleeveless are mostly redundant with generic tops
-    # | __fash/styles/neckline/top-dress-suit/vest-like__
+    # | __fash/styles/upper/neckline/vest-like__
 
   back:
     - backless

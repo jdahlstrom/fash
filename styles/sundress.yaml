@@ -41,16 +41,16 @@ sundress:
 
   neckline:
     sleeved:
-      - __fash/**/top-dress-suit/off-shoulder__
-      - __fash/**/top-dress-suit/cold-shoulder__
+      - __fash/styles/upper/neckline/off-shoulder__
+      - __fash/styles/upper/neckline/cold-shoulder__
       - __fash/styles/neckline/low-neck__
 
       # TODO Maybe too little skin?
-      #- __fash/**/top-dress-suit/t-shirt-like__
+      #- __fash/styles/upper/neckline/t-shirt-like__
     sleeveless:
-      - __fash/**/top-dress-suit/tube-like__
-      - __fash/**/top-dress-suit/cami-like__
+      - __fash/styles/upper/neckline/tube-like__
+      - __fash/styles/upper/neckline/cami-like__
       - __fash/styles/neckline/low-neck__
 
       # TODO Maybe too little skin?
-      #- __fash/**/top-dress-suit/vest-like__
+      #- __fash/styles/upper/neckline/vest-like__

@@ -215,3 +215,44 @@ upper:
     - mesh-back
     - keyhole-closure
     - draped-back neckline
+
+  neckline:
+    cami-like:
+      - __**/100-cami-tank-top/cami__ spaghetti-strap
+      - __**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
+
+    # Append just "top" or "dress" or similar
+    tank-top-like:
+      - __**/100-cami-tank-top/tank-top__ tank
+      - __**/100-cami-tank-top/halter-tank-top__ halter tank
+
+    # Apppend "t-shirt" or "... with ... sleeves"
+    t-shirt-like:
+      - __**/111-t-shirt-like/sleeved__
+
+    tube-like:
+      - strapless __**/000-tube-like/strapless__
+      - __**/000-tube-like/tube__ tube
+      # bandeau only applies to tops
+
+    vest-like:
+      - sleeveless __**/110-vest-like/sleeveless__
+
+    off-shoulder:
+      - __fash/styles/upper/neckline/off-shoulder-strapless__
+      - __fash/styles/upper/neckline/off-shoulder-straps__
+
+    # Has straps or sleeves that hang off shoulder, leaving the shoulder and neck area bare.
+    # Typically a horizontal neckline.
+    off-shoulder-strapless:
+      - off-shoulder __**/001-off-shoulder-strapless/off-shoulder__
+      - '{off-one-shoulder|one-fallen-shoulder} __**/001-off-shoulder-strapless/off-one-shoulder__'
+
+    # Has sleeves, shoulder straps, but leaves the shoulders bare.
+    off-shoulder-straps:
+      - off-shoulder spaghetti-strap __**/101-off-shoulder-with-straps/spaghetti-strap__
+      - off-shoulder halter __**/101-off-shoulder-with-straps/halter__
+
+    # Has sleeves, most of the normal necklines, but cutout shoulders
+    cold-shoulder:
+      - cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__
