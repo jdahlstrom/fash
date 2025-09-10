@@ -1,7 +1,7 @@
 pants:
   any-fit:
     - bush pants
-    - '{|drawstring} cargo pants'
+    - '{|camo|drawstring} cargo pants'
     - capri pants
     - chinos
     - corduroy pants
@@ -47,11 +47,11 @@ pants:
     - boyfriend
     - cargo
     - carpenter
-    #- cropped Concept bleeding...
-    #- gathered-ankle
     - girlfriend
     - jogger
     - mom
+    #- gathered-ankle
+    #- cropped Concept bleeding...
     #- trumpet cut Concept bleeding...
   shorts:
     - beach shorts
