@@ -149,30 +149,11 @@ neckline:
 
   # Underwear
 
-  bra:
+  bra-like: # TODO not used by actual bra
     - __**/000-tube-like/bandeau__
     - strapless __**/000-tube-like/strapless__
     - __fash/styles/neckline/100-cami-tank-top/*__
 
-  # Loungewear
-
-  nightdress:
-    - __fash/styles/neckline/100-cami-tank-top/cami__
-    - __fash/styles/neckline/100-cami-tank-top/halter-cami__ halter
-    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
-    - __fash/styles/neckline/111-t-shirt-like/sleeved__
-    # TODO maybe 000, 001, 101
-
-  # TODO gowns are like robes, don't really have necklines
-  # Shirts usually button-front
-  gown-nightshirt:
-    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
-    - __fash/styles/neckline/111-t-shirt-like/sleeved__
-
-  # TODO pyjama tops usually button-front
-  pyjama:
-    - sleeveless __fash/styles/neckline/110-vest-like/sleeveless__
-    - __fash/styles/neckline/111-t-shirt-like/sleeved__
 
 #########################################################################################
 
