@@ -51,7 +51,7 @@ sundress:
       # TODO Maybe too little skin?
       #- __fash/styles/upper/neckline/t-shirt-like__
     sleeveless:
-      - __fash/styles/upper/neckline/tube-like__
+      - __fash/styles/upper/neckline/tube-like-long__
       - __fash/styles/upper/neckline/cami-like__
       - __fash/styles/neckline/low-neck__
 

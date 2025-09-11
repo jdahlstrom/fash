@@ -35,7 +35,7 @@ top:
       - sleeveless __fash/styles/neckline/high-neck__
       - __fash/styles/upper/neckline/cami-like__ #spaghetti-strap
       - __fash/styles/upper/neckline/tank-top-like__
-      - __fash/styles/upper/neckline/tube-like__ #tube TODO super inconsistent
+      - __fash/styles/upper/neckline/tube-like-short__ #tube TODO super inconsistent
       - __fash/styles/upper/neckline/vest-like__ #sleeveless
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.

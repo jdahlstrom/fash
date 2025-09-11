@@ -1,0 +1,316 @@
+swimwear:
+  # Upper
+
+  top:
+    #- asymmetric
+    #- bow-knot
+    - bralette
+    - (buckle:0.8)-closure # Gives a bit too massive buckles
+    - (bustier:0.8) # Doesn't work well? seems to work with Lustify at least
+    - cami # TODO tankini?
+    - crossback
+    - knot
+    - o-ring
+    - padded
+    - racerback
+    - ribbed
+    - ruched
+    - ruffle-straps
+    - sports # TODO has own category
+    - string # TODO part of neckline
+    #- strappy
+    #- tank # tankinis handle this
+    - tie-{front|back} {string|}
+    - underwired
+    - wireless
+
+  # Lower
+
+  # TODO not yet used
+  bikini-bottom:
+    - (buckle:0.8)-closure
+    - high-waist strappy
+    - side-lacing
+    - skirted
+    - skort   # TODO own category
+    - strappy # TODO only works well with swim bottom
+    - string
+    - tie-side
+
+  skirt:
+    - a-line
+    - asymmetrical
+    - bodycon
+    - drawstring
+    - flared
+    - godet
+    - gored
+    - high-low
+    - high-waist
+    - low-waist
+    - micro
+    - ruched
+    - ruffle
+    - sports
+    - yoked
+
+  # One-piece
+
+  suit:
+    #- asymmetrical
+    - (bustier:0.8)
+    - cutout
+    - flutter-sleeve
+    - '{front|side}-lacing'
+    - front-knot
+    - half-zip
+    - peekaboo
+    - ruched
+    - ruffle-straps
+    - skirted
+    - sports     # Should be separate, with own necklines
+    - strappy
+    - tank       # Should be separate, with own necklines
+    - tied-front
+    - underwired
+    - wireless
+    - wrap
+    # Back
+    - back-lacing
+    - backless
+    - cross-back
+    - keyhole-back
+    - racerback
+    - strappy-back
+  monokini:
+    #- asymmetrical
+    #- cutout # A bit too skimpy for casual
+    - front-lacing
+    - front-knot
+    - peekaboo
+    - skirted
+    - sports
+    - strappy
+    - tied{-front|-side}
+  dress:
+    - bodycon
+    - drop-waist
+    - empire-waist
+    - ruched
+    - sports
+    - tent
+    - tiered
+    - wrap
+    #- flyaway
+    #- '{open|split}-front'
+
+    # Bodice
+    - cami
+    - flutter-sleeve
+    - ruffle-straps
+    - tank
+    - underwired
+    - wireless
+    # Back
+    - backless
+    - cross-back
+    - racerback
+
+    # Skirt
+    - a-line
+    - asymmetrical
+    - fit-and-flare
+    - godet
+    - high-low
+    - micro
+    - mini
+    - ruffle-hem
+    - skater
+    - skort
+    - slit mini # Too long without mini
+    - tiered-hem
+
+     # Back
+    - back-lacing
+    - backless
+    - crossback
+    - open-back
+    - racerback
+    - strappy-back
+  tankini:
+    # Top
+    - blouson
+    - bodycon
+    - cami
+    - empire-waist
+    - flowy
+    - flutter-sleeve
+    - godet
+    - half-zip
+    - knot
+    - open-front
+    - oversize
+    - ruffle-straps
+    - smock
+    - (tent:0.8)
+    - underwired
+    - wireless
+    - wrap
+    - zip-up
+    # Hem+length
+    - crop
+    - flyaway-hem
+    - high-low hem
+    - high-low hem smock
+    - longline
+    - peplum
+    - skirted
+    - tiered
+    # Bottom
+    - boyshorts
+    - high-waist
+    - hip{hugg|st}ers
+    - low-waist
+    - swim shorts
+    - thong
+    # Back TODO duplication with suit
+    - back-lacing
+    - backless
+    - cross-back
+    - keyhole-back
+    - racerback
+    - strappy-back
+
+  neckline:
+    top:
+      # TODO separate swim top with sleeve etc options?
+      - __fash/styles/swimwear/neckline/bikini__
+
+    bikini:
+      # TODO "backless" necklines are redundant, but should have crossback etc
+      - __fash/styles/neckline/specific/cami__ {string|}
+      - __fash/styles/neckline/specific/tank-top__
+      - __fash/styles/neckline/halter__ halter
+
+      - __fash/styles/swimwear/neckline/strapless-top__
+      - __fash/styles/swimwear/neckline/sports__ sports
+
+      - __fash/styles/upper/neckline/off-shoulder__
+
+    swim-top:
+      - halter crewneck
+      - halter scoop neck
+      - keyhole halter
+      - keyhole halter crewneck
+      # TODO
+
+    strapless-suit:
+      - __fash/styles/upper/necklins/tube-like-long__
+
+    strapless-top:
+      - __fash/styles/upper/neckline/tube-like-short__
+
+    sports:
+      # TODO move to upper, also use with sports tops
+      - __fash/styles/bra/neckline/sports__
+
+    suit:
+      - __fash/styles/upper/neckline/cami-like__
+      - __fash/styles/upper/neckline/off-shoulder__
+      - __fash/styles/upper/neckline/tube-like-long__
+      - __fash/styles/swimwear/neckline/sports__ sports
+
+    tankini:
+      - __fash/styles/upper/neckline/cami-like__
+      - __fash/styles/upper/neckline/off-shoulder__
+      - __fash/styles/upper/neckline/tube-like-long__
+      - __fash/styles/swimwear/neckline/sports__ sports
+
+    dress:
+      - __fash/styles/upper/neckline/cami-like__
+      - __fash/styles/upper/neckline/off-shoulder__
+      - __fash/styles/upper/neckline/tube-like-long__
+
+    monokini:
+      # TODO may need a bit more specialized set
+      #- __fash/styles/neckline/100-cami-tank-top/halter-cami__
+      - criss-cross halter
+      - crossing halter
+      - high halter
+      - keyhole high halter
+      - mock halterneck
+      - keyhole mock neck
+      - o-ring halter
+      - scoop halter
+      - square halterneck
+      - sweetheart halter
+
+  neckline-x:
+    # Lot of redundancy with bra/tops
+    top:
+      - bandeau
+      - crewneck # works with top, not with bikini
+      - crewneck halter
+      - flounce-neckline
+      - high-neck
+      - keyhole crewneck
+      #- lace-up Concept bleeding to lace...
+      - mock neck # works with top, not with bikini
+      - halter
+      - one-shoulder sports # just one-shoulder doesn't work well
+      - off-shoulder
+      - (spaghetti:0.9) strap
+      - square neck
+      - strapless
+      - sweetheart neck
+      - triangle neck
+      - tube
+    suit:
+      - crewneck
+      - flounce-neckline
+      - front-lacing
+      - high-neck
+      - keyhole crewneck
+      - mock neck
+      - halter
+      - one-shoulder
+      - off-shoulder
+      - (spaghetti:0.9) strap
+      - square neck
+      - strapless
+      - sweetheart neck
+      - triangle neck
+      - v-neck
+    dress:
+      - __fash/styles/swimwear/neckline/suit__
+    monokini:
+      - criss-cross halter
+      - crossing halter
+      - high halter
+      - keyhole high halter
+      - mock halterneck
+      - keyhole mock neck
+      - o-ring halter
+      - scoop halter
+      - square halterneck
+      - sweetheart halter
+    tankini:
+      - __fash/styles/swimwear/neckline/suit__
+
+    bandeau:
+      - __fash/styles/common/neckline/bandeau__
+
+    halter:
+      - __fash/styles/common/neckline/halter__
+      - __fash/styles/swimwear/neckline/_halter__
+    _halter: # TODO to somewhere
+      - bandeau
+      - crossing #criss-cross
+      - drape-neckline
+      - high
+      - keyhole high
+      - knot-back # more reliable than tied-back
+      - mock neck
+      - keyhole mock neck
+      - o-ring
+      - v-neck

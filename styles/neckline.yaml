@@ -154,9 +154,7 @@ neckline:
       - __fash/styles/neckline/off-shoulder__
 
     off-one-shoulder:
-      - ' '
-      - ruched
-      - (ruffle:0.9)
+      - '{3:: | ruched | (ruffle:0.8)}'
       # any others?
 
   # 010: Shoulders without straps makes no sense
@@ -257,6 +255,7 @@ neckline:
   # Common necklines for anything that has shoulders or shoulder straps
   # of some kind, either with or without sleeves, either halterneck or not.
   # T-shirts, blouses, camisoles, tank tops etc.
+  # TODO Does not fit bras or bikini tops well, so a bad name
   with-straps:
     - backless
     - crewneck

@@ -226,11 +226,11 @@ upper:
       - __fash/**/100-cami-tank-top/tank-top__ tank
       - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
 
-    # Apppend "t-shirt" or "... with ... sleeves"
+    # Append "t-shirt" or "... with ... sleeves"
     t-shirt-like:
       - __fash/**/111-t-shirt-like/sleeved__
 
-    tube-like:
+    tube-like-long:
       - strapless __**/000-tube-like/strapless__
       - __fash/**/000-tube-like/tube__ tube
       # bandeau only applies to tops
