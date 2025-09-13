@@ -15,7 +15,7 @@ swimwear:
     - racerback
     - ribbed
     - ruched
-    - ruffle-straps
+    - (ruffle-straps:0.8)
     - sports # TODO has own category
     - string # TODO part of neckline
     #- strappy
@@ -50,7 +50,7 @@ swimwear:
     - low-waist
     - micro
     - ruched
-    - ruffle
+    - (ruffle:0.8)
     - sports
     - yoked
 
@@ -66,7 +66,7 @@ swimwear:
     - half-zip
     - peekaboo
     - ruched
-    - ruffle-straps
+    - (ruffle-straps:0.8)
     - skirted
     - sports     # Should be separate, with own necklines
     - strappy
@@ -107,7 +107,7 @@ swimwear:
     # Bodice
     - cami
     - flutter-sleeve
-    - ruffle-straps
+    - (ruffle-straps:0.8)
     - tank
     - underwired
     - wireless
@@ -124,7 +124,7 @@ swimwear:
     - high-low
     - micro
     - mini
-    - ruffle-hem
+    - (ruffle:0.8)-hem
     - skater
     - skort
     - slit mini # Too long without mini
@@ -150,7 +150,7 @@ swimwear:
     - knot
     - open-front
     - oversize
-    - ruffle-straps
+    - (ruffle-straps:0.8)
     - smock
     - (tent:0.8)
     - underwired
@@ -213,6 +213,7 @@ swimwear:
     sports:
       # TODO move to upper, also use with sports tops
       - __fash/styles/bra/neckline/sports__
+      - __fash/styles/bra/neckline/sports-halter__
 
     suit:
       - __fash/styles/upper/neckline/cami-like__
@@ -220,16 +221,23 @@ swimwear:
       - __fash/styles/upper/neckline/tube-like-long__
       - __fash/styles/swimwear/neckline/sports__ sports
 
+      # TODO this adds unneeded "tank" currently
+      - __fash/styles/upper/neckline/tank-top-like__
     tankini:
       - __fash/styles/upper/neckline/cami-like__
       - __fash/styles/upper/neckline/off-shoulder__
       - __fash/styles/upper/neckline/tube-like-long__
       - __fash/styles/swimwear/neckline/sports__ sports
 
+      # TODO this adds unneeded "tank" currently
+      - __fash/styles/upper/neckline/tank-top-like__
     dress:
       - __fash/styles/upper/neckline/cami-like__
       - __fash/styles/upper/neckline/off-shoulder__
       - __fash/styles/upper/neckline/tube-like-long__
+
+      # TODO this adds unneeded "tank" currently
+      - __fash/styles/upper/neckline/tank-top-like__
 
     monokini:
       # TODO may need a bit more specialized set

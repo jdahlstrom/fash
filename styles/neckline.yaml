@@ -32,7 +32,7 @@
 #     * halter shoulder/sleeveless high/crew/scoop/...
 #       * top, dress, bikini
 #     * tank top types here?...
-#     * backless
+#     * backless [halter]
 #       * top, dress, suits, more
 #
 #   101 Shoulderless, sleeved, straps "off-shoulder strap"
@@ -107,6 +107,7 @@ neckline:
   # No straps, no shoulders, no sleeves
   000-tube-like:
     strapless:
+      - (bustier:0.9)
       - (cutout:0.9)
       - fold-over
       - henley
@@ -255,11 +256,11 @@ neckline:
   # Common necklines for anything that has shoulders or shoulder straps
   # of some kind, either with or without sleeves, either halterneck or not.
   # T-shirts, blouses, camisoles, tank tops etc.
-  # TODO Does not fit bras or bikini tops well, so a bad name
+  # TODO Does not fit bras or bikini tops well, so a bad name.
   with-straps:
     - backless
     - crewneck
-    - henley
+    - henley # A bit weird with swimsuits
     - keyhole-neckline
     - (plunging:0.9)
     - scoop-neck
@@ -296,22 +297,31 @@ neckline:
 
   # Shows some cleavage.
   low-neck:
-    - (cleavage:0.9)
-    - (cutout:0.9) neckline
-    - surplice # TODO test
+    - (cleavage:0.8)
+    - (cutout:0.8) neckline
+    - surplice
     - drape-neckline
-    - keyhole {crewneck|(cleavage:0.9)|(cutout:0.9)|scoop neck}
-    - (plunging:0.9)
-    - (plunging:0.9) __fash/styles/neckline/plunging__
+    - keyhole {crewneck|(cleavage:0.9)|(cutout:0.8)|scoop neck}
+
+    # TODO plungings are maybe a bit *too* low...
+    - (plunging:0.8)
+    - (plunging:0.8) __fash/styles/neckline/plunging__
+
     - scoop neck
     - sweetheart neck # Maybe only works well with dresses etc?
     - '{deep|} v-neck'
 
+    - off-shoulder {keyhole|plunging|surplice|sweetheart}
+
+  halter-low-neck:
+    - __fash/styles/neckline/low-neck__ halter
+
   # Plunging subtypes. Show a lot of cleavage.
   plunging:
+    - boatneck
     - drape-neckline
     - keyhole
-    - ruffle
+    - (ruffle:0.9) neckline
     - scoop-neck
     - strappy
     - surplice
@@ -362,7 +372,7 @@ neckline:
     - draped neckline
     - flounce neckline
     - mock neck
-    - ruffle neckline
+    - (ruffle:0.8) neckline
     #- half-button               # henley is essentially this already
     - split neckline             # round neck with a v-shaped cut
     - '{deep|} v-neck'
@@ -378,30 +388,30 @@ neckline:
   # Off-shoulder necklines, with straps or not.
   off-shoulder:
     #- asymmetric
+    - (bustier:0.8)
     - drawstring
     - fold-over
     - henley
-    - keyhole {knot|}
+    - keyhole {knot|o-ring|}
     - knot
+    - portrait neckline # Works best with fitted bodices
+    - surplice
     - tied
     # Gathers
     - gathered-neckline
     - ruche-neckline
     # Trims
     - flounce {|fold-over}
-    - ruffle {|fold-over}
+    - (ruffle:0.8)-neckline {|fold-over}
 
     # TODO these work best with fitted bodices (eg. some (smart?) tops and dresses)
     #- bardot
     #- (plunging:0.9)
     #- split-neck
-    #- surplice
     #- sweetheart-neck
-    # ruffle {(plunging:0.9)|sweetheart}
+    # (ruffle:0.8){(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
     #- o-ring
-
-    # portrait not understood
 
   v-neck:
     - curved
@@ -427,7 +437,7 @@ neckline:
       # TODO trim/gather
       - flounce-neckline
       - gathered-neckline
-      - ruffle {fold-over|}
+      - (ruffle:0.8){fold-over|}
     tank-top:
       - boatneck
       - one-shoulder
