@@ -2,43 +2,42 @@ skirt:
   style:
     - boho
     - cargo
-    - casual
     - gypsy
-    - layered
     - wrap
-  cut:
+  cut: # General shape
     - a-line
     - (accordion:0.8)
-    - asymmetrical
     - (bubble:0.9)
     - circle
     - draped
     - fit-and-flare
     - flared
-    - flounce
     - gathered
     - godet
     - gored
-    - handkerchief
-    - high-low
+    - layered
     - low-slit
     - panel
     - pleat
     - pocket
     - slit
+    - skater
     - (swing:0.8)
     - tiered
     - trapeze
-    - wrap
-  hem:
-    - fringe
+  hem: # Hemline shape
+    - asymmetrical
+    - flounce
+    - (fringe:0.8)
+    - handkerchief
+    - high-low
     - layered
-    - (peplum:0.8) # Tends to bleed to top
     - raw
     - sharkbite
     - slanted
     - tiered
     - tulip
+    #- (peplum:0.8) # Tends to bleed to top with SDXL
   trim:
     - __fash/styles/common/trim__
   #yoke:
@@ -70,12 +69,12 @@ skirt:
       - knee-length
       - below-knee
       - midi length
-      - maxi length
     smart:
       - knee-length
       - below-knee
       - midi length
       - maxi length
+      - ankle-length
     formal:
       - midi length
       - maxi length
@@ -86,6 +85,8 @@ skirt:
       - short
       - above-knee
       - knee-length
+      - below-knee
+      - midi length
     sexy:
       - micro
       - mini
