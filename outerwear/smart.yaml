@@ -1,7 +1,9 @@
 smart:
 
   upper:
+    - __fash/outerwear/smart/blouse__
     - __fash/outerwear/smart/shirt__
+    - __fash/outerwear/smart/top__
 
   shirt:
     - blouse
@@ -14,6 +16,10 @@ smart:
     - sweater
     - sweater vest
     - vest
+
+  sweater:
+    - __fash/styles/sweater/neckline__ sweater
+    - __fash/styles/sweater/sleeve__ sweater
 
   blouse:
     - __fash/styles/shirt/hem/smart__-hem blouse
@@ -28,7 +34,27 @@ smart:
     - __fash/styles/shirt/blouse-smart__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
+  _top-sleeves:
+    - '{short|above-elbow} sleeves'
+    - short {puff|(flounce:0.8)|flutter|ruched} sleeves
+
   top:
+    # TODO omit bandeau etc crop tops?
+    - __fash/styles/upper/common__ __fash/outerwear/smart/sleeved-top__
+    - __fash/styles/upper/common__ __fash/outerwear/smart/sleeveless-top__
+    - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeved-top__
+    - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeveless-top__
+
+  sleeved-top:
+    - __fash/styles/top/neckline/sleeved__ top with short {2::|flutter|puff|ruched} sleeves
+    #- __fash/styles/top/neckline/off-shoulder__ top with __fash/outerwear/smart/_top-sleeves__
+    #- __fash/styles/top/neckline/cold-shoulder__ top with __fash/outerwear/smart/_top-sleeves__
+
+  sleeveless-top:
+    - #  __fash/outerwear/casual/top__ TODO This gives mostly shirt/blouse/sweater type tops
+    - __fash/styles/top/neckline/sleeveless__ top
+    - __fash/styles/upper/neckline/cami-like__ top
+    #- __fash/styles/top/neckline/halter__ top
 
 ##############################################################################
 
@@ -53,14 +79,6 @@ smart-old:
   #
   # UPPER
   #
-  _blouse:
-    - __clothing/ornament/trim/smart__-yoke
-    - __clothing/ornament/trim/smart__-trim
-  blouse:
-    - __clothing/neckline/top__ blouse # TODO only sleeved necklines
-    - blouse with __clothing/cut/sleeve/smart__ sleeves
-    - __clothing/neckline/top__ blouse with __clothing/cut/sleeve/smart__ sleeves
-    - __clothing/outerwear/smart/_blouse__ blouse # TODO
   cardigan:
     # TODO
     - cardigan
