@@ -36,8 +36,9 @@ shirt:
     - __fash/styles/upper/sleeve/long__
 
   blouse:
-    - __fash/styles/upper/common__
-    - __fash/outerwear/casual/tbt__
+    - __fash/styles/shirt/neckline/blouse-tunic__
+    #- __fash/styles/upper/common__
+    #- __fash/styles/upper/top-blouse-tunic__
     # TODO backs
 
   sweatshirt:
@@ -45,7 +46,6 @@ shirt:
     # - baja TODO check non-distilled model
     - boyfriend
     - chunky
-    - crop
     - fitted
     - flannel
     - half-zip
@@ -55,11 +55,17 @@ shirt:
     - sports
     - zip-up
 
+    - crop
+    - longline
+
   hoodie:
     - __fash/styles/shirt/sweatshirt__
 
   tunic:
-    - __fash/styles/shirt/blouse__
+    - ' ' # No unique styles
+    #- __fash/styles/upper/common__
+    #- __fash/styles/upper/top-blouse-tunic__
+
 
   neckline:
     blouse-tunic:

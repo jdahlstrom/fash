@@ -27,7 +27,3 @@ camisole:
   neckline:
     - __fash/**/100-cami-tank-top/cami__
     - __fash/**/100-cami-tank-top/halter-cami__ halter
-
-  hem:
-    - __fash/styles/upper/top-blouse-tunic-length__
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem

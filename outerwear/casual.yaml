@@ -43,10 +43,10 @@ casual:
 
 
   # TODO placeholder name, move
-  tbt:
+  top-blouse-tunic:
+    - __fash/styles/upper/length__
     - __fash/styles/upper/top-blouse-tunic__
     - __fash/styles/upper/top-blouse-tunic-hem__-hem
-    - __fash/styles/upper/top-blouse-tunic-length__
     - __fash/styles/upper/top-blouse-tunic-closure__
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
@@ -55,7 +55,7 @@ casual:
     - __fash/styles/upper/top-dress-legged__ top
 
     # TODO
-    - __fash/outerwear/casual/tbt__ top
+    - __fash/outerwear/casual/top-blouse-tunic__ top
 
     - __fash/styles/top/style__ top
 
@@ -90,12 +90,16 @@ casual:
     - strapless __fash/styles/upper/common__ top
     - strapless __fash/styles/upper/top-dress-legged__ top # TODO not 100%
 
-    - strapless __fash/outerwear/casual/tbt__ top
+    - strapless __fash/outerwear/casual/top-blouse-tunic__ top
+
+  sports-top:
+    - __fash/styles/upper/neckline/sports__ sports top
+    - __fash/styles/upper/neckline/sports-halter__ halter sports top
 
   # Tank top variants.
   tank-top:
+    - __fash/styles/upper/length__ tank top
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tank top
-    - __fash/styles/upper/top-blouse-tunic-length__ tank top
     - __fash/styles/top/neckline/tank-top__ tank top
 
   # Bandeau top variants.
@@ -115,7 +119,7 @@ casual:
     # TODO variants other than neckline
     - __fash/styles/upper/common__ halter top
     - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
-    - __fash/outerwear/casual/tbt__ halter top
+    - __fash/outerwear/casual/top-blouse-tunic__ halter top
 
     # TODO off-shoulder
     #- off-shoulder halter top with __fash/styles/upper/sleeve/*__ sleeves
@@ -128,29 +132,34 @@ casual:
 
     # TODO test these
     - __fash/styles/upper/common__ tube top
+    - __fash/styles/upper/length__ tube top
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tube top
-    - __fash/styles/upper/top-blouse-tunic-length__ tube top
     #- __fash/styles/common/trim__-trim top
 
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
   camisole:
     - __fash/styles/upper/common__ camisole
-    - __fash/styles/camisole/hem__ camisole
+    - __fash/styles/upper/length__ camisole
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem camisole
+
     - __fash/styles/camisole/neckline__ camisole
     - __fash/styles/camisole/style__ camisole
+
     #- __fash/styles/common/trim__-trim camisole
     # TODO additional variants?
 
 
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
   shirt:
+    - __fash/styles/upper/length__ shirt
     - __fash/styles/shirt/style__ shirt
     - shirt with __fash/styles/upper/sleeve/*__ sleeves
     - sleeveless __fash/styles/shirt/style__ shirt
 
   # Loose-fitting shirt. Ranges from casual to smart.
   blouse:
+    - __fash/styles/upper/length__ blouse
     - __fash/styles/shirt/blouse__ blouse
     - __fash/styles/shirt/neckline/blouse__ blouse
     - blouse with __fash/styles/upper/sleeve/*__ sleeves
@@ -159,13 +168,16 @@ casual:
 
   # Casual, blouse-like but longer
   tunic:
-    - __fash/styles/shirt/tunic__ tunic
+    - __fash/styles/upper/top-blouse-tunic__ tunic
+    - __fash/styles/upper/top-blouse-tunic-closure__ tunic
+
     - __fash/styles/shirt/neckline/blouse-tunic__ tunic
     - tunic with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim tunic
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
+    - __fash/styles/upper/length__ sweater
     - __fash/styles/sweater/closure__ sweater
     - __fash/styles/sweater/fit__ sweater
     - __fash/styles/sweater/knit__ sweater
@@ -177,6 +189,7 @@ casual:
 
   # Open-front sweater, usually button-closure.
   cardigan:
+    - __fash/styles/upper/length__ sweater
     - __fash/styles/sweater/cardigan__ cardigan
     - __fash/styles/sweater/fit__ cardigan
     - __fash/styles/sweater/knit__ cardigan

@@ -32,6 +32,14 @@ upper:
     #- collarless
     #- polo
 
+  length:
+    - crop
+    - short
+    - (short:0.8)
+    - (longline:0.8)
+    - longline
+    #- mini
+
   # Body/jump/play/romper suits
   legged:
     - apron
@@ -71,11 +79,8 @@ upper:
     - godet
     - kaftan
     - open-front {babydoll|flyaway|smock}
-    - peplum
     - poncho
     - puff
-    - short   # TODO length
-    - skirted # TODO to hems?
     - (swing:0.8)
     - wrap
 
