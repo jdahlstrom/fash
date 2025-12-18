@@ -350,26 +350,34 @@ casual:
     -  __fash/styles/sundress/neckline/sleeved__ sundress with __fash/styles/sundress/sleeve__ sleeves
     - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
-  # Skirted versions of upper-body clothing.
-  cami-dress:
-    - __fash/outerwear/casual/camisole__ dress # TODO includes hem length via camisole/hem
-    - __fash/styles/dress/skirt/*__ camisole dress
-  shirt-dress:
-    - __fash/outerwear/casual/shirt__ dress # TODO
-    - __fash/styles/skirt/length/casual__ shirt dress
-  sweater-dress:
-    - __fash/outerwear/casual/sweater__ dress
-    - __fash/styles/skirt/length/casual__ sweater dress
-  t-shirt-dress:
-    - __fash/outerwear/casual/t-shirt__ dress
-    - __fash/styles/skirt/length/casual__ t-shirt dress
-    # TODO other t-shirt stuff like print
-  tank-dress:
-    - __fash/styles/top/neckline/tank-top__ tank dress
-    - __fash/styles/skirt/length/casual__ tank dress
-  tunic-dress:
-    - __fash/outerwear/casual/tunic__ dress # TODO
-    - __fash/styles/skirt/length/casual__ tunic dress
+  # Skirted versions of upper-body clothing
+
+  # TODO is this really casual or outerwear? Maybe just loungewear
   babydoll-dress:
-    - __fash/styles/camisole/neckline__ babydoll dress
-    - __fash/styles/skirt/length/casual__ babydoll dress
+    - __fash/styles/dress/skirt/short__ __fash/styles/camisole/neckline__ babydoll dress
+
+  # TODO not sure if blouson should have its own entry
+  #blouson-dress:
+    #- __fash/styles/dress/skirt/casual__  blouson dress
+    #- __fash/styles/shirt/blouse__ blouson dress
+    #- __fash/styles/dress/skirt/casual__ blouson dress with __fash/styles/upper/sleeve/*__ sleeves
+
+  cami-dress:
+    - __fash/styles/dress/skirt/casual__ __fash/outerwear/casual/camisole__ dress
+  # cardigan-dress:
+  # - __fash/styles/dress/skirt/short__ __fash/styles/sweater/cardigan__ cardigan dress
+  shirt-dress:
+    - __fash/styles/dress/skirt/casual__ __fash/styles/shirt/style__ shirt dress
+    - __fash/styles/dress/skirt/casual__ shirt dress with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/dress/skirt/casual__ sleeveless __fash/styles/shirt/style__ shirt dress
+  sweater-dress:
+    - __fash/styles/dress/skirt/casual__ __fash/outerwear/casual/sweater__ dress
+  sweatshirt-dress:
+    - __fash/styles/skirt/length/short__
+      {__fash/outerwear/casual/sweatshirt__|__fash/outerwear/casual/hoodie__} dress
+  t-shirt-dress:
+    - __fash/styles/dress/skirt/short__ __fash/styles/dress/t-shirt__
+  tank-dress:
+    - __fash/styles/dress/skirt/short__ __fash/styles/top/neckline/tank-top__ tank dress
+  tunic-dress:
+    - __fash/styles/dress/skirt/casual__ __fash/styles/top/neckline/tank-top__ tunic dress
