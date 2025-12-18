@@ -261,3 +261,20 @@ upper:
     # Has sleeves, most of the normal necklines, but cutout shoulders
     cold-shoulder:
       - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
+
+
+    sports:
+      - crewneck
+      - keyhole {boatneck|crewneck|}
+      - one-shoulder
+      - scoop-neck
+      - square-neck
+      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
+      - v-neck
+      #- mesh{|-yoke}
+
+    sports-halter:
+      - crewneck
+      - keyhole
+      - scoop neck
+      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
