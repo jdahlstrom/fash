@@ -5,9 +5,8 @@ t-shirt:
     - boyfriend
     #- cold-shoulder Comes from necklines
     - contrast-yoke
-    - (cutout:0.9)
     - godet
-    - open-back
+    #- open-back TODO figure out backs
     - peplum
     - pocket
     #- raglan Comes from sleeves
@@ -27,25 +26,33 @@ t-shirt:
     - __fash/styles/upper/sleeve/length__
     - __fash/styles/upper/sleeve/style/short__
     - __fash/styles/upper/sleeve/style/common__
-    - __fash/styles/t-shirt/trim__-trim
   neckline:
     # TODO probabilities
     - >
       { 3::__fash/styles/upper/neckline/t-shirt-like__
       | __fash/styles/upper/neckline/off-shoulder__ }
 
-    # | __fash/styles/t-shirt/trim__-trim }
-
     # TODO sleeveless are mostly redundant with generic tops
     # | __fash/styles/upper/neckline/vest-like__
 
   back:
-    - backless
+    #- backless
     - cutout-back
     - keyhole-back
     - open-back
     - tied-back
 
   deco:
-    - embroidered
+    - animal print
+    - applique
+    - cartoon figure
+    - embroidery
+    - floral print
+    - geometric print
+    - graphic motif
+    - logo
+    - picture
+    - pop art
     - print
+    - rhinestone figure
+    - text

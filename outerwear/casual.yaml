@@ -38,6 +38,7 @@ casual:
     # TODO - __fash/styles/t-shirt/trim__-trim t-shirt
     - __fash/styles/t-shirt/length__ t-shirt
     - __fash/styles/t-shirt/neckline__ t-shirt
+    - __fash/styles/t-shirt/deco__ t-shirt
     - t-shirt with __fash/styles/t-shirt/sleeve__ sleeves
 
 
