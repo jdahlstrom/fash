@@ -269,7 +269,7 @@ casual:
   one-piece:
   ##############################################################################
     - >
-      {3::__fash/outerwear/casual/dress__
+      {4::__fash/outerwear/casual/dress__
       |__fash/outerwear/casual/legged__}
 
   legged:
@@ -311,29 +311,29 @@ casual:
 
   ##############################################################################
   dress:
-    - __fash/styles/upper/common__ dress
-    - __fash/styles/upper/top-dress-legged__ dress
+    - __fash/styles/skirt/length/casual__ __fash/styles/dress/style__ dress
 
-    - __fash/styles/dress/bodice__ dress
-    - __fash/styles/dress/skirt/*__ dress
+    - __fash/styles/dress/lower__ __fash/styles/dress/upper__ dress
+    - __fash/styles/dress/lower__ __fash/styles/dress/waist__-waist dress
+    - __fash/styles/dress/waist__-waist __fash/styles/dress/upper__ dress
 
-    - __fash/styles/dress/neckline/sleeveless__ dress
+    - __fash/outerwear/casual/sleeved-dress__
+    - __fash/outerwear/casual/sleeveless-dress__
 
     #- __fash/styles/common/trim__-trim dress
     #- __fash/styles/common/trim__-neckline dress
 
-    # TODO decide how many wildcards per entry.
-    #- __fash/styles/dress/neckline/sleeved__ dress with __fash/styles/upper/sleeve/*__ sleeves
+  sleeved-dress:
+    - __fash/styles/dress/lower__ __fash/styles/dress/sleeved__
+    - __fash/styles/dress/waist__-waist __fash/styles/dress/sleeved__
 
-    - __fash/styles/dress/neckline/sleeved__ dress with sleeves
+  sleeveless-dress:
+    - __fash/styles/dress/lower__ __fash/styles/dress/sleeveless__
+    - __fash/styles/dress/waist__-waist __fash/styles/dress/sleeveless__
 
-    - dress with __fash/styles/upper/sleeve/*__ sleeves
-
-
-  # TODO These could all have at least skirt options and maybe more
   denim-dress:
-    - denim __fash/styles/dress/denim__ dress
-    - __fash/styles/common/denim/wash__ denim dress # Not always reliable
+    - __fash/styles/skirt/length/short__ __fash/styles/dress/denim__ denim dress
+    - __fash/styles/common/denim/wash__ __fash/styles/dress/denim__ denim dress # Not always reliable
 
   sundress:
     # No specified neckline/sleeves (usually gives thin straps, sleeveless)
