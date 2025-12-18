@@ -372,12 +372,12 @@ neckline:
     - '{|wide} boatneck'
     - collared
     #- (cutout:0.9) neckline     # "boob window" TODO maybe just a cutout style
-    - draped neckline
-    - flounce neckline
+    - draped-neckline
+    - flounce-neckline
     - mock neck
-    - (ruffle:0.8) neckline
+    - (ruffle:0.8)-neckline
     #- half-button               # henley is essentially this already
-    - split neckline             # round neck with a v-shaped cut
+    - split-neckline             # round neck with a v-shaped cut
     - '{deep|} v-neck'
     #- __fash/styles/neckline/v-neck__ v-neck
 
@@ -459,3 +459,9 @@ neckline:
       - backless
       - crossback
       - racerback
+
+  unrecognized:
+    - Queen Anne
+    - Grecian
+    - illusion
+    - portrait
