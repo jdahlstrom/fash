@@ -133,9 +133,9 @@ neckline:
       - ruffle-neckline
     bandeau:
       - (bow{-knot|}:0.8)
-      - (cutout:0.9)
+      #- (cutout:0.9)
       - henley
-      - keyhole
+      #- keyhole
       - knot
       - o-ring {keyhole|}
       - string keyhole
@@ -288,6 +288,34 @@ neckline:
     - strapless
     - off-one-shoulder
 
+  bandeau:
+    - __fash/**/000-tube-like/bandeau__
+
+  # Specific halterneck subtypes not included in with-straps or high-neck.
+  halter:
+    - crossing
+    - (cutout:0.9)
+    - drape-neckline
+    - o-ring
+    - spaghetti strap
+    #- split-neck Not good
+    - strappy
+    #- sweetheart May not work well especially with non-fitted
+    #- tied-back Gives weird results...
+    - triangle-neck # Doesn't work with tank top at least
+    - twisted
+    # TODO trim/gather
+    - flounce-neckline
+    - gathered-neckline
+
+  # Henley neck subtypes.
+  henley:
+    - boatneck
+    - crewneck
+    - (plunging:0.8)
+    - scoop-neck
+    - v-neck
+
   # Covers at least a bit of the neck.
   high-neck:
     - high-neck
@@ -296,6 +324,17 @@ neckline:
     - turtleneck
     - loose cowl-neckline # plunging makes a looser cowl
     - keyhole {high|mock} neck
+
+  # Keyhole neck subtypes.
+  # TODO see if needed or useful anywhere
+  keyhole:
+    - (bow-knot:0.9)
+    - boatneck
+    - cleavage
+    - crewneck
+    - high neck
+    - mock neck
+    - string-closure
 
   # Shows some cleavage.
   low-neck:
@@ -315,9 +354,6 @@ neckline:
 
     - off-shoulder {keyhole|plunging|surplice|sweetheart}
 
-  halter-low-neck:
-    - __fash/styles/neckline/low-neck__ halter
-
   # Plunging subtypes. Show a lot of cleavage.
   plunging:
     - boatneck
@@ -331,43 +367,6 @@ neckline:
     - strappy
     - surplice
     - v-neck
-
-  # Specific halterneck subtypes not included in with-straps or high-neck.
-  halter:
-    - crossing
-    - (cutout:0.9)
-    - drape-neckline
-    - o-ring
-    #- split-neck Not good
-    - strappy
-    #- sweetheart May not work well especially with non-fitted
-    - triangle-neck # Doesn't work with tank top at least
-    - twisted
-    # TODO trim/gather
-    - flounce-neckline
-    - gathered-neckline
-
-  # Henley neck subtypes.
-  henley:
-    - boatneck
-    - crewneck
-    #- keyhole? TODO check if this works
-    - (plunging:0.9)
-    - scoop-neck
-    - v-neck
-
-
-  # Keyhole neck subtypes.
-  # TODO see if needed or useful anywhere
-  keyhole:
-    - (bow-knot:0.9)
-    - boatneck
-    - cleavage
-    - crewneck
-    - high neck
-    - mock neck
-    - string-closure
-    - mock neck
 
   # Necklines specific to t-shirts, blouses etc with shoulders (sleeved or not).
   shouldered:
