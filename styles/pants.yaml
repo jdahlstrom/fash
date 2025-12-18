@@ -19,8 +19,10 @@ pants:
   loose-fit:
     - '{|cargo} sweatpants'
     - culottes
+    - gaucho pants
     - harem pants
     - lounge pants
+    - palazzo pants
     - parachute pants
     - sports pants
   waistline:
