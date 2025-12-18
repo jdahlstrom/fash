@@ -1,3 +1,4 @@
+# Styles applicable to most garments.
 common:
   gather:
     - gathered
@@ -55,8 +56,7 @@ common:
 
   yoke:
     - __fash/styles/common/gather__-yoke
-  waist:
-    - __fash/styles/common/gather__-waist
+
   hem:
     - __fash/styles/common/trim__-hem
 
@@ -102,57 +102,6 @@ common:
       - comfort fit
       - relaxed fit
       - loose fit
-
-  # Common neckline variants
-  # TODO to upper if even used anymore
-  neckline:
-    bandeau:
-      - (bow:0.8)
-      - (bow-knot:0.8)
-      - criss-cross
-      - gathered
-      - keyhole
-      - knot
-      - o-ring
-      - o-ring keyhole
-      - ruched
-      - spaghetti
-      - string keyhole
-      - sweetheart-neck
-      - twisted
-      - underwired
-      - wireless
-    halter:
-      - scoop-neck
-      - spaghetti strap
-      - square-neck
-      - strappy
-      - surplice
-      - sweetheart-neck
-      #- tied-back Gives weird results...
-      - triangle-neck
-      - twisted
-    keyhole:
-      - (bow-knot:0.9)
-      - boatneck
-      - cleavage
-      - crewneck
-      - high neck
-      - mock neck
-      - string-closure
-      - turtleneck
-    off-shoulder:
-      - foldover
-      - halter
-      - high halter
-      - ruched
-      - strap
-    plunging:
-      - cowl neck
-      - drape neckline
-      - surplice
-      - v-neck
-      - keyhole
 
   # TODO to material
   denim:
