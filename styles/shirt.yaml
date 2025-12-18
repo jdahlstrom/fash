@@ -31,15 +31,41 @@ shirt:
     # - western
 
   sleeve:
-    - __fash/styles/upper/sleeve/short__
-    - '{short|long} __fash/styles/upper/sleeve/common__'
-    - __fash/styles/upper/sleeve/long__
+    casual:
+      - __fash/styles/upper/sleeve/length__
+      - __fash/styles/upper/sleeve/short__
+      - '{short|long} __fash/styles/upper/sleeve/common__'
+      - __fash/styles/upper/sleeve/long__
+    smart:
+      - __fash/styles/upper/sleeve/length__
+      - __fash/styles/upper/sleeve/style/smart/common__
+      - short __fash/styles/upper/sleeve/style/smart/short__
 
   blouse:
     - __fash/styles/shirt/neckline/blouse-tunic__
     #- __fash/styles/upper/common__
     #- __fash/styles/upper/top-blouse-tunic__
     # TODO backs
+
+  blouse-smart:
+    - peplum
+    - pin-tuck
+    - ruched
+    - ruched-waist
+    - fitted
+
+    - button-down
+    - half-button
+    - drape-neckline
+    - split-front
+    - surplice-neck
+    - flounce-neckline
+    - wrap
+
+  blouse-smart-front:
+    - split-front
+    - button-down
+    - half-button
 
   sweatshirt:
     - ' '
@@ -66,14 +92,23 @@ shirt:
     #- __fash/styles/upper/common__
     #- __fash/styles/upper/top-blouse-tunic__
 
+  hem:
+    smart:
+      - layered
+      - tiered
+      - draped
+      - flared
+      - flyaway
+
 
   neckline:
     blouse-tunic:
       # TODO probabilities
       # TODO off-shoulder?
-      - >
-        { 4::__**/111-t-shirt-like/sleeved__
-        | cold-shoulder __**/101-off-shoulder-with-straps/cold-shoulder__ }
+      - __fash/**/111-t-shirt-like/sleeved__
+      - __fash/styles/shirt/blouse-smart-front__ __fash/styles/neckline/buttoned__
+      - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
+      - off-shoulder __fash/**/001-off-shoulder-strapless/*__
 
       # TODO redundant with tops
-      #- sleeveless __**/110-vest-like/sleeveless__
+      #- sleeveless __fash/**/110-vest-like/sleeveless__

@@ -1,0 +1,148 @@
+smart:
+
+  upper:
+    - __fash/outerwear/smart/shirt__
+
+  shirt:
+    - blouse
+    - dress shirt
+    - button-up shirt
+    - button-down shirt
+
+    - bolero
+    - cardigan
+    - sweater
+    - sweater vest
+    - vest
+
+  blouse:
+    - __fash/styles/shirt/hem/smart__-hem blouse
+        with __fash/styles/shirt/sleeve/smart__ sleeves
+
+    - __fash/styles/shirt/neckline/blouse-tunic__ blouse
+        with __fash/styles/shirt/sleeve/smart__ sleeves
+
+    - __fash/styles/shirt/hem/smart__-hem
+        __fash/styles/shirt/neckline/blouse-tunic__ blouse
+
+    - __fash/styles/shirt/blouse-smart__ blouse
+        with __fash/styles/shirt/sleeve/smart__ sleeves
+
+  top:
+
+##############################################################################
+
+  lower:
+    - __fash/outerwear/smart/skirt__
+    - __fash/outerwear/smart/pants__
+
+  pants:
+    - __fash/styles/pants/leg/smart__ __fash/styles/pants/smart__
+
+  skirt:
+    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/cut__ skirt
+    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/hem__-hem skirt
+
+##############################################################################
+
+  one-piece:
+
+##############################################################################
+
+smart-old:
+  #
+  # UPPER
+  #
+  _blouse:
+    - __clothing/ornament/trim/smart__-yoke
+    - __clothing/ornament/trim/smart__-trim
+  blouse:
+    - __clothing/neckline/top__ blouse # TODO only sleeved necklines
+    - blouse with __clothing/cut/sleeve/smart__ sleeves
+    - __clothing/neckline/top__ blouse with __clothing/cut/sleeve/smart__ sleeves
+    - __clothing/outerwear/smart/_blouse__ blouse # TODO
+  cardigan:
+    # TODO
+    - cardigan
+    - flyaway cardigan
+    - cardigan with __clothing/cut/sleeve/smart__ sleeves
+  undershirt:
+    - __clothing/neckline/top__ blouse
+    - dress shirt
+    - __clothing/neckline/t-shirt__ t-shirt
+    - undershirt
+  upper-with-under:
+    - '{|unbuttoned} blazer'
+    - bolero
+    - __clothing/outerwear/casual/cardigan__
+    - shrug {|with __clothing/cut/sleeve/type__ sleeves}
+    - sweater vest
+    - vest
+  upper-without-under:
+    - __clothing/outerwear/smart/blouse__
+    - button-up shirt
+    - __clothing/neckline/camisole__ camisole
+    - __clothing/outerwear/casual/cardigan__
+    - (dress:0.8) shirt
+    - polo shirt
+    - tunic {|with __clothing/cut/sleeve/smart__ sleeves}
+    - __clothing/neckline/sweater__ sweater
+    - __clothing/neckline/top__ top
+  upper:
+    # TODO Figure out how to move to outfit (Mostly done now)
+    - __clothing/outerwear/smart/upper-with-under__
+    - __clothing/outerwear/smart/upper-without-under__
+
+  #
+  # ONE-PIECE
+  #
+  _dress:
+    specific-cut:
+      - blazer
+      - __clothing/neckline/camisole__ cami
+      - cheongsam
+      - '{|__clothing/cut/pleat__} corset'
+      - illusion-yoke
+      - little black
+      - pencil
+      - trumpet
+      - '{|ruched} tube'
+    generic-cut:
+      - a-line
+      - asymmetrical
+      - bubble
+      - cocktail
+      - fit-and-flare
+      - frill-hem
+      - high-low
+      #- high-slit
+      - lace-{yoke|trim}
+      - peplum
+      - __clothing/cut/pleat__
+      - ruched
+      - sheath
+      - shift
+      - slit
+      - tiered-hem
+  dress:
+    # specific
+    - __clothing/color/outerwear/smart__
+      __clothing/outerwear/smart/_dress/specific-cut__
+      {2::|slit|{back|front|side}-lacing}
+      dress
+
+    # generic
+    - __clothing/color/outerwear/casual__
+      __clothing/cut/hemline/smart__
+      __clothing/neckline/dress__
+      __clothing/outerwear/smart/_dress/generic-cut__
+      dress
+
+    - __clothing/pattern/outerwear/casual__ pattern
+      __clothing/cut/hemline/smart__
+      __clothing/outerwear/smart/_dress/generic-cut__
+      dress {|with __clothing/cut/sleeve/*__ sleeves}
+
+  one-piece:
+    # TODO jumpsuits
+    - __clothing/outerwear/smart/dress__
