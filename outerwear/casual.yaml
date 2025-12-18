@@ -209,12 +209,12 @@ casual:
     - __fash/outerwear/casual/skirt__
 
   pants:
-    - __fash/styles/pants/jeans__ jeans
     - __fash/styles/common/fit/casual__ jeans
+    - __fash/styles/pants/jeans__ jeans
     - __fash/styles/pants/any-fit__
     - __fash/styles/pants/loose-fit__
     - __fash/styles/pants/slim-fit__
-    - __fash/styles/pants/leg__ pants
+    - __fash/styles/pants/leg/casual__ pants
     - __fash/styles/pants/length__ pants
     - __fash/styles/pants/waistline__ pants
 
@@ -235,7 +235,7 @@ casual:
 
   any-fit-pants:
     - __fash/styles/common/fit/casual__ __fash/styles/pants/any-fit__
-    - __fash/styles/pants/leg__ __fash/styles/pants/any-fit__
+    - __fash/styles/pants/leg/casual__ __fash/styles/pants/any-fit__
     - __fash/styles/pants/length__ __fash/styles/pants/any-fit__
     - __fash/styles/pants/waistline__ __fash/styles/pants/any-fit__
 
@@ -244,7 +244,7 @@ casual:
     - __fash/styles/common/denim/wear__ jeans
     - __fash/styles/common/fit/casual__ jeans
     - __fash/styles/pants/jeans__ jeans
-    - __fash/styles/pants/leg__ jeans
+    - __fash/styles/pants/leg/casual__ jeans
     - __fash/styles/pants/length__ jeans
     - __fash/styles/pants/waistline__ jeans
 
@@ -286,7 +286,7 @@ casual:
   jumpsuit:
     - __fash/styles/jumpsuit__ jumpsuit
     - __fash/styles/top/neckline/all__ jumpsuit
-    - __fash/styles/pants/leg__ jumpsuit
+    - __fash/styles/pants/leg/casual__ jumpsuit
     - __fash/styles/pants/length__ jumpsuit
     - jumpsuit with __fash/styles/upper/sleeve/*__ sleeves
 
@@ -302,7 +302,7 @@ casual:
 
   # TODO Should possibly count as lower, as they typically need a top
   overalls:
-    - __fash/styles/pants/leg__ overalls
+    - __fash/styles/pants/leg/casual__ overalls
     - __fash/styles/pants/length__ overalls
     - cargo overalls
     - overalls

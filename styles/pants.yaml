@@ -11,6 +11,19 @@ pants:
     - '{|cargo} joggers'
     - linen pants
     - velvet pants
+
+  smart:
+    - chinos
+    - culottes
+    - dress pants
+    - denim pants
+    - fitted pants
+    - linen pants
+    - palazzo pants
+    - pleated chinos
+    - tailored pants
+    - velvet pants
+
   slim-fit:
     - jeggings
     - leggings
@@ -31,15 +44,24 @@ pants:
     - high-waist
     - midrise
   leg:
-    - bell-bottom
-    - boot cut
-    - flared-leg
-    - kick flare
-    - rolled-up
-    #- slit-leg
-    - straight-leg
-    - tapered-leg
-    - wide-leg
+    casual:
+      - bell-bottom
+      - boot cut
+      - flared-leg
+      - kick flare
+      - rolled-up
+      - straight-leg
+      - tapered-leg
+      - wide-leg
+    smart:
+      - fit-and-flare
+      - fitted
+      - flared
+      - high-waist
+      - straight
+      - tailored
+      - tapered
+      - wide-leg
   length:
     - below-knee
     - 3/4-length
