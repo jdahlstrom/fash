@@ -3,7 +3,6 @@ top:
   style:
     - basketball
     - gored
-    - longline
     - sports
     - tied-front
     - twist{|-front}
@@ -25,10 +24,11 @@ top:
 
     # Append "... with ... sleeves" or similar
     sleeved:
-      - __fash/styles/upper/neckline/t-shirt-like__
-      - __fash/styles/neckline/high-neck__
-      - __fash/styles/top/neckline/cold-shoulder__
-      - __fash/styles/top/neckline/off-shoulder__
+      - >
+        {3::__fash/styles/upper/neckline/t-shirt-like__
+        | __fash/styles/neckline/high-neck__
+        | __fash/styles/top/neckline/cold-shoulder__
+        | __fash/styles/top/neckline/off-shoulder__}
 
     sleeveless:
       - __fash/styles/top/neckline/bandeau__
@@ -64,67 +64,3 @@ top:
     # Sleeveless with shoulder strap(s).
     tank-top:
       - __fash/styles/upper/neckline/tank-top-like__
-
-
-
-neckline-xxx:
-    # Doesn't either require or preclude sleeves
-    # TODO Not applicable to strapless/bandeau though so "common" maybe misnomer
-    #
-    # NOTE only necklines here that aren't in t-shirt/neckline!
-    common:
-      - backless
-      - droop neck
-      - gathered neckline
-      - half-zip
-      - high-neck
-      - lace-up v-neck
-      - shawl collar
-      - sweetheart neck
-      - turtleneck
-      #- ({lace|sheer|mesh}:0.8) high-neck TODO These work mostly with dresses
-      #- Queen Anne neckline Not well understood?
-      #- plunging sweetheart neck Works only well with shoulderless
-      #- (illusion:0.8) {crew|high|mock}-neck Not well understood
-      #- portrait neck Not understood
-      #- Sabrina neck # just a boatneck
-
-    #
-    # TODO These are still a mess
-    #
-    # Strapless *and* sleeveless
-    # (for sleeved strapless see shoulderless)
-    strapless:
-      - strapless
-      - strapless __fash/styles/top/neckline/strapless-variants__
-      - bandeau
-      - __fash/styles/common/neckline/bandeau__ bandeau
-    strapless-variants:
-      - flounce
-      - fold-over
-      - keyhole
-      - knot
-      - sweetheart-neck
-      # TODO these may not all make much sense,
-      #- o-ring {2::|v-neck|deep v|plunging|keyhole}
-      #- sweetheart {2::|plunging|keyhole}
-      #- twisted
-    # Always sleeveless
-    sleeveless-x:
-      - strapless
-      - crossback
-      - racerback
-      #- Grecian not well understood
-      #- triangle neck does not work well with general tops
-    # Either off-shoulder sleeves or no sleeves specified
-    shoulderless:
-      - bardot
-      - off-one-shoulder
-      - off-shoulder
-      - one-shoulder
-      - halterneck
-      - spaghetti strap
-    shoulderless-extra:
-      - __fash/styles/top/neckline/shoulderless__
-      - __fash/styles/top/neckline/halter__ halter
-      - off-shoulder __fash/styles/top/neckline/off-shoulder__
