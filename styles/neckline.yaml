@@ -114,12 +114,12 @@ neckline:
       - keyhole
       - knot
       - surplice
-      - sweetheart-neck # May only work well with fitted bodices
+      - sweetheart-neckline # May only work well with fitted bodices
 
       # TODO trims&gathers
-      - flounce
-      - ruched
-      - ruffle
+      - flounce-neckline
+      - ruche-neckline
+      - (ruffle:0.8)-neckline
     tube:
       - ' '
       - fold-over
@@ -128,9 +128,9 @@ neckline:
       # TODO more??
 
       # TODO trims&gathers
-      - flounce {|fold-over}
-      - ruched
-      - ruffle
+      - flounce-neckline {|fold-over}
+      - ruche-neckline
+      - ruffle-neckline
     bandeau:
       - (bow{-knot|}:0.8)
       - (cutout:0.9)
@@ -147,7 +147,7 @@ neckline:
       - flounce
       - gathered
       - ruched
-      - ruffle
+      - (ruffle:0.8)
 
   # Sleeves, no shoulders, no straps
   001-off-shoulder-strapless:
@@ -155,7 +155,7 @@ neckline:
       - __fash/styles/neckline/off-shoulder__
 
     off-one-shoulder:
-      - '{3:: | ruched | (ruffle:0.8)}'
+      - '{3:: | ruche-neckline | (ruffle:0.8)-neckline }'
       # any others?
 
   # 010: Shoulders without straps makes no sense
@@ -206,6 +206,8 @@ neckline:
       #- __fash/styles/neckline/100-cami-tank-top/cami__
       #- __fash/styles/neckline/off-shoulder__
     halter:
+      # TODO most off-shoulder halters doesn't necessarily
+      # make much sense, at least with swimsuits
       - ' '
       - backless
       - crewneck
@@ -288,11 +290,11 @@ neckline:
 
   # Covers at least a bit of the neck.
   high-neck:
-    - high neck
-    - mock neck
-    - roll neck
+    - high-neck
+    - mock-neck
+    - roll-neck
     - turtleneck
-    - '{(plunging:0.9)|} cowl neck' # plunging makes a looser cowl
+    - loose cowl-neckline # plunging makes a looser cowl
     - keyhole {high|mock} neck
 
   # Shows some cleavage.
@@ -304,8 +306,8 @@ neckline:
     - keyhole {crewneck|(cleavage:0.9)|(cutout:0.8)|scoop neck}
 
     # TODO plungings are maybe a bit *too* low...
-    - (plunging:0.8)
-    - (plunging:0.8) __fash/styles/neckline/plunging__
+    - (plunging:0.6)
+    - (plunging:0.6) __fash/styles/neckline/plunging__
 
     - scoop neck
     - sweetheart neck # Maybe only works well with dresses etc?
@@ -319,8 +321,11 @@ neckline:
   # Plunging subtypes. Show a lot of cleavage.
   plunging:
     - boatneck
+    - cowl-neckline
     - drape-neckline
+    - front-lacing
     - keyhole
+    - o-ring
     - (ruffle:0.9) neckline
     - scoop-neck
     - strappy
@@ -412,6 +417,13 @@ neckline:
     # (ruffle:0.8){(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
     #- o-ring
+
+  off-shoulder-bandeau:
+    - knot
+    - tied-front
+    - keyhole
+    - twisted
+    - o-ring
 
   v-neck:
     - curved
