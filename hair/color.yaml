@@ -1,0 +1,107 @@
+color:
+  freckled:
+    # Natural hair colors that go with freckles
+    - light blonde
+    - summer blonde
+    - (strawberry:0.8) blonde
+    - reddish blonde
+    - reddish brown
+    - copper brown
+    - auburn
+    - ginger
+  natural:
+    blonde:
+      - light blonde
+      - honey blonde
+      - summer blonde
+      - sandy blonde
+      - (dirty:0.8) blonde
+      - dark blonde
+      - ash blonde
+    red:
+      - (strawberry:0.8) blonde
+      - reddish blonde
+      - reddish brown
+      - red brown
+      - copper brown
+      - auburn
+    brunette:
+      - light brown
+      - light ash brown
+      - honey brown
+      - golden brown
+      - bronze brown
+      - caramel brown
+      - medium brown
+      - medium ash brown
+    dark:
+      - chocolate brown
+      - mahogany brown
+      - chestnut brown
+      - dark brown
+      - deep brown
+      - brownish black
+      - off-black
+      - black
+      - jet-black
+  dyed:
+    natural:
+      # blonde:
+      - white blonde
+      - light blonde
+      - golden blonde
+      - summer blonde
+      - sandy blonde
+      - (strawberry:0.8) blonde
+      - reddish blonde
+      - honey blonde
+      - dirty blonde
+      - dark blonde
+      - dark ashy blonde
+      - cherry blonde
+      # brunette:
+      - light brown
+      - caramel brown
+      - reddish brown
+      - golden brown
+      - copper brown
+      - medium brown
+      - auburn
+      # dark:
+      - chocolate brown
+      - chestnut brown
+      - mahogany brown
+      - dark brown
+      - deep brown
+      - brownish black
+      - off-black
+      - jet-black
+      - black
+    _vivid:
+      blonde:
+        - bleach
+        - platinum
+        - silver
+        - pearl
+        - cool
+        - ash
+        - pink
+    vivid:
+      - pale {red|pink|orange|yellow|green|blue|indigo|purple|violet}
+      - neon {red|pink|orange|yellow|green|blue|indigo|purple|violet}
+      - dark {red|green|blue|indigo|violet|purple}
+      - __appearance/hair/color/dyed/_vivid/blonde__ blonde
+  hilight:
+    - __appearance/hair/color/dyed/vivid__
+  root:
+    - light blonde
+    - dark blonde
+    - light brown
+    - brown
+    - dark brown
+    - black
+hilight:
+  - highlights
+  - streaks
+  - balayage shading
+  - ombré shading

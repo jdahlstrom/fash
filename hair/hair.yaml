@@ -1,0 +1,232 @@
+length:
+  short:
+    - very short
+    - short
+    - ear-length
+  medium:
+    - chin-length
+    - medium-length
+    - neck-length
+    - shoulder-length
+    - collarbone-length
+  long:
+    - (armpit:0.9)-length
+    - mid-back length
+    - tailbone-length
+    - long
+    - very long
+
+style:
+  common:
+    - asymmetric
+    - blunt
+    - choppy
+    - curled
+    - curly
+    - (feathered:0.9)
+    - half-shaved
+    - layered
+    - messy
+    - neat
+    - perm
+    - ruffled
+    - shaggy
+    - sleek
+    - side-swept
+    - step cut
+    - straight
+    - textured
+    - tousled
+    - wavy
+    - wispy
+
+  tied:
+    common:
+      - casual
+      - half-up
+      - high
+      - loose
+      - low
+      - messy
+      - neat
+      - side
+      - sleek
+      - tight
+      - undercut
+    bun:
+      - bohemian bun
+      - bow bun{|s}
+      - braided bun
+      - braided double buns
+      - (bubble:0.9) bun
+      - chic bun
+      - chignon bun
+      - classic bun
+      - coiled bun
+      - donut bun
+      - double buns
+      - double top knots
+      - pigtail buns
+      - sailor buns
+      - sock bun
+      - space buns
+      - top knot
+      - twisted bun
+    tail:
+      - ''
+      - blunt
+      - (bubble:0.9)
+      - curled
+      - curly
+      - shaggy
+      - straight
+      - textured
+      - wavy
+    braid:
+      - ''
+      - (bubble:0.9)
+      - (crown:0.9)
+      - double
+      - dutch
+      - fishtail
+      - french
+      - halo
+      - loop
+      - messy
+      - (milkmaid:0.9)
+      - pigtails
+      - (waterfall:0.9)
+
+  bangs:
+    - arched
+    - asymmetrical
+    - blunt
+    - classic
+    - curly
+    - curtain
+    - (feathered:0.9)
+    - grown-out
+    - messy
+    - parted
+    - shaggy
+    - side-swept
+    - sleek
+    - sparse
+    - tendrils
+    - textured
+    - thick
+    - thin
+    - uneven
+    - wavy
+    - wispy
+
+  bun:
+    - __fash/hair/style/tied/common__ bun
+    - __fash/hair/style/tied/bun__
+
+  tail:
+    - a __fash/hair/style/tied/common__ ponytail
+    - a __fash/hair/style/tied/tail__ ponytail
+    - __fash/hair/style/tied/common__ pigtails
+    - __fash/hair/style/tied/tail__ pigtails
+    - __fash/hair/style/tied/common__ twintails
+    - __fash/hair/style/tied/tail__ twintails
+
+
+  braided:
+    - __fash/hair/style/tied/braid__ braided
+
+  parted:
+    - center parted
+    - deep side parted
+    - off-center parted
+    - side parted
+    #- zigzag parted Doesn't work well
+
+  by-length:
+    very-short:
+      - brush
+      - butch
+      - buzz
+      - crew
+      - crop
+      - messy
+      - pixie
+      - pompadour
+      - quiff
+      - (spiky:0.7)
+      - taper
+      - '{|tapered|faded} undercut'
+      - textured
+    short:
+      - bob cut
+      - fauxhawk
+      - frizzy
+      - pigtails
+      - pixie bob
+      - pixie cut
+      - pompadour
+      - quiff
+      #- shaggy A modifier
+      - (spiky:0.7)
+      - '{|tapered|faded} undercut' # Actually modifier
+    medium:
+      - behind-(ears:0.8)
+      - bouffant
+      - bob cut
+      #- (butterfly:0.8) Doesn't work well
+      - half-up half-down
+      - inverted bob cut
+      - lob cut
+      - pompadour
+      - quiff
+      - ringlets
+      - '{|tapered|faded} undercut'
+      - updo
+    long:
+      - beehive
+      - behind-(ears:0.8)
+      - bouffant
+      #- (butterfly:0.8) Doesn't work well
+      - half-up half-down
+      - pompadour
+
+  very-short:
+    - very short __fash/hair/style/by-length/very-short__ cut hair
+  short:
+    - __fash/hair/length/short__ __fash/hair/style/common__ hair
+    - short __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
+    - '{|very} short __fash/hair/style/common__ __fash/hair/style/by-length/short__ hair'
+    - '{|very} short hair in __fash/hair/style/tail__'
+    - short hair in a small __fash/hair/style/bun__
+  medium:
+    - medium-length __fash/hair/style/by-length/medium__ hair
+    - __fash/hair/length/medium__ __fash/hair/style/common__ hair
+    - __fash/hair/length/medium__ __fash/hair/style/parted__ __fash/hair/style/common__ hair
+
+    - __fash/hair/length/medium__ hair in __fash/hair/style/tail__
+    - __fash/hair/length/medium__ __fash/hair/style/braided__ hair
+    - hair in a __fash/hair/style/bun__
+  long:
+    - long __fash/hair/style/by-length/long__ hair
+    - __fash/hair/length/long__  __fash/hair/style/common__ hair
+    - __fash/hair/length/long__ __fash/hair/style/parted__ __fash/hair/style/common__ hair
+
+    - __fash/hair/length/long__ hair in __fash/hair/style/tail__
+    - __fash/hair/length/long__ __fash/hair/style/braided__ hair
+    - long hair in a large __fash/hair/style/bun__
+
+  with-bangs:
+    short:
+      __fash/hair/style/short__ with __fash/hair/style/bangs__ bangs
+    medium:
+      __fash/hair/style/medium__ with __fash/hair/style/bangs__ bangs
+    long:
+      __fash/hair/style/long__ with __fash/hair/style/bangs__ bangs
+
+  formal:
+    - beehive
+    - bouffant
+    - (crown:0.8) braided
+    - ringlets
+    - '{|wavy|sleek} pompadour'
