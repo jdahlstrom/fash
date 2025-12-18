@@ -260,11 +260,10 @@ neckline:
   # T-shirts, blouses, camisoles, tank tops etc.
   # TODO Does not fit bras or bikini tops well, so a bad name.
   with-straps:
-    - backless
     - crewneck
     - henley # A bit weird with swimsuits
     - keyhole-neckline
-    - (plunging:0.9)
+    #- (plunging:0.9)
     - scoop-neck
     - square-neck
     - surplice
@@ -308,8 +307,8 @@ neckline:
     - flounce-neckline
     - gathered-neckline
 
-  # Henley neck subtypes.
-  henley:
+  # Necklines that go with buttons, including henley
+  buttoned:
     - boatneck
     - crewneck
     - (plunging:0.8)
@@ -408,14 +407,15 @@ neckline:
     - flounce {|fold-over}
     - (ruffle:0.8)-neckline {|fold-over}
 
-    # TODO these work best with fitted bodices (eg. some (smart?) tops and dresses)
-    #- bardot
-    #- (plunging:0.9)
-    #- split-neck
-    #- sweetheart-neck
-    # (ruffle:0.8){(plunging:0.9)|sweetheart}
+  #  These work best with fitted bodices (eg. some (smart?) tops and dresses)
+  off-shoulder-fitted:
+    - bardot
+    - (plunging:0.9)
+    - split-neck
+    - sweetheart-neck
+     (ruffle:0.8){(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
-    #- o-ring
+    - o-ring
 
   off-shoulder-bandeau:
     - knot
