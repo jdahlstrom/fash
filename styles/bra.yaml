@@ -12,21 +12,6 @@ bra:
     - tank
     - wireless
 
-    # Smart/intimate/ornate
-    # - lacy
-    # - lace-trim
-    # - scallop lace-trim
-    # - flounce-trim
-    # - sheer lace
-    # - embroidered
-    # - sheer embroidered
-    # - rhinestone-detail
-    # - whitework
-    # - needle lace
-    # - cutwork
-    # - eyelet
-    # - eyelet-edge
-
     # Not recognized by SDXL (TODO test Flux)
     # - balconette
     # - balcony
@@ -36,6 +21,21 @@ bra:
     # - soft cup
     # - wireless
 
+  ornate: # Smart/intimate/ornate
+    - lacy
+    - lace-trim
+    - scallop lace-trim
+    - flounce-trim
+    - sheer lace
+    - embroidered
+    - sheer embroidered
+    - rhinestone-detail
+    - whitework
+    - needle lace
+    - cutwork-trim
+    - eyelet-trim
+    - eyelet-edge
+
   sports:
     - __fash/styles/upper/back/sports__
     - __fash/styles/upper/neckline/sports__
@@ -44,13 +44,10 @@ bra:
 
   neckline:
     common:
-      #- __fash/**/100-cami-tank-top/cami__
-      #- __fash/**/100-cami-tank-top/halter-cami__ halter
-
       - scoop-neck
-      #- square-neck
-      - sweetheart-neck
-      - triangle-neck
+      - square-neck # works best with bralette and sports
+      - sweetheart
+      - triangle-neckline
       - (plunging:0.8)
 
     strapless:
