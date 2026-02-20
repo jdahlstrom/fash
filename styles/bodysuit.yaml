@@ -32,12 +32,6 @@ bodysuit:
   sleeve:
     - '{3::short|2::3/4-length|long}'
 
-  neckline:
-    sleeved:
-      - __fash/styles/dress/neckline/sleeved__
-    sleeveless:
-      - __fash/styles/dress/neckline/sleeveless__
-
   teddy:
     #- __clothing/cut/lacing__
     - bow
