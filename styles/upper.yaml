@@ -93,14 +93,6 @@ upper:
     - split-front
     - tied-waist
 
-  top-blouse-tunic-length:
-    - crop
-    - short
-    - (short:0.8)
-    - (longline:0.8)
-    - longline
-    - mini
-
   top-blouse-tunic-hem:
     - draped
     - flared
@@ -115,7 +107,15 @@ upper:
     #- slit TODO does even this work?
     - tiered
 
-  waist:
+  length:
+    - crop
+    - short
+    - (short:0.8)
+    - waist-length
+    - hip-length
+    - (longline:0.8)
+    - longline
+    #- mini
 
   sleeve:
     length:

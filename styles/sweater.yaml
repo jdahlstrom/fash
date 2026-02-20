@@ -1,11 +1,9 @@
 sweater:
   style:
     - asymmetric
-    - crop
     - godet
     - hooded
     - (kangaroo pocket:0.9)
-    - longline
     - peplum
     - poncho
     - pullover
@@ -20,10 +18,8 @@ sweater:
   cardigan:
     - boyfriend
     - cold-shoulder
-    - crop
     - flyaway-hem
     - hooded
-    - longline
     - off-shoulder
     - raglan
     - (shawl-collared:0.8)
@@ -49,6 +45,8 @@ sweater:
     - oversize
   knit:
     - __fash/styles/common/knit__
+  length:
+    - __fash/styles/upper/length__
   traditional:
     - Aran
     - Fair Isle

@@ -159,19 +159,22 @@ casual:
 
   # Loose-fitting shirt. Ranges from casual to smart.
   blouse:
+    - __fash/styles/upper/common__ blouse
+    - __fash/styles/upper/top-blouse-tunic__ blouse
     - __fash/styles/upper/length__ blouse
-    - __fash/styles/shirt/blouse__ blouse
-    - __fash/styles/shirt/neckline/blouse__ blouse
+    #- __fash/styles/shirt/blouse__ blouse
+    - __fash/styles/shirt/neckline/blouse-tunic__ blouse
     - blouse with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim blouse
 
 
   # Casual, blouse-like but longer
   tunic:
+    - __fash/styles/upper/common__ tunic
     - __fash/styles/upper/top-blouse-tunic__ tunic
     - __fash/styles/upper/top-blouse-tunic-closure__ tunic
-
     - __fash/styles/shirt/neckline/blouse-tunic__ tunic
+    - __fash/styles/skirt/length/short__ tunic
     - tunic with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim tunic
 
@@ -185,11 +188,11 @@ casual:
     - __fash/styles/sweater/neckline__ sweater
     - __fash/styles/sweater/sleeve__ sweater
     - sweater with traditional __fash/styles/sweater/traditional__ {pattern|yoke}
-    - sleeveless sweater # TODO params
+    # - sleeveless sweater TODO params
 
   # Open-front sweater, usually button-closure.
   cardigan:
-    - __fash/styles/upper/length__ sweater
+    - __fash/styles/upper/length__ cardigan
     - __fash/styles/sweater/cardigan__ cardigan
     - __fash/styles/sweater/fit__ cardigan
     - __fash/styles/sweater/knit__ cardigan
