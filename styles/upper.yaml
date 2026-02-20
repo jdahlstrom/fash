@@ -155,71 +155,78 @@ upper:
         - (slit:0.8)
         - straight
 
-      #- (peplum:0.8) Bleeds to hemline
-
+  # TODO none used anywhere yet except sports
+  # Many of these likely don't work very well
   back:
-    # TODO not yet used anywhere
-    - back-closure
-    - back-lacing
-    - backless
-    - bowtie back
-    - button-back
-    - crossback
-    - criss-cross {|string} back
-    - (cutout:0.9) back
-    - deep v-back
-    - draped back
-    - halter back
-    - high back
-    - keyhole back
-    #- '{criss-cross|popover|string} keyhole back'
-    #- lace-up back
-    #- lace-up open-back
-    - mesh back
-    - open-back #{|popover} {|closure}
-    - open-back halter
-    - plunging back
-    - scoop-back
-    - split-back #{|popover} {|closure}
-    - strap-back
-    #- string-back
-    - racerback
-    - tied-back halter
-    - v-back
-    - y-back
-    - zip back
+    top:
+      - back-closure
+      - back-lacing
+      - backless
+      - bowtie back
+      - button-back
+      - crossback
+      - criss-cross {|string} back
+      - (cutout:0.9) back
+      - deep v-back
+      - draped back
+      - halter back
+      - high back
+      - keyhole back
+      #- '{criss-cross|popover|string} keyhole back'
+      #- lace-up back
+      #- lace-up open-back
+      - mesh back
+      - open-back #{|popover} {|closure}
+      - open-back halter
+      - plunging back
+      - scoop-back
+      - split-back #{|popover} {|closure}
+      - strap-back
+      #- string-back
+      - racerback
+      - tied-back halter
+      - v-back
+      - y-back
+      - zip back
 
-  dress-back:
-    - back-lacing
-    - backless
-    - open-back
-    - scoop-back
-    - plunge-back
-    - plunging v-back
-    - keyhole-back
-    - crossback
-    - draped-back neckline
-    - lace-back
-    - zip-back
-    - backless halter
-    - (cutout:0.9)-back
-    - square-back
-    - v-back
-    - (lace:0.9)-neckline
-    - x-back
+    dress:
+      - back-lacing
+      - backless
+      - open-back
+      - scoop-back
+      - plunge-back
+      - plunging v-back
+      - keyhole-back
+      - crossback
+      - draped-back neckline
+      - lace-back
+      - zip-back
+      - backless halter
+      - (cutout:0.9)-back
+      - square-back
+      - v-back
+      - (lace:0.9)-neckline
+      - x-back
 
+    t-shirt:
+      - scoop-back
+      - open-back
+      - keyhole-back
+      - scoop-back
+      - plunge-back
+      - mesh-back
+      - keyhole-closure
+      - draped-back neckline
 
-  top-back:
-
-  t-shirt-back:
-    - scoop-back
-    - open-back
-    - keyhole-back
-    - scoop-back
-    - plunge-back
-    - mesh-back
-    - keyhole-closure
-    - draped-back neckline
+    sports: # bra, top, swim
+      - crossback
+      - cutout-back
+      - open-back
+      - racerback
+      - strappy-back
+      - t-back
+      - x-back
+      - y-back
 
   neckline:
     cami-like:
