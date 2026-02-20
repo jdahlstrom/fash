@@ -162,8 +162,7 @@ casual:
     - __fash/styles/upper/common__ blouse
     - __fash/styles/upper/top-blouse-tunic__ blouse
     - __fash/styles/upper/length__ blouse
-    #- __fash/styles/shirt/blouse__ blouse
-    - __fash/styles/shirt/neckline/blouse-tunic__ blouse
+    - __fash/styles/blouse/neckline__ blouse
     - blouse with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim blouse
 
@@ -172,8 +171,7 @@ casual:
   tunic:
     - __fash/styles/upper/common__ tunic
     - __fash/styles/upper/top-blouse-tunic__ tunic
-    - __fash/styles/upper/top-blouse-tunic-closure__ tunic
-    - __fash/styles/shirt/neckline/blouse-tunic__ tunic
+    - __fash/styles/blouse/neckline__ tunic
     - __fash/styles/skirt/length/short__ tunic
     - tunic with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim tunic
@@ -362,7 +360,7 @@ casual:
   # TODO not sure if blouson should have its own entry
   #blouson-dress:
     #- __fash/styles/dress/skirt/casual__  blouson dress
-    #- __fash/styles/shirt/blouse__ blouson dress
+    #- __fash/styles/blouse/TODO__ blouson dress
     #- __fash/styles/dress/skirt/casual__ blouson dress with __fash/styles/upper/sleeve/*__ sleeves
 
   cami-dress:
