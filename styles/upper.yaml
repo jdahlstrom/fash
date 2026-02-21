@@ -233,6 +233,7 @@ upper:
       - __fash/**/100-cami-tank-top/cami__ spaghetti-strap
       - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
 
+    # Sleeveless with shoulder strap(s).
     # Append just "top" or "dress" or similar
     tank-top-like:
       - __fash/**/100-cami-tank-top/tank-top__ tank

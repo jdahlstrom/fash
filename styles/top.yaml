@@ -16,10 +16,6 @@ top:
 
   # TODO Try to get rid of this in favor of upper/neckline/*
   neckline:
-    all:
-      - __fash/styles/upper/neckline/sleeved__ # should have specified sleeves...
-      - __fash/styles/upper/neckline/sleeveless__
-
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!
     # Optionally append "... with ... sleeves" or similar

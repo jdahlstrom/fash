@@ -287,20 +287,23 @@ casual:
 
   jumpsuit:
     - __fash/styles/jumpsuit__ jumpsuit
-    - __fash/styles/top/neckline/all__ jumpsuit
     - __fash/styles/pants/leg/casual__ jumpsuit
     - __fash/styles/pants/length__ jumpsuit
-    - jumpsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/upper/neckline/sleeveless__ sleeveless jumpsuit
+    - __fash/styles/upper/neckline/sleeved__ jumpsuit
+        with  __fash/styles/upper/sleeve/*__ sleeves
 
   playsuit:
     - __fash/styles/playsuit__ playsuit
-    - __fash/styles/top/neckline/all__ playsuit
-    - playsuit with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/upper/neckline/sleeveless__ sleeveless playsuit
+    - __fash/styles/upper/neckline/sleeved__ playsuit
+        with  __fash/styles/upper/sleeve/*__ sleeves
 
   romper:
     - __fash/styles/romper__ romper
-    - __fash/styles/top/neckline/all__ romper
-    - romper with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/upper/neckline/sleeveless__ sleeveless romper
+    - __fash/styles/upper/neckline/sleeved__ romper
+        with  __fash/styles/upper/sleeve/*__ sleeves
 
   # TODO Should possibly count as lower, as they typically need a top
   overalls:
