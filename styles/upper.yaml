@@ -6,8 +6,9 @@
 # * General styles
 # * Backs
 # * Closures
+# * Collars
+# * Necklines
 # * Sleeves
-# * Waists
 
 upper:
 
@@ -221,6 +222,24 @@ upper:
       - t-back
       - x-back
       - y-back
+
+  # More at https://en.wikipedia.org/wiki/Collar_(clothing) but not recognized by SDXL.
+  # TODO Will probably need casual/smart separation
+  collar:
+    - band
+    - button-down
+    - Kent
+    - (mandarin:0.9)
+    - notched # also camp, convertible
+    - Peter Pan
+    - pointed
+    - revere
+    - rolled
+    - round
+    - sailor
+    - spread
+    - stand
+    - tunic
 
   neckline:
     cami-like:
