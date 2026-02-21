@@ -26,17 +26,14 @@ blouse:
     - button-down
     - half-button
 
-
   tunic:
     - ' ' # No unique styles
     #- __fash/styles/upper/common__
     #- __fash/styles/upper/top-blouse-tunic__
 
-
   neckline:
-    # TODO probabilities
-    # TODO off-shoulder?
-    - __fash/**/111-t-shirt-like/sleeved__
-    - __fash/styles/blouse/smart-front__ __fash/styles/neckline/buttoned__
-    - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
-    - off-shoulder __fash/**/001-off-shoulder-strapless/*__
+    - >
+      { __fash/styles/upper/neckline/cold-shoulder__
+      | __fash/styles/upper/neckline/off-shoulder__
+      | __fash/styles/blouse/smart-front__ __fash/styles/neckline/buttoned__
+      |2:: __fash/styles/upper/t-shirt-like__}
