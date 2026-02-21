@@ -337,21 +337,26 @@ neckline:
 
   # Shows some cleavage.
   low-neck:
-    - (cleavage:0.8)
-    - (cutout:0.8) neckline
-    - surplice
+    - surplice-neckline
     - drape-neckline
-    - keyhole {crewneck|(cleavage:0.9)|(cutout:0.8)|scoop neck}
-
-    # TODO plungings are maybe a bit *too* low...
-    - (plunging:0.6)
-    - (plunging:0.6) __fash/styles/neckline/plunging__
+    - keyhole {crewneck|scoop neck}
 
     - scoop neck
     - sweetheart neck # Maybe only works well with dresses etc?
-    - '{deep|} v-neck'
+    - v-neck
 
-    - off-shoulder {keyhole|plunging|surplice|sweetheart}
+    - off-shoulder {keyhole|surplice|sweetheart}
+
+  # Very low, open neckline.
+  plunge-neck:
+    - (cleavage:0.8)
+    - (cutout:0.8)-neckline
+    - deep v-neck
+    - keyhole {cleavage|(cutout:0.8)-neckline}
+    - plunging
+    - plunging __fash/styles/neckline/plunging__
+    - off-shoulder plunging
+    - (plunging:0.8) sweetheart
 
   # Plunging subtypes. Show a lot of cleavage.
   plunging:
