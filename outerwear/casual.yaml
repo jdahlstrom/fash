@@ -198,11 +198,13 @@ casual:
   sweatshirt:
     - __fash/styles/common/fit/casual__ sweatshirt
     - __fash/styles/upper/length__ sweatshirt
+    - __fash/styles/upper/neckline/t-shirt-like__ sweatshirt
     - __fash/styles/shirt/sweatshirt__ sweatshirt
 
   hoodie:
     - __fash/styles/common/fit/casual__ hoodie
     - __fash/styles/upper/length__ hoodie
+    - __fash/styles/upper/neckline/t-shirt-like__ hoodie
     - __fash/styles/shirt/sweatshirt__ hoodie
 
 
