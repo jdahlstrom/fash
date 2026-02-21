@@ -32,14 +32,6 @@ upper:
     #- collarless
     #- polo
 
-  length:
-    - crop
-    - short
-    - (short:0.8)
-    - (longline:0.8)
-    - longline
-    #- mini
-
   # Body/jump/play/romper suits
   legged:
     - apron

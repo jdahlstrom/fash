@@ -14,7 +14,7 @@ t-shirt:
     - smock
     - wrap
   length:
-    - __fash/styles/top/length__
+    - __fash/styles/upper/length__
   fit:
     - __fash/styles/common/fit/casual__
   trim:

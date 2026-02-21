@@ -6,11 +6,6 @@ top:
     - sports
     - tied-front
     - twist{|-front}
-  length:
-    - crop
-    - hip-length
-    - longline
-    - waist-length
 
   waist:
 
