@@ -86,17 +86,19 @@ upper:
     - tied-waist
 
   top-blouse-tunic-hem:
+    - circle
     - draped
     - flared
     - flounce
     - flyaway
     - godet
+    - handkerchief
     - high-low
     - knot
+    - peplum
     - (ruffle:0.9)
     - sharkbite
     - skirted
-    #- slit TODO does even this work?
     - tiered
 
   length:

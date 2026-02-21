@@ -156,16 +156,19 @@ casual:
   blouse:
     - __fash/styles/upper/common__ blouse
     - __fash/styles/upper/top-blouse-tunic__ blouse
+    - __fash/styles/upper/top-blouse-tunic-closure__ blouse
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem blouse
     - __fash/styles/upper/length__ blouse
     - __fash/styles/blouse/neckline__ blouse
     - blouse with __fash/styles/upper/sleeve/*__ sleeves
     #- __fash/styles/common/trim__-trim blouse
 
-
-  # Casual, blouse-like but longer
+  # Casual, blouse-like but longer. Used with pants, not a dress.
   tunic:
     - __fash/styles/upper/common__ tunic
     - __fash/styles/upper/top-blouse-tunic__ tunic
+    - __fash/styles/upper/top-blouse-tunic-closure__ tunic
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem tunic
     - __fash/styles/blouse/neckline__ tunic
     - __fash/styles/skirt/length/short__ tunic
     - tunic with __fash/styles/upper/sleeve/*__ sleeves
