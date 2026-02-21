@@ -16,21 +16,6 @@ top:
 
   # TODO Try to get rid of this in favor of upper/neckline/*
   neckline:
-    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
-    # Leaves shoulders bare, but may also have thin shoulder straps!
-    # Optionally append "... with ... sleeves" or similar
-    off-shoulder:
-      - __fash/styles/upper/neckline/off-shoulder__
-
-    # Optionally append "... with ... sleeves" or similar
-    cold-shoulder:
-      - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
-
-    # Held up with a strap or loop around the neck,
-    # leaving the upper back and shoulders bare.
-    halter:
-      - halter __fash/**/101-off-shoulder-with-straps/halter__
-
     # Sleeveless, strapless, tube-like.
     bandeau:
       - __fash/**/000-tube-like/bandeau__ bandeau
@@ -38,7 +23,3 @@ top:
     # Sleeveless, strapless, tube-like.
     tube:
       - __fash/**/000-tube-like/tube__ tube
-
-    # Sleeveless with shoulder strap(s).
-    tank-top:
-      - __fash/styles/upper/neckline/tank-top-like__
