@@ -255,6 +255,19 @@ upper:
     vest-like:
       - sleeveless __fash/**/110-vest-like/sleeveless__
 
+    # Held up with a strap or loop around the neck,
+    # leaving the upper back and shoulders bare.
+    # TODO there's also styles/neckline/halter, figure out how these differ
+    halter: # any halterneck
+      - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
+      - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
+      - __fash/**/100-cami-tank-top/halter-high__ halter
+      - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+
+
+    # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
+    # Leaves shoulders bare, but may also have thin shoulder straps!
+    # Optionally append "... with ... sleeves" or similar
     off-shoulder:
       - __fash/styles/upper/neckline/off-shoulder-strapless__
       - __fash/styles/upper/neckline/off-shoulder-straps__

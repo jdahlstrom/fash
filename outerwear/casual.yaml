@@ -112,11 +112,8 @@ casual:
 
   # Halterneck top variants.
   halter-top:
-    - halter top
-    - __fash/styles/neckline/100-cami-tank-top/halter-tank-top__ halter top
-    - __fash/styles/neckline/high-neck__ halter top
+    - __fash/styles/upper/neckline/halter__ top
 
-    # TODO variants other than neckline
     - __fash/styles/upper/common__ halter top
     - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
     - __fash/outerwear/casual/top-blouse-tunic__ halter top

@@ -177,10 +177,10 @@ neckline:
 
       # TODO most of these don't work very well with tank top
       # - __fash/styles/neckline/halter__
-
-      # TODO should have these here or not?
-      # They should be *somewhere*. Separate high-neck subcategory under 100?
-      #- __fash/styles/neckline/high-neck__
+    high:
+      - __fash/styles/neckline/high-neck__
+    halter-high:
+      - __fash/styles/neckline/high-neck__
 
   # Straps, sleeves, no shoulders
   # TODO Try out with limited variants for now
