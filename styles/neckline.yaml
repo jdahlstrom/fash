@@ -108,7 +108,6 @@ neckline:
   000-tube-like:
     strapless:
       - (bustier:0.9)
-      - (cutout:0.9)
       - fold-over
       - henley
       - keyhole
@@ -133,7 +132,6 @@ neckline:
       - ruffle-neckline
     bandeau:
       - (bow{-knot|}:0.8)
-      #- (cutout:0.9)
       - henley
       #- keyhole
       - knot
@@ -154,6 +152,7 @@ neckline:
     off-shoulder:
       - __fash/styles/neckline/off-shoulder__
 
+    # "0½1"
     off-one-shoulder:
       - '{3:: | ruche-neckline | (ruffle:0.8)-neckline }'
       # any others?
@@ -263,7 +262,6 @@ neckline:
     - crewneck
     - henley # A bit weird with swimsuits
     - keyhole-neckline
-    #- (plunging:0.9)
     - scoop-neck
     - square-neck
     - surplice
@@ -293,7 +291,6 @@ neckline:
   # Specific halterneck subtypes not included in with-straps or high-neck.
   halter:
     - crossing
-    - (cutout:0.9)
     - drape-neckline
     - o-ring
     - spaghetti strap
@@ -311,12 +308,12 @@ neckline:
   buttoned:
     - boatneck
     - crewneck
-    - (plunging:0.8)
     - scoop-neck
     - v-neck
 
   # Covers at least a bit of the neck.
   high-neck:
+    - funnel-neck
     - high-neck
     - mock-neck
     - roll-neck
@@ -376,7 +373,6 @@ neckline:
   shouldered:
     - '{|wide} boatneck'
     - collared
-    #- (cutout:0.9) neckline     # "boob window" TODO maybe just a cutout style
     - draped-neckline
     - flounce-neckline
     - mock neck
@@ -459,7 +455,6 @@ neckline:
       - one-shoulder
       #- split neck Doesn't work well
       - triangle neck # Doesn't work well?
-      # - Grecian not understood
       # Backs
       - backless
       - crossback
