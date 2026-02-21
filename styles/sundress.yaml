@@ -42,18 +42,13 @@ sundress:
     - linen
     - muslin
 
+  # NB. Does not use upper/neckline/sleeve* because those contains high necks etc
   neckline:
     sleeved:
       - __fash/styles/upper/neckline/off-shoulder__
       - __fash/styles/upper/neckline/cold-shoulder__
       - __fash/styles/neckline/low-neck__
-
-      # TODO Maybe too little skin?
-      #- __fash/styles/upper/neckline/t-shirt-like__
     sleeveless:
       - __fash/styles/upper/neckline/tube-like-long__
       - __fash/styles/upper/neckline/cami-like__
       - __fash/styles/neckline/low-neck__
-
-      # TODO Maybe too little skin?
-      #- __fash/styles/upper/neckline/vest-like__

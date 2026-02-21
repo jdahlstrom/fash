@@ -257,7 +257,7 @@ upper:
 
     # Held up with a strap or loop around the neck,
     # leaving the upper back and shoulders bare.
-    # TODO there's also styles/neckline/halter, figure out how these differ
+    # NB. Uses styles/neckline/halter indirectly
     halter: # any halterneck
       - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
       - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
@@ -276,17 +276,38 @@ upper:
     # Typically a horizontal neckline.
     off-shoulder-strapless:
       - off-shoulder __fash/**/001-off-shoulder-strapless/off-shoulder__
-      - '{off-one-shoulder|one-fallen-shoulder} __fash/**/001-off-shoulder-strapless/off-one-shoulder__'
 
     # Has sleeves, shoulder straps, but leaves the shoulders bare.
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __fash/**/101-off-shoulder-with-straps/spaghetti-strap__
       - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+      # TODO own category?
+      - '{off-one-shoulder|one-fallen-shoulder} __fash/**/001-off-shoulder-strapless/off-one-shoulder__'
 
     # Has sleeves, most of the normal necklines, but cutout shoulders
+    # Optionally append "... with ... sleeves" or similar
     cold-shoulder:
       - cold-shoulder __fash/**/101-off-shoulder-with-straps/cold-shoulder__
 
+    # Asymmetric with one shoulder strap and no sleeves.
+    one-shoulder:
+      - one-shoulder {2::|ruched-neckline|ruffle-neckline}
+
+    # Append "... with ... sleeves" or similar
+    sleeved:
+      - >
+        { __fash/styles/neckline/high-neck__
+        | __fash/styles/upper/neckline/cold-shoulder__
+        | __fash/styles/upper/neckline/off-shoulder__
+        |3:: __fash/styles/upper/neckline/t-shirt-like__}
+
+    sleeveless:
+      - sleeveless __fash/styles/neckline/high-neck__
+      - __fash/styles/upper/neckline/cami-like__
+      - __fash/styles/upper/neckline/tank-top-like__
+      - __fash/styles/upper/neckline/tube-like-long__
+      - __fash/styles/upper/neckline/vest-like__
+      - __fash/styles/upper/neckline/one-shoulder__
 
     sports:
       - crewneck

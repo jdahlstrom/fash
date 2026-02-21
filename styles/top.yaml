@@ -14,29 +14,11 @@ top:
 
   waist:
 
+  # TODO Try to get rid of this in favor of upper/neckline/*
   neckline:
     all:
-      - __fash/styles/top/neckline/sleeved__ # should have specified sleeves...
-      - __fash/styles/top/neckline/sleeveless__
-
-
-    # TODO Some redundancy with dress/neckline, only difference that tops have bandeau
-
-    # Append "... with ... sleeves" or similar
-    sleeved:
-      - >
-        {3::__fash/styles/upper/neckline/t-shirt-like__
-        | __fash/styles/neckline/high-neck__
-        | __fash/styles/top/neckline/cold-shoulder__
-        | __fash/styles/top/neckline/off-shoulder__}
-
-    sleeveless:
-      - __fash/styles/top/neckline/bandeau__
-      - sleeveless __fash/styles/neckline/high-neck__
-      - __fash/styles/upper/neckline/cami-like__ #spaghetti-strap
-      - __fash/styles/upper/neckline/tank-top-like__
-      - __fash/styles/upper/neckline/tube-like-short__ #tube TODO super inconsistent
-      - __fash/styles/upper/neckline/vest-like__ #sleeveless
+      - __fash/styles/upper/neckline/sleeved__ # should have specified sleeves...
+      - __fash/styles/upper/neckline/sleeveless__
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!

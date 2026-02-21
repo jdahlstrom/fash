@@ -27,13 +27,7 @@ t-shirt:
     - __fash/styles/upper/sleeve/style/short__
     - __fash/styles/upper/sleeve/style/common__
   neckline:
-    # TODO probabilities
-    - >
-      { 3::__fash/styles/upper/neckline/t-shirt-like__
-      | __fash/styles/upper/neckline/off-shoulder__ }
-
-    # TODO sleeveless are mostly redundant with generic tops
-    # | __fash/styles/upper/neckline/vest-like__
+    - __fash/styles/upper/neckline/sleeved__
 
   back:
     #- backless

@@ -46,15 +46,10 @@ smart:
     - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeveless-top__
 
   sleeved-top:
-    - __fash/styles/top/neckline/sleeved__ top with short {2::|flutter|puff|ruched} sleeves
-    #- __fash/styles/top/neckline/off-shoulder__ top with __fash/outerwear/smart/_top-sleeves__
-    #- __fash/styles/top/neckline/cold-shoulder__ top with __fash/outerwear/smart/_top-sleeves__
+    - __fash/styles/upper/neckline/sleeved__ top with __fash/outerwear/smart/_top-sleeves__
 
   sleeveless-top:
-    - #  __fash/outerwear/casual/top__ TODO This gives mostly shirt/blouse/sweater type tops
-    - __fash/styles/top/neckline/sleeveless__ top
-    - __fash/styles/upper/neckline/cami-like__ top
-    #- __fash/styles/top/neckline/halter__ top
+    - __fash/styles/upper/neckline/sleeveless__ top
 
 ##############################################################################
 

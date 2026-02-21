@@ -56,13 +56,11 @@ casual:
 
     # TODO
     - __fash/outerwear/casual/top-blouse-tunic__ top
-
     - __fash/styles/top/style__ top
 
-    - __fash/styles/top/neckline/sleeveless__ top # TODO
-
     - top with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/top/neckline/sleeved__ top with sleeves #__fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/upper/neckline/sleeved__ top with short sleeves
+    - __fash/styles/upper/neckline/sleeveless__ top
 
     #- __fash/outerwear/casual/sleeved-top__
     #- __fash/outerwear/casual/sleeveless-top__
@@ -72,13 +70,13 @@ casual:
     - __fash/styles/upper/common__ top with __fash/styles/upper/sleeve/*__ sleeves
     - __fash/styles/upper/top-blouse-tunic__ top with __fash/styles/upper/sleeve/*__ sleeves
     - __fash/styles/upper/top-blouse-tunic-hem__-hem top with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/top/neckline/sleeved__ top with __fash/styles/upper/sleeve/*__ sleeves
+    - __fash/styles/upper/neckline/sleeved__ top with __fash/styles/upper/sleeve/*__ sleeves
 
 
   # Either strapless or with straps.
   sleeveless-top:
     - __fash/outerwear/casual/strapless-top__
-    - sleeveless __fash/styles/top/neckline/sleeveless__ top
+    - sleeveless __fash/styles/upper/neckline/sleeveless__ top
     - sleeveless __fash/styles/upper/top-blouse-tunic-hem__-hem top
 
   # Sleeveless.

@@ -68,11 +68,10 @@ dress:
 
   sleeved:
     - dress with __fash/styles/dress/sleeve__ sleeves
-    - __fash/styles/dress/neckline/sleeved__ dress
+    - __fash/styles/upper/neckline/sleeved__ dress
         with __fash/styles/dress/sleeve__ sleeves
   sleeveless:
-    - __fash/styles/dress/neckline/sleeveless__ dress
-    #- __fash/styles/dress/neckline/sleeveless__ sleeveless dress
+    - __fash/styles/upper/neckline/sleeveless__ dress
 
   t-shirt:
     - __fash/styles/t-shirt/style__ t-shirt dress
@@ -132,20 +131,7 @@ dress:
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke} # TODO could be modifier
     #- __fash/clothing/cut/lacing__
 
-  # TODO Some redundancy with top/neckline, only difference that tops have bandeau
   neckline:
-    sleeved:
-      - __fash/styles/neckline/high-neck__
-      - __fash/styles/upper/neckline/cold-shoulder__
-      - __fash/styles/upper/neckline/off-shoulder__
-      - __fash/styles/upper/neckline/t-shirt-like__
-    sleeveless:
-      - __fash/styles/neckline/high-neck__
-      - __fash/styles/upper/neckline/cami-like__
-      - __fash/styles/upper/neckline/tank-top-like__
-      - __fash/styles/upper/neckline/tube-like-long__
-      - __fash/styles/upper/neckline/vest-like__
-
     night:
       - __fash/styles/upper/neckline/cami-like__
       - __fash/styles/upper/neckline/t-shirt-like__
