@@ -40,6 +40,14 @@ swimwear:
     # - string TODO separate string bikini
     - tie-side
 
+  shorts:
+    - bodycon
+    - drawstring
+    - long
+    - ruched
+    - short
+    - sports
+
   skirt:
     - bodycon
     - drawstring
@@ -171,7 +179,27 @@ swimwear:
     - peplum
     - tiered
 
-  one-piece: # TODO used by tankini which is not two-piece...
+  tankini-bottom:
+    - boyshorts
+    - high-cut
+    - high-waist
+    - hip{hugg|st}ers
+    - low-waist
+    - midrise
+    - skirted
+    - skort
+
+  suit-bottom:
+    # - boyleg Not recognized by SDXL
+    - boyshorts
+    - high-cut
+    - hip{hugg|st}ers
+    - low-waist
+    - midrise
+    - skirted
+    - skort
+
+  one-piece:
     back:
       - back-lacing
       - backless halter
@@ -181,18 +209,6 @@ swimwear:
       - open-back
       - racerback
       - strappy-back
-    bottom:
-      # TODO tankini should have high-waist but swimsuit not :|
-      - boyshorts
-      - high-cut
-      - hip{hugg|st}ers
-      - low-waist
-      # TODO monokini maybe not these
-      - skirted
-      - skort
-      #- thong could leave this to sexy
-
-
 
   neckline:
     # TODO off-one-shoulder should probably be dropped from swimwear altogether

@@ -60,8 +60,9 @@ casual:
 
   swimsuit:
     - __fash/styles/swimwear/suit__ swimsuit
+    - __fash/styles/swimwear/suit-bottom__ swimsuit
     - __fash/styles/swimwear/neckline/suit__ swimsuit
-    - __fash/styles/swimwear/one-piece/*__ swimsuit # back, bottom
+    - __fash/styles/swimwear/one-piece/back__ swimsuit
     - __fash/styles/swimwear/sports__ swimsuit
   monokini:
     - __fash/styles/swimwear/monokini__ monokini
@@ -90,14 +91,14 @@ casual:
   tankini:
     - __fash/styles/swimwear/tankini__ tankini
     - __fash/styles/swimwear/tankini__
-        __fash/styles/swimwear/one-piece/bottom__ tankini
+        __fash/styles/swimwear/tankini-bottom__ tankini
 
     - __fash/styles/swimwear/neckline/tankini__ tankini
     - __fash/styles/swimwear/neckline/tankini__
-        __fash/styles/swimwear/one-piece/bottom__ tankini
+        __fash/styles/swimwear/tankini-bottom__ tankini
 
     - __fash/styles/swimwear/one-piece/back__
-        __fash/styles/swimwear/one-piece/bottom__ tankini
+        __fash/styles/swimwear/tankini-bottom__ tankini
 
     - __fash/styles/swimwear/sports__ tankini
 
