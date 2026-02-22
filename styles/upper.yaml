@@ -331,7 +331,7 @@ upper:
       - square-neck
       - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
       - v-neck
-      #- mesh{|-yoke}
+      - mesh{|-yoke}
 
     sports-halter:
       - crewneck

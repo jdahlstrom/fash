@@ -15,7 +15,6 @@ swimwear:
     - ribbed
     - ruched
     - (ruffle-straps:0.8)
-    - sports # TODO has own category
     - string # TODO part of neckline
     #- strappy
     - tie-{front|back} {string|}
@@ -25,15 +24,20 @@ swimwear:
     - racerback
     - crossback
 
+  sports:
+    - __fash/styles/upper/back/sports__
+    - __fash/styles/upper/neckline/sports__
+    - __fash/styles/upper/neckline/sports-halter__
+
   # Lower
 
-  bikini-bottom:
+  briefs:
     - (buckle:0.8)-closure
     - high-waist strappy
     - side-lacing
     - skirted
     - strappy # TODO only works well with swim bottom
-    - string
+    # - string TODO separate string bikini
     - tie-side
 
   skirt:
@@ -66,13 +70,10 @@ swimwear:
     #- asymmetrical
     - (bustier:0.8)
     - peekaboo
-    - sports     # Should be separate, with own necklines
     - strappy
-    - tank       # Should be separate, with own necklines
-    # TODO same as tankini
     - bodycon
     - cami
-    - (cutout:0.8) # TODO maybe too revealing
+    #- (cutout:0.8) TODO maybe too revealing
     - flutter-sleeve
     - '{front|side}-lacing'
     - front-knot
@@ -126,7 +127,6 @@ swimwear:
 
   monokini:
     #- asymmetrical
-    #- cutout # A bit too skimpy for casual
     - bodycon
     - front-lacing
     - front-knot
@@ -204,7 +204,7 @@ swimwear:
       # TODO "backless" necklines are redundant, but should have crossback etc
       - __fash/styles/neckline/specific/cami__ {string|}
       - __fash/styles/neckline/specific/tank-top__
-      - __fash/styles/neckline/halter__ halter
+      - __fash/styles/upper/neckline/halter__ halter
 
       - __fash/styles/swimwear/neckline/off-shoulder-all__
       - __fash/styles/swimwear/neckline/strapless-top__
@@ -335,7 +335,7 @@ swimwear:
       - __fash/styles/neckline/bandeau__
 
     halter:
-      - __fash/styles/neckline/halter__
+      - __fash/styles/upper/neckline/halter__
       - __fash/styles/swimwear/neckline/_halter__
     _halter: # TODO to somewhere
       - bandeau

@@ -8,6 +8,7 @@ casual:
   #########################################################
     - __fash/beachwear/casual/bikini-top__
     - __fash/beachwear/casual/swim-top__
+    - __fash/beachwear/casual/sports-top__
 
   bikini-top:
     - __fash/styles/swimwear/top__ bikini top
@@ -17,6 +18,10 @@ casual:
     - __fash/styles/swimwear/neckline/bikini__ swim top
     - __fash/styles/swimwear/neckline/swim-top__ swim top
 
+  sports-top:
+    - __fash/styles/swimwear/sports__ swim top
+    - __fash/styles/swimwear/sports__ bikini top
+
   #########################################################
   lower:
   #########################################################
@@ -25,23 +30,25 @@ casual:
 
   bikini-bottom:
     - __fash/styles/panties/briefs__ bikini briefs
-    #- __fash/styles/panties/boxers__ bikini boxers
     - __fash/styles/panties/boyshorts__ bikini boyshorts
-    #- __fash/styles/panties/thong__ bikini thong
-    - __fash/styles/panties/thong__ string bikini bottom
-    - __fash/styles/swimwear/bikini-bottom__ bikini bottom
+    #- __fash/styles/panties/thong__ bikini thong TODO to sexy
+    - __fash/styles/panties/thong__ string bikini bottom # ?
+    - __fash/styles/swimwear/briefs__ bikini bottom
   swim-bottom:
     - __fash/styles/panties/briefs__ swim briefs
     - __fash/styles/panties/boxers__ swim boxers
     - __fash/styles/panties/boyshorts__ swim boyshorts
-    #- __fash/styles/panties/thong__ swim thong
-    - __fash/styles/swimwear/bikini-bottom__ swim bottom
+    #- __fash/styles/panties/thong__ swim thong TODO to sexy
+    - __fash/styles/swimwear/briefs__ swim bottom
     - __fash/beachwear/casual/swim-shorts__
+    - __fash/beachwear/casual/swim-skort__
     - __fash/beachwear/casual/swim-skirt__
   swim-skirt:
     - __fash/styles/swimwear/skirt__ swim skirt
   swim-shorts:
-    - '{high-cut|hiphugger|low-waist|} swim {shorts|skort}' # TODO
+    -  __fash/styles/swimwear/shorts__ swim shorts
+  swim-skort:
+    -  __fash/styles/swimwear/shorts__ swim skort
 
   #########################################################
   one-piece:
@@ -55,6 +62,7 @@ casual:
     - __fash/styles/swimwear/suit__ swimsuit
     - __fash/styles/swimwear/neckline/suit__ swimsuit
     - __fash/styles/swimwear/one-piece/*__ swimsuit # back, bottom
+    - __fash/styles/swimwear/sports__ swimsuit
   monokini:
     - __fash/styles/swimwear/monokini__ monokini
     - __fash/styles/swimwear/neckline/monokini__ monokini
@@ -62,6 +70,9 @@ casual:
     - __fash/styles/swimwear/dress__ swim dress
     - __fash/styles/swimwear/neckline/dress__ swim dress
     - __fash/styles/swimwear/one-piece/back__ swim dress
+
+  sports-one-piece:
+    - __fash/styles/swimwear/sports__ swimsuit
 
   #########################################################
   two-piece:
@@ -79,16 +90,23 @@ casual:
   tankini:
     - __fash/styles/swimwear/tankini__ tankini
     - __fash/styles/swimwear/tankini__
-      __fash/styles/swimwear/one-piece/bottom__ tankini
+        __fash/styles/swimwear/one-piece/bottom__ tankini
 
     - __fash/styles/swimwear/neckline/tankini__ tankini
     - __fash/styles/swimwear/neckline/tankini__
-      __fash/styles/swimwear/one-piece/bottom__ tankini
+        __fash/styles/swimwear/one-piece/bottom__ tankini
 
     - __fash/styles/swimwear/one-piece/back__
-      __fash/styles/swimwear/one-piece/bottom__ tankini
+        __fash/styles/swimwear/one-piece/bottom__ tankini
+
+    - __fash/styles/swimwear/sports__ tankini
 
   top-bottom:
     - __fash/beachwear/casual/swim-top__ and matching swim bottom
     - __fash/beachwear/casual/swim-bottom__ and matching swim top
     - __fash/beachwear/casual/swim-top__ and __fash/beachwear/casual/swim-bottom__
+    - two-piece __fash/styles/swimwear/sports__ swimsuit
+
+  sports-two-piece:
+    - two-piece __fash/styles/swimwear/sports__ swimsuit
+    - __fash/styles/swimwear/sports__ tankini
