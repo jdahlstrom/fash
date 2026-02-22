@@ -163,10 +163,9 @@ neckline:
   # Straps, no shoulders, no sleeves
   100-cami-tank-top:
     cami:
-      - __fash/styles/neckline/specific/cami__
+      - __fash/styles/neckline/spaghetti-strap__
       - __fash/styles/neckline/with-straps__
     tank-top:
-      - __fash/styles/neckline/specific/tank-top__
       - __fash/styles/neckline/with-straps__
     halter-cami:
       - __fash/styles/neckline/halter__
@@ -186,55 +185,16 @@ neckline:
   # TODO Try out with limited variants for now
   101-off-shoulder-with-straps:
     spaghetti-strap:
-      # TODO many of these may not be good with off shoulder
-      # just use  __fash/styles/neckline/100-cami-tank-top/cami__?
-      # or __fash/styles/neckline/off-shoulder__ ?
-      - ' '
-      - drawstring
-      - henley
-      - keyhole
-      - (plunging:0.9)
-      - ruche-neckline
-      - scoop neck # ???
-      - square neck
-      - surplice
-      - sweetheart-neck
-      - triangle-neck
-      - '{fold-over|} flounce neckline'
-      - '{deep|} v-neck'
-      #- __fash/styles/neckline/100-cami-tank-top/cami__
-      #- __fash/styles/neckline/off-shoulder__
+      # TODO see if this works
+      - __fash/styles/neckline/off-shoulder__
+    high:
+      - __fash/styles/neckline/high-neck__
     halter:
-      # TODO most off-shoulder halters doesn't necessarily
-      # make much sense, at least with swimsuits
-      - ' '
-      - backless
-      - crewneck
-      - crossing
-      - keyhole
-      - mock-neck
-      - o-ring
-      - (plunging:0.9)
-      #- scoop neck
-      - spaghetti-strap # could be modifier to all of these
-      - surplice
-      - strappy
-      - triangle-neck
-      - '{deep|} v-neck'
-      #- __fash/styles/neckline/with-straps__
-      #- __fash/styles/neckline/high-neck__
-      #- __fash/styles/neckline/halter__
+      - __fash/styles/neckline/off-shoulder-halter__
     cold-shoulder:
       - ' '
-      - boatneck
-      - crewneck
-      - keyhole {crewneck|mock-neck|}
-      - scoop-neck
-      - mock-neck
-      - v-neck
-      #- __fash/styles/neckline/with-straps__
-      #- __fash/styles/neckline/high-neck__
-      #- __fash/styles/neckline/cold-shoulder__
+      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/shouldered__
 
   # Straps, shoulders, no sleeves
   110-vest-like:
@@ -382,36 +342,30 @@ neckline:
     - '{deep|} v-neck'
     #- __fash/styles/neckline/v-neck__ v-neck
 
-  # Specific necklines to go with cold-shoulder sleeves.
-  cold-shoulder:
-    - asymmetric
-    - boatneck
-    - draped-neckline
-    - ruffle-neckline
-
   # Off-shoulder necklines, with straps or not.
   off-shoulder:
-    #- asymmetric
     - (bustier:0.8)
     - drawstring
+    - flounce {|fold-over}
     - fold-over
     - henley
     - keyhole {knot|o-ring|}
     - knot
-    - portrait neckline # Works best with fitted bodices
+    - square-neck
     - surplice
-    - tied
+    - sweetheart-neck
+    - tied-front
     # Gathers
     - gathered-neckline
     - ruche-neckline
     # Trims
-    - flounce {|fold-over}
     - (ruffle:0.8)-neckline {|fold-over}
 
   #  These work best with fitted bodices (eg. some (smart?) tops and dresses)
   off-shoulder-fitted:
     - bardot
     - (plunging:0.9)
+    - portrait-neckline
     - split-neck
     - sweetheart-neck
      (ruffle:0.8){(plunging:0.9)|sweetheart}
@@ -425,40 +379,46 @@ neckline:
     - twisted
     - o-ring
 
+  off-shoulder-halter:
+    # TODO most off-shoulder halters don't necessarily
+    # make much sense, at least with swimsuits
+    - ' '
+    - backless
+    - crewneck
+    - crossing
+    - high-neck
+    - keyhole
+    - mock-neck
+    - o-ring
+    - (plunging:0.9)
+    - spaghetti-strap # could be modifier to all of these
+    - surplice
+    - strappy
+    - triangle-neck
+    - '{deep|} v-neck'
+
+  spaghetti-strap:
+    - crossback
+    - drape-neckline
+    - fold-over # Does this work?
+    #- o-ring neckline
+    - one-shoulder
+    - strappy
+    - sweetheart-neck # Does this work well?
+    - triangle-neck
+    #- droop neck Doesn't work well
+    #- split neck Doesn't work well
+
+    # TODO trim/gather
+    - flounce-neckline
+    - gathered-neckline
+    - (ruffle:0.8){fold-over|}
+
   v-neck:
     - curved
     - deep
     - (plunging:0.9)
     - wide
-
-  # Additional neckline types for specific garments
-  specific:
-     # TODO rename to spaghetti-strap?
-     # These don't really exclude off-shoulder sleeves
-    cami:
-      - crossback
-      - drape-neckline
-      - fold-over # Does this work?
-      #- o-ring neckline
-      - strappy
-      - sweetheart-neck # Does this work well?
-      - triangle-neck
-      #- droop neck Doesn't work well
-      #- split neck Doesn't work well
-
-      # TODO trim/gather
-      - flounce-neckline
-      - gathered-neckline
-      - (ruffle:0.8){fold-over|}
-    tank-top:
-      - boatneck
-      - one-shoulder
-      #- split neck Doesn't work well
-      - triangle neck # Doesn't work well?
-      # Backs
-      - backless
-      - crossback
-      - racerback
 
   unrecognized:
     - Queen Anne
