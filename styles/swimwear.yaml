@@ -220,10 +220,11 @@ swimwear:
       # TODO "backless" necklines are redundant, but should have crossback etc
       - __fash/styles/neckline/specific/cami__ {string|}
       - __fash/styles/neckline/specific/tank-top__
-      - __fash/styles/upper/neckline/halter__ halter
 
-      - __fash/styles/swimwear/neckline/off-shoulder-all__
-      - __fash/styles/swimwear/neckline/strapless-top__
+      - __fash/styles/upper/neckline/halter__ halter
+      - __fash/styles/upper/neckline/tube-like-short__
+
+      - __fash/styles/swimwear/neckline/off-shoulder__
       - __fash/styles/swimwear/neckline/sports__
 
     # necklines that don't work well with bikinis but do with swim tops
@@ -236,12 +237,13 @@ swimwear:
 
     suit:
       - __fash/styles/upper/neckline/cami-like__
-      - __fash/styles/swimwear/neckline/off-shoulder-all__
-      - __fash/styles/swimwear/neckline/strapless-suit__
-      - __fash/styles/swimwear/neckline/sports__
-
+      - __fash/styles/upper/neckline/tube-like-long__
       # TODO this adds unneeded "tank" currently
+      # TODO redundant with tankini?
       - __fash/styles/upper/neckline/tank-top-like__
+
+      - __fash/styles/swimwear/neckline/off-shoulder__
+      - __fash/styles/swimwear/neckline/sports__
 
     tankini:
       - __fash/styles/swimwear/neckline/suit__
@@ -267,6 +269,12 @@ swimwear:
       - sweetheart halter
       - twisted halter
 
+    off-shoulder:
+      - __fash/styles/swimwear/neckline/off-shoulder-front__ off-shoulder
+      - __fash/styles/swimwear/neckline/off-shoulder-sleeves__ off-shoulder
+      - __fash/styles/swimwear/neckline/off-shoulder-sleeves__
+          __fash/styles/swimwear/neckline/off-shoulder-straps__ off-shoulder
+
     # These should work with all swim tops and one-pieces (except monokinis)
     off-shoulder-sleeves:
       - flutter-sleeve
@@ -279,88 +287,12 @@ swimwear:
       - ruche-neckline
       - surplice
       - tied-front
-    off-shoulder-straps: # for best results combine with specific sleeve type
+    # For best results combine with specific sleeve type
+    off-shoulder-straps:
       - spaghetti halter
       - criss-cross spaghetti halter
       - spaghetti-strap
 
-    off-shoulder-all:
-      - __fash/styles/swimwear/neckline/off-shoulder-front__ off-shoulders
-      - __fash/styles/swimwear/neckline/off-shoulder-sleeves__ off-shoulders
-      - __fash/styles/swimwear/neckline/off-shoulder-sleeves__
-        __fash/styles/swimwear/neckline/off-shoulder-straps__ off-shoulder
-
     sports:
       - __fash/styles/upper/neckline/sports__ sports
       - __fash/styles/upper/neckline/sports-halter__ sports
-
-    strapless-top:
-      - __fash/styles/upper/neckline/tube-like-short__
-
-    strapless-suit:
-      - __fash/styles/upper/neckline/tube-like-long__
-
-
-
-
-### OBSOLETE
-
-  neckline-x:
-    # Lot of redundancy with bra/tops
-    top:
-      - bandeau
-      - crewneck # works with top, not with bikini
-      - crewneck halter
-      - flounce-neckline
-      - high-neck
-      - keyhole crewneck
-      #- lace-up Concept bleeding to lace...
-      - mock neck # works with top, not with bikini
-      - halter
-      - one-shoulder sports # just one-shoulder doesn't work well
-      - off-shoulder
-      - (spaghetti:0.9) strap
-      - square neck
-      - strapless
-      - sweetheart neck
-      - triangle neck
-      - tube
-    suit:
-      - crewneck
-      - flounce-neckline
-      - front-lacing
-      - high-neck
-      - keyhole crewneck
-      - mock neck
-      - halter
-      - one-shoulder
-      - off-shoulder
-      - (spaghetti:0.9) strap
-      - square neck
-      - strapless
-      - sweetheart neck
-      - triangle neck
-      - v-neck
-    dress:
-      - __fash/styles/swimwear/neckline/suit__
-
-    tankini:
-      - __fash/styles/swimwear/neckline/suit__
-
-    bandeau:
-      - __fash/styles/neckline/bandeau__
-
-    halter:
-      - __fash/styles/upper/neckline/halter__
-      - __fash/styles/swimwear/neckline/_halter__
-    _halter: # TODO to somewhere
-      - bandeau
-      - crossing #criss-cross
-      - drape-neckline
-      - high
-      - keyhole high
-      - knot-back # more reliable than tied-back
-      - mock neck
-      - keyhole mock neck
-      - o-ring
-      - v-neck
