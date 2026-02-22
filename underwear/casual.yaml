@@ -10,20 +10,20 @@ casual:
   # Upper
 
   bra:
-    - __fash/styles/bra/style__ bra
-    - __fash/styles/bra/neckline/common__ bra
+    - __fash/styles/bra/casual__ bra
+    - __fash/styles/bra/neckline__ bra
     - __fash/underwear/casual/bralette__
     - __fash/underwear/casual/sports-bra__
     - __fash/underwear/casual/strapless-bra__
 
   bralette:
-    - __fash/styles/bra/style__ bralette
-    - __fash/styles/bra/neckline/common__ bralette
+    - __fash/styles/bra/casual__ bralette
+    - __fash/styles/bra/neckline__ bralette
   sports-bra:
     - __fash/styles/bra/sports__ sports bralette
     - __fash/styles/bra/sports__ sports bra
   strapless-bra:
-    - __fash/styles/bra/neckline/strapless__ bra
+    - __fash/styles/upper/neckline/tube-like-short__ bra
 
   camisole:
     - __fash/outerwear/casual/camisole__

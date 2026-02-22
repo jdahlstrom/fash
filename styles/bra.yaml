@@ -10,14 +10,12 @@ bra:
     - sports
     - (t-shirt:0.8)
     - tank
-    - wireless
 
-    # Not recognized by SDXL (TODO test Flux)
+    # Not recognized by SDXL (TODO test Flux/etc)
     # - balconette
     # - balcony
     # - demi
     # - front-closure (or front-fasten)
-    # - shelf
     # - soft cup
     # - wireless
 
@@ -26,6 +24,7 @@ bra:
     - lace-trim
     - scallop lace-trim
     - flounce-trim
+    - ruffle-trim
     - sheer lace
     - embroidered
     - sheer embroidered
@@ -40,59 +39,13 @@ bra:
     - __fash/styles/upper/back/sports__
     - __fash/styles/upper/neckline/sports__
     - __fash/styles/upper/neckline/sports-halter__ halter
-    - __fash/styles/bra/neckline/strapless__
+    - __fash/styles/upper/neckline/tube-like-short__
 
   neckline:
-    common:
-      - scoop-neck
-      - square-neck # works best with bralette and sports
-      - sweetheart
-      - triangle-neckline
-      - (plunging:0.8)
-
-    strapless:
-      - __fash/**/000-tube-like/strapless__ strapless
-      - __fash/**/000-tube-like/bandeau__ bandeau
-
-
-### OBSOLETE
-
-  neckline-x:
-    common:
-      - bandeau                   # band-like
-      - (cage:0.8)-neck           # with multiple straps in the front or back
-      - halterneck                # straps forming a loop behind the neck
-      - plunging
-      - scoop neck
-      - (spaghetti:0.8) strap     # very thin straps
-      - square neck               # shallower angle between cups
-      - strapless
-      - strappy
-      - sweetheart neck           # round, heart-like cup shape
-      - triangle neck             # triangular cup shape
-
-    bandeau:
-      - __fash/common/neckline/bandeau__
-    halter:
-      - __fash/common/neckline/halter__
-
-    sports:
-      #- halterneck {|keyhole|mesh}
-      - keyhole {|boatneck|crewneck}
-      - mesh{|-yoke}
-      #- mock neck
-      - one-shoulder
-      - scoop neck
-      - square neck
-      - (spaghetti:0.8) {|halter}
-      #- strapless
-      #- sweetheart neck
-      #- tube
-      - v-neck
-
-      - crossback
-      - cutout-back
-      - racerback
-      - t-back
-      - x-back
-      - y-back
+    - halterneck
+    - scoop-neck
+    - square-neck # works best with bralette and sports
+    - sweetheart
+    - (plunging:0.8)
+    - (spaghetti:0.8) strap
+    - triangle-neckline
