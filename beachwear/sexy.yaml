@@ -1,0 +1,48 @@
+sexy:
+  all:
+    - __fash/beachwear/sexy/one-piece__
+    - __fash/beachwear/sexy/two-piece__
+
+  #########################################################
+  upper:
+  #########################################################
+    - __fash/beachwear/sexy/bikini-top__
+    - __fash/beachwear/sexy/swim-top__
+
+  bikini-top:
+    - __fash/styles/swimwear/top__ bikini top
+    - __fash/styles/swimwear/neckline/bikini__ bikini top
+  swim-top:
+    - __fash/styles/swimwear/top__ swim top
+    - __fash/styles/swimwear/neckline/bikini__ swim top
+    - __fash/styles/swimwear/neckline/swim-top__ swim top
+
+  #########################################################
+  lower:
+  #########################################################
+    - __fash/beachwear/sexy/bikini-bottom__
+    - __fash/beachwear/sexy/swim-bottom__
+
+  bikini-bottom:
+    - __fash/styles/panties/briefs__ bikini briefs
+    - __fash/styles/panties/thong__ bikini thong
+    - __fash/styles/panties/thong__ string bikini bottom
+    - __fash/styles/swimwear/bikini-bottom__ bikini bottom
+  swim-bottom:
+    - __fash/styles/panties/briefs__ swim briefs
+    - __fash/styles/panties/thong__ swim thong
+    - __fash/styles/swimwear/bikini-bottom__ swim bottom
+    #- __fash/beachwear/sexy/swim-shorts__
+    #- __fash/beachwear/sexy/swim-skirt__
+  swim-skirt:
+    - __fash/styles/swimwear/skirt__ swim skirt
+  swim-shorts:
+    - '{high-cut|hiphugger|low-waist|} swim {shorts|skort}' # TODO
+
+  #########################################################
+  one-piece:
+  #########################################################
+
+  monokini:
+    - __fash/styles/swimwear/monokini__ monokini
+    - __fash/styles/swimwear/neckline/monokini__ monokini

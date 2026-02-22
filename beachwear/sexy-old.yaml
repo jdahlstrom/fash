@@ -1,0 +1,162 @@
+sexy:
+  #####
+  _common:
+    material:
+      - sheer
+      - sheeny
+      - shiny
+      - mesh
+      - fishnet
+      - fencenet
+    size:
+      - micro
+      - tiny
+    deco:
+      - '{o|d}-ring'
+      - ruched
+      - criss-cross
+    top:
+      - asymmetric
+    criss-cross:
+      - ''
+      - (cage:0.8)
+      - o-ring
+      - spaghetti
+      - strappy
+      - string
+    harness:
+      - criss-cross
+      - o-ring
+      - string
+      - strappy
+      - spaghetti
+    cut:
+      - __clothing/swimwear/sexy/_common/criss-cross__ criss-cross
+      - __clothing/swimwear/sexy/_common/harness__ harness
+      - peekaboo
+
+  -two-piece:
+    neckline:
+        - __clothing/neckline/_bandeau__ bandeau
+        - '{|cutout|cutout high} {|criss-cross} halter'
+        - __clothing/neckline/_bandeau__ bandeau {|criss-cross} halter
+    bottom:
+        - '{g|t|v}-string'
+        - high-leg
+        - hipsters
+        - low-rise
+        - thong
+    cut:
+      - '{|asymmetric} __clothing/swimwear/sexy/_common/cut__'
+      - __clothing/swimwear/sexy/-two-piece/bottom__
+      - __clothing/swimwear/sexy/-two-piece/neckline__
+  _two-piece:
+    - bikini
+    - two-piece swimsuit
+    - swim top and bottom
+  two-piece:
+      - __clothing/swimwear/sexy/_common/size__ __clothing/swimwear/sexy/-two-piece/cut__
+        __clothing/swimwear/sexy/_two-piece__
+      - __clothing/swimwear/sexy/_common/material__ __clothing/swimwear/sexy/-two-piece/cut__
+        __clothing/swimwear/sexy/_two-piece__
+
+  -one-piece:
+    cutout:
+      - ''
+      - asymmetric
+      - '{chest|sides|front}'
+      - deep
+    bottom:
+      - '{g|t|v}-string'
+      - high-leg
+      - thong
+
+  -swimsuit:
+    cut:
+      - __clothing/swimwear/sexy/_common/criss-cross__ criss-cross
+      - __clothing/swimwear/sexy/_common/harness__ harness
+      - __clothing/swimwear/sexy/-one-piece/cutout__ cutout
+
+      - __clothing/swimwear/_waist__
+      - '{closure|knot|tied}-top'
+      - '{lace-up|back-lacing|front-lacing}'
+      - slingshot {|o-ring|strappy|string}
+
+    halter:
+      - ''
+      - '{cutout|keyhole} {|high}'
+      - __clothing/neckline/_bandeau__ bandeau
+
+    neck: # TODO clean up
+      - '{cutout|keyhole} __clothing/neckline/_bandeau__ bandeau'
+      - '{cutout|keyhole} strapless'
+      - high-neckline {halter|keyhole|halter keyhole}
+      - plunging {|halter|scoop neck|v-neck}
+      - __clothing/swimwear/sexy/-swimsuit/halter__  {|criss-cross} halter
+
+  _swimsuit:
+    - __clothing/swimwear/sexy/_common/material__
+    - __clothing/swimwear/sexy/-one-piece/bottom__
+    - __clothing/swimwear/sexy/-swimsuit/cut__
+  swimsuit:
+    - __clothing/swimwear/sexy/_swimsuit__
+        __clothing/swimwear/sexy/-swimsuit/neck__ one-piece swimsuit
+
+  -monokini:
+    misc:
+      - string suspender
+      - '{closure|knot|tied}-top'
+      - slingshot {|o-ring|strappy|string}
+
+    cut:
+      - __clothing/swimwear/sexy/_common/harness__ {|harness}
+      - __clothing/swimwear/sexy/_common/criss-cross__ criss-cross
+      - __clothing/swimwear/sexy/-one-piece/cutout__ cutout
+      - __clothing/swimwear/sexy/-monokini/misc__
+
+    # TODO figure out if needed at all
+    neck:
+      - halterneck
+      - plunging halterneck
+      - off-shoulder {cutout|strappy}
+      - triangle neckline
+      #- high-neckline halter {|keyhole}
+      #- plunging {|v-neck|scoop neck}
+      # TODO does bandeau work reasonably with monokini?
+      # - keyhole __clothing/neckline/_bandeau__ bandeau
+
+  _monokini:
+    #- __clothing/swimwear/sexy/_common/material__
+    - __clothing/swimwear/sexy/_common/size__ __clothing/swimwear/sexy/-monokini/cut__
+    - __clothing/swimwear/sexy/-one-piece/bottom__ __clothing/swimwear/sexy/-monokini/cut__
+    - __clothing/swimwear/sexy/-monokini/cut__ __clothing/swimwear/sexy/-monokini/neck__
+  monokini:
+    - __clothing/swimwear/sexy/_monokini__ monokini
+
+  one-piece:
+    - __clothing/swimwear/sexy/swimsuit__
+    - __clothing/swimwear/sexy/monokini__
+
+  _lower-only:
+    bikini:
+      - cheeky
+      - high-leg
+      - low-rise
+      - '{|low-rise|high-leg} thong'
+      - '{|low-rise|high-leg} boyshort'
+    other:
+      - swim shorts
+      - swim skort
+      - bikini bottom
+      - skirted bikini bottom
+      - (ruffle:0.9) bikini bottom
+
+  lower-only:
+    - __clothing/swimwear/sexy/_lower-only/bikini__ swim bottom with bare breasts
+    - '{low-rise|hiphugger} __clothing/swimwear/sexy/_lower-only/other__ with bare breasts'
+    # TODO pasties?
+
+  all:
+    #- __clothing/swimwear/sexy/lower-only__
+    - __clothing/swimwear/sexy/one-piece__
+    - __clothing/swimwear/sexy/two-piece__
