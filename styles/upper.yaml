@@ -15,8 +15,9 @@ upper:
   # Styles common to all
   casual:
     - boho
-    - peasant
+    - contour # ?
     - flowy
+    - peasant
     - ruched smock
     - ruched-waist # Comes from waist for dresses, others TODO
     - smock

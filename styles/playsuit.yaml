@@ -2,13 +2,30 @@
 #
 # TODO Are playsuits and rompers distinct enough?
 
+
+# Body/jump/play/romper suits
+casual-suit:
+  - apron
+  - culottes
+  - shirt
+  - t-shirt
+  - sweater
+  - pinafore
+  - skirted
+
+jumpsuit-leg:
+  - __fash/styles/pants/leg/casual__
+  - __fash/styles/pants/length__
+
 # A one-piece suit with long legs.
 jumpsuit:
+  - __fash/styles/upper/common__
   - __fash/styles/upper/top-dress-legged__
+  - __fash/styles/casual-suit__
 
 # A one-piece suit with short legs.
 playsuit:
-  - __fash/styles/upper/top-dress-legged__
+  - __fash/styles/jumpsuit__
 
 romper:
-  - __fash/styles/upper/top-dress-legged__
+  - __fash/styles/jumpsuit__

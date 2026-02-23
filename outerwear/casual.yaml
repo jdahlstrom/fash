@@ -291,8 +291,8 @@ casual:
 
   jumpsuit:
     - __fash/styles/jumpsuit__ jumpsuit
-    - __fash/styles/pants/leg/casual__ jumpsuit
-    - __fash/styles/pants/length__ jumpsuit
+    - __fash/styles/jumpsuit-leg__ jumpsuit
+
     - __fash/styles/upper/neckline/sleeveless__ sleeveless jumpsuit
     - __fash/styles/upper/neckline/sleeved__ jumpsuit
         with  __fash/styles/upper/sleeve/casual/*__ sleeves
