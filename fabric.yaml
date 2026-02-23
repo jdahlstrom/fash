@@ -1,0 +1,239 @@
+fabric:
+  denim:
+    wash:
+      - acid wash
+      - bleached
+      - dirty wash
+      - sandwashed
+      - stonewashed
+      - vintage wash
+      - whisker-washed
+    wear:
+      - raw-edge
+      - lightly faded
+      - faded
+      - lightly worn
+      - frayed
+      - distressed
+      - worn
+      - heavily worn
+      - torn
+      - ripped
+
+
+
+  # TODO add descriptions, uses
+
+  bombazine:
+    - cotton
+    - silk
+    - wool
+
+  challis:
+    - cotton
+    - polyester
+    - wool
+
+  charmeuse:
+    - polyester
+    - rayon
+    - silk
+
+  muslin:
+    - mull
+    - nainsook
+    - seerhand
+    - gauze
+  organza:
+    - nylon
+    - polyester
+    - silk
+  poplin:  # shirt, dress, nightdress
+    - cotton
+    - polyester
+    - rayon
+    - silk
+    - wool
+  satin: # Sheeny weave
+    - cotton sateen
+    - cotton satin
+    - cotton satinet
+    - polyester satin
+    - silk satin
+    - wool sateen
+    - wool satinet
+  velvet:
+    - velour
+    - velvet
+    - velveteen
+
+  # "Tulle is most commonly used for veils, gowns (particularly wedding gowns), and ballet tutus."
+  # Sheer
+  tulle:
+    - nylon
+    - polyester
+    - silk
+    #- rayon "very rare"
+
+
+  # Fiber material
+
+  cotton:
+    - batiste  # aka cambric - shirts, summer dresses, linens, lace
+    - lawn     # dresses, blouses, aprons, nightwear, underwear, lingerie, shirting
+    - muslin   #
+    - poplin
+    - sateen
+
+  linen:
+    - batiste
+    - chambray
+
+  silk:
+    - habutai  # light blouses, lingerie
+    - shot
+    - Tiffany
+
+  synthetic:
+    - nylon
+    - polyester
+
+  semi-synthetic:
+    - lyocell
+    - modal
+    - rayon
+
+  plant-fiber:
+    - cotton
+    - linen
+
+  wool:
+    - alpaca
+    - angora
+    - cashmere
+    - merino
+    - mohair
+
+
+
+
+  # https://en.wikipedia.org/wiki/Ninon
+  # "Ninon is mostly used in drapery and curtains. It is also used in blouses,
+  # bodices, dresses such as evening wear, and in certain lingerie."
+  ninon:
+    - nylon
+    - polyester
+    - rayon
+    - silk
+
+  taffeta:
+    - nylon
+    - polyester
+    - rayon
+    - silk
+
+  loungewear:
+    - __fash/fabric/cotton__
+    - __fash/fabric/linen__
+    - __fash/fabric/semi-synthetic__
+
+  underwear:
+    - chiffon
+
+    - cotton/linen/silk lace
+    - lycra/spandex
+    - nylon
+    - __fash/fabric/satin__
+    - __fash/fabric/semi-synthetic__
+
+  outdoors: # heavy, windproof
+    - byrd cloth
+    # "Gabardine is a durable twill worsted wool. It is a tightly woven waterproof fabric
+    # and is used to make outerwear and various other garments, such as suits, overcoats,
+    # trousers, uniforms, and windbreakers."
+    - gabardine
+    - grenfell clot
+
+
+  intimate:
+    # TODO separate weave and material
+    - __fash/fabric/bombazine__
+    - __fash/fabric/challis__
+    - __fash/fabric/muslin__
+    - __fash/fabric/ninon__
+    - __fash/fabric/poplin__
+    - __fash/fabric/satin__
+    - __fash/fabric/taffeta__
+    - __fash/fabric/velvet__
+
+    - __fash/fabric/silk__
+    - __fash/fabric/semi-synthetic__
+
+
+    - bengaline
+    - brilliantine
+    - jacquard
+
+    - '{nylon|} marquisette' # sheer
+
+    - linen
+    - moire
+    - toile
+
+    - Ultrasuede
+
+    - Viyella
+
+    - lawn {|cloth}
+
+    - seersucker # warm weather
+
+  ornate:
+    - brocade
+    - brocatelle
+    - jacquard
+    - lamé
+    - paduasoy
+
+
+    # ---
+
+    - chambray
+
+    - coutille # corsetry
+
+  misc:
+    - terrycloth # frotee
+
+  sheer:
+    #- bobbin lace # todo separate laces
+    - cheesecloth
+    - chiffon
+    - crêpe
+    - eolienne
+    - gauze
+    - gossamer
+    - jamdani
+    - lawn
+    - voile
+    - zephyr
+
+    # "Marquisette is employed in certain undergarments, and is seen in dresses such as
+    # bridal wear and evening wear. It can commonly be seen in sheer draperies and curtains."
+    - '{nylon|} marquisette'
+
+    - __fash/fabric/muslin__
+    - muslin {|gauze}
+    - __fash/fabric/ninon__
+
+    # "Organdy was historically used for bridal dresses, ladies party dresses, and blouses."
+    - '{cotton|} organdy'
+
+    # "Organza is a thin, plain weave, sheer fabric traditionally made from silk. Many modern
+    # organzas are woven with synthetic filament fibers such as polyester or nylon."
+    - '{__fash/fabric/synthetic__|} organza'
+
+    - plissé
+
+    - __fash/fabric/tulle__
+    - bobbinet tulle
