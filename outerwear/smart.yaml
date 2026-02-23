@@ -30,7 +30,6 @@ smart:
   blouse:
     - __fash/styles/blouse/smart__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
-
     - __fash/styles/shirt/hem/smart__-hem blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/shirt/hem/smart__-hem
@@ -132,7 +131,6 @@ smart:
     - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/dress/skirt/smart__ sleeveless __fash/styles/shirt/smart__ shirt dress
     - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/upper/collar__ collar
-
 
 ##############################################################################
 
