@@ -5,11 +5,11 @@
 #     sleeves, neckline unspecified
 #     neckline, sleeves unspecified
 #     sleeved neckline + sleeves
-#     sleeveless neckline + sleeveless
+#     sleeveless neckline + 'sleeveless'
 #   upper styles
 #   waist styles
 #   skirt cut
-#   skirt length
+#   skirt length (partly depends on cut)
 #   hem cut (+trim)
 #
 # Skirted versions of upper garments:
@@ -43,6 +43,51 @@ dress:
     - __fash/styles/dress/skirt/casual__
 
 
+  smart: # TODO
+    specific: # Specific styles
+      - blazer
+      - cheongsam
+      - little black # ?
+      - pencil
+      - '{|ruched} tube'
+      - sheath
+      - shift
+
+    generic:
+      - cocktail
+
+    bodice:
+      # neckline: strapless, off-shoulder, plunge, others?
+      - basque
+      - cami
+      - corset
+
+    specific-cut-old:
+      - __clothing/neckline/camisole__ cami
+      - '{|__clothing/cut/pleat__} corset'
+      - illusion-yoke
+      - little black
+      - pencil
+      - '{|ruched} tube'
+    skirt:
+      - a-line
+      - asymmetrical
+      - bubble
+      - cocktail
+      - fit-and-flare
+      - frill-hem
+      - high-low
+      #- high-slit
+      - lace-{yoke|trim}
+      - peplum
+      - pleated #__clothing/cut/pleat__
+      - ruched
+      - sheath
+      - shift
+      - slit
+      - tiered-hem
+      - trumpet
+
   # The upper part of the dress, covering the torso.
   # Only styles not in upper/* common styles!
   bodice:
@@ -64,7 +109,7 @@ dress:
   sleeve:
     - __fash/styles/upper/sleeve/length__
     - __fash/styles/upper/sleeve/length__ __fash/styles/upper/sleeve/style/casual/common__
-    - '{short|above-elbow} __fash/styles/upper/sleeve/style/casual/short__'
+    - short __fash/styles/upper/sleeve/style/casual/short__
 
   sleeved:
     - dress with __fash/styles/dress/sleeve__ sleeves
@@ -100,31 +145,41 @@ dress:
   # The lower part of the dress, covering the legs
   skirt:
     cut:
-      - __fash/styles/skirt/cut__-skirted
+      - __fash/styles/skirt/cut/*__-skirted # TODO?
     hem:
       - __fash/styles/skirt/hem__-hem
       #- __fash/styles/skirt/trim__-hem
     length:
+      # casual
       - __fash/styles/skirt/length/casual__
 
     short:
-      - __fash/styles/dress/skirt/cut__
+      - __fash/styles/dress/skirt/cut/*__ # TODO?
       - __fash/styles/dress/skirt/hem__
       - __fash/styles/skirt/length/short__
+
     casual:
-      - __fash/styles/dress/skirt/cut__
       - __fash/styles/dress/skirt/hem__
+      - __fash/styles/skirt/cut/casual__
       - __fash/styles/skirt/length/casual__
+    smart:
+      - __fash/styles/dress/skirt/hem__
+      - __fash/styles/skirt/cut/smart__
+      - __fash/styles/skirt/length/smart__
 
   waist:
     - blouson
     - contrast
     - drop
     - empire
-    - ruched # more smart than casual
     - tied
     - gathered
     - drawstring
+
+  waist-smart:
+    - blouson
+    - empire
+    - ruched
 
     # Gather
     #- __fash/styles/common/gather__-waist

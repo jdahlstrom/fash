@@ -35,8 +35,7 @@ smart:
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
   _top-sleeves:
-    - '{short|above-elbow} sleeves'
-    - short {puff|(flounce:0.8)|flutter|ruched} sleeves
+    - short {3::|puff|(flounce:0.8)|flutter|ruched} sleeves
 
   top:
     # TODO omit bandeau etc crop tops?
@@ -61,12 +60,20 @@ smart:
     - __fash/styles/pants/leg/smart__ __fash/styles/pants/smart__
 
   skirt:
-    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/cut__ skirt
+    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/cut/smart__ skirt
     - __fash/styles/skirt/length/smart__ __fash/styles/skirt/hem__-hem skirt
 
 ##############################################################################
 
   one-piece:
+    - __fash/outerwear/smart/dress__
+
+  dress:
+    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/cut/smart__-skirted dress
+    - __fash/styles/skirt/length/smart__ __fash/styles/dress/smart/specific__ dress
+    - __fash/styles/dress/skirt/smart__-skirted __fash/styles/dress/smart/bodice__ dress
+    - __fash/styles/dress/skirt/smart__-skirted __fash/styles/dress/sleeved__
+    - __fash/styles/dress/skirt/smart__-skirted __fash/styles/dress/sleeveless__
 
 ##############################################################################
 

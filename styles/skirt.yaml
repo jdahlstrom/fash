@@ -1,40 +1,56 @@
 skirt:
-  style:
-    # Casual
+  casual:
     - boho
     - cargo
     - gypsy
     - wrap
-  cut: # General shape
-    - a-line
-    - (bubble:0.9)
-    - circle
-    - draped
-    - flared
-    - gathered
-    - gored
-    - layered
-    - low-slit
-    - pleat
-    - panel
-    - pocket
-    - slit
-    - skater
-    - (swing:0.8)
-    - tiered
-    - trapeze
-    # Smart
-    - (accordion:0.8)
-    - fit-and-flare
-    - godet
-    - mermaid
-    - pencil
-    - pleat # Maybe?
-    - ruched
-    - trumpet
+
+  cut:
+    casual:
+      - a-line
+      - circle
+      - draped
+      - flared
+      - gathered
+      - gored
+      - layered
+      - low-slit
+      - pleated #?
+      - panel
+      - pocket
+      #- slit
+      - skater
+      - (swing:0.8)
+      - tiered
+      - trapeze
+    smart:
+      - (accordion:0.8)
+      - asymmetric
+      - bubble
+      - cocktail
+      - draped
+      - fit-and-flare
+      - flared
+      - godet
+      - layered
+      - pencil
+      - pleated
+      - ruched
+      - sheath
+      - shift
+      - slit
+      - tiered
+      - trapeze
+
+    formal:
+      - mermaid
+      - slit
+      - trumpet
+
   hem: # Hemline shape
     - asymmetrical
     - flounce
+    - frill
     - (fringe:0.8)
     - handkerchief
     - high-low
@@ -80,7 +96,6 @@ skirt:
       - knee-length
       - below-knee
       - midi length
-      - maxi length
     formal:
       - midi length
       - maxi length

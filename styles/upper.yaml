@@ -59,8 +59,8 @@ upper:
     - tied-waist # TODO waist
 
     # Back
-    - backless
-    - open-back {halter|}
+    #- backless
+    #- open-back {halter|}
 
     # Gather
     - ruched
@@ -114,22 +114,54 @@ upper:
 
   sleeve:
     length:
-      - (cap:0.8)
-      - short
-      - above-elbow
-      - elbow-length
-      - below-elbow
-      - 3/4-length
-      - long
+      #short:
+        - (cap:0.6)
+        - short
+      #medium:
+        - above-elbow
+        - elbow-length
+        - below-elbow
+      #long:
+        - 3/4-length
+        - long
     style:
+      casual:
+        common:
+          - batwing
+          - dolman
+          - drop-shoulder
+          - flounce
+          - gathered
+          - raglan
+          - rolled
+          - roll-up tab
+          - straight
+          - wide
+        short:
+          - flutter
+          - knot
+          - ruched
+          - (ruffle:0.8)
+
+      smart:
+        short:
+          - flutter
+          - puff
+          - ruched
+        common:
+          - dolman
+          - flounce
+          - gathered
+        long:
+          - juliet
+
       common:
         - batwing
-        #- cold-shoulder Comes from necklines now
         - dolman
         - drop-shoulder
         - flounce
         - gathered
-        - puff
+        #- puff
         - raglan
         - rolled
         - roll-up tab
@@ -140,7 +172,7 @@ upper:
         #- (petal:0.8) Works poorly, should be same as tulip anyway
         - ruched
         - ruffle{-trim|}
-        - (scallop:0.8)-trim
+       # - (scallop:0.8)-trim
         - (tulip:0.8)
       long:
         - bell
@@ -149,6 +181,21 @@ upper:
         - juliet
         - (slit:0.8)
         - straight
+
+    loungewear:
+      - (cap:0.6)
+      - short
+      - 3/4-length
+      - long
+
+      - batwing
+      - dolman
+      - drop-shoulder
+      - flounce
+      - flutter
+      - raglan
+      - straight
+      - wide
 
   # TODO none used anywhere yet except sports
   # Many of these likely don't work very well
@@ -295,6 +342,7 @@ upper:
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __fash/**/101-off-shoulder-with-straps/spaghetti-strap__
       - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+      - off-shoulder __fash/**/101-off-shoulder-with-straps/high__
       # TODO own category?
       - '{off-one-shoulder|one-fallen-shoulder} __fash/**/001-off-shoulder-strapless/off-one-shoulder__'
 

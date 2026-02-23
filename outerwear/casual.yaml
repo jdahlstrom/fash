@@ -98,7 +98,7 @@ casual:
   tank-top:
     - __fash/styles/upper/length__ tank top
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tank top
-    - __fash/styles/top/neckline/tank-top__ tank top
+    - __fash/styles/upper/neckline/tank-top-like__ tank top
 
   # Bandeau top variants.
   bandeau-top:
@@ -115,10 +115,6 @@ casual:
     - __fash/styles/upper/common__ halter top
     - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
     - __fash/outerwear/casual/top-blouse-tunic__ halter top
-
-    # TODO off-shoulder
-    #- off-shoulder halter top with __fash/styles/upper/sleeve/*__ sleeves
-    #- __fash/styles/neckline/101-off-shoulder-with-straps/halter__ halter top with off-shoulder sleeves
 
   # Tube top variants, almost synonymous with bandeau.
   tube-top:
@@ -148,9 +144,10 @@ casual:
   # Button-closure shirt, usually with a collar. Can range from casual to formal.
   shirt:
     - __fash/styles/upper/length__ shirt
-    - __fash/styles/shirt/style__ shirt
+    - '{button-down|} __fash/styles/upper/common__ shirt'
     - shirt with __fash/styles/upper/sleeve/*__ sleeves
-    - sleeveless __fash/styles/shirt/style__ shirt
+    - __fash/styles/shirt/button__ shirt
+    #- sleeveless __fash/styles/shirt/style__ shirt
 
   # Loose-fitting shirt. Ranges from casual to smart.
   blouse:
@@ -257,11 +254,11 @@ casual:
     - __fash/styles/pants/shorts__
 
   skirt:
-    - __fash/styles/skirt/cut__ skirt
+    - __fash/styles/skirt/casual__ skirt
+    - __fash/styles/skirt/cut/casual__ skirt
+    - __fash/styles/skirt/length/casual__ skirt
     - __fash/styles/skirt/hem__-hemline skirt
     - __fash/styles/skirt/material__ skirt
-    - __fash/styles/skirt/style__ skirt
-    - __fash/styles/skirt/length/casual__ skirt
     - __fash/styles/common/gather__ skirt
     - __fash/styles/common/yoke__ skirt
 
@@ -386,6 +383,6 @@ casual:
   t-shirt-dress:
     - __fash/styles/dress/skirt/short__ __fash/styles/dress/t-shirt__
   tank-dress:
-    - __fash/styles/dress/skirt/short__ __fash/styles/top/neckline/tank-top__ tank dress
+    - __fash/styles/dress/skirt/short__ __fash/styles/upper/neckline/tank-top-like__ tank dress
   tunic-dress:
-    - __fash/styles/dress/skirt/casual__ __fash/styles/top/neckline/tank-top__ tunic dress
+    - __fash/styles/dress/skirt/casual__ __fash/styles/ypper/neckline/tank-top-like__ tunic dress

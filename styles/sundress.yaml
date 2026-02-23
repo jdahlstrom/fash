@@ -31,7 +31,8 @@ sundress:
     - '{belt|ribbon-waist|waistband}'
 
   skirt:
-    - __fash/styles/skirt/cut__
+    - __fash/styles/skirt/cut/casual__
+    - __fash/styles/skirt/length/casual__
     #- __fash/styles/common/trim__-hem
     #- __fash/styles/common/gather__-hem
 
