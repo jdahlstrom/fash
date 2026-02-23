@@ -1,0 +1,471 @@
+color:
+  spectral:
+    - red
+    - pink
+    - orange
+    - yellow
+    - green
+    - '{cyan|turquoise}'
+    - blue
+    - indigo
+    - '{magenta|purple|violet}'
+
+  shade:
+    - bright
+    - light
+    - vivid
+    - pale
+    - muted
+    - dull
+    - deep
+    - dark
+
+  bright:
+    - bright __fash/color/spectral__
+  light:
+    - light __fash/color/spectral__
+  vivid:
+    - vivid __fash/color/spectral__
+  pale:
+    - pale __fash/color/spectral__
+  muted:
+    - muted __fash/color/spectral__
+  dull:
+    - dull __fash/color/spectral__
+  deep:
+    - deep __fash/color/spectral__
+  dark:
+    - dark __fash/color/spectral__
+
+  warm:
+    - warm {red|pink|orange|yellow|brown|green|cyan|purple|magenta|gray}
+  cool:
+    - cool {red|pink|yellow|brown|green|cyan|purple|magenta|gray}
+
+
+
+  all-shades:
+    - __fash/color/shade__ __fash/color/spectral__
+
+  red:
+    - amaranth
+    - auburn red
+    - blood red
+    - brick red
+    - burgundy red
+    - cardinal red
+    - carmine red
+    - claret
+    - cinnabar
+    - cool red
+    - copper red
+    - crimson
+    #- dark red
+    - garnet
+    - hematite red
+    - magenta red
+    - maroon
+    - mulberry
+    - orange red
+    - oxblood
+    - pink red
+    - puce
+    - raspberry red
+    - red-brown
+    - ruby red
+    - rust red
+    - salmon red
+    - scarlet
+    - violet red
+    - terracotta red
+    - tomato red
+    - venetian red
+    - vermilion red
+    - warm red
+    - (wine:0.8) red
+  rose:
+    - amaranth
+    - fuchsia rose
+    - lavender rose
+    - misty rose
+    - mulberry rose
+    - raspberry rose
+    - rosa
+    - rose gold
+    - rose quartz
+    - rose red
+    - rose taupe
+    - tea rose
+  pink:
+    - amaranth pink
+    - carnation pink
+    - cherry blossom pink
+    - cerise
+    - cool pink
+    - coral pink
+    #- dark pink
+    - deep pink
+    - heliotrope
+    - honeysuckle
+    - hot pink
+    - (orchid:0.8) pink
+    - salmon pink
+    - silver pink
+    - warm pink
+  orange:
+    - amber orange
+    - apricot
+    - burnt orange
+    - burnt sienna
+    - burnt umber
+    - (coral:0.8)
+    - golden poppy
+    - goldenrod orange
+    - harvest gold
+    - honey orange
+    - marigold
+    - mango orange
+    - melon
+    - ochre
+    - persimmon
+    - (pumpkin:0.8) orange
+    - saffron
+    - salmon orange
+    - sienna
+    - sunset orange
+    - tangerine
+    - terracotta orange
+    - vermilion orange
+  beige: # light brown-yellow
+    - beige
+    - buff
+    - camel
+    - champagne
+    - cream
+    - desert sand
+    - fallow
+    - fawn
+    - khaki
+    - sand brown
+    - tan
+    - vanilla brown
+  brown:
+    - beige
+    - bronze brown
+    - buff
+    - burnt sienna
+    - (camel:0.8) brown
+    - caramel brown
+    - chestnut brown
+    - chocolate brown
+    - coffee brown
+    - copper brown
+    #- dark brown
+    - desert sand
+    - golden brown
+    - grayish brown
+    - greenish brown
+    - hematite brown
+    - honey brown
+    - khaki
+    #- light brown
+    - mahogany
+    - mustard brown
+    - ochre
+    - olive drab
+    - raw sienna
+    - reddish brown
+    - rum brown
+    - russet
+    - sand brown
+    - sepia
+    - sinopia # sinoper
+    - tan
+    - terracotta
+    - umber
+    - vanilla brown
+    - wood brown
+  yellow:
+    - amber yellow
+    - buttermilk yellow
+    - chartreuse
+    - citron
+    #- dark yellow
+    - flax yellow
+    - gamboge yellow
+    - greenish yellow
+    - golden yellow
+    - goldenrod yellow
+    - jasmine yellow
+    #- light yellow
+    - lemon yellow
+    - maize yellow
+    - mango yellow
+    - mustard yellow
+    - peach
+    - pear yellow
+    - saffron yellow
+    - straw yellow
+    - titanium yellow
+    - topaz
+    - vanilla yellow
+    - warm yellow
+    - yellow orange
+  green:
+    - apple green
+    - celadon green
+    - chartreuse green
+    - citron green
+    - cool green
+    #- dark green
+    #- dark forest green
+    - emerald green
+    - fern green
+    - forest green
+    - green earth
+    - hunter green
+    - jade green
+    - kelly green
+    #- light green
+    - lime green
+    - malachite green
+    - may green
+    - mint green
+    - moss green
+    - mustard green
+    - olive green
+    - olivine
+    - paris green
+    - pear green
+     - peridot
+    - pine green
+    - rifle green
+    - sage
+    - sea green
+    - spring bud
+    - spring green
+    - tea green
+    - viridian green
+    - warm green
+    - yellowish green
+  cyan:
+    - aquamarine
+    - bluish cyan
+    - bluish green
+    - celeste
+    - cyan
+    - electric blue
+    - greenish cyan
+    - greenish blue
+    - midnight green
+    - myrtle green
+    - teal
+    - turquoise
+    - verdigris
+    - viridian
+  blue:
+    - azure
+    - celtic blue
+    - cerulean
+    - cobalt blue
+    - cornflower blue
+    #- dark blue
+    - eggshell blue # robin egg blue
+    - glaucous blue
+    - grayish blue
+    - indigo blue
+    - lapis lazuli
+    - lavender blue
+    - midnight blue
+    - navy blue
+    - oxford blue
+    - peacock blue
+    - periwinkle
+    - persian blue
+    - petrol blue
+    - prussian blue
+    - royal blue
+    - sapphire blue
+    - savoy blue
+    - sky blue
+    - (smoke:0.8) blue
+    - steel blue
+    - teal blue
+    - ultramarine
+    - zircon blue
+  violet: #, indigo, magenta, purple
+    - amaranth purple
+    - amethyst
+    - aniline purple # mauveine
+    - eggplant
+    - byzantium
+    - fuchsia
+    - grape violet
+    - indigo
+    - lavender
+    - lilac
+    - heliotrope
+    - magenta
+    - mauve
+    - (orchid:0.8)
+    - persian indigo
+    - plum purple
+    - purple
+    - red-violet
+    - thistle purple
+    - tyrian purple
+    - violet
+    - wisteria
+  gray:
+    - ash gray
+    - battleship gray
+    - bluish gray
+    - brownish gray
+    - cadet gray
+    - cool gray
+    - charcoal gray
+    #- dark gray
+    - greenish gray
+    - gunmetal gray
+    - heliotrope gray
+    - lavender gray
+    - lead gray
+    #- light gray
+    - platinum gray
+    - rose quartz
+    - sage gray
+    - silver gray
+    - silver pink
+    - slate gray
+    - taupe gray
+    - titanium gray
+    - warm gray
+    - zinc gray
+  black:
+    - black
+    - bluish black
+    - brownish black
+    - ebony
+    - greenish black
+    - grayish black
+    - jet-black
+    - off-black
+    - onyx
+    - purplish black
+    - smoky black
+    - warm black
+  white:
+    - alabaster
+    - almond
+    - bluish white
+    - bone white
+    - champagne
+    - cool white
+    - cornsilk white
+    - cream
+    - eggshell white
+    - honeydew
+    - ivory
+    - linen white
+    - off-white
+    - pale apricot
+    - platinum white
+    - seashell
+    - vanilla
+    - warm white
+    - yellowish white
+    - white
+
+  monochrome:
+    - __fash/color/black__
+    - __fash/color/gray__
+    - __fash/color/white__
+
+  metallic:
+    - gold-color
+    - silver-color
+    - bronze-color
+  pastel:
+    - apricot
+    - aquamarine
+    - baby blue
+    - baby pink
+    - honeydew green
+    - lavender
+    - lilac
+    - mauve
+    - mint green
+    - __fash/color/pale__
+    - pastel __fash/color/spectral__
+    - peach
+    - periwinkle
+    - pink
+    - powder blue
+    - rose quartz
+    - salmon red
+  earthy:
+    - auburn
+    - beige
+    - brick red
+    - brownish gray
+    - burnt sienna
+    - celadon green
+    - cream
+    - chestnut brown
+    - fallow brown
+    - fawn
+    - flax
+    - forest green
+    - greenish gray
+    - hunter green
+    - khaki
+    - moss green
+    - mustard yellow
+    - ochre
+    - off-white
+    - olive
+    - olive drab
+    - raw sienna
+    - russet
+    - rust orange
+    - sand brown
+    - straw yellow
+    - tan
+    - taupe
+    - tawny
+    - terracotta
+    - terre verte
+    - umber
+    - warm gray
+    # TODO more
+  earthy-light:
+    - light __fash/color/earthy__
+  earthy-dark:
+    - dark __fash/color/earthy__
+
+  named:
+    # Group these to reduce overrepresentation of reds
+    - '{__fash/color/pink__|__fash/color/rose__}'
+    - __fash/color/red__
+    - __fash/color/orange__
+    - __fash/color/brown__
+    - __fash/color/yellow__
+    - __fash/color/green__
+    - __fash/color/cyan__
+    - __fash/color/blue__
+    - __fash/color/violet__
+  named-light:
+    - light __fash/color/named__
+  named-dark:
+    - dark __fash/color/named__
+
+  shades:
+    - __fash/color/shade__ red
+    - __fash/color/shade__ orange
+    - __fash/color/shade__ yellow
+    - __fash/color/shade__ green
+    - __fash/color/shade__ cyan
+    - __fash/color/shade__ blue
+    - __fash/color/shade__ {violet|purple}
+
+    - __fash/color/pastel__
