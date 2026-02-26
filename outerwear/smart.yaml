@@ -10,16 +10,21 @@ smart:
     - __fash/styles/upper/collar__-collar shirt with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/shirt/smart__ shirt with __fash/styles/shirt/sleeve/smart__ sleeves
 
-  todo:
-    - bolero
-    - cardigan
-    - sweater
-    - sweater vest
-    - vest
-
   sweater:
+    - __fash/styles/sweater/knit__ sweater
     - __fash/styles/sweater/neckline__ sweater
-    - __fash/styles/sweater/sleeve__ sweater
+    - sweater with __fash/styles/shirt/sleeve/casual__ sleeves
+
+  sweater-vest:
+    - __fash/styles/sweater/sleeve__ sweater vest
+
+  cardigan:
+    - __fash/styles/sweater/knit__ cardigan
+    - cardigan with __fash/styles/upper/sleeve/smart/*__ sleeves
+    # TODO
+
+  bolero:
+    - bolero
 
   blouse:
     - __fash/styles/shirt/hem/smart__-hem blouse
