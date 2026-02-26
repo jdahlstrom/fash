@@ -29,12 +29,14 @@ t-shirt:
   neckline:
     - __fash/styles/upper/neckline/sleeved__
 
+  # TODO Not yet used?
   back:
-    #- backless
-    - cutout-back
-    - keyhole-back
     - open-back
-    - tied-back
+    - keyhole-back
+    - scoop-back
+    - plunge-back
+    - mesh-back
+    - draped-back neckline
 
   deco:
     - animal print

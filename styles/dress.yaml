@@ -220,3 +220,23 @@ dress:
         - __fash/styles/upper/neckline/vest-like__
         - __fash/styles/upper/neckline/one-shoulder__
         - __fash/styles/neckline/plunge-neck__
+
+  # TODO Not yet used
+  back:
+    - back-lacing
+    - backless
+    - open-back
+    - scoop-back
+    - plunge-back
+    - plunging v-back
+    - keyhole-back
+    - crossback
+    - draped-back neckline
+    - lace-back
+    - zip-back
+    - backless halter
+    - (cutout:0.9)-back
+    - square-back
+    - v-back
+    - (lace:0.9)-neckline
+    - x-back
