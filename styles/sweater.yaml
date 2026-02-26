@@ -1,5 +1,5 @@
 sweater:
-  style:
+  casual:
     - asymmetric
     - godet
     - hooded
@@ -15,22 +15,25 @@ sweater:
     - woolly pully # TODO should be an "army-style" pullover
     - wrap
 
+  smart:
+    - fitted
+    - godet
+    - ribbed
+
   cardigan:
-    - boyfriend
-    - cold-shoulder
-    - flyaway-hem
-    - hooded
-    - off-shoulder
-    - raglan
-    - (shawl-collared:0.8)
-    - short-sleeved
-    #- zipper
-    # Knit
-    - Aran
-    - cable-knit
-    - pointelle knit
-    - rib knit
-    # TODO more
+    casual:
+      - boyfriend
+      - cold-shoulder # TODO necklines?
+      - flyaway-hem
+      - hooded
+      - off-shoulder # TODO necklines?
+      - raglan
+      - (shawl-collared:0.8)
+      - short-sleeved # TODO sleeves?
+      - collarless zip-up
+      # TODO more
+    smart:
+      # TODO
 
   closure: # TODO already in necklines
     - button-down
@@ -55,20 +58,7 @@ sweater:
     - Jersey
     - Norwegian
     - Shetland
-  sleeve:
-    # TODO Unify with generic top sleeves
-    - batwing
-    - bell-sleeve
-    - (cap:0.6)-sleeve
-    - cold shoulder
-    - dolman-sleeve
-    - drop shoulder
-    - flared-sleeve
-    - gathered-sleeve
-    - puff-sleeve
-    - raglan
-    - rolled-sleeve
-    - sleeveless
+
   # Trim
   #  - lace-{yoke|trim} # TODO trims should be separate...
 
