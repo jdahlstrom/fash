@@ -26,6 +26,7 @@ dress:
   # Specific traditional, ethnic etc. styles
   # Should not be combined with most other styles except length
   style:
+    # These are ~casual
     - apron
     - cargo
     - gypsy
@@ -34,13 +35,27 @@ dress:
     - kaftan
     - sari
 
+  style-smart:
+    - blazer
+    - cheongsam
+    - corset
+    - pencil
+
   upper:
-    - __fash/styles/upper/common__
-    - __fash/styles/upper/top-dress-legged__
-    - __fash/styles/dress/bodice__
+    casual:
+      - __fash/styles/upper/common__
+      - __fash/styles/upper/top-dress-legged__
+      - __fash/styles/dress/bodice__
+    smart:
+      - __fash/styles/upper/common__
 
   lower:
-    - __fash/styles/dress/skirt/casual__
+    casual:
+      - __fash/styles/dress/length/casual__
+      - __fash/styles/dress/skirt/casual__
+    smart:
+      - __fash/styles/dress/length/smart__
+      - __fash/styles/dress/skirt/smart__
 
 
   # The upper part of the dress, covering the torso.
@@ -56,20 +71,36 @@ dress:
     - sweatshirt
     - hoodie
 
-    # generic cut TODO
-    - sheath # TODO too smart?
     - shift
     - (tent:0.8)
 
+
+  length:
+    casual:
+      - __fash/styles/skirt/length/casual__
+    smart:
+      - __fash/styles/skirt/length/smart__
+
   sleeve:
-    - __fash/styles/upper/sleeve/length__
-    - __fash/styles/upper/sleeve/length__ __fash/styles/upper/sleeve/casual/common__
-    - short __fash/styles/upper/sleeve/casual/short__
+    casual:
+      - __fash/styles/upper/sleeve/length__
+      - __fash/styles/upper/sleeve/length__ __fash/styles/upper/sleeve/casual/common__
+      - short __fash/styles/upper/sleeve/casual/short__
+    smart:
+      - __fash/styles/upper/sleeve/length__
+      - __fash/styles/upper/sleeve/length__ __fash/styles/upper/sleeve/smart/common__
+      - short __fash/styles/upper/sleeve/smart/short__
 
   sleeved:
-    - dress with __fash/styles/dress/sleeve__ sleeves
-    - __fash/styles/upper/neckline/sleeved__ dress
-        with __fash/styles/dress/sleeve__ sleeves
+    casual:
+      - dress with __fash/styles/dress/sleeve/casual__ sleeves
+      - __fash/styles/upper/neckline/sleeved__ dress
+        with __fash/styles/dress/sleeve/casual__ sleeves
+    smart:
+      - dress with __fash/styles/dress/sleeve/smart__ sleeves
+      - __fash/styles/upper/neckline/sleeved__ dress
+        with __fash/styles/dress/sleeve/smart__ sleeves
+
   sleeveless:
     - __fash/styles/upper/neckline/sleeveless__ dress
 
@@ -96,17 +127,18 @@ dress:
     - tied-waist
     #- zip-up
 
-
   # The lower part of the dress, covering the legs
   skirt:
-    cut:
-      - __fash/styles/skirt/cut__-skirted
+    casual:
+      - __fash/styles/skirt/casual__-skirted
+    smart:
+      - __fash/styles/skirt/smart__-skirted
+
     hem:
       - __fash/styles/skirt/hem__-hem
       #- __fash/styles/skirt/trim__-hem
-    length:
-      - __fash/styles/skirt/length/casual__
 
+    # TODO
     short:
       - __fash/styles/dress/skirt/cut__
       - __fash/styles/dress/skirt/hem__
@@ -117,14 +149,18 @@ dress:
       - __fash/styles/skirt/length/casual__
 
   waist:
-    - blouson
-    - contrast
-    - drop
-    - empire
-    - ruched # more smart than casual
-    - tied
-    - gathered
-    - drawstring
+    casual:
+      - blouson
+      - contrast
+      - drawstring
+      - drop
+      - tied
+    smart:
+      - blouson
+      - empire
+      - ruched
+      - gathered
+      # TODO belts
 
     # Gather
     #- __fash/styles/common/gather__-waist

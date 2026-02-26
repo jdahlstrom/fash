@@ -1,6 +1,7 @@
 smart:
-
+  ##############################################################################
   upper:
+  ##############################################################################
     - __fash/outerwear/smart/blouse__
     - __fash/outerwear/smart/shirt__
     - __fash/outerwear/smart/top__
@@ -37,7 +38,6 @@ smart:
     - __fash/styles/blouse/neckline__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
-
   top:
     # TODO omit bandeau etc crop tops?
     - __fash/styles/upper/common__ __fash/outerwear/smart/sleeved-top__
@@ -51,9 +51,9 @@ smart:
   sleeveless-top:
     - __fash/styles/upper/neckline/sleeveless__ top
 
-##############################################################################
-
+  ##############################################################################
   lower:
+  ##############################################################################
     - __fash/outerwear/smart/skirt__
     - __fash/outerwear/smart/pants__
 
@@ -64,9 +64,35 @@ smart:
     - __fash/styles/skirt/length/smart__ __fash/styles/skirt/smart__ skirt
     - __fash/styles/skirt/length/smart__ __fash/styles/skirt/hem__-hem skirt
 
-##############################################################################
-
+  ##############################################################################
   one-piece:
+  ##############################################################################
+    - __fash/outerwear/smart/dress__
+    # smart jumpsuit
+
+  dress:
+    - __fash/styles/skirt/length/smart__ __fash/styles/dress/upper/smart__ dress
+    - __fash/styles/dress/skirt/smart__ __fash/styles/dress/upper/smart__ dress
+    - __fash/styles/dress/skirt/hem__ __fash/styles/dress/upper/smart__ dress
+    - __fash/styles/dress/skirt/smart__ __fash/styles/upper/neckline/sleeve*__ dress
+    - __fash/styles/dress/waist/smart__-waist __fash/styles/upper/neckline/sleeve*__ dress
+    #- __fash/styles/dress/skirt/smart__ dress
+    #- __fash/styles/dress/skirt/hem__ dress
+    - __fash/styles/dress/sleeved/smart__ # Already has "dress"
+    - __fash/styles/dress/skirt/smart__ __fash/styles/dress/sleeveless__ # Already has "dress"
+
+  sleeved-dress:
+    - __fash/styles/dress/sleeved/smart__ # Already has "dress"
+  sleeveless-dress:
+    - __fash/styles/dress/skirt/smart__ __fash/styles/dress/sleeveless__ # Already has "dress"
+    - __fash/styles/dress/skirt/hem__ __fash/styles/dress/sleeveless__
+    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/sleeveless__
+
+  shirt-dress:
+    - __fash/styles/dress/skirt/smart__ __fash/styles/shirt/smart__ shirt dress
+    - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/shirt/sleeve/smart__ sleeves
+    - __fash/styles/dress/skirt/smart__ sleeveless __fash/styles/shirt/smart__ shirt dress
+    - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/upper/collar__ collar
 
 ##############################################################################
 
