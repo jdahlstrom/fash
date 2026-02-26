@@ -1,33 +1,37 @@
 shirt:
-  button:
+  casual:
     - aloha
     - boyfriend
     - cabana
     - cargo
     - collarless
     - crop
-    - field # TODO test if "army-style"
+    - field
     - godet
     - lumberjack
     - polo
     - pocket
     - safari
-    #- sleeveless button-down
-    # Closure
-    - button-down
-    - half-button
     - popover
     - split-front
     - open-front smock
     - tied crop
-  style:
-    - __fash/styles/shirt/button__
-    - '{button-down|} __fash/styles/upper/common__'
+    # Too much concept bleed with SDXL at least, try newer models
+    # - military
+    # - western
 
-    #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke}
-    #- zip-{neck|up}
-
-
+  smart:
+    - button-down
+    - button-up
+    - dress
+    - fitted
+    - godet
+    - half-button
+    - pin-tuck
+    - popover
+    # TODO more
+    - lace-yoke
+    - __fash/styles/common/trim__-trim
 
   sleeve:
     casual:
@@ -61,4 +65,3 @@ shirt:
       - tiered
       - draped
       - flared
-      - flyaway

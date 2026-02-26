@@ -1,5 +1,5 @@
 pants:
-  any-fit:
+  casual:
     - bush pants
     - '{|camo|drawstring} cargo pants'
     - capri pants
