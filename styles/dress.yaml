@@ -66,7 +66,6 @@ dress:
       - __fash/styles/dress/skirt/smart__
       - __fash/styles/dress/skirt/hem__
 
-
   # The upper part of the dress, covering the torso.
   # Only styles not in upper/* common styles!
   bodice:
@@ -84,28 +83,34 @@ dress:
       - sweatshirt
       - hoodie
 
-      #- shift
-      - (tent:0.8) # full, not just bodice
-      - straight   # full, not just bodice
-      - column     # full, not just bodice
+      # Full, not just bodice
+      - (tent:0.8)
+      - straight
+      - column
 
     smart:
       # Not all just bodice types, have skirt implications too
+
       - babydoll
-      - blazer       # simple skirts
-      - cami         # simple skirts?
-      - cocktail     # simple skirts
-      - little black # simple skirts
-      - shirt        # simple skirts
 
-      - basque       # fancier skirts
-      - corset       # fancier skirts
-      - corselette   # fancier skirts
-      - evening      # fancier skirts
+      # Simple skirt styles
+      - blazer
+      - cami
+      - cocktail
+      - little black
+      - shirt
 
-      - column       # full, not just bodice
-      - shift        # full, not just bodice
-      - straight     # full, not just bodice
+       # Fancier skirts
+      - basque
+      - bustier
+      - corset
+      - corselette
+      - evening
+
+      # Full, not just bodice
+      - column
+      - shift
+      - straight
 
       - illusion-yoke # neckline or yoke attribute
 
