@@ -71,22 +71,19 @@ smart:
     # smart jumpsuit
 
   dress:
-    - __fash/styles/skirt/length/smart__ __fash/styles/dress/upper/smart__ dress
-    - __fash/styles/dress/skirt/smart__ __fash/styles/dress/upper/smart__ dress
-    - __fash/styles/dress/skirt/hem__ __fash/styles/dress/upper/smart__ dress
-    - __fash/styles/dress/skirt/smart__ __fash/styles/upper/neckline/sleeve*__ dress
-    - __fash/styles/dress/waist/smart__-waist __fash/styles/upper/neckline/sleeve*__ dress
-    #- __fash/styles/dress/skirt/smart__ dress
-    #- __fash/styles/dress/skirt/hem__ dress
-    - __fash/styles/dress/sleeved/smart__ # Already has "dress"
-    - __fash/styles/dress/skirt/smart__ __fash/styles/dress/sleeveless__ # Already has "dress"
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/upper/smart__ dress
+    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/upper/smart__ dress # ?
+
+    - __fash/outerwear/smart/sleeved-dress__
+    - __fash/outerwear/smart/sleeveless-dress__
+    - __fash/outerwear/smart/shirt-dress__
 
   sleeved-dress:
-    - __fash/styles/dress/sleeved/smart__ # Already has "dress"
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeved/smart__ # Already has "dress"
+    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/sleeved/smart__
   sleeveless-dress:
-    - __fash/styles/dress/skirt/smart__ __fash/styles/dress/sleeveless__ # Already has "dress"
-    - __fash/styles/dress/skirt/hem__ __fash/styles/dress/sleeveless__
-    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/sleeveless__
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeveless/smart__ # Already has "dress"
+    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/sleeveless/smart__
 
   shirt-dress:
     - __fash/styles/dress/skirt/smart__ __fash/styles/shirt/smart__ shirt dress

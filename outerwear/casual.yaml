@@ -260,7 +260,6 @@ casual:
     - __fash/styles/skirt/casual__ skirt
     - __fash/styles/skirt/hem__-hemline skirt
     - __fash/styles/skirt/material__ skirt
-    - __fash/styles/skirt/style__ skirt
     - __fash/styles/skirt/length/casual__ skirt
 
     # TODO
@@ -322,7 +321,7 @@ casual:
 
   ##############################################################################
   dress:
-    - __fash/styles/skirt/length/casual__ __fash/styles/dress/style__ dress
+    - __fash/styles/skirt/length/casual__ __fash/styles/dress/casual__ dress
 
     - __fash/styles/dress/lower/casual__ __fash/styles/dress/upper/casual__ dress
     - __fash/styles/dress/lower/casual__ __fash/styles/dress/waist/casual__-waist dress
@@ -361,7 +360,9 @@ casual:
     -  __fash/styles/sundress/neckline/sleeved__ sundress with __fash/styles/sundress/sleeve__ sleeves
     - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
+  #
   # Skirted versions of upper-body clothing
+  #
 
   # TODO is this really casual or outerwear? Maybe just loungewear
   babydoll-dress:

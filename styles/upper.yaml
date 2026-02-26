@@ -22,14 +22,6 @@ upper:
     - smock
     - smocked
 
-  smart:
-    - billowy
-    - smocked
-    - flowy
-    - ruched smock
-    - ruched-waist # TODO waist
-    - smocked
-
     # TODO material
     #- crocheted
     #- denim
@@ -40,6 +32,14 @@ upper:
     #- cold-shoulder
     #- collarless
     #- polo
+
+  smart:
+    - billowy
+    - smocked
+    - flowy
+    - ruched smock
+    - ruched-waist # TODO waist
+    - smocked
 
   # Body/jump/play/romper suits
   legged:

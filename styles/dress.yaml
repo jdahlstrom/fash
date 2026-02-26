@@ -25,8 +25,7 @@
 dress:
   # Specific traditional, ethnic etc. styles
   # Should not be combined with most other styles except length
-  style:
-    # These are ~casual
+  casual:
     - apron
     - cargo
     - gypsy
@@ -35,11 +34,13 @@ dress:
     - kaftan
     - sari
 
-  style-smart:
-    - blazer
+  smart:
+    - bodycon
     - cheongsam
+    - cocktail
     - corset
     - pencil
+    - shift
 
   upper:
     casual:
@@ -53,9 +54,11 @@ dress:
     casual:
       - __fash/styles/dress/length/casual__
       - __fash/styles/dress/skirt/casual__
+      - __fash/styles/dress/skirt/hem__
     smart:
       - __fash/styles/dress/length/smart__
       - __fash/styles/dress/skirt/smart__
+      - __fash/styles/dress/skirt/hem__
 
 
   # The upper part of the dress, covering the torso.
@@ -64,6 +67,7 @@ dress:
     # TODO not general, need specific necklines
     # Also available with their own names such as shirt-dress
     - babydoll
+    - cami
     - shirt
     - sweater
     - t-shirt
@@ -71,9 +75,19 @@ dress:
     - sweatshirt
     - hoodie
 
-    - shift
+    #- shift
     - (tent:0.8)
 
+  bodice-smart:
+    - babydoll
+    - blazer
+    - shirt
+    #- shift
+
+    - basque
+    - cami
+    - corset # ?
+    - corselette # ?
 
   length:
     casual:
@@ -143,10 +157,6 @@ dress:
       - __fash/styles/dress/skirt/cut__
       - __fash/styles/dress/skirt/hem__
       - __fash/styles/skirt/length/short__
-    casual:
-      - __fash/styles/dress/skirt/cut__
-      - __fash/styles/dress/skirt/hem__
-      - __fash/styles/skirt/length/casual__
 
   waist:
     casual:
