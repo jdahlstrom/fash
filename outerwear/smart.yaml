@@ -27,17 +27,16 @@ smart:
     - bolero
 
   blouse:
-    - __fash/styles/shirt/hem/smart__-hem blouse
+    - __fash/styles/blouse/smart__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
+    - __fash/styles/shirt/hem/smart__-hem blouse
+        with __fash/styles/shirt/sleeve/smart__ sleeves
+    - __fash/styles/shirt/hem/smart__-hem
+        __fash/styles/blouse/neckline__ blouse
     - __fash/styles/blouse/neckline__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
-    - __fash/styles/shirt/hem/smart__-hem
-        __fash/styles/blouse/neckline__ blouse
-
-    - __fash/styles/blouse/smart__ blouse
-        with __fash/styles/shirt/sleeve/smart__ sleeves
 
   top:
     # TODO omit bandeau etc crop tops?
@@ -62,7 +61,7 @@ smart:
     - __fash/styles/pants/leg/smart__ __fash/styles/pants/smart__
 
   skirt:
-    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/cut__ skirt
+    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/smart__ skirt
     - __fash/styles/skirt/length/smart__ __fash/styles/skirt/hem__-hem skirt
 
 ##############################################################################

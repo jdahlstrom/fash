@@ -1,11 +1,12 @@
 skirt:
   style:
-    # Casual
+    # Specific styles, should have own categories
     - boho
     - cargo
     - gypsy
     - wrap
-  cut: # General shape
+
+  casual: # General shape
     - a-line
     - (bubble:0.9)
     - circle
@@ -13,25 +14,30 @@ skirt:
     - flared
     - gathered
     - gored
-    - layered
+    #- layered ?
     - low-slit
     - pleat
     - panel
     - pocket
-    - slit
     - skater
     - (swing:0.8)
     - tiered
     - trapeze
-    # Smart
+
+  smart:
     - (accordion:0.8)
     - fit-and-flare
     - godet
+    - layered
     - mermaid
+    - panel
     - pencil
-    - pleat # Maybe?
+    - pleated
     - ruched
+    - slit
+    - tiered
     - trumpet
+
   hem: # Hemline shape
     - asymmetrical
     - flounce
@@ -44,6 +50,7 @@ skirt:
     - tiered
     - tulip
     #- (peplum:0.8) # Tends to bleed to top with SDXL
+
   trim:
     - __fash/styles/common/trim__
   #yoke:
@@ -53,6 +60,7 @@ skirt:
     - denim
     - knit
     - linen
+
   length:
     short:
       - mini

@@ -211,7 +211,8 @@ casual:
   pants:
     - __fash/styles/common/fit/casual__ jeans
     - __fash/styles/pants/jeans__ jeans
-    - __fash/styles/pants/any-fit__
+
+    - __fash/styles/pants/casual__
     - __fash/styles/pants/loose-fit__
     - __fash/styles/pants/slim-fit__
     - __fash/styles/pants/leg/casual__ pants
@@ -233,11 +234,12 @@ casual:
     - __fash/styles/pants/length__ __fash/styles/pants/slim-fit__
     - __fash/styles/pants/waistline__ __fash/styles/pants/slim-fit__
 
+  # TODO needed?
   any-fit-pants:
-    - __fash/styles/common/fit/casual__ __fash/styles/pants/any-fit__
-    - __fash/styles/pants/leg/casual__ __fash/styles/pants/any-fit__
-    - __fash/styles/pants/length__ __fash/styles/pants/any-fit__
-    - __fash/styles/pants/waistline__ __fash/styles/pants/any-fit__
+    - __fash/styles/common/fit/casual__ __fash/styles/pants/casual__
+    - __fash/styles/pants/leg/casual__ __fash/styles/pants/casual__
+    - __fash/styles/pants/length__ __fash/styles/pants/casual__
+    - __fash/styles/pants/waistline__ __fash/styles/pants/casual__
 
   jeans:
     - __fash/styles/common/denim/wash__ jeans
@@ -252,18 +254,24 @@ casual:
     - __fash/styles/pants/shorts__
 
   skirt:
-    - __fash/styles/skirt/cut__ skirt
+    - __fash/styles/common/gather__ skirt
+    - __fash/styles/common/yoke__ skirt
+
+    - __fash/styles/skirt/casual__ skirt
     - __fash/styles/skirt/hem__-hemline skirt
     - __fash/styles/skirt/material__ skirt
     - __fash/styles/skirt/style__ skirt
     - __fash/styles/skirt/length/casual__ skirt
-    - __fash/styles/common/gather__ skirt
-    - __fash/styles/common/yoke__ skirt
 
     # TODO
     #- drawstring
     #- pegged
     #- yoked
+
+  denim-skirt:
+    - __fash/styles/skirt/casual__ denim skirt
+    - __fash/styles/common/denim/wash__ denim skirt
+    - __fash/styles/common/denim/wear__ denim skirt
 
   ##############################################################################
   one-piece:
