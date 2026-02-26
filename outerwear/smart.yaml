@@ -6,11 +6,11 @@ smart:
     - __fash/outerwear/smart/top__
 
   shirt:
-    - blouse
-    - dress shirt
-    - button-up shirt
-    - button-down shirt
+    - __fash/styles/upper/common__ shirt with __fash/styles/shirt/sleeve/smart__ sleeves
+    - __fash/styles/upper/collar__-collar shirt with __fash/styles/shirt/sleeve/smart__ sleeves
+    - __fash/styles/shirt/smart__ shirt with __fash/styles/shirt/sleeve/smart__ sleeves
 
+  todo:
     - bolero
     - cardigan
     - sweater
@@ -25,7 +25,7 @@ smart:
     - __fash/styles/shirt/hem/smart__-hem blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
-    - __fash/styles/blouse/neckline/__ blouse
+    - __fash/styles/blouse/neckline__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
     - __fash/styles/shirt/hem/smart__-hem
@@ -42,7 +42,7 @@ smart:
     - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeveless-top__
 
   sleeved-top:
-    - __fash/styles/upper/neckline/sleeved__ top with __fash/outerwear/smart/_top-sleeves__
+    - __fash/styles/upper/neckline/sleeved__ top with __fash/styles/shirt/sleeves/smart__
 
   sleeveless-top:
     - __fash/styles/upper/neckline/sleeveless__ top

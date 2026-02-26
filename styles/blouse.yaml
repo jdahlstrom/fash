@@ -6,6 +6,9 @@ blouse:
     #- __fash/styles/upper/top-blouse-tunic__
     # TODO backs
 
+  casual:
+    - todo
+
   smart:
     - peplum
     - pin-tuck
@@ -21,10 +24,11 @@ blouse:
     - flounce-neckline
     - wrap
 
-  smart-front:
-    - split-front
-    - button-down
-    - half-button
+  front:
+    smart:
+      - split-front
+      - button-down
+      - half-button
 
   tunic:
     - ' ' # No unique styles
@@ -35,5 +39,5 @@ blouse:
     - >
       { __fash/styles/upper/neckline/cold-shoulder__
       | __fash/styles/upper/neckline/off-shoulder__
-      | __fash/styles/blouse/smart-front__ __fash/styles/neckline/buttoned__
+      | __fash/styles/blouse/front/smart__ __fash/styles/neckline/buttoned__
       |2:: __fash/styles/upper/t-shirt-like__}
