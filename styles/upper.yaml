@@ -13,33 +13,32 @@
 upper:
 
   # Styles common to all
-  common:
-    - billowy
+  casual:
     - boho
-    - flowy
     - peasant
+    - flowy
     - ruched smock
-    - ruched-waist # TODO waist
+    - ruched-waist # Comes from waist for dresses, others TODO
     - smock
     - smocked
-    # TODO material
-    - crocheted
-    - denim
-    - flannel
-    - knitted
-    - linen
-    # TODO necklines, plus not common to camis/strapless etc
-    #- cold-shoulder
-    #- collarless
-    #- polo
 
   smart:
     - billowy
     - flowy
     - ruched smock
-    #- ruched-waist # Comes from waist for dresses, others TODO
-    - smock # ?
+    - ruched-waist # Comes from waist for dresses, others TODO
     - smocked
+
+    # TODO material
+    #- crocheted
+    #- denim
+    #- flannel
+    #- knitted
+    #- linen
+    # TODO necklines, plus not common to camis/strapless etc
+    #- cold-shoulder
+    #- collarless
+    #- polo
 
   # Body/jump/play/romper suits
   legged:
@@ -55,9 +54,9 @@ upper:
     - basque
     - blouson
 
-    - cami
-    - tank
-    - tube
+    - cami #
+    - tank # TODO should be their own items, with necklines etc
+    - tube #
 
     - wrap
 
