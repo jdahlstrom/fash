@@ -58,20 +58,14 @@ casual:
     - __fash/outerwear/casual/top-blouse-tunic__ top
     - __fash/styles/top/style__ top
 
-    - top with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/upper/neckline/sleeved__ top with short sleeves
-    - __fash/styles/upper/neckline/sleeveless__ top
+    - __fash/outerwear/casual/sleeved-top__
+    - __fash/outerwear/casual/sleeveless-top__
 
-    #- __fash/outerwear/casual/sleeved-top__
-    #- __fash/outerwear/casual/sleeveless-top__
+    - __fash/outerwear/casual/sports-top__
 
   # Either strapless or with straps.
   sleeved-top:
-    - __fash/styles/upper/common__ top with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/upper/top-blouse-tunic__ top with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem top with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/upper/neckline/sleeved__ top with __fash/styles/upper/sleeve/*__ sleeves
-
+    - __fash/styles/top/sleeved__ top with __fash/styles/upper/sleeve/casual/*__ sleeves
 
   # Either strapless or with straps.
   sleeveless-top:
@@ -117,7 +111,7 @@ casual:
     - __fash/outerwear/casual/top-blouse-tunic__ halter top
 
     # TODO off-shoulder
-    #- off-shoulder halter top with __fash/styles/upper/sleeve/*__ sleeves
+    #- off-shoulder halter top with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/neckline/101-off-shoulder-with-straps/halter__ halter top with off-shoulder sleeves
 
   # Tube top variants, almost synonymous with bandeau.
@@ -145,14 +139,14 @@ casual:
     # TODO additional variants?
 
 
-  # Button-closure shirt, usually with a collar. Can range from casual to formal.
+  # Button-closure shirt, usually with a collar.
   shirt:
     - __fash/styles/upper/length__ shirt
-    - __fash/styles/shirt/style__ shirt
-    - shirt with __fash/styles/upper/sleeve/*__ sleeves
-    - sleeveless __fash/styles/shirt/style__ shirt
+    - __fash/styles/shirt/casual__ shirt
+    - shirt with __fash/styles/shirt/sleeve/casual__ sleeves
+    #- sleeveless __fash/styles/shirt/casual__ shirt
 
-  # Loose-fitting shirt. Ranges from casual to smart.
+  # Loose-fitting shirt.
   blouse:
     - __fash/styles/upper/common__ blouse
     - __fash/styles/upper/top-blouse-tunic__ blouse
@@ -160,7 +154,7 @@ casual:
     - __fash/styles/upper/top-blouse-tunic-hem__-hem blouse
     - __fash/styles/upper/length__ blouse
     - __fash/styles/blouse/neckline__ blouse
-    - blouse with __fash/styles/upper/sleeve/*__ sleeves
+    - blouse with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/common/trim__-trim blouse
 
   # Casual, blouse-like but longer. Used with pants, not a dress.
@@ -171,7 +165,7 @@ casual:
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tunic
     - __fash/styles/blouse/neckline__ tunic
     - __fash/styles/skirt/length/short__ tunic
-    - tunic with __fash/styles/upper/sleeve/*__ sleeves
+    - tunic with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/common/trim__-trim tunic
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
@@ -294,19 +288,19 @@ casual:
     - __fash/styles/pants/length__ jumpsuit
     - __fash/styles/upper/neckline/sleeveless__ sleeveless jumpsuit
     - __fash/styles/upper/neckline/sleeved__ jumpsuit
-        with  __fash/styles/upper/sleeve/*__ sleeves
+        with  __fash/styles/upper/sleeve/casual/*__ sleeves
 
   playsuit:
     - __fash/styles/playsuit__ playsuit
     - __fash/styles/upper/neckline/sleeveless__ sleeveless playsuit
     - __fash/styles/upper/neckline/sleeved__ playsuit
-        with  __fash/styles/upper/sleeve/*__ sleeves
+        with  __fash/styles/upper/sleeve/casual/*__ sleeves
 
   romper:
     - __fash/styles/romper__ romper
     - __fash/styles/upper/neckline/sleeveless__ sleeveless romper
     - __fash/styles/upper/neckline/sleeved__ romper
-        with  __fash/styles/upper/sleeve/*__ sleeves
+        with  __fash/styles/upper/sleeve/casual/*__ sleeves
 
   # TODO Should possibly count as lower, as they typically need a top
   overalls:
@@ -368,16 +362,16 @@ casual:
   #blouson-dress:
     #- __fash/styles/dress/skirt/casual__  blouson dress
     #- __fash/styles/blouse/TODO__ blouson dress
-    #- __fash/styles/dress/skirt/casual__ blouson dress with __fash/styles/upper/sleeve/*__ sleeves
+    #- __fash/styles/dress/skirt/casual__ blouson dress with __fash/styles/upper/sleeve/casual/*__ sleeves
 
   cami-dress:
     - __fash/styles/dress/skirt/casual__ __fash/outerwear/casual/camisole__ dress
   # cardigan-dress:
   # - __fash/styles/dress/skirt/short__ __fash/styles/sweater/cardigan__ cardigan dress
   shirt-dress:
-    - __fash/styles/dress/skirt/casual__ __fash/styles/shirt/style__ shirt dress
-    - __fash/styles/dress/skirt/casual__ shirt dress with __fash/styles/upper/sleeve/*__ sleeves
-    - __fash/styles/dress/skirt/casual__ sleeveless __fash/styles/shirt/style__ shirt dress
+    - __fash/styles/dress/skirt/casual__ __fash/styles/shirt/casual__ shirt dress
+    - __fash/styles/dress/skirt/casual__ shirt dress with __fash/styles/shirt/sleeve/casual__ sleeves
+    - __fash/styles/dress/skirt/casual__ sleeveless __fash/styles/shirt/casual__ shirt dress
   sweater-dress:
     - __fash/styles/dress/skirt/casual__ __fash/outerwear/casual/sweater__ dress
   sweatshirt-dress:

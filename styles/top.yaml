@@ -9,6 +9,12 @@ top:
 
   waist:
 
+  sleeved:
+    - __fash/styles/upper/common__
+    - __fash/styles/upper/top-blouse-tunic__
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem
+    - __fash/styles/upper/neckline/sleeved__
+
   # TODO Try to get rid of this in favor of upper/neckline/*
   neckline:
     # Sleeveless, strapless, tube-like.

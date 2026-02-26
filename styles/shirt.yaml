@@ -27,20 +27,19 @@ shirt:
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke}
     #- zip-{neck|up}
 
-    # Too much concept bleed with SDXL at least, try Flux
-    # - military
-    # - western
+
 
   sleeve:
     casual:
       - __fash/styles/upper/sleeve/length__
-      - __fash/styles/upper/sleeve/short__
-      - '{short|long} __fash/styles/upper/sleeve/common__'
-      - __fash/styles/upper/sleeve/long__
+      - '{short|long} __fash/styles/upper/sleeve/casual/common__'
+      - __fash/styles/upper/sleeve/casual/short__
+      - __fash/styles/upper/sleeve/casual/long__
     smart:
       - __fash/styles/upper/sleeve/length__
-      - __fash/styles/upper/sleeve/style/smart/common__
-      - short __fash/styles/upper/sleeve/style/smart/short__
+      - __fash/styles/upper/sleeve/smart/common__
+      - short __fash/styles/upper/sleeve/smart/short__
+      - long __fash/styles/upper/sleeve/smart/long__
 
   sweatshirt:
     - ' '
