@@ -116,12 +116,13 @@ upper:
     length:
       - (cap:0.8)
       - short
+      - 1/4-length
       - above-elbow
       - elbow-length
       - below-elbow
       - 3/4-length
       - long
-    style:
+    casual:
       common:
         - batwing
         #- cold-shoulder Comes from necklines now
@@ -129,25 +130,34 @@ upper:
         - drop-shoulder
         - flounce
         - gathered
-        - puff
         - raglan
         - rolled
         - roll-up tab
       short:
         - flutter
         - knot
-        - lace{-trim|}
-        #- (petal:0.8) Works poorly, should be same as tulip anyway
         - ruched
         - ruffle{-trim|}
         - (scallop:0.8)-trim
+      long:
+        - flared
+        - (slit:0.8)
+        - straight
+    smart:
+      common:
+        - batwing
+        - flounce
+        - gathered
+      short:
+        - flutter
+        - lace{-trim|}
+        - ruched
+        - puff
         - (tulip:0.8)
       long:
         - bell
         - bishop
-        - flared
         - juliet
-        - (slit:0.8)
         - straight
 
   # TODO none used anywhere yet except sports

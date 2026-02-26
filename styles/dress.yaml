@@ -63,8 +63,8 @@ dress:
 
   sleeve:
     - __fash/styles/upper/sleeve/length__
-    - __fash/styles/upper/sleeve/length__ __fash/styles/upper/sleeve/style/casual/common__
-    - '{short|above-elbow} __fash/styles/upper/sleeve/style/casual/short__'
+    - __fash/styles/upper/sleeve/length__ __fash/styles/upper/sleeve/casual/common__
+    - short __fash/styles/upper/sleeve/casual/short__
 
   sleeved:
     - dress with __fash/styles/dress/sleeve__ sleeves

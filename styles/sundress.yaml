@@ -6,8 +6,8 @@
 sundress:
   sleeve:
     - '{(cap:0.8)|short}'
-    - '{(cap:0.8)|short} __fash/styles/upper/sleeve/style/short__'
-    - short __fash/styles/upper/sleeve/style/common__
+    - '{(cap:0.8)|short} __fash/styles/upper/sleeve/casual/short__'
+    - short __fash/styles/upper/sleeve/casual__
     - '{3/4-length|above-elbow|below-elbow} {flared|wide}'
 
   bodice: # TODO unify

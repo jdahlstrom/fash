@@ -24,8 +24,8 @@ t-shirt:
     - __fash/styles/common/gather__
   sleeve:
     - __fash/styles/upper/sleeve/length__
-    - __fash/styles/upper/sleeve/style/short__
-    - __fash/styles/upper/sleeve/style/common__
+    - __fash/styles/upper/sleeve/casual/short__
+    - __fash/styles/upper/sleeve/casual/common__
   neckline:
     - __fash/styles/upper/neckline/sleeved__
 
