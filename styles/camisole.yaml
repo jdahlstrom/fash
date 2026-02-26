@@ -1,5 +1,5 @@
 camisole:
-  # Cami-specific styles not in upper/common
+  # Cami-specific styles not in upper/casual
   # TODO See if could unify with upper/top-blouse-tunic
   style:
     - babydoll

@@ -44,11 +44,11 @@ dress:
 
   upper:
     casual:
-      - __fash/styles/upper/common__
+      - __fash/styles/upper/casual__
       - __fash/styles/upper/top-dress-legged__
       - __fash/styles/dress/bodice/casual__
     smart:
-      - __fash/styles/upper/common__
+      - __fash/styles/upper/smart__
       - __fash/styles/dress/bodice/smart__
 
   lower:
