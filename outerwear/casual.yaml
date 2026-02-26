@@ -260,7 +260,6 @@ casual:
     - __fash/styles/skirt/casual__ skirt
     - __fash/styles/skirt/hem__-hemline skirt
     - __fash/styles/skirt/material__ skirt
-    - __fash/styles/skirt/style__ skirt
     - __fash/styles/skirt/length/casual__ skirt
 
     # TODO
@@ -322,11 +321,11 @@ casual:
 
   ##############################################################################
   dress:
-    - __fash/styles/skirt/length/casual__ __fash/styles/dress/style__ dress
+    - __fash/styles/skirt/length/casual__ __fash/styles/dress/casual__ dress
 
-    - __fash/styles/dress/lower__ __fash/styles/dress/upper__ dress
-    - __fash/styles/dress/lower__ __fash/styles/dress/waist__-waist dress
-    - __fash/styles/dress/waist__-waist __fash/styles/dress/upper__ dress
+    - __fash/styles/dress/lower/casual__ __fash/styles/dress/upper/casual__ dress
+    - __fash/styles/dress/lower/casual__ __fash/styles/dress/waist/casual__-waist dress
+    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/upper/casual__ dress
 
     - __fash/outerwear/casual/sleeved-dress__
     - __fash/outerwear/casual/sleeveless-dress__
@@ -335,12 +334,16 @@ casual:
     #- __fash/styles/common/trim__-neckline dress
 
   sleeved-dress:
-    - __fash/styles/dress/lower__ __fash/styles/dress/sleeved__
-    - __fash/styles/dress/waist__-waist __fash/styles/dress/sleeved__
+    - __fash/styles/dress/lower/casual__ __fash/styles/dress/sleeved/casual__
+    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/sleeved/casual__
 
   sleeveless-dress:
-    - __fash/styles/dress/lower__ __fash/styles/dress/sleeveless__
-    - __fash/styles/dress/waist__-waist __fash/styles/dress/sleeveless__
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeveless/casual__
+    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/sleeveless/casual__
+
+  # off-shoulder-dress:
+
+  # halter-dress:
 
   denim-dress:
     - __fash/styles/skirt/length/short__ __fash/styles/dress/denim__ denim dress
@@ -355,13 +358,15 @@ casual:
     - __fash/styles/sundress/skirt__-skirted __fash/styles/sundress/neckline/sleeveless__ sundress # TODO
 
     # Sleeved
-    # TODO should maybe have a bit lower probability than 50%
+    # TODO should maybe have lower probability than 50%
     -  __fash/styles/sundress/bodice__ sundress with __fash/styles/sundress/sleeve__ sleeves
     # TODO consider only "low" necklines with sleeves
     -  __fash/styles/sundress/neckline/sleeved__ sundress with __fash/styles/sundress/sleeve__ sleeves
     - __fash/styles/sundress/skirt__-skirted sundress with __fash/styles/sundress/sleeve__ sleeves
 
+  #
   # Skirted versions of upper-body clothing
+  #
 
   # TODO is this really casual or outerwear? Maybe just loungewear
   babydoll-dress:

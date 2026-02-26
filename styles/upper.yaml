@@ -33,6 +33,14 @@ upper:
     #- collarless
     #- polo
 
+  smart:
+    - billowy
+    - flowy
+    - ruched smock
+    #- ruched-waist # Comes from waist for dresses, others TODO
+    - smock # ?
+    - smocked
+
   # Body/jump/play/romper suits
   legged:
     - apron
