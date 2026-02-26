@@ -24,6 +24,7 @@ skirt:
     - trapeze
     - wrap
   smart:
+    - a-line
     - (accordion:0.8)
     - bodycon
     - (bubble:0.9)
@@ -55,11 +56,8 @@ skirt:
   # - slit
   # - fit-and-flare
 
-
-  # Hemline shape
-  # Not all work well with all silhouettes
-  hem:
-    - asymmetrical
+  hem: # Hemline shape
+    - asymmetric
     - flounce
     - frill
     - (fringe:0.8)

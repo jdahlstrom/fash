@@ -129,14 +129,15 @@ casual:
   camisole:
     - __fash/styles/upper/casual__ camisole
     - __fash/styles/upper/length__ camisole
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem camisole
+
+    # Not sure if these work well
+    #- __fash/styles/upper/top-blouse-tunic-hem__-hem camisole
 
     - __fash/styles/camisole/neckline__ camisole
     - __fash/styles/camisole/style__ camisole
 
     #- __fash/styles/common/trim__-trim camisole
     # TODO additional variants?
-
 
   # Button-closure shirt, usually with a collar.
   shirt:

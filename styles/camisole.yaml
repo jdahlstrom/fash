@@ -3,12 +3,16 @@ camisole:
   # TODO See if could unify with upper/top-blouse-tunic
   style:
     - babydoll
+    - basque
+    - blouson
+    - contour
     - draped
     - gathered
     - godet
     - peplum
     - __fash/styles/camisole/smock__ smock
     - (swing:0.8)
+    - wrap
 
     #- __fash/styles/common/trim__-{hem|trim|yoke} TODO
 
@@ -16,6 +20,7 @@ camisole:
   # TODO Should be used for common tops too
   smock:
     #- open-front bow/knot detail etc
+    - flyaway-hem
     - layered
     - skirted
     - tiered
