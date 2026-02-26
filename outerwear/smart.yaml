@@ -7,7 +7,7 @@ smart:
     - __fash/outerwear/smart/top__
 
   shirt:
-    - __fash/styles/upper/common__ shirt with __fash/styles/shirt/sleeve/smart__ sleeves
+    - __fash/styles/upper/smart__ shirt with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/upper/collar__-collar shirt with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/shirt/smart__ shirt with __fash/styles/shirt/sleeve/smart__ sleeves
 
@@ -40,8 +40,8 @@ smart:
 
   top:
     # TODO omit bandeau etc crop tops?
-    - __fash/styles/upper/common__ __fash/outerwear/smart/sleeved-top__
-    - __fash/styles/upper/common__ __fash/outerwear/smart/sleeveless-top__
+    - __fash/styles/upper/smart__ __fash/outerwear/smart/sleeved-top__
+    - __fash/styles/upper/smart__ __fash/outerwear/smart/sleeveless-top__
     - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeved-top__
     - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeveless-top__
 

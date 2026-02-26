@@ -51,7 +51,7 @@ casual:
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
-    - __fash/styles/upper/common__ top
+    - __fash/styles/upper/casual__ top
     - __fash/styles/upper/top-dress-legged__ top
 
     # TODO
@@ -79,7 +79,7 @@ casual:
     - __fash/outerwear/casual/bandeau-top__
     - __fash/outerwear/casual/tube-top__
     # TODO variants other than neckline! Should have everything that general tops do
-    - strapless __fash/styles/upper/common__ top
+    - strapless __fash/styles/upper/casual__ top
     - strapless __fash/styles/upper/top-dress-legged__ top # TODO not 100%
 
     - strapless __fash/outerwear/casual/top-blouse-tunic__ top
@@ -106,7 +106,7 @@ casual:
   halter-top:
     - __fash/styles/upper/neckline/halter__ top
 
-    - __fash/styles/upper/common__ halter top
+    - __fash/styles/upper/casual__ halter top
     - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
     - __fash/outerwear/casual/top-blouse-tunic__ halter top
 
@@ -120,7 +120,7 @@ casual:
     - __fash/styles/top/neckline/tube__ tube top
 
     # TODO test these
-    - __fash/styles/upper/common__ tube top
+    - __fash/styles/upper/casual__ tube top
     - __fash/styles/upper/length__ tube top
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tube top
     #- __fash/styles/common/trim__-trim top
@@ -128,7 +128,7 @@ casual:
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
   camisole:
-    - __fash/styles/upper/common__ camisole
+    - __fash/styles/upper/casual__ camisole
     - __fash/styles/upper/length__ camisole
     - __fash/styles/upper/top-blouse-tunic-hem__-hem camisole
 
@@ -148,7 +148,7 @@ casual:
 
   # Loose-fitting shirt.
   blouse:
-    - __fash/styles/upper/common__ blouse
+    - __fash/styles/upper/casual__ blouse
     - __fash/styles/upper/top-blouse-tunic__ blouse
     - __fash/styles/upper/top-blouse-tunic-closure__ blouse
     - __fash/styles/upper/top-blouse-tunic-hem__-hem blouse
@@ -159,7 +159,7 @@ casual:
 
   # Casual, blouse-like but longer. Used with pants, not a dress.
   tunic:
-    - __fash/styles/upper/common__ tunic
+    - __fash/styles/upper/casual__ tunic
     - __fash/styles/upper/top-blouse-tunic__ tunic
     - __fash/styles/upper/top-blouse-tunic-closure__ tunic
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tunic

@@ -13,21 +13,29 @@
 upper:
 
   # Styles common to all
-  common:
-    - billowy
-    - boho
+  casual:
+    - boho # not smart
+    - peasant # probably not smart
     - flowy
-    - peasant
     - ruched smock
     - ruched-waist # TODO waist
     - smock
     - smocked
+
+  smart:
+    - billowy
+    - smocked
+    - flowy
+    - ruched smock
+    - ruched-waist # TODO waist
+    - smocked
+
     # TODO material
-    - crocheted
-    - denim
-    - flannel
-    - knitted
-    - linen
+    #- crocheted
+    #- denim
+    #- flannel
+    #- knitted
+    #- linen
     # TODO necklines, plus not common to camis/strapless etc
     #- cold-shoulder
     #- collarless
@@ -47,9 +55,9 @@ upper:
     - basque
     - blouson
 
-    - cami
-    - tank
-    - tube
+    - cami #
+    - tank # TODO should be their own items, with necklines etc
+    - tube #
 
     - wrap
 
