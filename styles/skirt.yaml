@@ -1,19 +1,14 @@
 skirt:
-  style:
-    # Specific styles, should have own categories
-    - boho
-    - cargo
-    - gypsy
-    - wrap
-
   casual: # General shape
     - a-line
-    - (bubble:0.9)
+    - boho
+    - cargo
     - circle
     - draped
     - flared
     - gathered
     - gored
+    - gypsy
     #- layered ?
     - low-slit
     - pleat
@@ -23,10 +18,12 @@ skirt:
     - (swing:0.8)
     - tiered
     - trapeze
+    - wrap
 
   smart:
     - (accordion:0.8)
     - bodycon
+    - (bubble:0.9)
     - fit-and-flare
     - godet
     - layered
