@@ -55,12 +55,11 @@ casual:
     - __fash/styles/upper/top-dress-legged__ top
 
     # TODO
-    - __fash/outerwear/casual/top-blouse-tunic__ top
-    - __fash/styles/top/style__ top
+    - __fash/styles/top/casual__ top
 
+    - __fash/outerwear/casual/top-blouse-tunic__ top
     - __fash/outerwear/casual/sleeved-top__
     - __fash/outerwear/casual/sleeveless-top__
-
     - __fash/outerwear/casual/sports-top__
 
   # Either strapless or with straps.

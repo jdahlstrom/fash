@@ -1,13 +1,10 @@
 blouse:
-
-  # TODO unused blouse:
-    #- __fash/styles/blouse/neckline__
-    #- __fash/styles/upper/casual__
-    #- __fash/styles/upper/top-blouse-tunic__
-    # TODO backs
-
   casual:
     - todo
+    - pirate
+    - poet
+    - half-button
+    - wrap
 
   smart:
     - peplum
@@ -15,13 +12,14 @@ blouse:
     - ruched
     - ruched-waist
     - fitted
+    - poet # "pirate shirt"
 
     - button-down
     - half-button
-    - drape-neckline
+    - drape-neckline # neck
     - split-front
-    - surplice-neck
-    - flounce-neckline
+    - surplice-neck # neck
+    - flounce-neckline # neck...
     - wrap
 
   front:
