@@ -33,14 +33,16 @@ dress:
     - pinafore
     - kaftan
     - sari
+    - sarong
 
   smart:
     - bodycon
     - cheongsam
     - cocktail
-    - corset
+    - pegged
     - pencil
     - shift
+    - tube
 
   upper:
     casual:
@@ -70,7 +72,7 @@ dress:
       # Also available with their own names such as shirt-dress
       - babydoll
       - cami
-      - shirt
+      - shirt # flannel shirtdress
       - sweater
       - t-shirt
       - tunic
@@ -79,12 +81,17 @@ dress:
 
       #- shift
       - (tent:0.8)
+      - straight
+      - column
 
     smart: # TODO
       - babydoll
       - blazer
+      - cocktail
+      - evening
+      - little black
       - shirt
-      #- shift
+      - shift
 
       - basque
       - cami
@@ -92,6 +99,9 @@ dress:
       - corselette # ?
 
       - illusion-yoke
+
+      - straight
+      - column
 
   length:
     casual:
@@ -133,6 +143,7 @@ dress:
     - t-shirt dress with __fash/styles/t-shirt/sleeve__ sleeves
 
   denim:
+    - a-line
     - apron
     - belted
     - cami
