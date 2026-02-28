@@ -1,0 +1,37 @@
+jacket:
+  casual:
+    - anorak
+    - bomber
+    - chore
+    - corduroy
+    - denim
+    - fleece
+    - hardshell
+    - Jersey
+    - leather
+    - lumberjack
+    - Mackinaw
+    - Melton
+    - oilskin
+    - puffer
+    - quilted
+    - ripstop
+    - softshell
+    - sports
+    - suede
+    - tracksuit
+    - windbreaker
+  smart:
+    - ?
+
+coat:
+  - duffle
+  - Mackinaw
+  - Melton
+  - Norfolk
+  - parka
+  - pea
+  - rain
+  - trench
+  - tweed
+  - twill
