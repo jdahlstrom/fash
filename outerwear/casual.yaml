@@ -13,6 +13,9 @@ casual:
     - __fash/outerwear/casual/tunic__
 
   upper-types:
+    - jacket
+    - coat
+
     - blouse
     - camisole
     - cardigan
@@ -28,6 +31,12 @@ casual:
     - top
     - tunic
     - vest
+
+  jacket:
+    - __fash/styles/jacket/casual__ jacket
+
+  coat:
+    - __fash/styles/coat__ coat
 
   # Casual shirt, typically short-sleeved and made of cotton.
   # Originally an undershirt, they were popularized as outerwear
