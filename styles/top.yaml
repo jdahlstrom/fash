@@ -1,6 +1,6 @@
 top:
   # Only unique styles not in upper/*
-  style:
+  casual:
     - basketball
     - gored
     - sports

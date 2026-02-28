@@ -1,11 +1,4 @@
 blouse:
-
-  # TODO unused blouse:
-    #- __fash/styles/blouse/neckline__
-    #- __fash/styles/upper/casual__
-    #- __fash/styles/upper/top-blouse-tunic__
-    # TODO backs
-
   casual:
     - todo
 
