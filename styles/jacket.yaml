@@ -1,0 +1,45 @@
+jacket:
+  casual:
+    - anorak
+    - aviator
+    # Baja jacket not known by SDXL
+    - bomber
+    - chore
+    - hardshell
+    - hooded
+    - Jersey
+    - lumberjack
+    - Mackinaw
+    - Melton
+    - oilskin
+    - puffer
+    - quilted
+    - ripstop
+    - softshell
+    - sports
+    - swacket # sweater/jacket
+    - tracksuit
+    - windbreaker
+
+    # Material
+    - corduroy
+    - denim
+    - fleece
+    - leather
+    - suede
+
+  #smart:
+  #  - TODO
+
+coat:
+  # TODO casual? smart?
+  - duffle
+  - Mackinaw
+  - Melton
+  - Norfolk
+  - parka
+  - pea
+  - rain
+  - trench
+  - tweed
+  - twill
