@@ -164,15 +164,14 @@ neckline:
   100-cami-tank-top:
     cami:
       - __fash/styles/neckline/spaghetti-strap__
-      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/basic-top__
     tank-top:
-      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/basic-top__
     halter-cami:
       - __fash/styles/neckline/halter__
-      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/basic-top__
     halter-tank-top:
-      - __fash/styles/neckline/with-straps__
-      # Note NO specific/tank-top here, those are non-halters only!
+      - __fash/styles/neckline/basic-top__
 
       # TODO most of these don't work very well with tank top
       # - __fash/styles/neckline/halter__
@@ -193,13 +192,13 @@ neckline:
       - __fash/styles/neckline/off-shoulder-halter__
     cold-shoulder:
       - ' '
-      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/basic-top__
       - __fash/styles/neckline/shouldered__
 
   # Straps, shoulders, no sleeves
   110-vest-like:
     sleeveless:
-      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/basic-top__
       - __fash/styles/neckline/shouldered__
       # TODO halter? Probably not, use halter-tank-top
 
@@ -207,7 +206,7 @@ neckline:
   111-t-shirt-like:
       # As above
     sleeved:
-      - __fash/styles/neckline/with-straps__
+      - __fash/styles/neckline/basic-top__
       - __fash/styles/neckline/shouldered__
 
 #########################################################################################
@@ -217,12 +216,13 @@ neckline:
   # Common necklines for anything that has shoulders or shoulder straps
   # of some kind, either with or without sleeves, either halterneck or not.
   # T-shirts, blouses, camisoles, tank tops etc.
-  # TODO Does not fit bras or bikini tops well, so a bad name.
-  with-straps:
+  # Does not fit bras or bikini tops well, except sport types.
+  basic-top:
     - crewneck
-    - henley # A bit weird with swimsuits
+    - henley # Casual + a bit weird with swimsuits
     - keyhole-neckline
     - scoop-neck
+    - split-neck
     - square-neck
     - surplice
 
