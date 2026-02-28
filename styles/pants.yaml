@@ -16,10 +16,11 @@ pants:
     - chinos
     - culottes
     - dress pants
-    - denim pants
-    - fitted pants
-    - linen pants
+    - denim pants # material
+    - fitted pants # leg shape
+    - linen pants # material
     - palazzo pants
+    - pegged pants # leg shape?
     - pleated chinos
     - tailored pants
     - velvet pants
@@ -45,10 +46,12 @@ pants:
     - midrise
   leg:
     casual:
+      - barrel
       - bell-bottom
       - boot cut
       - flared-leg
       - kick flare
+      - pegged # or carrot, wide hip, tapering down
       - rolled-up
       - straight-leg
       - tapered-leg
