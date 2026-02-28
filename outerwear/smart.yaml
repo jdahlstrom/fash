@@ -72,10 +72,15 @@ smart:
 
   dress:
     - __fash/styles/dress/lower/smart__ __fash/styles/dress/upper/smart__ dress
-    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/upper/smart__ dress # ?
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/upper/smart__ dress
+    - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/lower/smart__ dress
+
+    # Waist + upper don't work well
+    #- __fash/styles/dress/waist/smart__-waist __fash/styles/dress/upper/smart__ dress
 
     - __fash/outerwear/smart/sleeved-dress__
     - __fash/outerwear/smart/sleeveless-dress__
+    - __fash/outerwear/smart/cami-dress__
     - __fash/outerwear/smart/shirt-dress__
 
   sleeved-dress:
@@ -85,11 +90,25 @@ smart:
     - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeveless/smart__ # Already has "dress"
     - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/sleeveless/smart__
 
+  strapless-dress:
+    - __fash/styles/dress/lower/smart__ __fash/styles/upper/neckline/tube-like-long__ dress
+
+  off-shoulder-dress:
+    - __fash/styles/dress/lower/smart__ __fash/styles/upper/neckline/strapless__ dress
+        # TODO with sleeves
+  halter-dress:
+    - __fash/styles/dress/lower/smart__ __fash/styles/upper/neckline/halter__ dress
+
+  cami-dress:
+    - __fash/styles/dress/skirt/smart__ __fash/outerwear/casual/camisole__ dress
+
   shirt-dress:
+    # TODO shirt dress may not go well with all skirt types
     - __fash/styles/dress/skirt/smart__ __fash/styles/shirt/smart__ shirt dress
     - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/dress/skirt/smart__ sleeveless __fash/styles/shirt/smart__ shirt dress
     - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/upper/collar__ collar
+
 
 ##############################################################################
 

@@ -14,11 +14,12 @@ upper:
 
   # Styles common to all
   casual:
-    - boho # not smart
-    - peasant # probably not smart
+    - billowy
+    - boho
     - flowy
+    - peasant
     - ruched smock
-    - ruched-waist # TODO waist
+    #- ruched-waist # Comes from waist for dresses, others TODO
     - smock
     - smocked
 
@@ -35,10 +36,10 @@ upper:
 
   smart:
     - billowy
-    - smocked
     - flowy
     - ruched smock
-    - ruched-waist # TODO waist
+    #- ruched-waist # Comes from waist for dresses, others TODO
+    - smock # ?
     - smocked
 
   # Body/jump/play/romper suits

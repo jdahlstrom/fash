@@ -333,12 +333,16 @@ casual:
     #- __fash/styles/common/trim__-neckline dress
 
   sleeved-dress:
-    - __fash/styles/dress/lower/casual__ __fash/styles/dress/sleeved__
-    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/sleeved__
+    - __fash/styles/dress/lower/casual__ __fash/styles/dress/sleeved/casual__
+    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/sleeved/casual__
 
   sleeveless-dress:
-    - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeveless__
-    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/sleeveless__
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeveless/casual__
+    - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/sleeveless/casual__
+
+  # off-shoulder-dress:
+
+  # halter-dress:
 
   denim-dress:
     - __fash/styles/skirt/length/short__ __fash/styles/dress/denim__ denim dress

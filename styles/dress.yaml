@@ -46,9 +46,10 @@ dress:
     casual:
       - __fash/styles/upper/casual__
       - __fash/styles/upper/top-dress-legged__
-      - __fash/styles/dress/bodice__
+      - __fash/styles/dress/bodice/casual__
     smart:
       - __fash/styles/upper/smart__
+      - __fash/styles/dress/bodice/smart__
 
   lower:
     casual:
@@ -64,30 +65,33 @@ dress:
   # The upper part of the dress, covering the torso.
   # Only styles not in upper/* common styles!
   bodice:
-    # TODO not general, need specific necklines
-    # Also available with their own names such as shirt-dress
-    - babydoll
-    - cami
-    - shirt
-    - sweater
-    - t-shirt
-    - tunic
-    - sweatshirt
-    - hoodie
+    casual:
+      # TODO not general, need specific necklines
+      # Also available with their own names such as shirt-dress
+      - babydoll
+      - cami
+      - shirt
+      - sweater
+      - t-shirt
+      - tunic
+      - sweatshirt
+      - hoodie
 
-    #- shift
-    - (tent:0.8)
+      #- shift
+      - (tent:0.8)
 
-  bodice-smart:
-    - babydoll
-    - blazer
-    - shirt
-    #- shift
+    smart: # TODO
+      - babydoll
+      - blazer
+      - shirt
+      #- shift
 
-    - basque
-    - cami
-    - corset # ?
-    - corselette # ?
+      - basque
+      - cami
+      - corset # ?
+      - corselette # ?
+
+      - illusion-yoke
 
   length:
     casual:
@@ -107,16 +111,19 @@ dress:
 
   sleeved:
     casual:
-      - dress with __fash/styles/dress/sleeve/casual__ sleeves
+      #- dress with __fash/styles/dress/sleeve/casual__ sleeves
       - __fash/styles/upper/neckline/sleeved__ dress
         with __fash/styles/dress/sleeve/casual__ sleeves
     smart:
-      - dress with __fash/styles/dress/sleeve/smart__ sleeves
-      - __fash/styles/upper/neckline/sleeved__ dress
+      #- dress with __fash/styles/dress/sleeve/smart__ sleeves
+      - __fash/styles/dress/neckline/smart/sleeved__ dress
         with __fash/styles/dress/sleeve/smart__ sleeves
 
   sleeveless:
-    - __fash/styles/upper/neckline/sleeveless__ dress
+    casual:
+      - __fash/styles/upper/neckline/sleeveless__ dress
+    smart:
+      - __fash/styles/dress/neckline/smart/sleeveless__ dress
 
   t-shirt:
     - __fash/styles/t-shirt/style__ t-shirt dress
@@ -183,3 +190,21 @@ dress:
       - __fash/styles/upper/neckline/t-shirt-like__
       - __fash/styles/upper/neckline/vest-like__
       #- __fash/styles/upper/neckline/tube-like-long__ Not for casual
+
+    smart:
+      sleeved:
+        - >
+          { __fash/styles/neckline/high-neck__
+          | __fash/styles/upper/neckline/cold-shoulder__
+          | __fash/styles/upper/neckline/off-shoulder__
+          |2:: __fash/styles/neckline/plunge-neck__
+          | __fash/styles/upper/neckline/t-shirt-like__}
+
+      sleeveless:
+        - sleeveless __fash/styles/neckline/high-neck__
+        - __fash/styles/upper/neckline/cami-like__
+        #- __fash/styles/upper/neckline/tank-top-like__
+        - __fash/styles/upper/neckline/tube-like-long__
+        - __fash/styles/upper/neckline/vest-like__
+        - __fash/styles/upper/neckline/one-shoulder__
+        - __fash/styles/neckline/plunge-neck__
