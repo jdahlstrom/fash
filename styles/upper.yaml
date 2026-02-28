@@ -137,6 +137,7 @@ upper:
         #- cold-shoulder Comes from necklines now
         - dolman
         - drop-shoulder
+        - fitted
         - flounce
         - gathered
         - raglan
@@ -155,6 +156,7 @@ upper:
     smart:
       common:
         - batwing
+        - fitted
         - flounce
         - gathered
       short:
