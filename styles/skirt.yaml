@@ -1,5 +1,6 @@
 skirt:
-  casual: # General shape
+  # Silhouette
+  casual:
     - a-line
     - boho
     - cargo
@@ -14,27 +15,43 @@ skirt:
     - pleat
     - panel
     - pocket
+    - sarong
     - skater
+    - straight
     - (swing:0.8)
     - tiered
     - trapeze
     - wrap
-
   smart:
     - (accordion:0.8)
     - bodycon
     - (bubble:0.9)
     - fit-and-flare
+    - flared
+    - full
+    - gathered
     - godet
+    - gored
     - layered
     - mermaid
     - panel
+    - peg # pegged
     - pencil
     - pleated
     - ruched
     - slit
+    - straight
+    - trapeze
     - tiered
     - trumpet
+  # formal:
+  # - full
+  # - mermaid
+  # - layered
+  # - trumpet
+  # - slit
+  # - fit-and-flare
+
 
   hem: # Hemline shape
     - asymmetrical
