@@ -1,16 +1,17 @@
 skirt:
   # Silhouette
+  # The general shape or outline of the skirt
   casual:
     - a-line
     - boho
     - cargo
     - circle
+    - column
     - draped
     - flared
     - gathered
     - gored
     - gypsy
-    #- layered ?
     - low-slit
     - pleat
     - panel
@@ -26,6 +27,8 @@ skirt:
     - (accordion:0.8)
     - bodycon
     - (bubble:0.9)
+    - circle
+    - column
     - fit-and-flare
     - flared
     - full
@@ -53,7 +56,9 @@ skirt:
   # - fit-and-flare
 
 
-  hem: # Hemline shape
+  # Hemline shape
+  # Not all work well with all silhouettes
+  hem:
     - asymmetrical
     - flounce
     - (fringe:0.8)
@@ -99,7 +104,7 @@ skirt:
       - below-knee
       - midi length
     smart:
-      - above-knee
+      - above-knee   # depending on what "smart" means
       - knee-length
       - below-knee
       - midi length
@@ -119,3 +124,4 @@ skirt:
     sexy:
       - micro
       - mini
+      # - also long if sheer/slit/etc

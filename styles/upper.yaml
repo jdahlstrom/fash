@@ -58,7 +58,7 @@ upper:
     - tank # TODO should be their own items, with necklines etc
     - tube #
 
-    - wrap
+    - wrap # Closure?
 
     # Closure
     - front-lacing
