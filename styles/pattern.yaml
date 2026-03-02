@@ -1,0 +1,74 @@
+pattern:
+  animal:
+    - animal
+    - cheetah spot
+    - crocodile
+    - giraffe spot
+    - jaguar spot
+    - leopard spot
+    - snakeskin
+    - tiger stripe
+    - zebra
+  ethnic:
+    - african
+    - arabesque
+    - chinese
+    - ethnic
+    - hawaiian
+    - indian
+    - japanese
+    - paisley
+    - tribal
+  botanical:
+    - botanical
+    - daisy
+    - floral
+    - jacobean
+    - leaf
+    - lily
+    - naturalistic
+    - orchid
+    - poppy
+    - rose
+    - scroll
+    - sprig
+    - sunflower
+    - vine
+  geometric:
+    - argyle
+    - camo
+    - chevron
+    - circle
+    - diamond
+    - geometric
+    - glen plaid
+    - harlequin
+    - heart
+    - herringbone
+    - hexagon
+    - houndstooth
+    - jacquard
+    - lattice
+    - madras
+    - plaid
+    - polka-dot
+    - quatrefoil
+    - star
+    - swirl
+    - tartan
+    - trefoil
+    - triangle
+    - zigzag
+  stripe:
+    - awning stripe
+    - barcode stripe
+    - bayadere stripe
+    - bengal stripe
+    - diagonal stripe
+    - horizontal stripe
+    - narrow stripe
+    - serpentine stripe
+    - tonal stripe
+    - vertical stripe
+    - wavy stripe
+    - wide stripe
