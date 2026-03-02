@@ -39,6 +39,7 @@ dress:
     - bodycon
     - cheongsam
     - cocktail
+    - dirndl
     - pegged
     - pencil
     - shift
@@ -68,11 +69,13 @@ dress:
   # Only styles not in upper/* common styles!
   bodice:
     casual:
+      # Skirted versions of upper body garments
       # TODO not general, need specific necklines
+      # Only good fits for simple skirt silhouettes
       # Also available with their own names such as shirt-dress
       - babydoll
       - cami
-      - shirt # flannel shirtdress
+      - shirt
       - sweater
       - t-shirt
       - tunic
@@ -80,28 +83,28 @@ dress:
       - hoodie
 
       #- shift
-      - (tent:0.8)
-      - straight
-      - column
+      - (tent:0.8) # full, not just bodice
+      - straight   # full, not just bodice
+      - column     # full, not just bodice
 
-    smart: # TODO
+    smart:
       - babydoll
-      - blazer
-      - cocktail
-      - evening
-      - little black
-      - shirt
-      - shift
+      - blazer       # simple skirts
+      - cami         # simple skirts?
+      - cocktail     # simple skirts
+      - little black # simple skirts
+      - shirt        # simple skirts
 
-      - basque
-      - cami
-      - corset # ?
-      - corselette # ?
+      - basque       # fancier skirts
+      - corset       # fancier skirts
+      - corselette   # fancier skirts
+      - evening      # fancier skirts
 
-      - illusion-yoke
+      - column       # full, not just bodice
+      - shift        # full, not just bodice
+      - straight     # full, not just bodice
 
-      - straight
-      - column
+      - illusion-yoke # neckline or yoke attribute
 
   length:
     casual:
@@ -149,7 +152,6 @@ dress:
     - cami
     - '{(cap:0.6)|short|short tab}-sleeved'
     - cargo
-    #- halter
     - overall
     - pinafore
     - shirt
@@ -157,7 +159,6 @@ dress:
     - strapless
     - tank
     - tied-waist
-    #- zip-up
 
   # The lower part of the dress, covering the legs
   skirt:
@@ -169,12 +170,6 @@ dress:
     hem:
       - __fash/styles/skirt/hem__-hem
       #- __fash/styles/skirt/trim__-hem
-
-    # TODO
-    short:
-      - __fash/styles/dress/skirt/cut__
-      - __fash/styles/dress/skirt/hem__
-      - __fash/styles/skirt/length/short__
 
   waist:
     casual:
@@ -214,7 +209,6 @@ dress:
       sleeveless:
         - sleeveless __fash/styles/neckline/high-neck__
         - __fash/styles/upper/neckline/cami-like__
-        #- __fash/styles/upper/neckline/tank-top-like__
         - __fash/styles/upper/neckline/tube-like-long__
         - __fash/styles/upper/neckline/vest-like__
         - __fash/styles/upper/neckline/one-shoulder__
