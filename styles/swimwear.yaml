@@ -15,7 +15,7 @@ swimwear:
     - racerback
     - crossback
 
-    # Shared with bodice
+    # Shared with swimwear/bodice
     - (bustier:0.8)
     - cami # TODO tankini?
     - contour
@@ -27,7 +27,7 @@ swimwear:
     - wireless
     - wrap
 
-  sports:
+  sports-top: # Or one-piece
     - __fash/styles/upper/back/sports__
     - __fash/styles/upper/neckline/sports__
     - __fash/styles/upper/neckline/sports-halter__
@@ -92,7 +92,6 @@ swimwear:
     - (bustier:0.8)
     - cami
     - contour
-    #- (cutout:0.8) TODO maybe too revealing
     - flutter-sleeve
     - '{front|side}-lacing'
     - front-knot
@@ -256,3 +255,58 @@ swimwear:
     sports:
       - __fash/styles/upper/neckline/sports__ sports
       - __fash/styles/upper/neckline/sports-halter__ sports
+
+
+  # Non-swim beachwear
+  # TODO materials, linen, muslin, cotton, synthetics
+  beach:
+    top:
+      # TODO
+      - upper/common beach top
+      - upper/top-blouse-tunic* blouse
+      - short-sleeved casual buttoned shirt
+      - upper/top-blouse-tunic* tunic
+      - top/cami/tank top
+      - with upper/sleeve/short sleeves
+      - low necklines
+
+    shorts:
+      - beach
+      - board
+      - jamaican
+      - sports
+      - bermuda
+      - boyfriend
+      - culottes
+      - hot pants
+      - spandex
+
+    pants:
+      - loose linen
+      - loose muslin
+      - loose 3/4-length
+      - loose capri
+      - culottes
+      - palazzo
+      - leggings? yoga pants?
+      - etc
+
+    skirt:
+      - boho
+      - sarong
+      - handkerchief
+      - asymmetric
+      - slit
+      - wrap
+      - fringe
+      - side-tied
+
+    dress:
+      - beach
+      - fringe
+      - kaftan
+      - ruffle-hem # etc
+      - wrap
+
+    romper:
+      - __fash/styles/upper/casual__

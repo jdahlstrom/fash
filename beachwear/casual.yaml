@@ -19,8 +19,17 @@ casual:
     - __fash/styles/swimwear/neckline/swim-top__ swim top
 
   sports-top:
-    - __fash/styles/swimwear/sports__ swim top
-    - __fash/styles/swimwear/sports__ bikini top
+    - __fash/styles/swimwear/sports-top__ swim top
+    - __fash/styles/swimwear/sports-top__ bikini top
+    # TODO rash guard
+
+  beach-top:
+    - __fash/styles/upper/casual__ beach top
+    - __fash/styles/upper/top-blouse-tunic*__ beach blouse
+    - __fash/styles/upper/top-blouse-tunic*__ beach tunic
+    - __fash/styles/neckline/low-neck__ beach top
+    - __fash/styles/neckline/plunge-neck__ beach top
+
 
   #########################################################
   lower:
@@ -51,6 +60,19 @@ casual:
   swim-skort:
     -  __fash/styles/swimwear/shorts__ swim skort
 
+  beach-shorts:
+    - __fash/styles/swimwear/shorts__ shorts
+    - __fash/styles/swimwear/beach/shorts__ shorts
+
+  beach-pants:
+    - __fash/styles/swimwear/beach/pants__ pants
+
+  beach-skirt:
+    - __fash/styles/swimwear/skirt__ beach skirt
+    - __fash/styles/swimwear/skirted-bottom__ beach skirt
+    - __fash/styles/swimwear/beach/skirt__ beach skirt
+
+
   #########################################################
   one-piece:
   #########################################################
@@ -64,7 +86,7 @@ casual:
     - __fash/styles/swimwear/suit-bottom__ swimsuit
     - __fash/styles/swimwear/one-piece-back__ swimsuit
     - __fash/styles/swimwear/neckline/suit__ swimsuit
-    - __fash/styles/swimwear/sports__ swimsuit
+    - __fash/styles/swimwear/sports-top__ swimsuit
   monokini:
     - __fash/styles/swimwear/monokini__ monokini
     - __fash/styles/swimwear/neckline/monokini__ monokini
@@ -76,7 +98,15 @@ casual:
     - __fash/styles/swimwear/one-piece-back__ swim dress
 
   sports-one-piece:
-    - __fash/styles/swimwear/sports__ swimsuit
+    - __fash/styles/swimwear/sports-top__ swimsuit
+
+  beach-dress:
+    - __fash/styles/swimwear/beach/dress__ dress
+    - __fash/styles/swimwear/skirted-bottom__ beach dress
+    # TODO length
+
+  beach-romper: # TODO
+    - __fash/styles/upper/casual__ beach {playsuit|romper}
 
   #########################################################
   two-piece:
@@ -107,14 +137,14 @@ casual:
     - __fash/styles/swimwear/one-piece-back__
         __fash/styles/swimwear/tankini-bottom__ tankini
 
-    - __fash/styles/swimwear/sports__ tankini
+    - __fash/styles/swimwear/sports-top__ tankini
 
   paired:
     - __fash/beachwear/casual/swim-top__ and matching swim bottom
     - __fash/beachwear/casual/swim-bottom__ and matching swim top
     - __fash/beachwear/casual/swim-top__ and __fash/beachwear/casual/swim-bottom__
-    - two-piece __fash/styles/swimwear/sports__ swimsuit
+    - two-piece __fash/styles/swimwear/sports-top__ swimsuit
 
   sports-two-piece:
-    - two-piece __fash/styles/swimwear/sports__ swimsuit
-    - __fash/styles/swimwear/sports__ tankini
+    - two-piece __fash/styles/swimwear/sports-top__ swimsuit
+    - __fash/styles/swimwear/sports-top__ tankini
