@@ -63,7 +63,7 @@ skirt:
       - below-knee
       - midi length
     long:
-      - midi length
+      - tea-length
       - maxi length
       - ankle-length
       - floor-length
@@ -80,9 +80,9 @@ skirt:
       - knee-length
       - below-knee
       - midi length
-      - maxi length
+      - tea-length
     formal:
-      - midi length
+      - tea-length
       - maxi length
       - ankle-length
       - floor-length
