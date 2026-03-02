@@ -153,6 +153,7 @@ casual:
     - __fash/styles/upper/top-blouse-tunic-hem__-hem blouse
     - __fash/styles/upper/length__ blouse
     - __fash/styles/blouse/neckline__ blouse
+    # TODO make sleeves more likely
     - blouse with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/common/trim__-trim blouse
 
@@ -164,6 +165,7 @@ casual:
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tunic
     - __fash/styles/blouse/neckline__ tunic
     - __fash/styles/skirt/length/short__ tunic
+    # TODO ditto
     - tunic with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/common/trim__-trim tunic
 
@@ -301,7 +303,7 @@ casual:
     - __fash/styles/playsuit__ playsuit
     - __fash/styles/upper/neckline/sleeveless__ sleeveless playsuit
     - __fash/styles/upper/neckline/sleeved__ playsuit
-        with  __fash/styles/upper/sleeve/casual/*__ sleeves
+        with __fash/styles/upper/sleeve/casual/*__ sleeves
 
   romper:
     - __fash/styles/romper__ romper

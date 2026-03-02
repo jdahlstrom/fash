@@ -9,11 +9,13 @@ shirt:
     - field
     - flannel
     - godet
+    - half-button
     - lumberjack
     - polo
     - pocket
     - safari
     - popover
+    - quarter-button
     - split-front
     - open-front smock
     - tied crop
@@ -30,6 +32,7 @@ shirt:
     - half-button
     - pin-tuck
     - popover
+    - quarter-button
     # TODO more
     - lace-yoke
     - __fash/styles/common/trim__-trim
