@@ -29,21 +29,28 @@ dress:
     - apron
     - cargo
     - gypsy
+    - kaftan
     - overall
     - pinafore
-    - kaftan
+    - prairie
     - sari
     - sarong
 
   smart:
-    - bodycon
+    - bodycon # TODO can have neckline, sleeves
     - cheongsam
+<<<<<<< HEAD
     - cocktail
     - dirndl
     - pegged
+=======
+    - cocktail # can have neckline, sleeves, more, give own category
+    - pegged # skirt silhouette, not dress type
+>>>>>>> 9efab38 (Add smart cami, more smart dress archetypes)
     - pencil
     - shift
-    - tube
+    - shirt # collar type at least
+    - tube # can have neckline, sleeves, should have own category
 
   upper:
     casual:
@@ -88,6 +95,7 @@ dress:
       - column     # full, not just bodice
 
     smart:
+      # Not all just bodice types, have skirt implications too
       - babydoll
       - blazer       # simple skirts
       - cami         # simple skirts?
@@ -199,12 +207,11 @@ dress:
 
     smart:
       sleeved:
-        - >
-          { __fash/styles/neckline/high-neck__
-          | __fash/styles/upper/neckline/cold-shoulder__
-          | __fash/styles/upper/neckline/off-shoulder__
-          |2:: __fash/styles/neckline/plunge-neck__
-          | __fash/styles/upper/neckline/t-shirt-like__}
+        - __fash/styles/neckline/high-neck__
+        - __fash/styles/upper/neckline/cold-shoulder__
+        - __fash/styles/upper/neckline/off-shoulder__
+        - __fash/styles/neckline/plunge-neck__
+        - __fash/styles/upper/neckline/t-shirt-like__
 
       sleeveless:
         - sleeveless __fash/styles/neckline/high-neck__

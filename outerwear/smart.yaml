@@ -38,6 +38,13 @@ smart:
     - __fash/styles/blouse/neckline__ blouse
         with __fash/styles/shirt/sleeve/smart__ sleeves
 
+  camisole:
+    - __fash/styles/upper/smart__ camisole
+    #- __fash/styles/upper/length__ camisole
+    #- __fash/styles/upper/top-blouse-tunic-hem__-hem camisole
+    - __fash/styles/camisole/neckline__ camisole
+    - __fash/styles/camisole/style__ camisole
+
   top:
     # TODO omit bandeau etc crop tops?
     - __fash/styles/upper/smart__ __fash/outerwear/smart/sleeved-top__
@@ -73,6 +80,7 @@ smart:
   dress:
     - __fash/styles/dress/lower/smart__ __fash/styles/dress/upper/smart__ dress
     - __fash/styles/dress/lower/smart__ __fash/styles/dress/upper/smart__ dress
+
     - __fash/styles/dress/waist/smart__-waist __fash/styles/dress/lower/smart__ dress
 
     # Waist + upper don't work well
@@ -80,8 +88,11 @@ smart:
 
     - __fash/outerwear/smart/sleeved-dress__
     - __fash/outerwear/smart/sleeveless-dress__
+    - __fash/outerwear/smart/strapless-dress__
     - __fash/outerwear/smart/cami-dress__
     - __fash/outerwear/smart/shirt-dress__
+    - __fash/outerwear/smart/tube-dress__
+    - __fash/outerwear/smart/cocktail-dress__
 
   sleeved-dress:
     - __fash/styles/dress/lower/smart__ __fash/styles/dress/sleeved/smart__ # Already has "dress"
@@ -100,10 +111,23 @@ smart:
     - __fash/styles/dress/lower/smart__ __fash/styles/upper/neckline/halter__ dress
 
   cami-dress:
-    - __fash/styles/dress/skirt/smart__ __fash/outerwear/casual/camisole__ dress
+    - __fash/styles/dress/skirt/smart__ __fash/outerwear/smart/camisole__ dress
+
+  tube-dress:
+    - __fash/styles/upper/neckline/tube-like-long__ dress
+
+  cocktail-dress:
+    # TODO length: ~knee to mid == skirt/length/medium
+    # TODO subset of "simple" skirt silhouettes
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/neckline/smart/sleeved__
+        cocktail dress {with __fash/styles/dress/sleeve/smart__ sleeves}
+    - __fash/styles/dress/lower/smart__ __fash/styles/dress/neckline/smart/sleeveless__
+        cocktail dress
+
+  evening-dress:
 
   shirt-dress:
-    # TODO shirt dress may not go well with all skirt types
+    # TODO shirt dress may not go well with all skirt types, might need to be full dress type
     - __fash/styles/dress/skirt/smart__ __fash/styles/shirt/smart__ shirt dress
     - __fash/styles/dress/skirt/smart__ shirt dress with __fash/styles/shirt/sleeve/smart__ sleeves
     - __fash/styles/dress/skirt/smart__ sleeveless __fash/styles/shirt/smart__ shirt dress

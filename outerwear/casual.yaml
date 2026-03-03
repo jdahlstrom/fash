@@ -344,6 +344,8 @@ casual:
 
   # halter-dress:
 
+  # tube-dress:
+
   denim-dress:
     - __fash/styles/skirt/length/short__ __fash/styles/dress/denim__ denim dress
     - __fash/styles/common/denim/wash__ __fash/styles/dress/denim__ denim dress # Not always reliable
