@@ -178,12 +178,14 @@ dress:
       - drawstring
       - drop
       - tied
+      - waistband
     smart:
       - blouson
       - empire
-      - ruched
       - gathered
+      - ruched
       # TODO belts
+      - waistband
 
     # Gather
     #- __fash/styles/common/gather__-waist

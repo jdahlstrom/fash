@@ -1,5 +1,5 @@
 # Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
-# Currently excluded are camis, t-shirts, sweaters, sweatshirts, and similar.
+# Currently excluded are bras, t-shirts, sweaters, sweatshirts, and similar.
 #
 # Includes:
 #
@@ -15,6 +15,7 @@ upper:
   # Styles common to all
   casual:
     - boho
+    - bloused
     - peasant
     - flowy
     - ruched smock
@@ -24,6 +25,7 @@ upper:
 
   smart:
     - billowy
+    - contoured
     - flowy
     - ruched smock
     - ruched-waist # Comes from waist for dresses, others TODO
@@ -255,6 +257,7 @@ upper:
     - revere
     - rolled
     - round
+    - ruffle
     - sailor
     - spread
     - stand
@@ -275,12 +278,14 @@ upper:
     t-shirt-like:
       - __fash/**/111-t-shirt-like/sleeved__
 
+    # tube dresses, long tops, and similar
     tube-like-long:
       - strapless __fash/**/000-tube-like/strapless__
       - __fash/**/000-tube-like/tube__ tube
-      # bandeau only applies to tops
 
+    # crop tops, bras, and similar
     tube-like-short:
+      # bandeau is always crop
       - __fash/**/000-tube-like/bandeau__ bandeau
       - strapless __fash/**/000-tube-like/strapless__
       - __fash/**/000-tube-like/tube__ tube
