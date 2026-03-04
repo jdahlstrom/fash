@@ -28,9 +28,9 @@ swimwear:
     - wrap
 
   sports-top: # Or one-piece
-    - __fash/styles/upper/back/sports__
-    - __fash/styles/upper/neckline/sports__
-    - __fash/styles/upper/neckline/sports-halter__
+    - __fash/styles/upper/back/sports__ sports
+    - __fash/styles/upper/neckline/sports__ sports
+    - __fash/styles/upper/neckline/sports-halter__ sports
 
   # Lower
 
@@ -38,6 +38,7 @@ swimwear:
   briefs:
     - (buckle:0.8)-closure
     - high-waist strappy
+    - high-waist bodycon
     - side-lacing
     - skirted
     - strappy # TODO only works well with swim bottom
@@ -79,6 +80,7 @@ swimwear:
     - micro
     - ruched
     - (ruffle:0.8)-hem
+    - shapewear
     - skater
     - sports
     - tiered-hem
@@ -98,6 +100,7 @@ swimwear:
     - half-zip
     - ruched
     - (ruffle-straps:0.8)
+    - shapewear
     - tied-front
     - underwired
     - wireless
@@ -261,14 +264,7 @@ swimwear:
   # TODO materials, linen, muslin, cotton, synthetics
   beach:
     top:
-      # TODO
-      - upper/common beach top
-      - upper/top-blouse-tunic* blouse
-      - short-sleeved casual buttoned shirt
-      - upper/top-blouse-tunic* tunic
-      - top/cami/tank top
-      - with upper/sleeve/short sleeves
-      - low necklines
+      # TODO not currently used
 
     shorts:
       - beach
@@ -276,30 +272,32 @@ swimwear:
       - jamaican
       - sports
       - bermuda
-      - boyfriend
+      - boyfriend beach
       - culottes
       - hot pants
       - spandex
 
     pants:
-      - loose linen
-      - loose muslin
+      #- loose linen
+      #- loose muslin
       - loose 3/4-length
       - loose capri
       - culottes
       - palazzo
-      - leggings? yoga pants?
-      - etc
+      #- leggings? yoga pants?
+      #- etc
 
     skirt:
-      - boho
-      - sarong
-      - handkerchief
       - asymmetric
-      - slit
-      - wrap
-      - fringe
+      - boho
+      - fringe-hem
+      - handkerchief
+      - needlework-hem # etc
+      - sarong
       - side-tied
+      - slit
+      - side-tied side-slit # TODO
+      - wrap
 
     dress:
       - beach

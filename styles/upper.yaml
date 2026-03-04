@@ -343,12 +343,12 @@ upper:
       - __fash/styles/upper/neckline/one-shoulder__
 
     sports:
-      - crewneck
+      - crewneck # TODO may not work well with swimwear
       - keyhole {boatneck|crewneck|}
       - one-shoulder
       - scoop-neck
       - square-neck
-      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
+      - spaghetti-strap {|scoop neck|v-neck|}
       - v-neck
       - mesh{|-yoke}
 
@@ -356,4 +356,4 @@ upper:
       - crewneck
       - keyhole
       - scoop neck
-      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
+      - spaghetti-strap {|scoop neck|v-neck|}

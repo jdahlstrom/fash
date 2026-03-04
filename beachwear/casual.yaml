@@ -61,16 +61,19 @@ casual:
     -  __fash/styles/swimwear/shorts__ swim skort
 
   beach-shorts:
-    - __fash/styles/swimwear/shorts__ shorts
-    - __fash/styles/swimwear/beach/shorts__ shorts
+    - __fash/styles/swimwear/shorts__ beach shorts
+    - __fash/styles/swimwear/beach/shorts__ beach shorts
 
   beach-pants:
-    - __fash/styles/swimwear/beach/pants__ pants
+    - __fash/styles/common/fit/loose__ beach pants
+    - __fash/styles/swimwear/beach/pants__ beach pants
 
   beach-skirt:
     - __fash/styles/swimwear/skirt__ beach skirt
-    - __fash/styles/swimwear/skirted-bottom__ beach skirt
+    #- __fash/styles/swimwear/skirted-bottom__ beach skirt
     - __fash/styles/swimwear/beach/skirt__ beach skirt
+    - __fash/styles/skirt/hem__-hem beach skirt
+    - __fash/styles/skirt/length/casual__ beach skirt
 
 
   #########################################################
@@ -146,5 +149,6 @@ casual:
     - two-piece __fash/styles/swimwear/sports-top__ swimsuit
 
   sports-two-piece:
-    - two-piece __fash/styles/swimwear/sports-top__ swimsuit
+    - __fash/styles/swimwear/sports-top__ bikini
+    - __fash/styles/swimwear/sports-top__ swim top and bottom
     - __fash/styles/swimwear/sports-top__ tankini
