@@ -50,7 +50,7 @@ swimwear:
     - drawstring
     - high-waist
     - long
-    - low-waist
+    - lowrise
     - micro
     - midrise
     - ruched
@@ -60,7 +60,7 @@ swimwear:
   skirt:
     - drawstring
     - high-waist
-    - low-waist
+    - lowrise
     - midrise
     - tie-side
     - yoked
@@ -156,7 +156,7 @@ swimwear:
     - high-cut
     - high-waist
     - hip{hugg|st}ers
-    - low-waist
+    - lowrise
     - midrise
     - skirted
     - skort
@@ -166,7 +166,7 @@ swimwear:
     - boyshorts
     - high-cut
     - hip{hugg|st}ers
-    - low-waist
+    - lowrise
     - midrise
     - skirted
     - skort
@@ -265,6 +265,7 @@ swimwear:
   beach:
     top:
       # TODO not currently used
+      - knitted
 
     shorts:
       - beach
@@ -284,20 +285,50 @@ swimwear:
       - loose capri
       - culottes
       - palazzo
+      - harem
       #- leggings? yoga pants?
       #- etc
 
     skirt:
-      - asymmetric
+      - a-line
       - boho
-      - fringe-hem
-      - handkerchief
-      - needlework-hem # etc
+      - circle
+      - draped
+      - flared
+      - flowy
       - sarong
-      - side-tied
-      - slit
-      - side-tied side-slit # TODO
+      - tie-side
+      - front-split
+      - side-split
+      - side-split tie-side # TODO
+      - skater
+      - tiered
+      - trapeze
       - wrap
+
+      - drawstring
+      - high-waist
+      - lowrise
+      - midrise
+
+      - knitted
+      - ruched
+      - gathered
+      - shirred
+
+      - '{|floral|geometric} needlework'
+      - hole-knit
+
+      # Hem
+      - fringe-hem
+      - needlework-hem # etc
+      - hole-knit hem
+      - ruffle-hem
+      - scallop-trim
+      - picot-knit hem
+
+    skort:
+      - fringe
 
     dress:
       - beach
@@ -305,6 +336,13 @@ swimwear:
       - kaftan
       - ruffle-hem # etc
       - wrap
+      - knitted
 
     romper:
       - __fash/styles/upper/casual__
+
+    material:
+      - thin cotton
+      - polyester
+      - thin linen
+      - muslin

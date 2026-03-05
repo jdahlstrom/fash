@@ -63,17 +63,13 @@ casual:
   beach-shorts:
     - __fash/styles/swimwear/shorts__ beach shorts
     - __fash/styles/swimwear/beach/shorts__ beach shorts
-
   beach-pants:
     - __fash/styles/common/fit/loose__ beach pants
     - __fash/styles/swimwear/beach/pants__ beach pants
-
   beach-skirt:
-    - __fash/styles/swimwear/skirt__ beach skirt
-    #- __fash/styles/swimwear/skirted-bottom__ beach skirt
-    - __fash/styles/swimwear/beach/skirt__ beach skirt
-    - __fash/styles/skirt/hem__-hem beach skirt
-    - __fash/styles/skirt/length/casual__ beach skirt
+    - __fash/styles/skirt/length/smart__ __fash/styles/swimwear/beach/skirt__ beach skirt
+    - __fash/styles/skirt/length/smart__ __fash/styles/skirt/hem__-hem beach skirt
+    #- beach skort # TODO
 
 
   #########################################################
