@@ -39,14 +39,9 @@ dress:
   smart:
     - bodycon # TODO can have neckline, sleeves
     - cheongsam
-<<<<<<< HEAD
-    - cocktail
-    - dirndl
-    - pegged
-=======
     - cocktail # can have neckline, sleeves, more, give own category
+    - dirndl
     - pegged # skirt silhouette, not dress type
->>>>>>> 9efab38 (Add smart cami, more smart dress archetypes)
     - pencil
     - shift
     - shirt # collar type at least
