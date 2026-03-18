@@ -1,11 +1,11 @@
 top:
   # Only unique styles not in upper/*
+  # TODO a small category, is it needed at all?
   casual:
-    - basketball
-    - gored
+    - basketball # Could have a separate "sports" category
     - sports
-    - tied-front
-    - twist{|-front}
+    - tied-front # Closure
+    - twist{|-front} # Hem? Neckline? Category for "crop" garments? Twist, knot, tied are very similar
 
   waist:
 
@@ -14,13 +14,3 @@ top:
     - __fash/styles/upper/top-blouse-tunic__
     - __fash/styles/upper/top-blouse-tunic-hem__-hem
     - __fash/styles/upper/neckline/sleeved__
-
-  # TODO Try to get rid of this in favor of upper/neckline/*
-  neckline:
-    # Sleeveless, strapless, tube-like.
-    bandeau:
-      - __fash/**/000-tube-like/bandeau__ bandeau
-
-    # Sleeveless, strapless, tube-like.
-    tube:
-      - __fash/**/000-tube-like/tube__ tube

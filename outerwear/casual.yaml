@@ -68,23 +68,24 @@ casual:
 
   # TODO placeholder name, move
   top-blouse-tunic:
-    - __fash/styles/upper/length__
     - __fash/styles/upper/top-blouse-tunic__
     - __fash/styles/upper/top-blouse-tunic-hem__-hem
     - __fash/styles/upper/top-blouse-tunic-closure__
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
-    - __fash/styles/upper/casual__ top
-    - __fash/styles/upper/top-dress-legged__ top
-
     # TODO
-    - __fash/styles/top/casual__ top
+    - __fash/styles/upper/length__
+      {__fash/styles/top/casual__
+      |__fash/styles/upper/casual__
+      |__fash/styles/upper/top-dress-legged__
+      |__fash/outerwear/casual/top-blouse-tunic__} top
 
-    - __fash/outerwear/casual/top-blouse-tunic__ top
     - __fash/outerwear/casual/sleeved-top__
     - __fash/outerwear/casual/sleeveless-top__
-    - __fash/outerwear/casual/sports-top__
+    - __fash/outerwear/casual/strapless-top__
+
+    # TODO - __fash/outerwear/casual/sports-top__
 
   # Either strapless or with straps.
   sleeved-top:
@@ -93,23 +94,26 @@ casual:
   # Either strapless or with straps.
   sleeveless-top:
     - __fash/outerwear/casual/strapless-top__
-    - sleeveless __fash/styles/upper/neckline/sleeveless__ top
+    - __fash/styles/upper/neckline/sleeveless__ top
     - sleeveless __fash/styles/upper/top-blouse-tunic-hem__-hem top
 
-  # Sleeveless.
   strapless-top:
     - strapless __fash/styles/neckline/000-tube-like/strapless__ top # TODO
     - __fash/outerwear/casual/bandeau-top__
     - __fash/outerwear/casual/tube-top__
-    # TODO variants other than neckline! Should have everything that general tops do
+    # TODO sleeved strapless?
     - strapless __fash/styles/upper/casual__ top
+    - strapless __fash/styles/upper/length__ top
     - strapless __fash/styles/upper/top-dress-legged__ top # TODO not 100%
 
     - strapless __fash/outerwear/casual/top-blouse-tunic__ top
 
   sports-top:
-    - __fash/styles/upper/neckline/sports__ sports top
-    - __fash/styles/upper/neckline/sports-halter__ halter sports top
+    - >
+      {mesh{|-yoke|-neckline|-back}
+      |__fash/styles/upper/neckline/sports__
+      |__fash/styles/upper/neckline/sports-halter__ halter}
+      __fash/styles/upper/length__ sports top
 
   # Tank top variants.
   tank-top:
@@ -117,30 +121,31 @@ casual:
     - __fash/styles/upper/top-blouse-tunic-hem__-hem tank top
     - __fash/styles/top/neckline/tank-top__ tank top
 
+  # Halterneck top variants.
+  halter-top:
+    - __fash/styles/upper/length__ __fash/styles/upper/neckline/halter__  top
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem __fash/styles/upper/neckline/halter__ top
+
+    - __fash/styles/upper/neckline/halter__ __fash/styles/upper/casual__ top
+    - __fash/styles/upper/neckline/halter__ __fash/styles/upper/top-dress-legged__ top # TODO not 100% match
+    - __fash/styles/upper/neckline/halter__ __fash/styles/upper/top-blouse-tunic__ top
+
+    # TODO off-shoulder
+    - off-shoulder __fash/styles/neckline/101-off-shoulder-with-straps/halter__ top
+        with __fash/styles/upper/sleeve/casual/*__ sleeves
+
   # Bandeau top variants.
   bandeau-top:
-    - bandeau top
-    - __fash/styles/top/neckline/bandeau__ bandeau top
+    #- bandeau top
+    - __fash/**/000-tube-like/bandeau__ bandeau top
     #- __fash/styles/common/trim__-trim top
     # TODO variants other than neckline?
     # At least ruched etc
 
-  # Halterneck top variants.
-  halter-top:
-    - __fash/styles/upper/neckline/halter__ top
-
-    - __fash/styles/upper/casual__ halter top
-    - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
-    - __fash/outerwear/casual/top-blouse-tunic__ halter top
-
-    # TODO off-shoulder
-    #- off-shoulder halter top with __fash/styles/upper/sleeve/casual/*__ sleeves
-    #- __fash/styles/neckline/101-off-shoulder-with-straps/halter__ top with off-shoulder sleeves
-
   # Tube top variants, almost synonymous with bandeau.
   tube-top:
-    - tube top
-    - __fash/styles/top/neckline/tube__ tube top
+    #- tube top
+    - __fash/**/000-tube-like/tube__ tube top
 
     # TODO test these
     - __fash/styles/upper/casual__ tube top
@@ -172,10 +177,8 @@ casual:
   # Loose-fitting shirt.
   blouse:
     - __fash/styles/upper/casual__ blouse
-    - __fash/styles/upper/top-blouse-tunic__ blouse
-    - __fash/styles/upper/top-blouse-tunic-closure__ blouse
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem blouse
     - __fash/styles/upper/length__ blouse
+    - __fash/outerwear/casual/top-blouse-tunic__ blouse
     - __fash/styles/blouse/neckline__ blouse
     - blouse with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/common/trim__-trim blouse
@@ -183,9 +186,7 @@ casual:
   # Casual, blouse-like but longer. Used with pants, not a dress.
   tunic:
     - __fash/styles/upper/casual__ tunic
-    - __fash/styles/upper/top-blouse-tunic__ tunic
-    - __fash/styles/upper/top-blouse-tunic-closure__ tunic
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem tunic
+    - __fash/outerwear/casual/top-blouse-tunic__ tunic
     - __fash/styles/blouse/neckline__ tunic
     - __fash/styles/skirt/length/short__ tunic
     - tunic with __fash/styles/upper/sleeve/casual/*__ sleeves
@@ -220,7 +221,6 @@ casual:
     - __fash/styles/upper/length__ cardigan
     - __fash/styles/sweater/cardigan/casual__ cardigan
     - __fash/styles/sweater/fit__ cardigan
-    - __fash/styles/sweater/knit__ cardigan
     - cardigan with __fash/styles/shirt/sleeve/casual__
 
   # Description
