@@ -21,6 +21,7 @@ common:
     #- stitch not a trim...
   edge:
     - (lettuce:0.8)
+    - contrast
   stitch:
     - stitch
     - chain-stitch
@@ -40,6 +41,7 @@ common:
     - plissé
     - rolled
   knit:
+    - argyle
     - botanical knit
     - cable-knit
     - crocheted
@@ -118,6 +120,7 @@ common:
       - whisker-washed
     wear:
       - raw-edge
+      - ragged
       - lightly faded
       - faded
       - frayed

@@ -22,11 +22,11 @@ blouse:
     - flounce-neckline # neck...
     - wrap
 
-  front:
-    smart:
-      - split-front
-      - button-down
-      - half-button
+  closure:
+    - split-front
+    - button-down
+    - half-button
+    - quarter-button
 
   tunic:
     - ' ' # No unique styles
@@ -37,5 +37,5 @@ blouse:
     - >
       { __fash/styles/upper/neckline/cold-shoulder__
       | __fash/styles/upper/neckline/off-shoulder__
-      | __fash/styles/blouse/front/smart__ __fash/styles/neckline/buttoned__
+      | __fash/styles/blouse/closure__ __fash/styles/neckline/buttoned__
       |2:: __fash/styles/upper/t-shirt-like__}

@@ -1,5 +1,5 @@
-# Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
-# Currently excluded are camis, t-shirts, sweaters, sweatshirts, and similar.
+# Common styles for tops, camis, shirts, blouses, tunics, dress bodices and play/jumpsuits.
+# Currently excluded are t-shirts, sweaters, sweatshirts, and similar.
 #
 # Includes:
 #
@@ -17,15 +17,18 @@ upper:
     - boho
     - peasant
     - flowy
+    - patchwork
     - ruched
     - ruched smock
-    - ruched-waist # Comes from waist for dresses, others TODO
+    #- ruched-waist # Comes from waist for dresses, others TODO
     - smock
     - smocked
+    - tiered
 
   smart:
     - billowy
     - flowy
+    - layered
     - ruched
     - ruched smock
     - ruched-waist # Comes from waist for dresses, others TODO
@@ -110,7 +113,9 @@ upper:
     - peplum
     - (ruffle:0.9)
     - sharkbite
+    - side-seam slit
     - skirted
+    - step
     - tiered
 
   length:
@@ -302,8 +307,8 @@ upper:
       - __fash/**/100-cami-tank-top/halter-tank-top__ tank
       - __fash/**/100-cami-tank-top/halter-cami__ spaghetti-strap
       - __fash/**/100-cami-tank-top/halter-high__
-      - off-shoulder __fash/**/101-off-shoulder-with-straps/halter__
-
+      # TODO should be separate due to need for sleeves
+      #- off-shoulder __fash/**/101-off-shoulder-with-straps/halter__
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!

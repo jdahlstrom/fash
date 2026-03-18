@@ -39,6 +39,7 @@ pattern:
     - camo
     - chevron
     - circle
+    - colorblock # TODO should be more common
     - diamond
     - geometric
     - glen plaid

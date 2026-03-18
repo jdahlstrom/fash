@@ -48,13 +48,16 @@ shirt:
   sweatshirt:
     - ' '
     # - baja TODO check non-distilled model
+    - athletic
     - boyfriend
     - flannel
     - half-zip
+    - jersey
     - (kangaroo:0.9)-pocket
     - ladyfit
     - raglan
     - sports
+    - technical
     - unisex
     - zip-up
 

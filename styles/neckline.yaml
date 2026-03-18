@@ -273,6 +273,7 @@ neckline:
     - crewneck
     - scoop-neck
     - v-neck
+    - collared # TODO collar subtypes?
 
   # Covers at least a bit of the neck.
   high-neck:

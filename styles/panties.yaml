@@ -9,6 +9,8 @@ panties:
   briefs:
     - ' '
     #- bikini
+    - brazilian cut
+    - french cut
     - high-waist
     - high-cut
     - low-rise
@@ -23,6 +25,7 @@ panties:
     - high-waist girl
     - performance
     - loose
+    - slip shorts # TODO
   boyshorts:
     - ' '
     - cheeky

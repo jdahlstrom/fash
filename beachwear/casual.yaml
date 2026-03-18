@@ -34,6 +34,7 @@ casual:
     #- __fash/styles/panties/thong__ bikini thong TODO to sexy
     - __fash/styles/panties/thong__ string bikini bottom # ?
     - __fash/styles/swimwear/briefs__ bikini bottom
+    - '{|lowrise|high-waist} skirtkini' # TODO
   swim-bottom:
     - __fash/styles/panties/briefs__ swim briefs
     - __fash/styles/panties/boxers__ swim boxers

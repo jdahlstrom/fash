@@ -3,6 +3,8 @@ bra:
     - cami
     - contour
     - crop-top
+    - front-closure # or front-fasten, not recognized by all SDXL models
+    - non-pad
     - padded
     - push-up
     - seamless
@@ -14,7 +16,6 @@ bra:
     # - balconette
     # - balcony
     # - demi
-    # - front-closure (or front-fasten)
     # - soft cup
     # - wireless
 

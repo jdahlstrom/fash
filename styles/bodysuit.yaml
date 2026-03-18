@@ -6,28 +6,33 @@ bodysuit:
     - cutout
     - high-cut
     - lace-up
-    - lace-{yoke|trim}
+
     - push-up bra
     - ribbed
     - ruched
     - shapewear
     - skirted # TODO modifier
-    - strappy
+    #- strappy
     - string
     - thong
+    - tummy control
     - zip-up
 
   intimate:
     - cutout
-    - lace-trim
+    - lace-{yoke|trim}
     - ruffle
     - flounce-trim # etc etc
 
   sexy:
+    - basque
     - bustier
     - (cage:0.8)
     - '{cinch-waist|waist-cinch|waist-cincher|waspie}'
     - corselette
+    - cutout
+    - lace-{yoke|trim}
+    - strappy
 
   sleeve:
     - '{3::short|2::3/4-length|long}'

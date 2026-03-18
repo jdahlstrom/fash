@@ -12,8 +12,9 @@ sweater:
     - poncho
     - pullover
     - ribbed
-    - smock
     - (shawl-collared:0.8)
+    - smock
+    - submariner
     - tunic
     - ugly
     - woolly pully # TODO should be an "army-style" pullover
