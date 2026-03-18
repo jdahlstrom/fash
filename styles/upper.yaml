@@ -270,13 +270,13 @@ upper:
   neckline:
     cami-like:
       - __fash/**/100-cami-tank-top/cami__ spaghetti-strap
-      - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
+      - __fash/**/100-cami-tank-top/halter-cami__ spaghetti-strap
 
     # Sleeveless with shoulder strap(s).
     # Append just "top" or "dress" or similar
     tank-top-like:
       - __fash/**/100-cami-tank-top/tank-top__ tank
-      - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
+      - __fash/**/100-cami-tank-top/halter-tank-top__ tank
 
     # Append "t-shirt" or "... with ... sleeves"
     t-shirt-like:
@@ -299,10 +299,10 @@ upper:
     # leaving the upper back and shoulders bare.
     # NB. Uses styles/neckline/halter indirectly
     halter: # any halterneck
-      - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
-      - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
-      - __fash/**/100-cami-tank-top/halter-high__ halter
-      - off-shoulder __fash/**/101-off-shoulder-with-straps/halter__ halter
+      - __fash/**/100-cami-tank-top/halter-tank-top__ tank
+      - __fash/**/100-cami-tank-top/halter-cami__ spaghetti-strap
+      - __fash/**/100-cami-tank-top/halter-high__
+      - off-shoulder __fash/**/101-off-shoulder-with-straps/halter__
 
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
@@ -320,7 +320,7 @@ upper:
     # Has sleeves, shoulder straps, but leaves the shoulders bare.
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __fash/**/101-off-shoulder-with-straps/spaghetti-strap__
-      - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+      - off-shoulder __fash/**/101-off-shoulder-with-straps/halter__
       # TODO own category?
       - '{off-one-shoulder|one-fallen-shoulder} __fash/**/001-off-shoulder-strapless/off-one-shoulder__'
 

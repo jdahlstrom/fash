@@ -166,20 +166,21 @@ neckline:
     cami:
       - __fash/styles/neckline/spaghetti-strap__
       - __fash/styles/neckline/basic-top__
+    halter-cami:
+      - __fash/styles/neckline/halter__ halter
+      - __fash/styles/neckline/basic-top__ halter
+
     tank-top:
       - __fash/styles/neckline/basic-top__
-    halter-cami:
-      - __fash/styles/neckline/halter__
-      - __fash/styles/neckline/basic-top__
     halter-tank-top:
-      - __fash/styles/neckline/basic-top__
+      - __fash/styles/neckline/basic-top__ halter
 
       # TODO most of these don't work very well with tank top
       # - __fash/styles/neckline/halter__
     high:
       - __fash/styles/neckline/high-neck__
     halter-high:
-      - __fash/styles/neckline/high-neck__
+      - __fash/styles/neckline/high-neck__ halter
 
   # Straps, sleeves, no shoulders
   # TODO Try out with limited variants for now
@@ -190,7 +191,7 @@ neckline:
     high:
       - __fash/styles/neckline/high-neck__
     halter:
-      - __fash/styles/neckline/off-shoulder-halter__
+      - __fash/styles/neckline/off-shoulder-halter__ halter
     cold-shoulder:
       - ' '
       - __fash/styles/neckline/basic-top__

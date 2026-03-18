@@ -20,8 +20,8 @@ casual:
     - __fash/styles/bra/casual__ bralette
     - __fash/styles/bra/neckline__ bralette
   sports-bra:
-    - __fash/styles/bra/sports__ sports bralette
     - __fash/styles/bra/sports__ sports bra
+    - __fash/styles/bra/sports__ sports bralette
   strapless-bra:
     - __fash/styles/upper/neckline/tube-like-short__ bra
 

@@ -28,9 +28,9 @@ swimwear:
     - wrap
 
   sports:
-    - __fash/styles/upper/back/sports__
-    - __fash/styles/upper/neckline/sports__
-    - __fash/styles/upper/neckline/sports-halter__
+    - __fash/styles/upper/back/sports__ sports
+    - __fash/styles/upper/neckline/sports__ sports
+    - __fash/styles/upper/neckline/sports-halter__ halter sports
 
   # Lower
 
@@ -186,14 +186,14 @@ swimwear:
       - __fash/styles/swimwear/neckline/bikini__
 
     bikini:
-      - __fash/**/100-cami-tank-top/cami__ {|spaghetti-strap|string}
+      - __fash/**/100-cami-tank-top/cami__ {|cami|spaghetti-strap|string}
       - __fash/**/100-cami-tank-top/tank-top__ tank
 
-      - __fash/styles/upper/neckline/halter__ halter
+      - __fash/styles/upper/neckline/halter__
       - __fash/styles/upper/neckline/tube-like-short__
 
       - __fash/styles/swimwear/neckline/off-shoulder__
-      - __fash/styles/swimwear/neckline/sports__
+      - __fash/styles/swimwear/neckline/sports__ sports
 
     # necklines that don't work well with bikinis but do with swim tops
     swim-top:
@@ -210,7 +210,7 @@ swimwear:
       - __fash/styles/upper/neckline/tube-like-long__
 
       - __fash/styles/swimwear/neckline/off-shoulder__
-      - __fash/styles/swimwear/neckline/sports__
+      - __fash/styles/swimwear/neckline/sports__ sports
 
     tankini:
       - __fash/styles/swimwear/neckline/suit__
@@ -244,6 +244,7 @@ swimwear:
 
     # These should work with all swim tops and one-pieces (except monokinis)
     off-shoulder-sleeves:
+      # TODO halter?
       - flutter-sleeve
       - short flounce-sleeve # Too big without "short"
       - ruche-sleeve
@@ -254,5 +255,5 @@ swimwear:
       - spaghetti-strap
 
     sports:
-      - __fash/styles/upper/neckline/sports__ sports
-      - __fash/styles/upper/neckline/sports-halter__ sports
+      - __fash/styles/upper/neckline/sports__
+      - __fash/styles/upper/neckline/sports-halter__ halter
