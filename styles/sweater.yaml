@@ -36,6 +36,18 @@ sweater:
     smart:
       # TODO
 
+  shrug:
+    casual:
+      - armwarmer
+      - crop
+      - open-front
+      - knit
+      - bolero
+      - shoulder
+      - long-sleeved
+      - short-sleeved
+      # TODO
+
   closure: # TODO already in necklines
     - button-down
     - half-zip
