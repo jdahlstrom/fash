@@ -290,10 +290,24 @@ casual:
     #- pegged
     #- yoked
 
+  mini-skirt:
+    - __fash/styles/skirt/casual__ mini skirt
+    - __fash/styles/skirt/hem/__-hem mini skirt
+
+  midi-skirt:
+    - __fash/styles/skirt/casual__ midi skirt
+    - __fash/styles/skirt/hem/__-hem midi skirt
+
+  maxi-skirt:
+    - __fash/styles/skirt/casual__ maxi skirt
+    - __fash/styles/skirt/hem/__-hem maxi skirt
+
   denim-skirt:
     - __fash/styles/skirt/casual__ denim skirt
     - __fash/styles/common/denim/wash__ denim skirt
     - __fash/styles/common/denim/wear__ denim skirt
+
+  # TODO other archetypes?
 
   ##############################################################################
   one-piece:
