@@ -11,14 +11,16 @@ common:
     - contrast
     - cutwork
     - flounce
-    - frill
+    - frill # =ruffle
     - lace
+    - lace flounce
     - picot # specifically crocheted/knitted?
     - scallop
     #- flutter not a trim, just a sleeve type
-    #- (lettuce:0.8) not a trim but edge/hem
     #- pintuck not a trim but detail/deco
     #- stitch not a trim...
+  edge:
+    - (lettuce:0.8)
   stitch:
     - stitch
     - chain-stitch
@@ -46,7 +48,7 @@ common:
     - geometric knit
     - hole-knit
     - jersey-knit
-    - knit
+    #- knit
     - lace knit
     - pointelle knit
     - rib knit
@@ -91,6 +93,7 @@ common:
       - tight fit
       - slim fit
       - fitted
+      - tailored
       - regular fit
       - comfort fit
     formal:
@@ -117,11 +120,17 @@ common:
       - raw-edge
       - lightly faded
       - faded
-      - lightly worn
       - frayed
+
+      - lightly distressed
       - distressed
+      - heavily distressed
+
       - slashed
+
+      - lightly worn
       - worn
       - heavily worn
+
       - torn
       - ripped

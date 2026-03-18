@@ -27,6 +27,7 @@ dress:
   # Should not be combined with most other styles except length
   casual:
     - apron
+    - babydoll
     - cargo
     - gypsy
     - kaftan
@@ -37,13 +38,13 @@ dress:
     - sarong
 
   smart:
+    - babydoll
     - bodycon # TODO can have neckline, sleeves
     - cheongsam
     - cocktail # can have neckline, sleeves, more, give own category
     - dirndl
     - pegged # skirt silhouette, not dress type
     - pencil
-    - shift
     - shirt # collar type at least
     - tube # can have neckline, sleeves, should have own category
 
@@ -75,7 +76,6 @@ dress:
       # TODO not general, need specific necklines
       # Only good fits for simple skirt silhouettes
       # Also available with their own names such as shirt-dress
-      - babydoll
       - cami
       - shirt
       - sweater
@@ -84,30 +84,35 @@ dress:
       - sweatshirt
       - hoodie
 
-      #- shift
+      - shift
       - (tent:0.8) # full, not just bodice
       - straight   # full, not just bodice
       - column     # full, not just bodice
 
     smart:
       # Not all just bodice types, have skirt implications too
-      - babydoll
-      - blazer       # simple skirts
-      - cami         # simple skirts?
-      - cocktail     # simple skirts
-      - little black # simple skirts
-      - shirt        # simple skirts
 
-      - basque       # fancier skirts
-      - corset       # fancier skirts
-      - corselette   # fancier skirts
-      - evening      # fancier skirts
+      # simple skirts?
+      - blazer
+      - cami
+      - cocktail
+      - little black
+      - shirt
 
-      - column       # full, not just bodice
-      - shift        # full, not just bodice
-      - straight     # full, not just bodice
+      # fancier skirts?
+      - basque
+      - bustier
+      - corset
+      - corselette
+      - evening
 
-      - illusion-yoke # neckline or yoke attribute
+      # should be full, not just bodice
+      - column
+      - sheath
+      - straight
+
+      # neckline or yoke attribute
+      - illusion-yoke
 
   length:
     casual:
@@ -138,6 +143,7 @@ dress:
   sleeveless:
     casual:
       - __fash/styles/upper/neckline/sleeveless__ dress
+      # TODO pinafore apron overall
     smart:
       - __fash/styles/dress/neckline/smart/sleeveless__ dress
 
@@ -147,6 +153,12 @@ dress:
     - __fash/styles/t-shirt/neckline__ t-shirt dress
     - t-shirt dress with __fash/styles/t-shirt/deco__
     - t-shirt dress with __fash/styles/t-shirt/sleeve__ sleeves
+
+  sweater:
+    length-fit:
+      - __fash/styles/dress/length/casual__
+      - __fash/styles/common/fit/casual__
+      - __fash/styles/sweater/fit__
 
   denim:
     - a-line
@@ -163,6 +175,7 @@ dress:
     - tank
     - tied-waist
 
+
   # The lower part of the dress, covering the legs
   skirt:
     casual:
@@ -176,12 +189,18 @@ dress:
 
   waist:
     casual:
+      - belt
       - blouson
       - contrast
       - drawstring
       - drop
+      - empire
+      - gathered
+      - ruched
+      - smocked
       - tied
     smart:
+      - belt
       - blouson
       - empire
       - ruched

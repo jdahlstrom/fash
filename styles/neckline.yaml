@@ -107,7 +107,7 @@ neckline:
   # No straps, no shoulders, no sleeves
   000-tube-like:
     strapless:
-      - (bustier:0.9)
+      #- (bustier:0.9) # TODO split to casual and smart?
       - fold-over
       - henley
       - keyhole
@@ -132,6 +132,7 @@ neckline:
       - ruffle-neckline
     bandeau:
       - (bow{-knot|}:0.8)
+      - front-closure
       - henley
       #- keyhole
       - knot
@@ -251,6 +252,7 @@ neckline:
   # Specific halterneck subtypes not included in with-straps or high-neck.
   halter:
     - crossing
+    - cowl
     - drape-neckline
     - o-ring
     - spaghetti strap
@@ -304,6 +306,8 @@ neckline:
 
     - off-shoulder {keyhole|surplice|sweetheart}
 
+    # TODO halter
+
   # Very low, open neckline.
   plunge-neck:
     - (cleavage:0.8)
@@ -314,6 +318,8 @@ neckline:
     - plunging __fash/styles/neckline/plunging__
     - off-shoulder plunging
     - (plunging:0.8) sweetheart
+
+    # TODO halter
 
   # Plunging subtypes. Show a lot of cleavage.
   plunging:
@@ -344,7 +350,7 @@ neckline:
 
   # Off-shoulder necklines, with straps or not.
   off-shoulder:
-    - (bustier:0.8)
+    #- (bustier:0.8) TODO should be smart only
     - drawstring
     - flounce {|fold-over}
     - fold-over
@@ -368,7 +374,7 @@ neckline:
     - portrait-neckline
     - split-neck
     - sweetheart-neck
-     (ruffle:0.8){(plunging:0.9)|sweetheart}
+     (ruffle:0.8) {(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
     - o-ring
 
@@ -412,7 +418,7 @@ neckline:
     # TODO trim/gather
     - flounce-neckline
     - gathered-neckline
-    - (ruffle:0.8){fold-over|}
+    - (ruffle:0.8) {fold-over|}
 
   v-neck:
     - curved

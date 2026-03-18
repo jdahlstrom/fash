@@ -17,6 +17,7 @@ upper:
     - boho
     - peasant
     - flowy
+    - ruched
     - ruched smock
     - ruched-waist # Comes from waist for dresses, others TODO
     - smock
@@ -25,16 +26,19 @@ upper:
   smart:
     - billowy
     - flowy
+    - ruched
     - ruched smock
     - ruched-waist # Comes from waist for dresses, others TODO
     - smocked
 
-    # TODO material
+  # TODO material
     #- crocheted
     #- denim
     #- flannel
     #- knitted
     #- linen
+    #- jersey
+    #- terry cloth
     # TODO necklines, plus not common to camis/strapless etc
     #- cold-shoulder
     #- collarless
@@ -51,7 +55,7 @@ upper:
     - skirted
 
   top-dress-legged:
-    - basque
+    - basque # TODO not very casual
     - blouson
 
     - cami #
@@ -76,12 +80,12 @@ upper:
     - babydoll
     - empire-waist
     - gathered-waist
-    - godet
+    - godet # smart
     - kaftan
     - open-front {babydoll|flyaway|smock}
     - poncho
-    - puff
-    - (swing:0.8)
+    #- puff ?
+    - (swing:0.8) # hem
     - wrap
 
   top-blouse-tunic-closure:
@@ -123,30 +127,30 @@ upper:
     length:
       - (cap:0.8)
       - short
-      - 1/4-length
       - above-elbow
       - elbow-length
       - below-elbow
       - 3/4-length
-      - bracelet
+      - bracelet-length
       - long
       - extra-long
 
     casual:
       common:
         - batwing
-        #- cold-shoulder Comes from necklines now
+        #- cold-shoulder Comes from necklines now -- but should it?
         - dolman
         - drop-shoulder
         - fitted
-        - flounce
         - gathered
         - raglan
-        - rolled
+        - roll-up
         - roll-up tab
       short:
+        - flounce
         - flutter
         - knot
+        - lace{-trim|-flounce}
         - ruched
         - ruffle{-trim|}
         - (scallop:0.8)-trim
@@ -162,7 +166,7 @@ upper:
         - gathered
       short:
         - flutter
-        - lace{-trim|}
+        - lace{-trim|-flounce}
         - ruched
         - puff
         - (tulip:0.8)
@@ -298,7 +302,7 @@ upper:
       - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
       - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
       - __fash/**/100-cami-tank-top/halter-high__ halter
-      - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+      - off-shoulder __fash/**/101-off-shoulder-with-straps/halter__ halter
 
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
@@ -335,7 +339,7 @@ upper:
         { __fash/styles/neckline/high-neck__
         | __fash/styles/upper/neckline/cold-shoulder__
         | __fash/styles/upper/neckline/off-shoulder__
-        |3:: __fash/styles/upper/neckline/t-shirt-like__}
+        |2:: __fash/styles/upper/neckline/t-shirt-like__}
 
     sleeveless:
       - sleeveless __fash/styles/neckline/high-neck__

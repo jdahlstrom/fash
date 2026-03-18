@@ -1,6 +1,9 @@
 skirt:
   # Silhouette
   # The general shape or outline of the skirt
+  # TODO Not all are silhouettes, really
+  # some should maybe be own category
+  # eg. boho, gypsy, sarong
   casual:
     - a-line
     - boho
@@ -18,12 +21,15 @@ skirt:
     - pocket
     - sarong
     - skater
+    - split
     - straight
     - (swing:0.8)
     - tiered
     - trapeze
     - wrap
+    - zip-front
   smart:
+    - a-line
     - (accordion:0.8)
     - bodycon
     - (bubble:0.9)
@@ -56,21 +62,42 @@ skirt:
   # - fit-and-flare
 
 
-  # Hemline shape
+  # Hemline shape/embellishment
   # Not all work well with all silhouettes
   hem:
+    # shapes
     - asymmetrical
-    - flounce
-    - (fringe:0.8)
     - handkerchief
     - high-low
     - layered
     - sharkbite
     - slanted
+    - split
     - tiered
     - tulip
     #- (peplum:0.8) # Tends to bleed to top with SDXL
 
+    # embellishments
+    - contrast
+    - flounce
+    - (fringe:0.8)
+    - lace-edge
+    - lettuce-edge # danger of bleed
+    - raw-edge # casual
+
+  waist:
+    casual:
+      - contrast
+      - drawstring
+      - drop
+      - gathered
+      - high
+      - ruched
+      - smocked
+      - todo
+
+  #waistline:
+  #  - __fash/styles/pants/waistline__
   trim:
     - __fash/styles/common/trim__
   #yoke:

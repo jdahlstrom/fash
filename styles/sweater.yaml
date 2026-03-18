@@ -9,7 +9,7 @@ sweater:
     - pullover
     - ribbed
     - smock
-    - '{|short} high-low'
+    - '{|short} high-low' # TODO hemline
     - tunic
     - ugly
     - woolly pully # TODO should be an "army-style" pullover
@@ -65,4 +65,5 @@ sweater:
 
   neckline:
     - __fash/styles/upper/neckline/sleeved__
+    - __fash/styles/upper/neckline/vest-like__
     #- (shawl-collared:0.8) # Concept bleeding with SDXL
