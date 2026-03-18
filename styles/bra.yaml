@@ -1,13 +1,16 @@
 bra:
-  style:
+  casual:
     - cami
     - contour
     - crop-top
     - front-closure # or front-fasten, not recognized by all SDXL models
-    - non-pad
-    - padded
+    - non-pad # or unlined
+    - padded  # or lined
+    - pull-on
     - push-up
+    - seamed cup
     - seamless
+    - sleep
     - soft
     - (t-shirt:0.8)
     - tank

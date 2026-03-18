@@ -29,7 +29,7 @@ style:
     - messy
     - neat
     - perm
-    - ruffled
+    - (ruffled:0.9)
     - shaggy
     - sleek
     - side-swept
@@ -195,7 +195,7 @@ style:
     - very short __fash/hair/style/by-length/very-short__ cut hair
   short:
     - __fash/hair/length/short__ __fash/hair/style/common__ hair
-    - short __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
+    - __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
     - '{|very} short __fash/hair/style/common__ __fash/hair/style/by-length/short__ hair'
     - '{|very} short hair in __fash/hair/style/tail__'
     - short hair in a small __fash/hair/style/bun__
