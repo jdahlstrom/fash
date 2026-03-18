@@ -5,7 +5,6 @@ shirt:
     - cabana
     - cargo
     - collarless
-    - crop
     - field
     - flannel
     - godet
@@ -16,7 +15,7 @@ shirt:
     - popover
     - split-front
     - open-front smock
-    - tied crop
+    - tied
     # Too much concept bleed with SDXL at least, try newer models
     # - military
     # - western
@@ -53,8 +52,10 @@ shirt:
     - flannel
     - half-zip
     - (kangaroo:0.9)-pocket
+    - ladyfit
     - raglan
     - sports
+    - unisex
     - zip-up
 
   hoodie:

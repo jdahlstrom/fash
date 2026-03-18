@@ -42,11 +42,11 @@ sweater:
     - half-button
     - popover
     - zip-up
-  fit:
+  fit: # Unique fits not in common/fit
     - boyfriend
     - chunky
-    - fitted
-    - oversize
+    - ladyfit
+    - unisex
   knit:
     - __fash/styles/common/knit__
   length:

@@ -6,15 +6,15 @@ t-shirt:
     #- cold-shoulder Comes from necklines
     - contrast-yoke
     - godet
+    - ladyfit
     #- open-back TODO figure out backs
     - peplum
     - pocket
     #- raglan Comes from sleeves
     - ringer
     - smock
+    - unisex
     - wrap
-  length:
-    - __fash/styles/upper/length__
   fit:
     - __fash/styles/common/fit/casual__
   trim:
