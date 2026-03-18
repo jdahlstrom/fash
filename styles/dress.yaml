@@ -208,6 +208,14 @@ dress:
       - gathered
       # TODO belts
 
+  belt:
+    - leather
+    - narrow
+    - wide
+    - fabric
+    - knit
+    - string
+
     # Gather
     #- __fash/styles/common/gather__-waist
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke} # TODO could be modifier
