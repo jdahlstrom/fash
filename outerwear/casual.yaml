@@ -193,30 +193,51 @@ casual:
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
-    - __fash/styles/upper/length__ sweater
-    - __fash/styles/sweater/casual__ sweater
-    - __fash/styles/sweater/closure__ sweater
-    - __fash/styles/sweater/fit__ sweater
-    - __fash/styles/sweater/knit__ sweater
-    - __fash/styles/sweater/neckline__ sweater
-    - sweater with __fash/styles/shirt/sleeve/casual__
-    - sweater with traditional __fash/styles/sweater/traditional__ {pattern|yoke}
-    # - sleeveless sweater TODO params
+    - __fash/styles/sweater/length-fit__
+      {__fash/styles/sweater/casual__
+      |__fash/styles/sweater/closure__} sweater
+
+    - __fash/styles/sweater/neckline__
+      {__fash/styles/common/knit__
+      |__fash/styles/sweater/length-fit__} sweater
+
+    # TODO more options with sleeves and/or neckline
+    - >
+      {__fash/styles/sweater/casual__
+      |__fash/styles/sweater/length-fit__
+      |__fash/styles/sweater/neckline__} sweater with
+      {__fash/styles/shirt/sleeve/casual__ sleeves
+      |traditional __fash/styles/sweater/traditional__ {pattern|yoke}}
+
+  # TODO
+  # sweater vest:
+  # - __fash/styles/upper/neckline/vest-like__ sweater vest
+
 
   # Open-front sweater, usually button-closure.
   cardigan:
+    -  __fash/styles/common/knit__ cardigan
     - __fash/styles/upper/length__ cardigan
     - __fash/styles/sweater/cardigan/casual__ cardigan
     - __fash/styles/sweater/fit__ cardigan
     - __fash/styles/sweater/knit__ cardigan
     - cardigan with __fash/styles/shirt/sleeve/casual__
 
+  # Description
+  shrug:
+    - __fash/styles/upper/casual__ shrug
+    - __fash/styles/sweater/shrug/casual__ shrug
+    - shrug with __fash/styles/shirt/sleeve/casual__
+    # TODO
+
+  # Description
   sweatshirt:
     - __fash/styles/common/fit/casual__ sweatshirt
     - __fash/styles/upper/length__ sweatshirt
     - __fash/styles/upper/neckline/t-shirt-like__ sweatshirt
     - __fash/styles/shirt/sweatshirt__ sweatshirt
 
+  # Description
   hoodie:
     - __fash/styles/common/fit/casual__ hoodie
     - __fash/styles/upper/length__ hoodie

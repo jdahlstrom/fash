@@ -1,6 +1,10 @@
 sweater:
   casual:
-    - asymmetric
+    - argyle # TODO pattern
+    - blouson
+    #- boyfriend in fit
+    # - drop-shoulder comes from sleeves
+    - flowy
     - godet
     - hooded
     - (kangaroo pocket:0.9)
@@ -9,11 +13,17 @@ sweater:
     - pullover
     - ribbed
     - smock
-    - '{|short} high-low' # TODO hemline
+    - (shawl-collared:0.8)
     - tunic
     - ugly
     - woolly pully # TODO should be an "army-style" pullover
     - wrap
+
+    # TODO hem
+    - asymmetric-hem
+    - flyaway-hem
+    - high-low-hem
+    - sharkbite-hem
 
   smart:
     - fitted
@@ -23,7 +33,6 @@ sweater:
 
   cardigan:
     casual:
-      - boyfriend
       - cold-shoulder # TODO necklines?
       - flyaway-hem
       - hooded
@@ -32,24 +41,47 @@ sweater:
       - (shawl-collared:0.8)
       - short-sleeved # TODO sleeves?
       - collarless zip-up
+      - drop-shoulder
+      - raglan-sleeved
       # TODO more
     smart:
       # TODO
 
   shrug:
     casual:
-      - armwarmer
-      - crop
-      - open-front
-      - knit
+      # TODO organize
+      - long-sleeved armwarmer
       - bolero
-      - shoulder
+      #- shoulder
+      - knot
+      - shawl-collar
+      - smock
+
+      # front/closure
+      - drawstring
+      - open-front
+      - split-front
+
+      # hem/length
+      - crop
+      - flyaway-hem
+      - high-low-hem
+
+      # textile
+      - knit
+      - hole-knit
+      - rib-knit
+
+      # sleeve
+      - raglan
+      - drop-shoulder
       - long-sleeved
       - short-sleeved
-      # TODO
+      - raglan-sleeved
+      - flounce-sleeved
 
   closure: # TODO already in necklines
-    - button-down
+    #- button-down this is just a cardigan
     - half-zip
     - half-button
     - popover
@@ -59,12 +91,8 @@ sweater:
     - chunky
     - ladyfit
     - unisex
-  knit:
-    - __fash/styles/common/knit__
-  length:
-    - __fash/styles/upper/length__
   traditional:
-    - Aran
+    - Aran island
     - Fair Isle
     - Guernsey
     - Icelandic
@@ -72,10 +100,20 @@ sweater:
     - Norwegian
     - Shetland
 
+  length-fit:
+    - __fash/styles/upper/length__
+    - __fash/styles/common/fit/casual__
+    - __fash/styles/sweater/fit__
+
   # Trim
   #  - lace-{yoke|trim} # TODO trims should be separate...
 
+  # TODO may require some more customization, eg. exclude ruffles
+  # TODO sweater vests separately
   neckline:
-    - __fash/styles/upper/neckline/sleeved__
-    - __fash/styles/upper/neckline/vest-like__
-    #- (shawl-collared:0.8) # Concept bleeding with SDXL
+    # Customized from upper/neckline/sleeved
+    - >
+      {2::__fash/styles/neckline/high-neck__
+      |__fash/styles/upper/neckline/cold-shoulder__
+      |__fash/styles/upper/neckline/off-shoulder-strapless__
+      |4::__fash/styles/upper/neckline/t-shirt-like__}
