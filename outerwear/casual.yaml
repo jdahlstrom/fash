@@ -1,5 +1,29 @@
 casual:
   ##############################################################################
+  outfit:
+  ##############################################################################
+    - __fash/outerwear/casual/upper__ and __fash/outerwear/casual/lower__
+    - __fash/outerwear/casual/lower__ and __fash/outerwear/casual/upper__
+    - __fash/outerwear/casual/one-piece__
+
+    # TODO
+    #- tunic with only pants
+    #- cardigan, shrug, vest, apron/overall/pinafore dress with undershirt
+    #- hosiery with dress, shorts, romper etc
+
+  # Worn under cardigan or shrug
+  undershirt:
+    # TODO at least necklines, what else?
+    - __fash/styles/camisole/neckline__ camisole
+    - __fash/styles/upper/neckline/t-shirt-like__ t-shirt
+    - __fash/styles/upper/neckline/tank-top-like__ top
+    - __fash/styles/upper/neckline/tube-like-short__ top
+    #- __fash/outerwear/casual/camisole__
+    #- __fash/outerwear/casual/t-shirt__
+    #- __fash/outerwear/casual/tank-top__
+    #- __fash/outerwear/casual/tube-top__
+
+  ##############################################################################
   upper:
   ##############################################################################
     - __fash/outerwear/casual/camisole__
