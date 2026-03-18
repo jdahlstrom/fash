@@ -5,19 +5,23 @@ pants:
     - capri pants
     - chinos
     - corduroy pants
+    - drop-crotch pants
     - godet pants
     - hiking pants
     - khakis
-    - '{|cargo} joggers'
+    - '{|cargo} {joggers|sweatpants}'
     - linen pants
-    - velvet pants
+    - sports pants
+
 
   smart:
     - chinos
+    - corduroy pants
     - culottes
     - dress pants
     - denim pants # material
     - fitted pants # leg shape
+    - gaucho pants
     - linen pants # material
     - palazzo pants
     - pegged pants # leg shape?
@@ -25,51 +29,18 @@ pants:
     - tailored pants
     - velvet pants
 
-  slim-fit:
+  slim-fit: # Always slim
     - jeggings
     - leggings
     - treggings
     - yoga pants
-  loose-fit:
-    - '{|cargo} sweatpants'
+  loose-fit: # Always loose
     - culottes
-    - gaucho pants
+    #- gaucho pants
     - harem pants
     - lounge pants
-    - palazzo pants
     - parachute pants
-    - sports pants
-  waistline:
-    - low{rise|-waist}
-    - hiphugger
-    - high-waist
-    - midrise
-  leg:
-    casual:
-      - barrel
-      - bell-bottom
-      - boot cut
-      - flared-leg
-      - kick flare
-      - pegged # or carrot, wide hip, tapering down
-      - rolled-up
-      - straight-leg
-      - tapered-leg
-      - wide-leg
-    smart:
-      - fit-and-flare
-      - fitted
-      - flared
-      - high-waist
-      - straight
-      - tailored
-      - tapered
-      - wide-leg
-  length:
-    - below-knee
-    - 3/4-length
-    - ankle-length
-    - floor-length
+
   jeans:
     - boyfriend
     - cargo
@@ -85,7 +56,7 @@ pants:
     - bermuda shorts
     - board shorts
     - boyfriend shorts
-    - (bubble:0.9) shorts
+    - (bubble:0.8) shorts
     - cargo shorts
     - chino shorts
     - culottes shorts
@@ -98,7 +69,47 @@ pants:
     - jogger shorts
     - linen shorts
     - paperbag shorts
-    - skort
+    #- skort distinct category now
     - spandex shorts
     - sports shorts
     - walking shorts
+
+
+  waistline:
+    - low{rise|-waist}
+    - hiphugger
+    - high-waist
+    - midrise
+
+  leg:
+    casual:
+      - barrel-leg
+      - bell-bottom
+      - boot cut
+      - flared-leg
+      - kick flare
+      - pegged # or carrot, wide hip, tapering down
+      - rolled-up
+      - straight-leg
+      - tapered-leg
+      - wide-leg
+    smart:
+      - fit-and-flare
+      #- fitted fit
+      - flared
+      #- high-waist waist
+      - straight
+      #- tailored fit
+      - tapered
+      - wide-leg
+
+  length:
+    - below-knee
+    - 3/4-length
+    - ankle-length
+    - floor-length
+
+  fit-leg-length:
+    - __fash/styles/common/fit/casual__
+    - __fash/styles/pants/leg/casual__
+    - __fash/styles/pants/length__
