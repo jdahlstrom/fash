@@ -242,7 +242,7 @@ casual:
 
   jeans:
     - __fash/styles/common/denim/wash__ jeans
-    - __fash/styles/common/denim/wear__ jeans
+    - __fash/styles/common/denim/wear/*__ jeans
     - __fash/styles/common/fit/casual__ jeans
     - __fash/styles/pants/jeans__ jeans
     - __fash/styles/pants/leg/casual__ jeans
@@ -269,7 +269,7 @@ casual:
   denim-skirt:
     - __fash/styles/skirt/casual__ denim skirt
     - __fash/styles/common/denim/wash__ denim skirt
-    - __fash/styles/common/denim/wear__ denim skirt
+    - __fash/styles/common/denim/wear/*__ denim skirt
 
   ##############################################################################
   one-piece:

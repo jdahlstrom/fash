@@ -114,14 +114,21 @@ common:
       - vintage wash
       - whisker-washed
     wear:
-      - raw-edge
-      - lightly faded
-      - faded
-      - lightly worn
-      - frayed
-      - distressed
-      - slashed
-      - worn
-      - heavily worn
-      - torn
-      - ripped
+      light:
+        - lightly distressed
+        - lightly faded
+        - lightly worn
+        - raw-edge
+      moderate:
+        - distressed
+        - faded
+        - frayed
+        - patched-knee
+        - ragged
+        - worn
+      heavy:
+        - heavily distressed
+        - heavily worn
+        - ripped
+        - slashed
+        - torn
