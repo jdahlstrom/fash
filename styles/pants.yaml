@@ -4,29 +4,36 @@ pants:
     - '{|camo|drawstring} cargo pants'
     - capri pants
     - chinos
-    - corduroy pants
     - drop-crotch pants
     - godet pants
     - hiking pants
     - khakis
     - '{|cargo} {joggers|sweatpants}'
-    - linen pants
     - sports pants
+
+    # Material
+    - corduroy pants
+    - linen pants
 
 
   smart:
     - chinos
-    - corduroy pants
     - culottes
     - dress pants
-    - denim pants # material
-    - fitted pants # leg shape
+    - fitted pants # fit/leg shape
     - gaucho pants
-    - linen pants # material
-    - palazzo pants
+    #- palazzo pants smart?
     - pegged pants # leg shape?
     - pleated chinos
-    - tailored pants
+    - straight pants
+    - tailored pants # fit
+    - trousers
+
+    # Material
+    - corduroy pants
+    - denim pants
+    - linen pants
+    - sharkskin pants
     - velvet pants
 
   slim-fit: # Always slim
@@ -54,27 +61,37 @@ pants:
     #- trumpet cut Concept bleeding...
   shorts:
     - beach shorts
-    - bermuda shorts
+    - Bermuda shorts
     - board shorts
-    - boyfriend shorts
+    - boyshorts
+    - boyfriend shorts # goes with oversize, distressed
     - (bubble:0.8) shorts
     - cargo shorts
-    - chino shorts
+    - chino shorts # smart
     - culottes shorts
-    - cut-off shorts
-    - denim shorts
-    - fleece shorts
+    - cut-off shorts # TODO goes with raw/ragged-edge
+    - gym shorts
     - hiking shorts
     - hot pants
-    - jamaican shorts
+    - Jamaican shorts
     - jogger shorts
-    - linen shorts
     - paperbag shorts
     #- skort distinct category now
-    - spandex shorts
     - sports shorts
     - walking shorts
 
+    # Material
+    - denim shorts
+    - fleece shorts
+    - linen shorts
+    - spandex shorts
+
+  # sexy:
+  #  - hot pants
+  #  - booty shorts # denim
+  #  - micro shorts
+  #  - slip shorts
+  #  - denim thong
 
   waistline:
     - low{rise|-waist}
