@@ -1,0 +1,74 @@
+footwear:
+  casual:
+    sandals:
+      - Birkenstock sandals
+      - clogs shoes
+      - flip-flops
+      - high-heeled sandals
+      - platform sandals
+      - saltwater sandals
+      - slides
+      - slingbacks
+      - strappy sandals
+      - trekking sandals
+      - yoga sandals
+    sneakers:
+      - canvas shoes
+      - Converse shoes
+      - high-top shoes
+      - racing flats
+      - running shoes
+      - skate shoes
+      - sneakers # trainers
+      - tennis shoes
+    flats:
+      - ballet flats
+      - boat shoes # deck shoes
+      - loafers # slip-on shoes
+      - jazz shoes
+      - moccasins
+      - plimsolls
+      - saddle shoes
+      - walking shoes
+    heels:
+      - block heel shoes
+      - high-heeled sandals
+      - kitten heel shoes
+      - platform shoes
+      - wedge shoes
+    boots:
+      - ankle boots
+      - chukka boots
+      - cowboy boots # check bleed
+      - desert boots
+      - hiking boots
+      - Jodhpur boots
+      - knee-high boots
+      - platform boots
+      - snow boots
+
+      # Rain
+      - rubber boots
+      - rainboots
+      - Wellington boots
+
+  loungewear:
+    - slippers
+
+  smart:
+    flats:
+      - brogue shoes
+      - suede shoes
+    heels:
+      - ballroom shoes
+      - court shoes # aka pumps
+      - kitten heels
+      - mule shoes # TODO category
+      - peep-toe shoes
+      - slingbacks # TODO sandals?
+      - stiletto heels
+      - wedge shoes
+    boots:
+      - Chelsea boots
+      - dress boots
+      - go-go boots # smart?
