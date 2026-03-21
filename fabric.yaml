@@ -1,0 +1,461 @@
+fabric:
+  # For denim mostly
+  wash:
+    - acid wash
+    - bleached
+    - dirty wash
+    - sandwashed
+    - stonewashed
+    - vintage wash
+    - whisker-washed
+
+  # Type and level of wear and distress.
+  wear:
+    light:
+      - lightly distressed
+      - lightly faded
+      - lightly worn
+      - raw-edge
+    moderate:
+      - distressed
+      - faded
+      - frayed
+      - patched-knee
+      - ragged
+      - worn
+    heavy:
+      - heavily distressed
+      - heavily worn
+      - ripped
+      - slashed
+      - torn
+
+
+
+  # All quotes from the corresponding Wikipedia articles.
+
+  # Materials by weave
+
+  # Traditional, heavy, dense
+  # "Bombazine, or bombasine, is a fabric originally made of silk or silk and wool, and
+  # more recently also made of  cotton and wool or of wool alone. Quality bombazine has
+  # a silk warp and a worsted weft. It is twilled or corded and used for dress-material:
+  # commonly in dresses, skirts, and jackets."
+  bombazine:
+    - cotton
+    - cotton-wool
+    - silk
+    - wool
+
+  # "Cambric or batiste is a fine dense cloth. It is a lightweight plain-weave fabric,
+  # originally from the commune of Cambrai (in present-day northern France), woven
+  # greige (neither bleached nor dyed), then bleached, piece-dyed, and often glazed or
+  # calendered. Initially it was made of linen; from the 18th and 19th centuries the
+  # term came to apply to cotton fabrics as well. [..] Cambric is used as fabric for
+  # linens, shirts, handkerchiefs, ruffs, lace, and in cutwork and other needlework."
+  cambric:
+    - linen
+    - cotton
+
+  # "Challis, sometimes referred to as challie or chally, is a lightweight woven fabric,
+  # originally a silk-and-wool blend, which can also be made from a single fibre, such
+  # as cotton, silk or wool, or from man-made fabrics such as rayon. [..] Challis could
+  # be made with woven designs, or printed. 'French challis' has a glossy finish. The
+  # designs were often floral, paisley, or geometric, and based on French silk patterns."
+  challis:
+    - cotton
+    - polyester
+    - silk
+    - wool
+
+  # "Charmeuse (French for 'female charmer') is a lightweight fabric woven with a satin
+  #  weave. It is used in women's clothing such as lingerie, evening gowns, and blouses,
+  # especially garments with a bias cut [..] Charmeuse is lightweight and drapes easily.
+  # It has a satin side, which is shiny, and a matte side, which is dull."
+  charmeuse:
+    - cotton blend
+    - polyester
+    - rayon
+    - silk
+    - silk blend
+
+  # "Chiffon, from the French word chiffe which means "cloth or rag"; is a lightweight,
+  # balanced plain-woven sheer fabric, or gauze, like gossamer, woven of alternate S-
+  # and Z-twist crepe (high-twist) yarns. [..] Chiffon is a lightweight fabric which is
+  # associated with elegance and luxury; it drapes well and has a shimmery and sheer
+  # appearance. [..] In modern Western fashion, chiffon is most commonly used in evening
+  # wear, especially as an overlay, for giving an elegant and floating appearance to the
+  # gown. It is also a popular fabric used in blouses, ribbons, scarves and lingerie."
+  chiffon:
+    - cotton
+    - silk
+    - nylon
+    - polyester
+    - rayon
+
+
+  # "Crêpe, also spelled crepe or crape (from the French crêpe), is a silk, wool, or
+  # synthetic fiber fabric with a distinctively crisp and crimped appearance. [..]
+  # There traditionally have been two distinct varieties of the crêpe: soft, Canton
+  # or Oriental crêpe, and hard or crisped crêpe."
+  # Many, many varieties
+  crepe:
+    - silk
+    - wool
+    - polyester
+    - nylon
+    - rayon
+
+  # "Georgette (from crêpe Georgette) is a sheer, lightweight, dull-finished crêpe
+  # fabric named after the early 20th century French dressmaker Georgette de la Plante.
+  # [..] Georgette is made in solid colors and prints and is used for blouses, dresses,
+  # evening gowns, saris, and trimmings. Georgette has a very light and drapey hand,
+  # rendering it more common in loose flowing garments and less so in more structured
+  # pieces. Silk georgette is relatively delicate, but varieties made with synthetic
+  # fibers can be more resilient to damage."
+  georgette:
+    - silk
+    - polyester
+    - nyln
+
+  # "Moire, less often moiré, is a textile with a wavy (watered) appearance produced
+  # mainly from silk, but also wool, cotton, and rayon. [..] During the Middle Ages,
+  # moire was held in high esteem and was, as currently, used for women’s dresses,
+  # capes, and for facings, trimmings, etc.[7] Originally moire was only made of silk
+  # taffeta; however, now cotton and synthetic fibers such as viscose (rayon) are also
+  # used. Moire has been worn throughout the late 19th century and early 20th century,
+  # and is still used for evening dresses and wedding gowns."
+  moire:
+    - cotton
+    - rayon
+    - silk
+    - wool
+
+  # "Muslin is a cotton fabric of plain weave. It is made in a wide range of weights
+  # from delicate sheers to coarse sheeting. [..] Certain delicate muslins were given
+  # poetic names such as Baft Hawa ("woven air"), Shabnam ("evening dew"), and
+  # āb-i-ravān ("flowing water"). The latter name refers to a fine and transparent
+  # variety of fine muslin from Dacca."
+  muslin:
+    - mull
+    - nainsook
+    - seerhand
+    - gauze
+
+  # "Ninon is a lightweight, sheer fabric made with plain or leno weaving. It is a
+  # suitable material for curtains, evening wear and lingerie. Ninon is made with a
+  # variety of filament yarns such as polyester, silk, rayon or nylon. [..] It is also
+  # used in blouses, bodice, dresses such as evening wear and in certain lingerie."
+  ninon:
+    - nylon
+    - polyester
+    - rayon
+    - silk
+
+  # "Organza is a thin, plain weave, sheer fabric traditionally made from silk. Many
+  # modern organzas are woven with synthetic filament fibers such as polyester or nylon.
+  # [..] Organza is distinguished by its crisp hand, stiffness relative to weight, and
+  # slippery surface texture."
+  organza:
+    - nylon
+    - polyester
+    - silk
+
+  # "Poplin, also called tabinet (or tabbinet), is a fine (but thick) wool, cotton
+  # or silk fabric with crosswise ribs that typically give a corded surface. Nowadays,
+  # the name refers to a strong material in a plain weave of any fiber or blend. [..]
+  # The most common usage of poplin until about the 20th century was to make silk,
+  # cotton or heavy-weight wool dresses, suitable for winter wear."
+  poplin:  # shirt, dress, nightdress
+    - cotton
+    - polyester
+    - rayon
+    - silk
+    - wool
+    # or blend
+
+  # "A satin weave is a type of fabric weave that produces a characteristically glossy,
+  # smooth or lustrous material, typically with a glossy top surface and a dull back;
+  # it is not durable, as it tends to snag. [..] Satin is commonly used in clothing, for
+  # items such as lingerie, nightgowns, blouses, and evening gowns, but is also used for
+  # boxer shorts, shirts and neckties."
+  satin:
+    - cotton sateen
+    - cotton satin
+    - cotton satinet
+    - polyester satin
+    - silk satin
+    - wool sateen
+    - wool satinet
+
+  # "Taffeta is a crisp, smooth, plain woven fabric made from silk, nylon, cuprammonium
+  # rayons, acetate, or polyester. As clothing, it is used in ball gowns, wedding dresses,
+  # and corsets[.]"
+  taffeta:
+    - nylon
+    - polyester
+    - rayon
+    - silk
+
+  # "[Tulle] is a lightweight, very fine, stiff netting. It can be made of various
+  # fibres, including silk, nylon, polyester and rayon. Polyester is the most common
+  # fibre used for tulle. Rayon tulle is very rare. Tulle is most commonly used for
+  # veils, gowns (particularly wedding gowns), and ballet tutus. [..] Tulle is often
+  # used as an accent, to create a lacy, floating look. Tulle may also be used in
+  # underskirts or petticoats to create a stiff belled shape. Gowns are often puffed
+  # out with the use of several layers of stiff tulle."
+  tulle:
+    - nylon
+    - polyester
+    - silk
+    #- rayon "very rare"
+
+  # "Velvet is a type of woven fabric with a dense, even pile that gives it
+  # a distinctive soft feel. Historically, velvet was typically made from silk.
+  # Modern velvet can be made from silk, linen, cotton, wool, synthetic fibers,
+  # silk-cotton blends, or synthetic-natural fiber blends."
+  velvet:
+    - cotton
+    - cotton-silk
+    - linen
+    - silk
+    - wool
+    - polyester
+
+  # velveteen:
+
+  # "Velour, occasionally velours, is a plush, knitted fabric or textile similar
+  # to velvet or velveteen. It can be made from polyester, spandex, cotton, or a
+  # cotton-polyester blend. Velour is used in a wide variety of applications,
+  # including clothing and upholstery."
+  velour:
+    - cotton
+    - cotton blend
+    - polyester
+    - spandex
+
+
+  to-be-organized:
+    # "Bengaline is a rayon-and-cotton material which became fashionable for women and
+    # children to wear in the 1880s and 1890s. It offered the impression of genuine silk
+    # but was made with lesser amounts of silk than cotton."
+    - bengaline
+
+    # "Brilliantine is a lightweight, mixed-fibre fabric popular from the mid-19th century
+    # into the early 20th century. Brilliantine has a lustrous finish and is known for
+    # its dust-shedding properties; it was available in solid colors or printed, and was
+    # used for dresses, dusters, and linings."
+    - brilliantine
+
+
+    # "Eolienne (also spelled aeolian) is a lightweight fabric with a ribbed (corded)
+    # surface. Generally made by combining silk and cotton or silk and worsted warp and
+    # weft, it is similar to poplin but of an even lighter weight. [..] In common with
+    # poplin, it was originally a dress fabric [..] a brocade-like surface decoration
+    # and lustrous finish. This made it popular for formal gowns such as wedding attire,
+    # especially during the Edwardian era."
+    - eolienne
+
+    # Marquisette is a lightweight, sheer fabric that has a structure similar to a
+    # mosquito net. [..] Marquisette may be made with many natural or synthetic yarns,
+    # and the most common is nylon. The other variants are possible with cotton, silk,
+    # rayon, orlon and polyester. [..] Marquisette is employed in certain undergarments,
+    # and is seen in dresses such as bridal wear and evening wear. It can commonly be
+    # seen in sheer draperies and curtains."
+    - '{nylon|} marquisette' # sheer
+
+    # "Toile (French for "canvas") is a textile fabric comparable to fine batiste with a
+    # cloth weave. Natural silk or chemical fiber filaments are usually used as materials.
+    # In upper-class (primarily American, but also northern European) society, toile is
+    # often seen on dresses or aprons used at such events as country-themed garden
+    # parties or tea parties."
+    - toile
+
+    # "Ultrasuede is the trade name for a synthetic ultra-microfiber fabric which mimics
+    # suede leather. [..] Ultrasuede has applications in fashion, including shoes[.]"
+    - Ultrasuede
+
+    # Historical
+    # "Viyella is a blend of wool and cotton first woven in 1893 in England, and the
+    # 'first branded fabric in the world'. It was made of 55% merino wool and 45% cotton
+    # in a twill weave. [..] In the mid-20th century the fabric was popular for children's
+    # clothes, from babies' nightgowns to winter shirts for British schoolchildren, and
+    # for pyjamas, shirts and dresses; it became associated with sensible, cosy clothing."
+    - Viyella
+
+    # "Lawn cloth or lawn is a fine plain weave textile, made with fine combed cotton.
+    # [..] Lawn is a lightweight, sheer cloth, crisper than voile but not as crisp as
+    # organza. Lawn is known for its semi-transparency, which can range from gauzy or
+    # sheer to an almost opaque effect, known as lining or utility lawn. [..] Lawn cloth
+    # is commonly used for infant wear, handkerchiefs, dresses, blouses, aprons and
+    # curtains. Other uses are nightwear, underwear, lingerie, collar cuffs and shirting."
+    - lawn {|cloth}
+
+
+    # Mainly men's clothing blazers, trousers
+    # "Seersucker, hickory stripe or railroad stripe is a thin, puckered, cotton fabric,
+    # usually striped or chequered, used to make clothing for hot weather."
+    - seersucker
+
+    # "Chambray, though the same type of fabric as cambric, has a coloured warp and a white weft"
+    - chambray
+
+    # "Coutil (or coutille) is a twill-woven cloth used to make table covers, mattresses and
+    # tents, as well as corsets, orthotic supports, and other types of durable garments."
+    - coutil
+
+    - crêpe
+
+  # Weaves by material
+
+  cotton:
+    - batiste  # aka cambric - shirts, summer dresses, linens, lace
+    - lawn     # dresses, blouses, aprons, nightwear, underwear, lingerie, shirting
+    - muslin   #
+    - poplin
+    - sateen
+
+  linen:
+    - batiste
+    - chambray
+
+  silk:
+    - habutai  # light blouses, lingerie
+    - shot
+    - Tiffany
+
+
+  # Categories
+
+  synthetic:
+    - acrylic
+    - nylon
+    - polyester
+
+  semi-synthetic:
+    - cotton blend
+    - lyocell
+    - modal
+    - rayon
+
+  plant-fiber:
+    - cotton
+    - linen
+
+  wool:
+    # TODO "normal" sheep wool
+    - alpaca
+    - angora
+    - cashmere
+    - merino
+    - mohair
+
+
+  # By property or use:
+
+  loungewear:
+    casual:
+      - __fash/fabric/cotton__
+      - __fash/fabric/linen__
+      - __fash/fabric/semi-synthetic__
+    smart:
+      - __fash/fabric/muslin__ muslin
+      - __fash/fabric/satin__
+
+  underwear:
+    casual:
+      - __fash/fabric/cotton__
+      - __fash/fabric/semi-synthetic__
+
+    todo:
+
+      - cotton/linen/silk lace
+      - lycra/spandex
+      - nylon
+      - __fash/fabric/satin__
+      - __fash/fabric/semi-synthetic__
+
+  # Heavy, windproof, traditional
+  outdoors:
+    - byrd cloth
+    # "Gabardine is a durable twill worsted wool. It is a tightly woven waterproof fabric
+    # and is used to make outerwear and various other garments, such as suits, overcoats,
+    # trousers, uniforms, and windbreakers."
+    - gabardine
+    - grenfell clot
+
+  intimate:
+    # TODO separate weave and material
+    - __fash/fabric/bombazine__ bombazine
+    - __fash/fabric/challis__ challis
+    - __fash/fabric/muslin__ muslin
+    - __fash/fabric/ninon__ ninon
+    - __fash/fabric/poplin__ poplin
+    - __fash/fabric/satin__
+    - __fash/fabric/taffeta__ taffeta:
+    - __fash/fabric/velvet__
+
+    - __fash/fabric/silk__
+    - __fash/fabric/semi-synthetic__
+
+  # Decorated, metal thread, etc
+  ornate:
+    - brocade
+    - brocatelle
+    - jacquard
+    - lamé
+    - paduasoy
+
+  misc:
+    - terrycloth # frotee
+    - French terry
+
+  sheer:
+    - __fash/fabric/tulle__ tulle
+    - sheer __fash/fabric/muslin__ muslin
+    - __fash/fabric/ninon__ ninon
+    - __fash/fabric/organza__ organza
+
+  more-to-be-organized:
+    #- bobbin lace # todo separate laces
+
+    # - cheesecloth # for cheesemaking :P
+
+    # "Gauze is a thin, translucent fabric with a loose open weave."
+    - gauze
+
+    # "Gossamer fabric is a thin, sheer woven fabric. The structure of the fabric is
+    # similar to a gauze. It is usually made of silk, cotton, or wool. The fabric may
+    # be coated with rubber to make it waterproof. [..] Gossamer is a very delicate
+    # and a see-through fabric. It is used in veils, dresses, long streamers, curtains,
+    # and decorations."
+    - gossamer
+
+    # Type of muslin
+    # "Jamdani (Bengali: জামদানি) is a fine muslin textile (figured with different
+    # patterns) produced for centuries in South Rupshi of Narayanganj district in
+    # Bangladesh on the bank of Shitalakshya River. "
+    - jamdani
+
+    # "Tiffany (silk) is a thin, nearly transparent silk fabric similar to gauze, extant
+    # more commonly in the 16th and 17th centuries. [..] Tiffany has been worn as mourning
+    # attire, and appeared as trimmings, veils, and dress fabrics, napkins, tablecloths,
+    # and scarves.
+    - Tiffany silk
+
+    # "Zephyr or zephyr cloth is a sheer, lightweight cotton fabric, usually plain woven,
+    # used for dresses, blouses, and shirts. It may be striped or checked. It is named
+    # after Zephyr, the Greek god of the west wind"
+    - zephyr
+
+    # "Organdy, also spelled Organdie, is a kind of fabric. It is a lightweight, balanced
+    # plain weave made of cotton with features of sheerness and crispness. Organdy was
+    # historically used for bridal dresses, ladies party dresses, and blouses."
+    - '{cotton|} organdy'
+
+    # type of crepe
+    - plissé
+
+    # "Bobbinet tulle or genuine tulle is a specific type of tulle which has been made
+    # in the United Kingdom since the invention of the bobbinet machine."
+    - bobbinet tulle
