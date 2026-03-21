@@ -42,8 +42,6 @@ color:
   cool:
     - cool {red|pink|yellow|brown|green|cyan|purple|magenta|gray}
 
-
-
   all-shades:
     - __fash/color/shade__ __fash/color/spectral__
 
@@ -145,6 +143,7 @@ color:
     - desert sand
     - fallow
     - fawn
+    - greige
     - khaki
     - sand brown
     - tan
@@ -328,6 +327,7 @@ color:
     - charcoal gray
     #- dark gray
     - greenish gray
+    - greige
     - gunmetal gray
     - heliotrope gray
     - lavender gray
@@ -392,6 +392,7 @@ color:
     - aquamarine
     - baby blue
     - baby pink
+    - beige
     - honeydew green
     - lavender
     - lilac
@@ -403,6 +404,7 @@ color:
     - periwinkle
     - pink
     - powder blue
+    - rosa
     - rose quartz
     - salmon red
   earthy:
@@ -420,6 +422,7 @@ color:
     - flax
     - forest green
     - greenish gray
+    - greige
     - hunter green
     - khaki
     - moss green
