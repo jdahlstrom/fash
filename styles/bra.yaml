@@ -1,5 +1,5 @@
 bra:
-  style:
+  casual:
     - cami
     - contour
     - crop-top
@@ -33,6 +33,15 @@ bra:
     - cutwork-trim
     - eyelet-trim
     - eyelet-edge
+
+  sexy:
+    - cage-neckline
+    - mesh
+    - open-cup # or cupless
+    - peekaboo
+    - sheer{| lace| embroidered}
+    - shelf
+    - strappy
 
   sports:
     - __fash/styles/upper/back/sports__
