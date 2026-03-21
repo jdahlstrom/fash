@@ -38,4 +38,4 @@ blouse:
       { __fash/styles/upper/neckline/cold-shoulder__
       | __fash/styles/upper/neckline/off-shoulder__
       | __fash/styles/blouse/front/smart__ __fash/styles/neckline/buttoned__
-      |2:: __fash/styles/upper/t-shirt-like__}
+      |2:: __fash/styles/upper/neckline/t-shirt-like__}

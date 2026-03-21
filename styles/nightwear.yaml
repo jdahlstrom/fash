@@ -1,0 +1,40 @@
+nightwear:
+
+  # TODO figure out whether these should all be transposed
+
+
+  skirt:
+    - slip skirt
+    - skort
+
+
+  embel: # TODO
+    - lace-edge
+    - lace-trim
+    - picot-trim
+    #- scallop-trim
+    #- cutwork-trim
+    #- embroidery-edge
+    #- (lettuce:0.8)-edge
+    #- flounce-trim
+    #- ruffle-trim
+
+  embel-smart:
+    - beaded
+    - rhinestone-detail
+    - rhinestone-edge
+
+  neckline:
+    sleeved:
+      - >
+        {4::__fash/styles/upper/neckline/t-shirt-like__
+        |__fash/styles/upper/neckline/cold-shoulder__
+        |__fash/styles/upper/neckline/off-shoulder__}
+
+    sleeveless:
+      - >
+        {3::__fash/styles/upper/neckline/cami-like__
+        |2::__fash/styles/upper/neckline/tank-top-like__
+        |__fash/styles/upper/neckline/tube-like-long__
+        |__fash/styles/upper/neckline/vest-like__
+        |__fash/styles/upper/neckline/one-shoulder__}

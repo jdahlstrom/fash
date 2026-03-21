@@ -189,9 +189,9 @@ upper:
       - batwing
       - dolman
       - drop-shoulder
-      - flounce
-      - flutter
-      - raglan
+      - short flounce
+      - short flutter
+      - '{|short} raglan'
       - straight
       - wide
 
@@ -278,7 +278,7 @@ upper:
     - notched # also camp, convertible
     - Peter Pan
     - pointed
-    - revere
+    - reverse
     - rolled
     - round
     - sailor
@@ -322,7 +322,6 @@ upper:
       - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
       - __fash/**/100-cami-tank-top/halter-high__ halter
       - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
-
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!
