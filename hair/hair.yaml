@@ -10,7 +10,7 @@ length:
     - shoulder-length
     - collarbone-length
   long:
-    - (armpit:0.9)-length
+    - (armpit:0.8)-length
     - mid-back length
     - tailbone-length
     - long
@@ -23,7 +23,7 @@ style:
     - choppy
     - curled
     - curly
-    - (feathered:0.9)
+    - (feathered:0.8)
     - half-shaved
     - layered
     - messy
@@ -58,12 +58,12 @@ style:
       - bow bun{|s}
       - braided bun
       - braided double buns
-      - (bubble:0.9) bun
+      - (bubble:0.8) bun
       - chic bun
       - chignon bun
       - classic bun
       - coiled bun
-      - donut bun
+      - (donut:0.8) bun
       - double buns
       - double top knots
       - pigtail buns
@@ -84,8 +84,8 @@ style:
       - wavy
     braid:
       - ''
-      - (bubble:0.9)
-      - (crown:0.9)
+      - (bubble:0.8)
+      - (crown:0.8)
       - double
       - dutch
       - fishtail
@@ -93,9 +93,9 @@ style:
       - halo
       - loop
       - messy
-      - (milkmaid:0.9)
+      - (milkmaid:0.8)
       - pigtails
-      - (waterfall:0.9)
+      - (waterfall:0.8)
 
   bangs:
     - arched
@@ -104,7 +104,7 @@ style:
     - classic
     - curly
     - curtain
-    - (feathered:0.9)
+    - (feathered:0.8)
     - grown-out
     - messy
     - parted
