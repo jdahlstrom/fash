@@ -60,6 +60,12 @@ shirt:
   hoodie:
     - __fash/styles/shirt/sweatshirt__
 
+
+  pajama:
+    - long-sleeved
+    - short-sleeved
+    - sleeveless
+
   hem:
     smart:
       - layered

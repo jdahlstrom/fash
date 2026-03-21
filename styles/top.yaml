@@ -7,6 +7,20 @@ top:
     - tied-front
     - twist{|-front}
 
+
+  lounge: # and cami
+    - babydoll
+    - flowy
+    - flyaway smock
+    - loose-hem {|flyaway}
+    - smock
+    - tube
+    - open-front {babydoll|flyaway|smock}
+    - open-front {knot|strappy|tied}
+    - (swing:0.8)
+    - tiered
+    - draped
+
   waist:
 
   sleeved:

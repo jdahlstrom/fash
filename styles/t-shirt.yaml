@@ -13,6 +13,15 @@ t-shirt:
     - ringer
     - smock
     - wrap
+
+  lounge:
+    - sleep
+    - babydoll
+    - boyfriend
+    - peplum
+    - smock
+    - wrap
+
   length:
     - __fash/styles/upper/length__
   fit:

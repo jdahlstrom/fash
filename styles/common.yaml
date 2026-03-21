@@ -102,6 +102,8 @@ common:
       - comfort fit
       - relaxed fit
       - loose fit
+      - baggy
+      - oversize
 
   # TODO to material
   denim:

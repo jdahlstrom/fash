@@ -10,6 +10,7 @@ pants:
     - khakis
     - '{|cargo} joggers'
     - linen pants
+    - sweatpants
     - velvet pants
 
   smart:
@@ -24,6 +25,29 @@ pants:
     - pleated chinos
     - tailored pants
     - velvet pants
+
+
+  lounge:
+    fitted:
+    - leggings
+    - tights
+    - treggings
+    - yoga pants
+
+    loose:
+    - jogger pants
+    - fleece pants
+    - harem pants
+    - jersey pants
+    - linen pants
+    - lounge pants
+    - palazzo pants
+    - sweatpants
+
+  pajama:
+    - pajama
+    - flared-leg pajama
+    - wide-leg pajama
 
   slim-fit:
     - jeggings
@@ -80,6 +104,7 @@ pants:
     #- gathered-ankle
     #- cropped Concept bleeding...
     #- trumpet cut Concept bleeding...
+
   shorts:
     - beach shorts
     - bermuda shorts
@@ -102,3 +127,13 @@ pants:
     - spandex shorts
     - sports shorts
     - walking shorts
+
+  lounge-shorts:
+    - boyfriend lounge
+    - fleece
+    - jersey
+    - jogger
+    - lounge
+    - pajama
+    - slip
+    - sports
