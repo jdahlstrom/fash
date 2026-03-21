@@ -163,6 +163,30 @@ dress:
     - tank
     - tied-waist
 
+  # TODO separate skirt
+  lounge:
+    - a-line
+    - babydoll
+    - cami
+    - column
+    - draped
+    - flared
+    - lounge
+    - night
+    - shift
+    - slip
+    - smock
+    - tank
+    - t-shirt
+    - tiered
+    - wrap
+
+  lounge-gown:
+    - dressing
+    - morning
+    - night
+    - kimono
+
   # The lower part of the dress, covering the legs
   skirt:
     casual:

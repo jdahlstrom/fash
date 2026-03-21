@@ -180,6 +180,21 @@ upper:
         - puff
         - straight
 
+    loungewear:
+      - (cap:0.6)
+      - short
+      - 3/4-length
+      - long
+
+      - batwing
+      - dolman
+      - drop-shoulder
+      - flounce
+      - flutter
+      - raglan
+      - straight
+      - wide
+
   # TODO none used anywhere yet except sports
   # Many of these likely don't work very well
   back:
