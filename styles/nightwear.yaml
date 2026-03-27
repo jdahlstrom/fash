@@ -24,6 +24,15 @@ nightwear:
     - rhinestone-detail
     - rhinestone-edge
 
+
+  upper-length-fit:
+    - __fash/styles/upper/length__
+    - __fash/styles/common/fit/loungewear__
+
+  lower-length-fit:
+    - __fash/styles/pants/length__
+    - __fash/styles/common/fit/loungewear__
+
   neckline:
     sleeved:
       - >
@@ -37,4 +46,4 @@ nightwear:
         |2::__fash/styles/upper/neckline/tank-top-like__
         |__fash/styles/upper/neckline/tube-like-long__
         |__fash/styles/upper/neckline/vest-like__
-        |__fash/styles/upper/neckline/one-shoulder__}
+        } #|__fash/styles/upper/neckline/one-shoulder__}

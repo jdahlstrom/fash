@@ -1,11 +1,9 @@
 shirt:
   casual:
     - aloha
-    - boyfriend
     - cabana
     - cargo
     - collarless
-    - crop
     - field
     - flannel
     - godet
@@ -17,6 +15,10 @@ shirt:
     - split-front
     - open-front smock
     - tied crop
+
+    - boyfriend # fit
+    - crop # length
+
     # Too much concept bleed with SDXL at least, try newer models
     # - military
     # - western
@@ -37,9 +39,9 @@ shirt:
   sleeve:
     casual:
       - __fash/styles/upper/sleeve/length__
-      - '{short|long} __fash/styles/upper/sleeve/casual/common__'
       - short __fash/styles/upper/sleeve/casual/short__
-      - long __fash/styles/upper/sleeve/casual/long__
+      - short __fash/styles/upper/sleeve/casual/common__
+      - long __fash/styles/upper/sleeve/casual/common__
     smart:
       - __fash/styles/upper/sleeve/length__
       - __fash/styles/upper/sleeve/smart/common__
@@ -51,6 +53,8 @@ shirt:
     # - baja TODO check non-distilled model
     - boyfriend
     - flannel
+    - French terry
+    - jersey
     - half-zip
     - (kangaroo:0.9)-pocket
     - raglan
@@ -62,9 +66,29 @@ shirt:
 
 
   pajama:
-    - long-sleeved
-    - short-sleeved
-    - sleeveless
+    - boyfriend
+    - flannel
+    - French terry
+    - raglan
+    - hooded
+    - open-front smock
+
+    # Sleeves
+    #- long-sleeved
+    #- short-sleeved
+    #- sleeveless
+
+    # Closure
+    - half-zip
+    - half-button
+    - quarter-zip
+    - quarter-button
+    - zip-up
+    - drawstring-closure
+    - front-lacing
+
+  nightshirt:
+    - __fash/styles/shirt/pajama__
 
   hem:
     smart:

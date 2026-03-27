@@ -48,7 +48,7 @@ smart:
     - __fash/styles/shirt/hem/smart__-hem __fash/outerwear/smart/sleeveless-top__
 
   sleeved-top:
-    - __fash/styles/upper/neckline/sleeved__ top with __fash/styles/shirt/sleeves/smart__
+    - __fash/styles/upper/neckline/sleeved__ top with __fash/styles/shirt/sleeve/smart__
 
   sleeveless-top:
     - __fash/styles/upper/neckline/sleeveless__ top

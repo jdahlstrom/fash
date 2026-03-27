@@ -185,7 +185,7 @@ casual:
     - __fash/styles/sweater/cardigan/casual__ cardigan
     - __fash/styles/sweater/fit__ cardigan
     - __fash/styles/sweater/knit__ cardigan
-    - cardigan with __fash/styles/shirt/sleeve/casual__
+    - cardigan with __fash/styles/shirt/sleeve/casual__ sleeves
 
   sweatshirt:
     - __fash/styles/common/fit/casual__ sweatshirt

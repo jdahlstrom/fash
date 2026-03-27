@@ -41,6 +41,8 @@ sweater:
     - half-zip
     - half-button
     - popover
+    - quarter-zip
+    - quarter-button
     - zip-up
   fit:
     - boyfriend

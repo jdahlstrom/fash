@@ -166,20 +166,26 @@ dress:
   # TODO separate skirt
   lounge:
     - a-line
-    - babydoll
-    - cami
     - column
     - draped
     - flared
     - lounge
+    - hoodie
     - night
     - shift
     - slip
     - smock
-    - tank
-    - t-shirt
     - tiered
     - wrap
+
+    - babydoll
+    - cami
+    - cardigan
+    - sweater
+    - sweatshirt
+    - tank
+    - t-shirt
+    - tunic
 
   lounge-gown:
     - dressing
@@ -218,12 +224,6 @@ dress:
     #- __fash/clothing/cut/lacing__
 
   neckline:
-    night:
-      - __fash/styles/upper/neckline/cami-like__
-      - __fash/styles/upper/neckline/t-shirt-like__
-      - __fash/styles/upper/neckline/vest-like__
-      #- __fash/styles/upper/neckline/tube-like-long__ Not for casual
-
     smart:
       sleeved:
         - __fash/styles/neckline/high-neck__

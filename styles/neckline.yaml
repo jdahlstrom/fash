@@ -352,8 +352,6 @@ neckline:
     - keyhole {knot|o-ring|}
     - knot
     - square-neck
-    - surplice
-    - sweetheart-neck
     - tied-front
     # Gathers
     - gathered-neckline
@@ -361,12 +359,13 @@ neckline:
     # Trims
     - (ruffle:0.8)-neckline {|fold-over}
 
-  #  These work best with fitted bodices (eg. some (smart?) tops and dresses)
+  #  These work best with fitted bodices (eg. some dresses and (smart?) tops)
   off-shoulder-fitted:
     - bardot
     - (plunging:0.9)
     - portrait-neckline
     - split-neck
+    - surplice
     - sweetheart-neck
      (ruffle:0.8){(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'

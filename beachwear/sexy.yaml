@@ -42,6 +42,7 @@ sexy:
   #########################################################
   one-piece:
   #########################################################
+    - __fash/beachwear/sexy/monokini__
 
   monokini:
     - __fash/styles/swimwear/monokini__ monokini

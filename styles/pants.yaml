@@ -28,13 +28,13 @@ pants:
 
 
   lounge:
-    fitted:
+    slim-fit:
     - leggings
-    - tights
+    - jeggings
+    - opaque tights
     - treggings
     - yoga pants
-
-    loose:
+    loose-fit:
     - jogger pants
     - fleece pants
     - harem pants

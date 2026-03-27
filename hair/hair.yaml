@@ -17,6 +17,13 @@ length:
     - very long
 
 style:
+  all:
+    - __fash/hair/style/very-short__
+    - __fash/hair/style/short__
+    - __fash/hair/style/medium__
+    - __fash/hair/style/long__
+    - __fash/hair/style/with-bangs/*__
+
   common:
     - asymmetric
     - blunt
@@ -195,7 +202,7 @@ style:
     - very short __fash/hair/style/by-length/very-short__ cut hair
   short:
     - __fash/hair/length/short__ __fash/hair/style/common__ hair
-    - short __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
+    - __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
     - '{|very} short __fash/hair/style/common__ __fash/hair/style/by-length/short__ hair'
     - '{|very} short hair in __fash/hair/style/tail__'
     - short hair in a small __fash/hair/style/bun__
