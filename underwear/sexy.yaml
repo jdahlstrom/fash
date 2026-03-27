@@ -1,0 +1,65 @@
+sexy:
+  upper:
+    - __fash/underwear/sexy/bra__
+    - __fash/underwear/sexy/bodice__
+    - __fash/underwear/sexy/camisole__
+  lower:
+    - __fash/underwear/sexy/panties__
+  one-piece:
+    - __fash/underwear/sexy/one-piece__
+
+  # Upper
+
+  bra:
+    - __fash/styles/bra/sexy__ bra
+    - __fash/styles/bra/neckline__ bra
+    - __fash/underwear/sexy/bralette__
+    - __fash/underwear/sexy/strapless-bra__
+  bralette:
+    - __fash/styles/bra/casual__ bralette
+    - __fash/styles/bra/neckline__ bralette
+  strapless-bra:
+    - __fash/styles/upper/neckline/tube-like-short__ bra
+
+  bodice:
+    - basque
+    - bodice
+    - bustier
+    - corselette
+    - underbust
+
+  camisole:
+    - __fash/outerwear/casual/camisole__
+
+  # Mid/waist shaper
+
+  girdle:
+    - girdle
+    - waist cincher
+    - waspie
+
+  # Lower
+
+  panties:
+    - __fash/styles/panties/briefs__ briefs
+    - __fash/styles/panties/boxers__ boxers
+    - __fash/styles/panties/boyshorts__ boyshorts panties
+    - __fash/styles/panties/thong__ thong
+
+  # one-piece
+
+  dress:
+    - babydoll dress
+    - chemise
+    - full slip
+    - negligee
+    - slip dress
+
+  bodysuit:
+    # TODO Will probably need some customization
+    - __fash/styles/upper/neckline/sleeved__ bodysuit
+        {with __fash/styles/bodysuit/sleeve__ sleeves|}
+    - __fash/styles/upper/neckline/sleeveless__ bodysuit
+
+  bodystocking:
+    - __fash/styles/lingerie__ bodystocking

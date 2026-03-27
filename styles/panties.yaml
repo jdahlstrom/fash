@@ -1,14 +1,8 @@
 panties:
-  trim:
-    - lace
-    - eyelet
-    - scallop
-  edge:
-    - lace
-    - picot # TODO only in crochet/knitting?
   briefs:
     - ' '
-    #- bikini
+    #- bikini, french cut, brazilian cut
+    - boxer
     - high-waist
     - high-cut
     - low-rise
@@ -36,3 +30,36 @@ panties:
     #- strappy
     #- string
     - dipped
+  string:
+    - g-string
+    - t-string
+    - v-string
+
+
+  sexy:
+    - cutout
+    - peekaboo
+    - keyhole
+    - strappy
+    - cage
+    # - crotchless
+    # - open-crotch
+
+  special:
+    - knickers
+    - french knickers
+    - bloomers
+    - shapewear
+    - girdle panty
+    - tangas
+
+
+    #- '{beaded|chain|pearl} t-string'
+
+  trim:
+    - lace
+    - eyelet
+    - scallop
+  edge:
+    - lace
+    - picot # TODO only in crochet/knitting?

@@ -35,7 +35,10 @@ bra:
     - eyelet-edge
 
   sexy:
+    # - balconette
+    # - balcony
     - cage-neckline
+    - fishnet
     - mesh
     - open-cup # or cupless
     - peekaboo
