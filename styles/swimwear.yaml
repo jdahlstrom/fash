@@ -237,7 +237,7 @@ swimwear:
       - twisted halter
 
     off-shoulder:
-      - off-shoulder __fash/styles/upper/off-shoulder-strapless__
+      - off-shoulder __fash/styles/upper/neckline/off-shoulder-strapless__
       - __fash/styles/swimwear/neckline/off-shoulder-sleeves__ off-shoulder
       - __fash/styles/swimwear/neckline/off-shoulder-sleeves__
           off-shoulder __fash/styles/swimwear/neckline/off-shoulder-straps__
