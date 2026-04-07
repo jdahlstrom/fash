@@ -25,6 +25,7 @@ pants:
     - tailored pants
     - velvet pants
 
+
   slim-fit:
     - jeggings
     - leggings
@@ -39,37 +40,7 @@ pants:
     - palazzo pants
     - parachute pants
     - sports pants
-  waistline:
-    - low{rise|-waist}
-    - hiphugger
-    - high-waist
-    - midrise
-  leg:
-    casual:
-      - barrel
-      - bell-bottom
-      - boot cut
-      - flared-leg
-      - kick flare
-      - pegged # or carrot, wide hip, tapering down
-      - rolled-up
-      - straight-leg
-      - tapered-leg
-      - wide-leg
-    smart:
-      - fit-and-flare
-      - fitted
-      - flared
-      - high-waist
-      - straight
-      - tailored
-      - tapered
-      - wide-leg
-  length:
-    - below-knee
-    - 3/4-length
-    - ankle-length
-    - floor-length
+
   jeans:
     - boyfriend
     - cargo
@@ -80,6 +51,17 @@ pants:
     #- gathered-ankle
     #- cropped Concept bleeding...
     #- trumpet cut Concept bleeding...
+
+  beach-pants:
+      #- loose linen
+      #- loose muslin
+      - loose 3/4-length
+      - loose capri
+      - culottes
+      - palazzo
+      - harem
+      #- leggings? yoga pants?
+
   shorts:
     - beach shorts
     - bermuda shorts
@@ -102,3 +84,50 @@ pants:
     - spandex shorts
     - sports shorts
     - walking shorts
+
+  beach-shorts:
+    - beach
+    - bermuda
+    - board
+    - boyfriend beach
+    - chino
+    - culottes
+    - hot pants
+    - jamaican
+    - sports
+    - spandex
+
+
+  waistline:
+    - low{rise|-waist}
+    - hiphugger
+    - high-waist
+    - midrise
+
+  length:
+    - below-knee
+    - 3/4-length
+    - ankle-length
+    - floor-length
+
+  leg:
+    casual:
+      - barrel
+      - bell-bottom
+      - boot cut
+      - flared-leg
+      - kick flare
+      - pegged # or carrot, wide hip, tapering down
+      - rolled-up
+      - straight-leg
+      - tapered-leg
+      - wide-leg
+    smart:
+      - fit-and-flare
+      - fitted
+      - flared
+      - high-waist
+      - straight
+      - tailored
+      - tapered
+      - wide-leg

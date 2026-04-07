@@ -267,67 +267,11 @@ swimwear:
       # TODO not currently used
       - knitted
 
-    shorts:
-      - beach
-      - board
-      - jamaican
-      - sports
-      - bermuda
-      - boyfriend beach
-      - culottes
-      - hot pants
-      - spandex
-
-    pants:
-      #- loose linen
-      #- loose muslin
-      - loose 3/4-length
-      - loose capri
-      - culottes
-      - palazzo
-      - harem
-      #- leggings? yoga pants?
-
-    skirt:
-      - a-line
-      - boho
-      - circle
-      - draped
-      - flared
-      - flowy
-      - sarong
-      - tie-side
-      - front-split
-      - side-split
-      - side-split tie-side # TODO
-      - skater
-      - tiered
-      - trapeze
-      - wrap
-
-      - drawstring
-      - high-waist
-      - lowrise
-      - midrise
-
-      - knitted
-      - ruched
-      - gathered
-      - shirred
-
-      - '{|floral|geometric} needlework'
-      - hole-knit
-
-      # Hem
-      - fringe-hem
-      - needlework-hem # etc
-      - hole-knit hem
-      - ruffle-hem
-      - scallop-trim
-      - picot-knit hem
 
     skort:
       - fringe
+      - micro
+      - tie-side
 
     dress:
       - beach

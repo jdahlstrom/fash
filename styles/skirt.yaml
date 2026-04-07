@@ -31,6 +31,7 @@ skirt:
     - column
     - fit-and-flare
     - flared
+    - fluted
     - full
     - gathered
     - godet
@@ -48,13 +49,57 @@ skirt:
     - tiered
     - trumpet
   # formal:
-  # - full
-  # - mermaid
-  # - layered
-  # - trumpet
-  # - slit
   # - fit-and-flare
+  # - fluted
+  # - full
+  # - layered
+  # - mermaid
+  # - slit
+  # - trumpet
 
+  # Archetypes
+
+  # a-line:
+  # skater:
+  # wrap:
+
+  beach-skirt:
+   - a-line
+    - boho
+    - circle
+    - draped
+    - flared
+    - flowy
+    - sarong
+    - tie-side
+    - front-split
+    - side-split
+    - side-split tie-side # TODO
+    - skater
+    - tiered
+    - trapeze
+    - wrap
+
+    - drawstring
+    - high-waist
+    - lowrise
+    - midrise
+
+    - knitted
+    - ruched
+    - gathered
+    - shirred
+
+    - '{|floral|geometric} needlework'
+    - hole-knit
+
+    # Hem
+    - fringe-hem
+    - needlework-hem # etc
+    - hole-knit hem
+    - ruffle-hem
+    - scallop-trim
+    - picot-knit hem
 
   # Hemline shape
   # Not all work well with all silhouettes
@@ -125,10 +170,3 @@ skirt:
       - micro
       - mini
       # - also long if sheer/slit/etc
-
-  # Archetypes
-
-  # a-line:
-  # skater:
-  # wrap:
-  # beach:
