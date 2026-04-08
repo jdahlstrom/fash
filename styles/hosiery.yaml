@@ -1,0 +1,28 @@
+hosiery:
+  thickness:
+    thin:
+      - gossamer
+      - see-thru
+      - sheer
+      - semi-sheer
+      - (thin:0.9)
+      - 5 denier
+      - 10 denier
+      - 20 denier
+      - 30 denier
+    thick:
+      - 50 denier
+      - 70 denier
+      - 100 denier
+      - (thick:0.9)
+      - opaque
+  length:
+    below-knee:
+      - crew
+      - mid-calf
+      - below-knee
+      - knee-high
+    above-knee:
+      - knee-high
+      - above-knee
+      - thigh-high
