@@ -5,11 +5,11 @@
 #     sleeves, neckline unspecified
 #     neckline, sleeves unspecified
 #     sleeved neckline + sleeves
-#     sleeveless neckline + sleeveless
+#     sleeveless neckline + 'sleeveless'
 #   upper styles
 #   waist styles
 #   skirt cut
-#   skirt length
+#   skirt length (partly depends on cut)
 #   hem cut (+trim)
 #
 # Skirted versions of upper garments:
