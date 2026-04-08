@@ -1,0 +1,38 @@
+hosiery:
+  thickness:
+    thin:
+      - gossamer
+      - see-thru
+      - sheer
+      - semi-sheer
+      - (thin:0.9)
+      - 5 denier
+      - 10 denier
+      - 20 denier
+      - 30 denier
+    thick:
+      - 50 denier
+      - 70 denier
+      - 100 denier
+      - (thick:0.9)
+      - opaque
+
+  # Sock and stocking length.
+  length:
+    below-knee:
+      - crew
+      - mid-calf
+      - below-knee
+      - knee-high
+    above-knee:
+      - knee-high
+      - above-knee
+      - thigh-high
+
+  finish:
+    - sheeny
+    - semi-sheeny
+    - satin
+    - glossy
+    - semi-matt
+    - matt
