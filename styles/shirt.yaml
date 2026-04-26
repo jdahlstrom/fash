@@ -49,18 +49,27 @@ shirt:
   sweatshirt:
     - ' '
     # - baja TODO check non-distilled model
+    - baseball
     - boyfriend
-    - drop-shoulder
-    - flannel
+    - fleece
     - half-zip
     - (kangaroo:0.9)-pocket
-    - raglan
-    - sleeveless
+    - ringer
     - sports
     - zip-up
 
+    # Sleeve
+    - '{|contrast-sleeve} raglan'
+    - drop-shoulder
+    - short-sleeved
+    - sleeveless
+
   hoodie:
     - __fash/styles/shirt/sweatshirt__
+
+  fit-length:
+    - __fash/styles/common/fit/casual__
+    - __fash/styles/upper/length__
 
   hem:
     smart:
@@ -68,3 +77,14 @@ shirt:
       - tiered
       - draped
       - flared
+
+  neckline:
+    sweatshirt:
+      - boatneck
+      - crewneck
+      - cowl neck
+      - '{funnel-|high |turtle}neck'
+      - henley neck
+      - off-one-shoulder
+      - scoop neck
+      - v-neck
