@@ -39,11 +39,15 @@ pants:
     - palazzo pants
     - parachute pants
     - sports pants
+
   waistline:
     - low{rise|-waist}
     - hiphugger
     - high-waist
     - midrise
+
+    - gathered-waist
+
   leg:
     casual:
       - barrel

@@ -290,33 +290,28 @@ casual:
     - linen boilersuit
 
   jumpsuit:
-    - __fash/styles/jumpsuit__ jumpsuit
-    - __fash/styles/pants/leg/casual__ jumpsuit
-    - __fash/styles/pants/length__ jumpsuit
-    - __fash/styles/upper/neckline/sleeveless__ sleeveless jumpsuit
+    - __fash/styles/jumpsuit/lower__ __fash/styles/jumpsuit/casual__ jumpsuit
+    - __fash/styles/jumpsuit/lower__ __fash/styles/upper/neckline/sleeveless__ jumpsuit
     - __fash/styles/upper/neckline/sleeved__ jumpsuit
-        with  __fash/styles/upper/sleeve/casual/*__ sleeves
+        with __fash/styles/jumpsuit/sleeves__ sleeves
 
   playsuit:
-    - __fash/styles/playsuit__ playsuit
-    - __fash/styles/upper/neckline/sleeveless__ sleeveless playsuit
+    - __fash/styles/jumpsuit/waist__ __fash/styles/jumpsuit/casual__ playsuit
+    - __fash/styles/jumpsuit/waist__ __fash/styles/upper/neckline/sleeveless__ playsuit
     - __fash/styles/upper/neckline/sleeved__ playsuit
-        with  __fash/styles/upper/sleeve/casual/*__ sleeves
+        with __fash/styles/jumpsuit/sleeves__ sleeves
 
   romper:
-    - __fash/styles/romper__ romper
-    - __fash/styles/upper/neckline/sleeveless__ sleeveless romper
+    - __fash/styles/jumpsuit/waist__ __fash/styles/jumpsuit/casual__ romper
+    - __fash/styles/jumpsuit/waist__ __fash/styles/upper/neckline/sleeveless__ romper
     - __fash/styles/upper/neckline/sleeved__ romper
-        with  __fash/styles/upper/sleeve/casual/*__ sleeves
+        with __fash/styles/jumpsuit/sleeves__ sleeves
 
   # TODO Should possibly count as lower, as they typically need a top
   overalls:
     - __fash/styles/pants/leg/casual__ overalls
     - __fash/styles/pants/length__ overalls
-    - cargo overalls
-    - overalls
-    - overalls shorts
-    - overalls skort
+    - '{cargo overalls|overalls shorts|overalls skort}'
 
   ##############################################################################
   dress:
