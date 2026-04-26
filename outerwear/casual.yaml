@@ -253,18 +253,25 @@ casual:
     - __fash/styles/pants/shorts__
 
   skirt:
-    - __fash/styles/common/gather__ skirt
-    - __fash/styles/common/yoke__ skirt
+    - >
+      { __fash/styles/skirt/length/casual__
+      | __fash/styles/skirt/waist__-waist
+      | __fash/styles/skirt/hem__-hemline }
+        __fash/styles/skirt/casual__ skirt
 
-    - __fash/styles/skirt/casual__ skirt
-    - __fash/styles/skirt/hem__-hemline skirt
-    - __fash/styles/skirt/material__ skirt
-    - __fash/styles/skirt/length/casual__ skirt
+  short-skirt:
+    - __fash/styles/skirt/length/short__
+      { __fash/styles/skirt/casual__
+      | __fash/styles/skirt/waist__-waist
+      | __fash/styles/skirt/hem__-hemline } skirt
 
-    # TODO
-    #- drawstring
-    #- pegged
-    #- yoked
+  long-skirt:
+    - __fash/styles/skirt/length/long__
+      { __fash/styles/skirt/casual__
+      | __fash/styles/skirt/waist__-waist
+      | __fash/styles/skirt/hem__-hemline } skirt
+
+  # TODO __fash/styles/skirt/material__
 
   denim-skirt:
     - __fash/styles/skirt/casual__ denim skirt
@@ -366,7 +373,7 @@ casual:
 
   # TODO is this really casual or outerwear? Maybe just loungewear
   babydoll-dress:
-    - __fash/styles/dress/skirt/short__ __fash/styles/camisole/neckline__ babydoll dress
+    - __fash/styles/skirt/length/short__ __fash/styles/camisole/neckline__ babydoll dress
 
   # TODO not sure if blouson should have its own entry
   #blouson-dress:
@@ -377,7 +384,7 @@ casual:
   cami-dress:
     - __fash/styles/dress/skirt/casual__ __fash/outerwear/casual/camisole__ dress
   # cardigan-dress:
-  # - __fash/styles/dress/skirt/short__ __fash/styles/sweater/cardigan__ cardigan dress
+  # - __fash/styles/skirt/length/short__ __fash/styles/sweater/cardigan__ cardigan dress
   shirt-dress:
     - __fash/styles/dress/skirt/casual__ __fash/styles/shirt/casual__ shirt dress
     - __fash/styles/dress/skirt/casual__ shirt dress with __fash/styles/shirt/sleeve/casual__ sleeves
@@ -388,8 +395,8 @@ casual:
     - __fash/styles/skirt/length/short__
       {__fash/outerwear/casual/sweatshirt__|__fash/outerwear/casual/hoodie__} dress
   t-shirt-dress:
-    - __fash/styles/dress/skirt/short__ __fash/styles/dress/t-shirt__
+    - __fash/styles/skirt/length/short__ __fash/styles/dress/t-shirt__
   tank-dress:
-    - __fash/styles/dress/skirt/short__ __fash/styles/upper/neckline/tank-top-like__ tank dress
+    - __fash/styles/skirt/length/short__ __fash/styles/upper/neckline/tank-top-like__ tank dress
   tunic-dress:
     - __fash/styles/dress/skirt/casual__ __fash/styles/ypper/neckline/tank-top-like__ tunic dress
