@@ -1,0 +1,48 @@
+# Jumpsuits, playsuits, and rompers.
+#
+# TODO Are playsuits and rompers distinct enough?
+jumpsuit:
+  casual:
+    - __fash/styles/upper/casual__
+    - __fash/styles/upper/top-dress-legged__
+    - __fash/styles/jumpsuit/fit__
+    - __fash/styles/jumpsuit/upper__
+
+  upper:
+    - apron
+    - hooded
+    - pinafore
+    - shirt
+    - sweater
+    - t-shirt
+
+    - cargo
+    - denim
+
+  fit:
+    - __fash/styles/common/fit/regular__
+    - __fash/styles/common/fit/loose__
+
+  lower:
+    - __fash/styles/pants/leg/casual__-legged
+    - __fash/styles/pants/length__
+    - __fash/styles/jumpsuit/waist__
+
+  sleeves:
+    - __fash/styles/upper/sleeve/length__
+    - '{long|short} __fash/styles/upper/sleeve/casual/common__'
+    - short __fash/styles/upper/sleeve/casual/short__
+
+  # TODO unify with dress/skirt waists
+  waist:
+    - peplum
+    - belt-waist
+    - drawstring-waist
+    - gathered-waist
+    - contrast-waist
+    - bloused-waist
+    - tied-waist
+
+  playsuit-lower:
+    - skort
+    - culottes

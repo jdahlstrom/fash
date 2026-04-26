@@ -76,7 +76,7 @@ dress:
       # Only good fits for simple skirt silhouettes
       # Also available with their own names such as shirt-dress
       - babydoll
-      - cami
+      # - cami in upper/t-d-l
       - shirt
       - sweater
       - t-shirt
