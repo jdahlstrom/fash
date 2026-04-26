@@ -1,0 +1,42 @@
+lingerie:
+  negligee:
+
+  # Garments with garters, or suspenders, to support stockings
+  garter:
+    belt:
+      - flounce
+      - high-waist
+      - front-closure
+      #- __clothing/cut/lacing__
+      - lace-up
+      - low-rise
+      - skirted
+      - zip-up
+    girdle:
+
+    bodice:
+
+
+  dress:
+    - open-front
+    - split-front
+
+  bodystocking: #TODO
+    #- __clothing/cut/lacing__
+    - '{off|one|off-one|cold}-shoulder'
+    - backless
+    - breast cutout
+    - cutout
+    - garter
+    - halterneck
+    - harness
+    - keyhole
+    - lace-up
+    - plunging
+    - sleeveless
+    - zipper
+    # - ... with pasties
+    # - latex/pvc
+
+  neckline:
+    - __fash/styles/neckline/plunge-neck__
