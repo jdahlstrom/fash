@@ -279,8 +279,7 @@ casual:
 
   denim-skirt:
     - __fash/styles/skirt/casual__ denim skirt
-    - __fash/styles/common/denim/wash__ denim skirt
-    - __fash/styles/common/denim/wear/*__ denim skirt
+    - __fash/styles/common/denim/**__ denim skirt
 
   ##############################################################################
   one-piece:
