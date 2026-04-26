@@ -125,7 +125,7 @@ swimwear:
     - front-knot
     - peekaboo
     - skirted
-    - sports
+    #- sports
     - strappy
     - string
     - tied{-front|-side}
@@ -180,6 +180,9 @@ swimwear:
     - strappy-back
 
   neckline:
+    sexy: # TODO
+      - __fash/styles/neckline/plunge-neck__
+
     # TODO off-one-shoulder should probably be dropped from swimwear altogether
     top:
       # TODO separate swim top with sleeve etc options?
@@ -226,7 +229,7 @@ swimwear:
       - high halter
       - keyhole high halter
       - keyhole mock halter
-      - mock halterneck
+      #- mock halterneck
       - o-ring halter
       - plunging halter
       - scoop halter

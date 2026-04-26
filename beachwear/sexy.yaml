@@ -3,6 +3,11 @@ sexy:
     - __fash/beachwear/sexy/one-piece__
     - __fash/beachwear/sexy/two-piece__
 
+  two-piece:
+    - __fash/beachwear/sexy/bikini-top__ and matching bottom
+    - __fash/beachwear/sexy/bikini-bottom__ and matching top
+    #- __fash/beachwear/sexy/swim-shirt__ and matching top
+
   #########################################################
   upper:
   #########################################################
@@ -11,11 +16,11 @@ sexy:
 
   bikini-top:
     - __fash/styles/swimwear/top__ bikini top
-    - __fash/styles/swimwear/neckline/bikini__ bikini top
+    - __fash/styles/swimwear/neckline/sexy__ bikini top
   swim-top:
     - __fash/styles/swimwear/top__ swim top
-    - __fash/styles/swimwear/neckline/bikini__ swim top
-    - __fash/styles/swimwear/neckline/swim-top__ swim top
+    - __fash/styles/swimwear/neckline/sexy__ swim top
+    #- __fash/styles/swimwear/neckline/swim-top__ swim top
 
   #########################################################
   lower:
@@ -27,11 +32,11 @@ sexy:
     - __fash/styles/panties/briefs__ bikini briefs
     - __fash/styles/panties/thong__ bikini thong
     - __fash/styles/panties/thong__ string bikini bottom
-    - __fash/styles/swimwear/bikini-bottom__ bikini bottom
+    - __fash/styles/swimwear/briefs__ bikini bottom
   swim-bottom:
     - __fash/styles/panties/briefs__ swim briefs
     - __fash/styles/panties/thong__ swim thong
-    - __fash/styles/swimwear/bikini-bottom__ swim bottom
+    - __fash/styles/swimwear/briefs__ swim bottom
     #- __fash/beachwear/sexy/swim-shorts__
     #- __fash/beachwear/sexy/swim-skirt__
   swim-skirt:
@@ -44,5 +49,6 @@ sexy:
   #########################################################
 
   monokini:
-    - __fash/styles/swimwear/monokini__ monokini
+    #- __fash/styles/swimwear/monokini__ monokini
+    - __fash/styles/swimwear/neckline/sexy__ monokini
     - __fash/styles/swimwear/neckline/monokini__ monokini
