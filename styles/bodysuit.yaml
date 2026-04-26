@@ -24,19 +24,23 @@ bodysuit:
     - flounce-trim # etc etc
 
   sexy:
+    - __fash/styles/panties/string__
     - bustier
     - (cage:0.8)
     - '{cinch-waist|waist-cinch|waist-cincher|waspie}'
     - corselette
+    - cutout
+    - '{open|split}-front'
+    - thong
 
   sleeve:
     - '{3::short|2::3/4-length|long}'
 
   teddy:
-    #- __clothing/cut/lacing__
+    - __fash/styles/panties/string__
+    - front-lacing
     - bow
     - chain-straps
-    - __fash/styles/panties/string__
     - '{|side-}(cutout:0.8)'
     - flounce
     - front-closure
@@ -44,6 +48,7 @@ bodysuit:
     - lace-up
     - lace-yoke
     - o-ring
+    - '{open|split}-front'
     - strappy
     - thong
     - triangle
