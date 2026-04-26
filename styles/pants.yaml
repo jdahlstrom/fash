@@ -46,16 +46,16 @@ pants:
     - high-waist
     - midrise
 
-    - gathered-waist
+    - gathered-waist # not a good fit with jeans etc
 
   leg:
     casual:
       - (balloon:0.8)-leg
-      - barrel
+      - (barrel:0.8)-leg
       - bell-bottom
       - boot cut
       - flared-leg
-      - flowy
+      - flowy # not a good fit with jeans etc
       - kick flare
       - pegged # or carrot, wide hip, tapering down
       - rolled-up

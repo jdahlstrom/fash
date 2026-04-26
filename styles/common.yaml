@@ -126,9 +126,13 @@ common:
         - patched-knee
         - ragged
         - worn
+
+        - lace-mended
       heavy:
         - heavily distressed
         - heavily worn
         - ripped
         - slashed
         - torn
+
+        - lace-mended
