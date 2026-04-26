@@ -50,10 +50,12 @@ pants:
 
   leg:
     casual:
+      - (balloon:0.8)-leg
       - barrel
       - bell-bottom
       - boot cut
       - flared-leg
+      - flowy
       - kick flare
       - pegged # or carrot, wide hip, tapering down
       - rolled-up
@@ -96,6 +98,7 @@ pants:
     - cut-off shorts
     - denim shorts
     - fleece shorts
+    - flowy shorts
     - hiking shorts
     - hot pants
     - jamaican shorts

@@ -9,6 +9,7 @@ skirt:
     - column
     - draped
     - flared
+    - flowy
     - gathered
     - gored
     - gypsy
@@ -54,7 +55,6 @@ skirt:
   # - trumpet
   # - slit
   # - fit-and-flare
-
 
   # Hemline shape
   # Not all work well with all silhouettes
