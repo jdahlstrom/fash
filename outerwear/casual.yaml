@@ -241,13 +241,17 @@ casual:
     - __fash/styles/pants/waistline__ __fash/styles/pants/casual__
 
   jeans:
-    - __fash/styles/common/denim/wash__ jeans
-    - __fash/styles/common/denim/wear/*__ jeans
-    - __fash/styles/common/fit/casual__ jeans
-    - __fash/styles/pants/jeans__ jeans
-    - __fash/styles/pants/leg/casual__ jeans
-    - __fash/styles/pants/length__ jeans
-    - __fash/styles/pants/waistline__ jeans
+    - __fash/styles/common/denim/**__ __fash/styles/pants/jeans__ jeans
+    - >
+      { __fash/styles/common/denim/**__
+      | __fash/styles/pants/length__
+      | __fash/styles/pants/waistline__ }
+        __fash/styles/common/fit/casual__ jeans
+    - >
+      { __fash/styles/common/denim/**__
+      | __fash/styles/pants/leg/casual__
+      | __fash/styles/pants/length__ }
+        __fash/styles/pants/waistline__ jeans
 
   shorts:
     - __fash/styles/pants/shorts__
