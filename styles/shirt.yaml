@@ -50,10 +50,12 @@ shirt:
     - ' '
     # - baja TODO check non-distilled model
     - boyfriend
+    - drop-shoulder
     - flannel
     - half-zip
     - (kangaroo:0.9)-pocket
     - raglan
+    - sleeveless
     - sports
     - zip-up
 
