@@ -123,12 +123,13 @@ upper:
 
     casual:
       common:
+        - (balloon:0.8)
         - batwing
         - dolman
         - drop-shoulder
         - fitted
-        #- flounce
         - flared
+        - flowy
         - gathered
         - raglan
         - rolled
