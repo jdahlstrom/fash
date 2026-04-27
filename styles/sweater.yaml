@@ -5,13 +5,15 @@ sweater:
     - hooded
     - (kangaroo pocket:0.9)
     - peplum
+    - pocket
     - poncho
     - pullover
     - ribbed
+    - sleeveless
     - smock
     - '{|short} high-low'
     - tunic
-    - ugly
+    - ugly {|christmas}
     - woolly pully # TODO should be an "army-style" pullover
     - wrap
 
@@ -23,15 +25,21 @@ sweater:
 
   cardigan:
     casual:
-      - boyfriend
-      - cold-shoulder # TODO necklines?
       - flyaway-hem
+      - pocket
+      - sleeveless
+
+      # already in sleeves
+      #- raglan
+      #- drop-shoulder
+
+      # TODO neckline?
+      - off-shoulder
       - hooded
-      - off-shoulder # TODO necklines?
-      - raglan
       - (shawl-collared:0.8)
-      - short-sleeved # TODO sleeves?
+      - cold-shoulder
       - collarless zip-up
+
       # TODO more
     smart:
       # TODO
@@ -42,11 +50,16 @@ sweater:
     - half-button
     - popover
     - zip-up
-  fit:
+  fit: # TODO
     - boyfriend
+    - comfort fit
     - chunky
     - fitted
+    - loose fit
     - oversize
+    - regular fit
+    - relaxed fit
+    - slim fit
   knit:
     - __fash/styles/common/knit__
   length:
@@ -62,6 +75,10 @@ sweater:
 
   # Trim
   #  - lace-{yoke|trim} # TODO trims should be separate...
+
+  length-fit:
+    - __fash/styles/upper/length__
+    - __fash/styles/sweater/fit__
 
   neckline:
     - __fash/styles/upper/neckline/sleeved__
