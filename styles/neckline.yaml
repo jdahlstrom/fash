@@ -219,12 +219,25 @@ neckline:
   # Does not fit bras or bikini tops well, except sport types.
   basic-top:
     - crewneck
-    - henley # Casual + a bit weird with swimsuits
+    - henley  # Casual + a bit weird with swimsuits
     - keyhole-neckline
     - scoop-neck
-    - split-neck
+    - split-neck  # round neck with a v-shaped cut
     - square-neck
     - surplice
+    - '{|deep} v-neck'
+
+  # Necklines specific to t-shirts, blouses etc with shoulders (sleeved or not).
+  shouldered:
+    - '{|wide} boatneck'
+    - collared
+    - draped-neckline
+    - keyhole mock neck
+    - mock neck
+    #- half-button      # henley is essentially this already
+
+    - flounce-neckline
+    - (ruffle:0.8)-neckline
 
   # Necklines compatible with ruffles.
   # TODO not used currently
@@ -329,41 +342,27 @@ neckline:
     - surplice
     - v-neck
 
-  # Necklines specific to t-shirts, blouses etc with shoulders (sleeved or not).
-  shouldered:
-    - '{|wide} boatneck'
-    - collared
-    - draped-neckline
-    - flounce-neckline
-    - mock neck
-    - (ruffle:0.8)-neckline
-    #- half-button               # henley is essentially this already
-    - split-neckline             # round neck with a v-shaped cut
-    - '{deep|} v-neck'
-    #- __fash/styles/neckline/v-neck__ v-neck
-
   # Off-shoulder necklines, with straps or not.
   off-shoulder:
-    - (bustier:0.8)
     - drawstring
-    - flounce {|fold-over}
     - fold-over
     - henley
     - keyhole {knot|o-ring|}
     - knot
     - square-neck
     - surplice
-    - sweetheart-neck
     - tied-front
-    # Gathers
+
+    # TODO trim/gather
     - gathered-neckline
     - ruche-neckline
-    # Trims
+    - flounce {|fold-over}
     - (ruffle:0.8)-neckline {|fold-over}
 
   #  These work best with fitted bodices (eg. some (smart?) tops and dresses)
   off-shoulder-fitted:
     - bardot
+    - (bustier:0.8)
     - (plunging:0.9)
     - portrait-neckline
     - split-neck
@@ -412,7 +411,8 @@ neckline:
     # TODO trim/gather
     - flounce-neckline
     - gathered-neckline
-    - (ruffle:0.8){fold-over|}
+    - flounce {|fold-over}
+    - (ruffle:0.8) {|fold-over}
 
   v-neck:
     - curved
