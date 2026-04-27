@@ -37,9 +37,8 @@ shirt:
   sleeve:
     casual:
       - __fash/styles/upper/sleeve/length__
-      - '{short|long} __fash/styles/upper/sleeve/casual/common__'
-      - short __fash/styles/upper/sleeve/casual/short__
-      - long __fash/styles/upper/sleeve/casual/long__
+      - short __fash/styles/upper/sleeve/casual/*__
+      - long __fash/styles/upper/sleeve/casual/common__
     smart:
       - __fash/styles/upper/sleeve/length__
       - __fash/styles/upper/sleeve/smart/common__
