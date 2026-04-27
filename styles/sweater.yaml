@@ -9,21 +9,13 @@ sweater:
     - poncho
     - pullover
     - ribbed
-    - sleeveless
     - smock
     - tunic
     - ugly {|christmas}
     - woolly pully # TODO should be an "army-style" pullover
     - wrap
 
-  hem:
-    - asymmetric
-    - flyaway
-    - godet
-    - high-low
-    - peplum
-    - sharkbite
-    - slit
+    - (shawl:0.8)-collar # TODO neckline
 
   smart:
     - fitted
@@ -70,10 +62,26 @@ sweater:
     - regular fit
     - relaxed fit
     - slim fit
+
+  hem:
+    - asymmetric
+    - flyaway
+    - flounce
+    #- godet
+    - high-low
+    - peplum
+    - sharkbite
+    - slit
+
   knit:
     - __fash/styles/common/knit__
+
   length:
     - __fash/styles/upper/length__
+
+  pattern:
+    - traditional __fash/styles/sweater/traditional__ {pattern|yoke}
+
   traditional:
     - Aran
     - Fair Isle
@@ -90,7 +98,3 @@ sweater:
     - __fash/styles/upper/length__
     - __fash/styles/sweater/fit__
     - __fash/styles/sweater/hem__-hem
-
-  neckline:
-    - __fash/styles/upper/neckline/sleeved__
-    #- (shawl-collared:0.8) # Concept bleeding with SDXL

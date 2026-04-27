@@ -177,7 +177,21 @@ casual:
         | __fash/styles/sweater/knit__ } sweater
     - __fash/styles/sweater/fit-length-hem__ sweater with
         { __fash/styles/shirt/sleeve/casual__ sleeves
-        | traditional __fash/styles/sweater/traditional__ {pattern|yoke} }
+        | __fash/styles/sweater/pattern__ }
+    - __fash/styles/sweater/neckline__ sweater with
+        { __fash/styles/shirt/sleeve/casual__ sleeves
+        | __fash/styles/sweater/pattern__ }
+
+  sweater-vest:
+    - __fash/styles/upper/length__ __fash/styles/sweater/casual__ sweater vest
+    - __fash/styles/upper/neckline/vest-like__ __fash/styles/sweater/casual__ sweater vest
+
+    - __fash/styles/sweater/fit-length-hem__
+        { __fash/styles/upper/neckline/vest-like__
+        | __fash/styles/sweater/closure__
+        | __fash/styles/sweater/knit__ } sweater vest
+
+    - __fash/styles/sweater/fit-length-hem__ sweater vest with __fash/styles/sweater/pattern__
 
   # Open-front sweater, usually button-closure.
   cardigan:
@@ -186,7 +200,7 @@ casual:
       | __fash/styles/sweater/knit__ } cardigan
     - __fash/styles/sweater/fit-length-hem__ cardigan with
       { __fash/styles/shirt/sleeve/casual__ sleeves
-      | traditional __fash/styles/sweater/traditional__ {pattern|yoke} }
+      | __fash/styles/sweater/pattern__ }
 
   sweatshirt:
     - __fash/styles/shirt/fit-length__ __fash/styles/shirt/neckline/sweatshirt__ sweatshirt
