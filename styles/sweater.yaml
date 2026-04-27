@@ -1,21 +1,29 @@
 sweater:
   casual:
-    - asymmetric
-    - godet
+    - boho
+    - flowy
+    #- godet
     - hooded
     - (kangaroo pocket:0.9)
-    - peplum
     - pocket
     - poncho
     - pullover
     - ribbed
     - sleeveless
     - smock
-    - '{|short} high-low'
     - tunic
     - ugly {|christmas}
     - woolly pully # TODO should be an "army-style" pullover
     - wrap
+
+  hem:
+    - asymmetric
+    - flyaway
+    - godet
+    - high-low
+    - peplum
+    - sharkbite
+    - slit
 
   smart:
     - fitted
@@ -25,6 +33,7 @@ sweater:
 
   cardigan:
     casual:
+      - boho
       - flyaway-hem
       - pocket
       - sleeveless
@@ -50,6 +59,7 @@ sweater:
     - half-button
     - popover
     - zip-up
+
   fit: # TODO
     - boyfriend
     - comfort fit
@@ -76,9 +86,10 @@ sweater:
   # Trim
   #  - lace-{yoke|trim} # TODO trims should be separate...
 
-  length-fit:
+  fit-length-hem:
     - __fash/styles/upper/length__
     - __fash/styles/sweater/fit__
+    - __fash/styles/sweater/hem__-hem
 
   neckline:
     - __fash/styles/upper/neckline/sleeved__
