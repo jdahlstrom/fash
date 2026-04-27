@@ -5,7 +5,6 @@ shirt:
     - cabana
     - cargo
     - collarless
-    - crop
     - field
     - flannel
     - godet
@@ -13,10 +12,6 @@ shirt:
     - polo
     - pocket
     - safari
-    - popover
-    - split-front
-    - open-front smock
-    - tied crop
     # Too much concept bleed with SDXL at least, try newer models
     # - military
     # - western
@@ -33,6 +28,14 @@ shirt:
     # TODO more
     - lace-yoke
     - __fash/styles/common/trim__-trim
+
+  closure:
+    - popover
+    - half-button
+    - button-down
+    - split-front
+    - open-front smock
+    - tied crop
 
   sleeve:
     casual:

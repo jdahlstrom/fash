@@ -140,32 +140,36 @@ casual:
 
   # Button-closure shirt, usually with a collar.
   shirt:
-    - __fash/styles/upper/length__ shirt
-    - __fash/styles/shirt/casual__ shirt
-    - shirt with __fash/styles/shirt/sleeve/casual__ sleeves
+    - __fash/styles/shirt/fit-length__ __fash/styles/shirt/casual__ shirt
+    - __fash/styles/shirt/casual__ shirt with __fash/styles/shirt/sleeve/casual__ sleeves
+    - __fash/styles/shirt/fit-length__ __fash/styles/shirt/closure__ shirt
+        with __fash/styles/shirt/sleeve/casual__ sleeves
+
     #- sleeveless __fash/styles/shirt/casual__ shirt
 
   # Loose-fitting shirt.
   blouse:
-    - __fash/styles/upper/casual__ blouse
-    - __fash/styles/upper/top-blouse-tunic__ blouse
-    - __fash/styles/upper/top-blouse-tunic-closure__ blouse
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem blouse
-    - __fash/styles/upper/length__ blouse
-    - __fash/styles/blouse/neckline__ blouse
-    - blouse with __fash/styles/upper/sleeve/casual/*__ sleeves
-    #- __fash/styles/common/trim__-trim blouse
+    - __fash/styles/blouse/fit-length-hem/blouse__
+        { __fash/styles/upper/casual__
+        | __fash/styles/upper/top-blouse-tunic__
+        | __fash/styles/upper/top-blouse-tunic-closure__
+        | __fash/styles/blouse/neckline__ } blouse
+    - >
+      { __fash/styles/blouse/fit-length-hem/blouse__
+      | __fash/styles/blouse/neckline__ } blouse with
+        __fash/styles/shirt/sleeve/casual__ sleeves
 
-  # Casual, blouse-like but longer. Used with pants, not a dress.
+  # Casual, blouse-like but longer. Used with pants; not a dress.
   tunic:
-    - __fash/styles/upper/casual__ tunic
-    - __fash/styles/upper/top-blouse-tunic__ tunic
-    - __fash/styles/upper/top-blouse-tunic-closure__ tunic
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem tunic
-    - __fash/styles/blouse/neckline__ tunic
-    - __fash/styles/skirt/length/short__ tunic
-    - tunic with __fash/styles/upper/sleeve/casual/*__ sleeves
-    #- __fash/styles/common/trim__-trim tunic
+    - __fash/styles/blouse/fit-length-hem/tunic__
+        { __fash/styles/upper/casual__
+        | __fash/styles/upper/top-blouse-tunic__
+        | __fash/styles/upper/top-blouse-tunic-closure__
+        | __fash/styles/blouse/neckline__ } tunic
+    - >
+      { __fash/styles/blouse/fit-length-hem/tunic__
+      | __fash/styles/blouse/neckline__ } tunic with
+        __fash/styles/shirt/sleeve/casual__ sleeves
 
   # Knitted or crocheted shirt, usually long-sleeved, often woolen.
   sweater:
