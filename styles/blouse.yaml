@@ -1,9 +1,7 @@
 blouse:
-  casual:
-    - todo
+  casual: # TODO unused
     - pirate
     - poet
-    - half-button
     - wrap
 
   smart:
@@ -14,28 +12,34 @@ blouse:
     - fitted
     - poet # "pirate shirt"
 
-    - button-down
-    - half-button
+    - button-down # closure
+    - half-button # closure
     - drape-neckline # neck
     - split-front
     - surplice-neck # neck
     - flounce-neckline # neck...
     - wrap
 
-  front:
-    smart:
-      - split-front
-      - button-down
-      - half-button
+  closure:
+    - drawstring-front
+    - button-down
+    - half-button
+    - split-front
 
-  tunic:
-    - ' ' # No unique styles
-    #- __fash/styles/upper/casual__
-    #- __fash/styles/upper/top-blouse-tunic__
+  fit-length-hem:
+    blouse:
+      - __fash/styles/common/fit/loose__
+      - __fash/styles/upper/length__
+      - __fash/styles/upper/top-blouse-tunic-hem__-hem
+    tunic:
+      - __fash/styles/common/fit/loose__
+      - __fash/styles/skirt/length/short__
+      - __fash/styles/upper/top-blouse-tunic-hem__-hem
 
   neckline:
     - >
       { __fash/styles/upper/neckline/cold-shoulder__
       | __fash/styles/upper/neckline/off-shoulder__
-      | __fash/styles/blouse/front/smart__ __fash/styles/neckline/buttoned__
-      |2:: __fash/styles/upper/t-shirt-like__}
+      |2:: __fash/styles/upper/neckline/t-shirt-like__}
+
+    #| __fash/styles/blouse/front/smart__ __fash/styles/neckline/buttoned__
