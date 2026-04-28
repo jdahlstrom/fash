@@ -401,7 +401,7 @@ neckline:
     - drape-neckline
     - fold-over # Does this work?
     #- o-ring neckline
-    - one-shoulder
+    #- one-shoulder
     - strappy
     - sweetheart-neck # Does this work well?
     - triangle-neck
