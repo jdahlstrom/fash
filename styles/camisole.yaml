@@ -1,14 +1,17 @@
 camisole:
   # Cami-specific styles not in upper/casual
   # TODO See if could unify with upper/top-blouse-tunic
-  style:
+  casual:
     - babydoll
+    - basque
+    - blouson
+    - contour
     - draped
-    - gathered
     - godet
     - peplum
+    - underwire
     - __fash/styles/camisole/smock__ smock
-    - (swing:0.8)
+    - __fash/styles/camisole/waist__ smock
 
     #- __fash/styles/common/trim__-{hem|trim|yoke} TODO
 
@@ -20,10 +23,13 @@ camisole:
     - skirted
     - tiered
     - open-front
+
+  waist:
     - empire-waist
     - ruched-waist
     - gathered-waist
 
   neckline:
-    - __fash/**/100-cami-tank-top/cami__
-    - __fash/**/100-cami-tank-top/halter-cami__ halter
+    - >
+      { 3::__fash/**/100-cami-tank-top/cami__
+      | __fash/**/100-cami-tank-top/halter-cami__ halter }

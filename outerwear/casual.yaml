@@ -127,16 +127,17 @@ casual:
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
   camisole:
-    - __fash/styles/upper/casual__ camisole
-    - __fash/styles/upper/length__ camisole
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem camisole
+    - __fash/styles/camisole/neckline__
+        { __fash/styles/upper/casual__
+        | __fash/styles/camisole/casual__ } camisole
 
-    - __fash/styles/camisole/neckline__ camisole
-    - __fash/styles/camisole/style__ camisole
+    - __fash/styles/upper/length__
+        { __fash/styles/upper/casual__
+        | __fash/styles/camisole/casual__ } camisole
 
-    #- __fash/styles/common/trim__-trim camisole
-    # TODO additional variants?
-
+    - __fash/styles/upper/length__
+        { __fash/styles/upper/top-blouse-tunic-hem__-hem
+        | __fash/styles/camisole/neckline__ } camisole
 
   # Button-closure shirt, usually with a collar.
   shirt:
@@ -145,7 +146,8 @@ casual:
     - __fash/styles/shirt/fit-length__ __fash/styles/shirt/closure__ shirt
         with __fash/styles/shirt/sleeve/casual__ sleeves
 
-    #- sleeveless __fash/styles/shirt/casual__ shirt
+  # sleeveless-shirt:
+  #   - sleeveless __fash/styles/shirt/casual__ shirt
 
   # Loose-fitting shirt.
   blouse:
