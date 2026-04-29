@@ -119,33 +119,12 @@ neckline:
       - flounce-neckline
       - ruche-neckline
       - (ruffle:0.8)-neckline
-    tube:
-      - ' '
-      - fold-over
-      - henley
-      #- keyhole
-      # TODO more??
 
-      # TODO trims&gathers
-      - flounce-neckline {|fold-over}
-      - ruche-neckline
-      - ruffle-neckline
-    bandeau:
-      - (bow{-knot|}:0.8)
-      - henley
-      #- keyhole
+    bra:
+      - (bustier:0.9)
       - knot
-      - o-ring {keyhole|}
-      - string keyhole
-      - twisted
-      - underwired
-      - wireless
-
-      # TODO trims&gathers
-      - flounce
-      - gathered
-      - ruched
-      - (ruffle:0.8)
+      - plunging
+      - sweetheart
 
   # Sleeves, no shoulders, no straps
   001-off-shoulder-strapless:
