@@ -6,9 +6,13 @@ bra:
     - padded
     - push-up
     - seamless
-    - soft
+    - soft {|non-pad}
     - (t-shirt:0.8)
     - tank
+
+    # Material
+    - microfiber
+    - lace
 
     # Not recognized by SDXL (TODO test Flux/etc)
     # - balconette
@@ -17,6 +21,23 @@ bra:
     # - front-closure (or front-fasten)
     # - soft cup
     # - wireless
+
+  strapless:
+    - bustier
+    - contour
+    - padded
+    - push-up
+    - seamless
+    - soft
+    - (t-shirt:0.8)
+    - wireless
+
+  bandeau:
+    - contour
+    - knot
+    - padded
+    - twisted
+    - underwire
 
   ornate: # Smart/intimate/ornate
     - lacy
@@ -39,6 +60,7 @@ bra:
     - mesh
     - open-cup # or cupless
     - peekaboo
+    - push-up
     - sheer{| lace| embroidered}
     - shelf
     - strappy
@@ -48,6 +70,7 @@ bra:
     - __fash/styles/upper/neckline/sports__
     - __fash/styles/upper/neckline/sports-halter__ halter
     - __fash/styles/upper/neckline/tube-like-short__
+    # TODO high support, medium support
 
   neckline:
     - halterneck

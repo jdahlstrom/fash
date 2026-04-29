@@ -19,11 +19,14 @@ casual:
   bralette:
     - __fash/styles/bra/casual__ bralette
     - __fash/styles/bra/neckline__ bralette
+
   sports-bra:
-    - __fash/styles/bra/sports__ sports bralette
-    - __fash/styles/bra/sports__ sports bra
+    - __fash/styles/bra/sports__ sports bra{2::|lette}
+
   strapless-bra:
-    - __fash/styles/upper/neckline/tube-like-short__ bra
+    - strapless __fash/styles/bra/strapless__ bra{2::|lette}
+    - strapless __fash/**/000-tube-like/bra__ bra{2::|lette}
+    - __fash/styles/bra/bandeau__ {tube|bandeau} bra{2::|lette}
 
   camisole:
     - __fash/outerwear/casual/camisole__

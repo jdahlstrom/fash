@@ -55,9 +55,8 @@ upper:
     - half-button
     - tied-waist # TODO waist
 
-    # Back
-    - backless
-    - open-back {halter|}
+    # Back/neckline
+    - '{backless|open-back} halter'
 
     # Gather
     - ruched
@@ -66,11 +65,10 @@ upper:
     - babydoll
     - empire-waist
     - gathered-waist
-    - godet
+    #- godet
     - kaftan
     - open-front {babydoll|flyaway|smock}
     - poncho
-    - (swing:0.8)
     - wrap
 
   top-blouse-tunic-closure:
@@ -96,6 +94,7 @@ upper:
     - (ruffle:0.9)
     - sharkbite
     - skirted
+    - (swing:0.8)
     - tiered
 
   length:
@@ -278,13 +277,13 @@ upper:
 
     tube-like-long:
       - strapless __fash/**/000-tube-like/strapless__
-      - __fash/**/000-tube-like/tube__ tube
+      - __fash/**/000-tube-like/strapless__ tube
       # bandeau only applies to tops
 
     tube-like-short:
-      - __fash/**/000-tube-like/bandeau__ bandeau
+      - __fash/**/000-tube-like/strapless__ bandeau
       - strapless __fash/**/000-tube-like/strapless__
-      - __fash/**/000-tube-like/tube__ tube
+      - __fash/**/000-tube-like/strapless__ tube
 
     vest-like:
       - sleeveless __fash/**/110-vest-like/sleeveless__
@@ -348,7 +347,6 @@ upper:
       - one-shoulder
       - scoop-neck
       - square-neck
-      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}
       - v-neck
       - mesh{|-yoke}
 
@@ -356,4 +354,3 @@ upper:
       - crewneck
       - keyhole
       - scoop neck
-      - spaghetti-strap {(plunging:0.9)|scoop neck|v-neck|}

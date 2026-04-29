@@ -51,78 +51,69 @@ casual:
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
-    - __fash/styles/upper/casual__ top
-    - __fash/styles/upper/top-dress-legged__ top
-
-    # TODO
-    - __fash/styles/top/casual__ top
-
-    - __fash/outerwear/casual/top-blouse-tunic__ top
     - __fash/outerwear/casual/sleeved-top__
     - __fash/outerwear/casual/sleeveless-top__
-    - __fash/outerwear/casual/sports-top__
+
+
+    #- __fash/styles/upper/length__ __fash/styles/upper/casual__ top
+    #- __fash/styles/upper/length__ __fash/styles/upper/top-dress-legged__ top
+    # TODO
+    #- __fash/styles/upper/length__ __fash/styles/top/casual__ top
+    #- __fash/outerwear/casual/top-blouse-tunic__ top
+    #- __fash/outerwear/casual/sports-top__
 
   # Either strapless or with straps.
   sleeved-top:
-    - __fash/styles/top/sleeved__ top with __fash/styles/upper/sleeve/casual/*__ sleeves
+    - >
+      { __fash/styles/top/sleeved__
+      | __fash/styles/upper/neckline/sleeved__ }
+        top with __fash/styles/shirt/sleeve/casual__ sleeves
 
   # Either strapless or with straps.
   sleeveless-top:
     - __fash/outerwear/casual/strapless-top__
-    - sleeveless __fash/styles/upper/neckline/sleeveless__ top
-    - sleeveless __fash/styles/upper/top-blouse-tunic-hem__-hem top
+    - __fash/styles/upper/neckline/sleeveless__ __fash/styles/top/sleeved__ top
 
   # Sleeveless.
   strapless-top:
-    - strapless __fash/styles/neckline/000-tube-like/strapless__ top # TODO
-    - __fash/outerwear/casual/bandeau-top__
-    - __fash/outerwear/casual/tube-top__
-    # TODO variants other than neckline! Should have everything that general tops do
-    - strapless __fash/styles/upper/casual__ top
-    - strapless __fash/styles/upper/top-dress-legged__ top # TODO not 100%
+    - >
+      { 4::strapless __fash/styles/neckline/000-tube-like/strapless__ __fash/styles/top/sleeved__ top
+      | __fash/outerwear/casual/bandeau-top__
+      | __fash/outerwear/casual/tube-top__ }
 
-    - strapless __fash/outerwear/casual/top-blouse-tunic__ top
+    #- strapless __fash/styles/upper/top-dress-legged__ top # TODO not 100%
 
   sports-top:
-    - __fash/styles/upper/neckline/sports__ sports top
-    - __fash/styles/upper/neckline/sports-halter__ halter sports top
+    - >
+      { 2::__fash/styles/upper/neckline/sports__
+      | __fash/styles/upper/neckline/sports-halter__ halter }
+        __fash/styles/top/sports__ top
 
   # Tank top variants.
   tank-top:
-    - __fash/styles/upper/length__ tank top
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem tank top
-    - __fash/styles/upper/neckline/tank-top-like__ tank top
+    - __fash/styles/upper/length__ __fash/styles/upper/top-blouse-tunic-hem__-hem tank top
+    - __fash/styles/upper/length__ __fash/styles/upper/neckline/tank-top-like__ top
+    - __fash/styles/upper/top-blouse-tunic-hem__-hem __fash/styles/upper/neckline/tank-top-like__ top
 
   # Bandeau top variants.
   bandeau-top:
-    - bandeau top
-    - __fash/styles/top/neckline/bandeau__ bandeau top
-    #- __fash/styles/common/trim__-trim top
-    # TODO variants other than neckline?
-    # At least ruched etc
+    - __fash/styles/top/bandeau__ bandeau top
+
+  # Tube top variants, almost synonymous with bandeau.
+  tube-top:
+    - __fash/styles/top/tube__ tube top
 
   # Halterneck top variants.
   halter-top:
-    - __fash/styles/upper/neckline/halter__ top
+    - __fash/styles/upper/neckline/halter__
+        { __fash/styles/upper/casual__
+        | __fash/outerwear/casual/top-blouse-tunic__ } top
 
-    - __fash/styles/upper/casual__ halter top
-    - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
-    - __fash/outerwear/casual/top-blouse-tunic__ halter top
+    # - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
 
     # TODO off-shoulder
     #- off-shoulder halter top with __fash/styles/upper/sleeve/casual/*__ sleeves
     #- __fash/styles/neckline/101-off-shoulder-with-straps/halter__ halter top with off-shoulder sleeves
-
-  # Tube top variants, almost synonymous with bandeau.
-  tube-top:
-    - tube top
-    - __fash/styles/top/neckline/tube__ tube top
-
-    # TODO test these
-    - __fash/styles/upper/casual__ tube top
-    - __fash/styles/upper/length__ tube top
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem tube top
-    #- __fash/styles/common/trim__-trim top
 
   # Womens' sleeveless top, typically with spaghetti straps.
   # Originally only used as underwear.
@@ -133,10 +124,8 @@ casual:
 
     - __fash/styles/upper/length__
         { __fash/styles/upper/casual__
-        | __fash/styles/camisole/casual__ } camisole
-
-    - __fash/styles/upper/length__
-        { __fash/styles/upper/top-blouse-tunic-hem__-hem
+        | __fash/styles/camisole/casual__ camisole
+        | __fash/styles/upper/top-blouse-tunic-hem__-hem
         | __fash/styles/camisole/neckline__ } camisole
 
   # Button-closure shirt, usually with a collar.

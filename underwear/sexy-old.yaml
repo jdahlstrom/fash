@@ -1,0 +1,415 @@
+sexy:
+  # TODO Unify with underwear/_ornament, pattern/lace etc.
+  _pattern:
+    - floral print
+    #- harlequin print
+    - heart print
+    - leopard spots
+    - ornate
+    - polka-dot
+    #- pinstripe TODO maybe some other stripe
+    - textured
+    - tiger stripe
+  _material:
+    - __clothing/pattern/lace__
+    # TODO trims are included both here and in specific garments
+    - __clothing/underwear/_trim__
+    - '{|__clothing/underwear/_trim__} __clothing/hosiery/_net__'
+    - '{|sheer} __clothing/underwear/sexy/_pattern__'
+    - sheer __clothing/underwear/_ornament__
+    - '{|__clothing/material/shiny__}
+        {|(sheer:0.2)}
+        {nylon|polyester|rayon|silk}
+        __clothing/underwear/_ornament__'
+
+  # LOWER
+
+  # TODO Refactor this
+
+  _panties:
+    - boyshorts
+    - cutout panties
+    - '{g|t|v}-string'
+    - girdle {panty|thong}
+    - panties
+    - hiphugger panties
+    - hipster panties
+    - keyhole panties
+    - strappy panties
+    - string panties
+    - tangas
+    - thong
+
+  _high-cut:
+    - cage{-back|-front} panties
+    - '{g|t|v}-string'
+    - panties
+    - keyhole panties
+    - strappy panties
+    - string panties
+    - '{beaded|chain|pearl} t-string'
+    - tangas
+    - thong
+  _high-waist:
+    - cage{-back|-front} panties
+    - cutout panties
+    - french knickers
+    - girdle {panty|thong}
+    - panties
+    - keyhole panties
+    - lace-up panties
+    - __clothing/cut/lacing__ panties
+    - '{|front-closure|zip-up} shapewear knickers'
+    - strappy panties
+    - waist-cincher {panty|thong}
+  _low-rise:
+    - '{g|t|v}-string'
+    - boyshorts
+    - panties
+    - hiphugger panties
+    - hipster panties
+    - keyhole panties
+    - side-bow panties
+    - strappy panties
+    - string panties
+    - '{beaded|chain|pearl} t-string'
+    - tangas
+    - thong
+
+  panties:
+    - '{harness|3::__clothing/underwear/_trim__} __clothing/underwear/sexy/_panties__' # TODO
+    - high-cut __clothing/underwear/sexy/_high-cut__
+    - high-waist {|harness} __clothing/underwear/sexy/_high-waist__
+    - low-{rise|waist} __clothing/underwear/sexy/_low-rise__
+    - __clothing/underwear/sexy/_harness__ {hips|waist} harness' # TODO
+
+    # Not well understood
+    # - crotchless panties
+    # - '{|high-cut|high-waist} open-crotch panties'
+
+  _skirt:
+    - asymmetric
+    - a-line
+    - bodycon
+    - flounce
+    - gathered
+    - gored
+    - godet
+    - high-slit
+    - __clothing/cut/lacing__
+    - pencil
+    #- peplum{|-hem} TODO
+    - (ruffle:0.8){|-hem}
+    - scallop
+    - tiered
+  skirt:
+    - __clothing/underwear/sexy/_skirt__
+      {|__clothing/cut/hemline/sexy__}
+      {slip |under}skirt
+
+  _lower:
+    - '{ 2::__clothing/underwear/sexy/panties__ | __clothing/underwear/sexy/skirt__ }'
+  lower:
+    # TODO probabilities...
+    - '{|__clothing/underwear/sexy/_material__} __clothing/underwear/sexy/_lower__'
+
+  # UPPER
+
+
+  _middle:
+    - girdle
+    - shapewear girdle
+    - underbust {|harness}
+    #- underbust corselette
+    - waist cincher
+    #- waist harness
+    - waist trainer {|harness}
+    - waspie girdle
+  middle:
+    - '{__clothing/cut/lacing__|lace-up|zip-up|buckle|front-closure|skirted}
+        (__clothing/underwear/sexy/_middle__)'
+    - '{crop|longline} (__clothing/underwear/sexy/_middle__)'
+    - __clothing/underwear/_trim__ (__clothing/underwear/sexy/_middle__)'
+
+  _bra:
+    # TODO
+    - (cage:0.8) # different from cage *neck* bra
+    - criss-cross # ???
+    - cutout
+    - front-closure # maybe not specifically sexy
+    - __clothing/underwear/sexy/_harness__ harness
+    - keyhole # works with sports bra and crew/boatneck but hardly alone
+    - __clothing/underwear/_trim__
+    - peekaboo # not well understood
+    - strappy {|open} # works ok
+
+    - tied-front
+
+    # Not well understood
+    # - cupless
+    # - open-cup {|with nipple piercings}
+    # - shelf
+
+  bra:
+    - __clothing/neckline/bra__ {bra|bralette}
+    - __clothing/neckline/bra__ push-up bra
+    - __clothing/underwear/sexy/_bra__ {bra|bralette}
+    - '{breast|chest} harness {|and __clothing/underwear/sexy/_bare-breasts__}' # TODO Maybe move somewhere else
+
+
+  _pasties:
+    shape: # TODO to somewhere?
+      - bow-shaped
+      - (butterfly:0.9)
+      - conical
+      - cross-shaped
+      - floral
+      - heart-shaped
+      - round
+      - spade-shaped
+      - star-shaped
+      - starfish
+      - sun-shaped
+      - trefoil
+      - x-shaped
+    material: # TODO to material
+      - applique
+      - fuzzy
+      #- leather
+      - chromed
+      - embroidered
+      - glossy
+      - lace
+      - ornate
+      - rhinestone
+      - sequin
+      - shiny
+      - silicone
+      - studded
+      - tape
+      - '{pvc|rubber}'
+
+  pasties:
+    - __clothing/underwear/sexy/_pasties/shape__ __clothing/underwear/sexy/_pasties/material__ pasties
+
+  _bare-breasts:
+    - __clothing/underwear/sexy/pasties__
+    - nipple piercings
+    - '{crystal|rhinestone} body art'
+    - '{elaborate|intricate|ornate} breast chain'
+
+  _with-middle:
+    - __clothing/underwear/sexy/bra__
+    - bare breasts with __clothing/underwear/sexy/_bare-breasts__
+
+  _top:
+    # TODO mishmash of stuff
+
+    # misc
+    - boned
+    - underboob
+    - waist trainer
+
+    # deco
+    - __clothing/underwear/_trim__
+
+    # cutout
+    - cutout
+    - '{back|breast|cleavage|front|side}-cutout'
+    - '{high-|boat|}neck cutout'
+
+    # fastening
+    - front-closure {|tube}
+    - __clothing/cut/lacing__
+
+    # neckline, why??
+    - '{|criss-cross} halter'
+    - keyhole {|halter|high-neck}
+    - plunging
+    - lace-yoke {crew|boat}neck # TODO other yokes
+    - (cage:0.8)
+
+  _upper:
+    - '{|cleavage|harness|push-up} __clothing/underwear/intimate/bodice__'
+    - __clothing/underwear/sexy/bra__
+    - __clothing/neckline/camisole__ {|crop} camisole
+    - __clothing/underwear/sexy/_top__ {|crop|strappy} top
+    - __clothing/neckline/top__ {|crop|strappy} top
+    - underboob tight-fit {bolero|shrug|bolero shrug}
+  _chest-harness:
+    - '{elaborate|intricate|ornate}
+        __clothing/underwear/sexy/_harness__
+        {breast|chest} harness'
+
+  upper:
+    # TODO probabilities...
+    # TODO is this the best way to do materials? Probably not, maybe have separate upper-m etc
+    - '{|__clothing/underwear/sexy/_material__} __clothing/underwear/sexy/_upper__'
+    - '{|__clothing/underwear/sexy/_material__} __clothing/underwear/sexy/_upper__'
+    - '{|__clothing/underwear/sexy/_material__} __clothing/underwear/sexy/_upper__'
+    - '{|__clothing/underwear/sexy/_material__} __clothing/underwear/sexy/_upper__'
+    # TODO pasties and piercings should maybe only be used with middle etc
+    - '{__clothing/underwear/sexy/_chest-harness__
+        |__clothing/underwear/sexy/_bare-breasts__}'
+
+  _harness:
+    # TODO move to material
+    - ballchain
+    - beaded
+    - chain
+    - crystal
+    - '{lace|lacy}'
+    - nylon
+    - o-ring
+    - ornate
+    - rhinestone
+    - ribbon
+    - pearl string
+    - sequined
+    - silk {|lace}
+    - strappy
+
+  _garter:
+    belt:
+      - flounce
+      - high-waist
+      - front-closure
+      - __clothing/cut/lacing__
+      - lace-up
+      - low-rise
+      - skirted
+      - zip-up
+    dress:
+      - cami slip
+      - chemise
+      - slip dress
+    panty:
+      - boyshorts
+      - boxer briefs
+      - knickers
+      - panty girdle
+      - panty waist cincher
+      - shapewear
+      - shorts
+    skirt:
+      - underskirt
+      - __clothing/cut/hemline/sexy__ skirt
+    top:
+      - '{4::__clothing/underwear/intimate/_bodice__|camisole}'
+      # - __clothing/neckline/camisole__ {2::|short|longline}
+      #- chest harness # TODO
+    lower:
+      - __clothing/underwear/sexy/_garter/belt__ garter belt
+      - '{|high-waist} (garter:0.9) __clothing/underwear/sexy/_garter/panty__'
+      - '{|high-waist} {|__clothing/underwear/sexy/_skirt__} (garter:0.9) __clothing/underwear/sexy/_garter/skirt__'
+
+  garter:
+    upper:
+      - __clothing/underwear/sexy/_material__ garter __clothing/underwear/sexy/_garter/top__
+    middle:
+      - __clothing/underwear/sexy/_material__ (garter:0.9) __clothing/underwear/sexy/_middle__
+    lower:
+      - __clothing/underwear/sexy/_material__ __clothing/underwear/sexy/_garter/lower__
+    one-piece:
+      - __clothing/underwear/sexy/_bodysuit__ (garter:0.9) bodysuit
+      # TODO may invoke teddy bears
+      - __clothing/underwear/sexy/_bodysuit__ (garter:0.9) teddy
+
+      - __clothing/neckline/camisole__ __clothing/underwear/sexy/_material__
+          garter __clothing/underwear/sexy/_garter/dress__
+
+  # ONE-PIECE
+  # TODO change so that seethru dresses can be longer and opaque are short
+
+  _chemise:
+    - __clothing/underwear/sexy/_skirt__
+    - __clothing/neckline/camisole__
+    - __clothing/cut/lacing__
+    - # TODO open-front
+  _baby-or-neg:
+    - open-front {|mini|above-knee|knee-length}
+    - __clothing/underwear/sexy/_skirt__
+    - __clothing/neckline/dress__
+    - __clothing/cut/hemline/sexy__
+  _dress:
+    - '{|plunging} __clothing/neckline/dress__
+        {|tight fit|relaxed fit|loose fit}
+        __clothing/cut/hemline/sexy__ {sheath|shift}'
+    - __clothing/cut/hemline/sexy__ corselette
+
+  chemise:
+    - __clothing/underwear/sexy/_material__
+      {|__clothing/underwear/sexy/_chemise__}
+      __clothing/cut/hemline/sexy__
+      {cami slip|chemise|full slip|slip dress}
+
+  dress:
+
+    - __clothing/underwear/sexy/chemise__
+
+    - __clothing/underwear/sexy/_material__
+      __clothing/underwear/sexy/_baby-or-neg__
+      {babydoll|negligee}
+
+    - __clothing/underwear/sexy/_material__
+      __clothing/underwear/sexy/_dress__
+      dress
+
+  _teddy:
+    - __clothing/cut/lacing__
+    - bow
+    - chain-straps
+    - '{g|t|v}-string'
+    - '{|side-}(cutout:0.8)'
+    - flounce
+    - front-closure
+    - harness
+    - lace-up
+    - lace-yoke
+    - o-ring
+    - strappy
+    - thong
+  teddy:
+    - __clothing/underwear/sexy/_material__
+      __clothing/underwear/sexy/_teddy__
+      __clothing/neckline/teddy__
+      teddy
+
+  _bodystocking: #TODO
+    - __clothing/cut/lacing__
+    - '{off|one|off-one|cold}-shoulder'
+    - backless
+    - breast cutout
+    - cutout
+    - garter
+    - halterneck
+    - harness
+    - keyhole
+    - lace-up
+    - plunging
+    - sleeveless
+    - zipper
+    # - ... with pasties
+    # - latex/pvc
+  bodystocking:
+    - __clothing/underwear/sexy/_bodystocking__ bodystocking
+    - __clothing/underwear/sexy/_material__ bodystocking
+    - __clothing/underwear/sexy/_material__ __clothing/underwear/sexy/_bodystocking__ bodystocking
+
+  _bodysuit:
+    - __clothing/underwear/sexy/_material__
+    - __clothing/underwear/intimate/_bodysuit__
+    - __clothing/underwear/sexy/_material__ __clothing/underwear/intimate/_bodysuit__
+    - __clothing/underwear/sexy/_material__ {4::__clothing/neckline/one-piece/*__|harness} # TODO
+  bodysuit:
+    - __clothing/underwear/sexy/_bodysuit__ bodysuit
+    - __clothing/underwear/sexy/_bodysuit__ one-piece lingerie
+    # TODO may invoke teddy bears
+    - __clothing/underwear/sexy/teddy__
+
+  # TODO accessory
+  #- (feather boa:0.9) on her shoulders
+
+  one-piece:
+    - __clothing/underwear/sexy/dress__
+    - __clothing/underwear/sexy/bodysuit__

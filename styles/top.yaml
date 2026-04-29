@@ -1,26 +1,57 @@
 top:
   # Only unique styles not in upper/*
   casual:
-    - basketball
     - gored
-    - sports
     - tied-front
     - twist{|-front}
 
-  waist:
+  sports:
+    - fitness
+    - basketball
+    - performance
+    - sports
+
+  bandeau:
+    - (bow{-knot|}:0.8)
+    - henley
+    - knot
+    - o-ring {keyhole|}
+    - string keyhole
+    - twisted
+    - underwired
+    - wireless
+
+    # TODO trims&gathers
+    - flounce
+    - gathered
+    - ruched
+    - (ruffle:0.8)
+
+  tube:
+    - boho
+    - crop
+    - henley
+    - keyhole
+    - peplum
+    - ribbed
+    - smock
+    - smock {crop|flounce|flowy|flyaway}
+    - smocked
+
+    # Closure
+    - button-down
+    - half-button
+    - zipper
+
+    # TODO trims&gathers
+    - flounce
+    - fold-over flounce
+    - gathered
+    - ruched
+    - (ruffle:0.8)
 
   sleeved:
     - __fash/styles/upper/casual__
     - __fash/styles/upper/top-blouse-tunic__
     - __fash/styles/upper/top-blouse-tunic-hem__-hem
-    - __fash/styles/upper/neckline/sleeved__
-
-  # TODO Try to get rid of this in favor of upper/neckline/*
-  neckline:
-    # Sleeveless, strapless, tube-like.
-    bandeau:
-      - __fash/**/000-tube-like/bandeau__ bandeau
-
-    # Sleeveless, strapless, tube-like.
-    tube:
-      - __fash/**/000-tube-like/tube__ tube
+    - __fash/styles/top/casual__
