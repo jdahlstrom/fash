@@ -29,7 +29,7 @@ style:
     - messy
     - neat
     - perm
-    - ruffled
+    - (ruffled:0.8)
     - shaggy
     - sleek
     - side-swept
@@ -195,18 +195,18 @@ style:
     - very short __fash/hair/style/by-length/very-short__ cut hair
   short:
     - __fash/hair/length/short__ __fash/hair/style/common__ hair
-    - short __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
+    - __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
     - '{|very} short __fash/hair/style/common__ __fash/hair/style/by-length/short__ hair'
-    - '{|very} short hair in __fash/hair/style/tail__'
-    - short hair in a small __fash/hair/style/bun__
+    - '{|very} short __fash/hair/style/common__ hair in __fash/hair/style/tail__'
+    - short __fash/hair/style/common__ hair in a small __fash/hair/style/bun__
   medium:
-    - medium-length __fash/hair/style/by-length/medium__ hair
+    - medium-length __fash/hair/style/common__ __fash/hair/style/by-length/medium__ hair
     - __fash/hair/length/medium__ __fash/hair/style/common__ hair
     - __fash/hair/length/medium__ __fash/hair/style/parted__ __fash/hair/style/common__ hair
 
     - __fash/hair/length/medium__ hair in __fash/hair/style/tail__
     - __fash/hair/length/medium__ __fash/hair/style/braided__ hair
-    - hair in a __fash/hair/style/bun__
+    - medium-length __fash/hair/style/common__ hair in a __fash/hair/style/bun__
   long:
     - long __fash/hair/style/by-length/long__ hair
     - __fash/hair/length/long__  __fash/hair/style/common__ hair
@@ -214,7 +214,13 @@ style:
 
     - __fash/hair/length/long__ hair in __fash/hair/style/tail__
     - __fash/hair/length/long__ __fash/hair/style/braided__ hair
-    - long hair in a large __fash/hair/style/bun__
+    - long __fash/hair/style/common__ hair in a large __fash/hair/style/bun__
+
+  any-length:
+    - __fash/hair/style/very-short__
+    - __fash/hair/style/short__
+    - __fash/hair/style/medium__
+    - __fash/hair/style/long__
 
   with-bangs:
     short:
