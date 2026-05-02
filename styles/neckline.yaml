@@ -117,6 +117,7 @@ neckline:
 
       # TODO trims&gathers
       - flounce-neckline
+      - gathered-neckline
       - ruche-neckline
       - (ruffle:0.8)-neckline
     tube:
@@ -128,6 +129,7 @@ neckline:
 
       # TODO trims&gathers
       - flounce-neckline {|fold-over}
+      - gathered-neckline
       - ruche-neckline
       - ruffle-neckline
     bandeau:
@@ -402,7 +404,7 @@ neckline:
     - drape-neckline
     - fold-over # Does this work?
     #- o-ring neckline
-    - one-shoulder
+    #- one-shoulder
     - strappy
     - sweetheart-neck # Does this work well?
     - triangle-neck
@@ -417,7 +419,7 @@ neckline:
   v-neck:
     - curved
     - deep
-    - (plunging:0.9)
+    - scoop
     - wide
 
   unrecognized:

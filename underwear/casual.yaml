@@ -39,7 +39,9 @@ casual:
   # One-piece
 
   bodysuit:
-    # TODO Will probably need some customization
-    - __fash/styles/upper/neckline/sleeved__ bodysuit
-        {with __fash/styles/bodysuit/sleeve__ sleeves|}
-    - __fash/styles/upper/neckline/sleeveless__ bodysuit
+    #- __fash/styles/upper/neckline/sleeved__ bodysuit
+    #    {with __fash/styles/bodysuit/sleeve__ sleeves|}
+
+    - __fash/styles/bodysuit/neckline/casual__ {|halter|cami|tank} bodysuit
+    - __fash/styles/bodysuit/sleeve__-sleeved __fash/styles/bodysuit/neckline/casual__ bodysuit
+        #__fash/styles/bodysuit/casual__ bodysuit

@@ -2,20 +2,22 @@ bodysuit:
   casual:
     #- boyshorts Doesnt' work well
     #- __clothing/cut/lacing__
-    - criss-cross
-    - cutout
     - high-cut
-    - lace-up
     - lace-{yoke|trim}
-    - push-up bra
     - ribbed
     - ruched
     - shapewear
     - skirted # TODO modifier
-    - strappy
-    - string
-    - thong
-    - zip-up
+
+
+    #- criss-cross
+    #- cutout
+    #- strappy
+    #- string
+    #- thong
+
+    #- lace-up
+    #- zip-up
 
   intimate:
     - cutout
@@ -29,24 +31,34 @@ bodysuit:
     - '{cinch-waist|waist-cinch|waist-cincher|waspie}'
     - corselette
 
-  sleeve:
-    - '{3::short|2::3/4-length|long}'
-
-  teddy:
-    #- __clothing/cut/lacing__
-    - bow
-    - chain-straps
-    - __fash/styles/panties/string__
-    - '{|side-}(cutout:0.8)'
-    - flounce
-    - front-closure
-    - harness
-    - lace-up
-    - lace-yoke
-    - o-ring
-    - strappy
+  top:
+    - contour
+    - padded-cup
+    - push-up
+    - seamless
+    - soft
+  bottom:
     - thong
-    - triangle
+    - skirted
+    - hiphugger
 
-  # leotard:
-  # bodystocking:
+  sleeve:
+    - short
+    - elbow-length
+    - 3/4-length
+    - long
+    - short flounce
+
+  neckline:
+    casual:
+      - off-shoulder
+      - boatneck
+      - crewneck
+      - scoop-neck
+      - square neck
+      - surplice
+      - high-neck
+      - mock-neck
+      - '{|__fash/styles/neckline/v-neck__} v-neck'
+    sexy:
+      - __fash/styles/neckline/plunge-neck__

@@ -42,11 +42,12 @@ sexy:
   swim-skirt:
     - __fash/styles/swimwear/skirt__ swim skirt
   swim-shorts:
-    - '{high-cut|hiphugger|low-waist|} swim {shorts|skort}' # TODO
+    - '{hiphugger|low-waist|} swim {shorts|skort}' # TODO
 
   #########################################################
   one-piece:
   #########################################################
+    - __fash/beachwear/sexy/monokini__
 
   monokini:
     #- __fash/styles/swimwear/monokini__ monokini

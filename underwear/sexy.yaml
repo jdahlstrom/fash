@@ -31,6 +31,13 @@ sexy:
   camisole:
     - __fash/outerwear/casual/camisole__
 
+  pasties:
+    - __fash/styles/lingerie/pasties/shape__ pasties
+    - __fash/styles/lingerie/pasties/simple-shape__
+        __fash/styles/lingerie/pasties/material__ pasties
+    - __fash/styles/lingerie/pasties/shape__
+        __fash/styles/lingerie/pasties/deco__ pasties
+
   # Mid/waist shaper
 
   girdle:
@@ -56,10 +63,10 @@ sexy:
     - slip dress
 
   bodysuit:
-    # TODO Will probably need some customization
-    - __fash/styles/upper/neckline/sleeved__ bodysuit
-        {with __fash/styles/bodysuit/sleeve__ sleeves|}
-    - __fash/styles/upper/neckline/sleeveless__ bodysuit
+    - __fash/styles/bodysuit/neckline/sexy  bodysuit
+
+    #    {with __fash/styles/bodysuit/sleeve__ sleeves|}
+    #- __fash/styles/upper/neckline/sleeveless__ bodysuit
 
   bodystocking:
     - __fash/styles/lingerie__ bodystocking

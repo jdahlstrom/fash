@@ -17,7 +17,27 @@ lingerie:
     bodice:
 
 
+  teddy:
+    #- __clothing/cut/lacing__
+    - bow
+    - chain-straps
+    - __fash/styles/panties/string__
+    - '{|side-}(cutout:0.8)'
+    - flounce
+    - front-closure
+    - harness
+    - lace-up
+    - lace-yoke
+    - o-ring
+    - strappy
+    - thong
+    - triangle
+
+  # leotard:
+  # bodystocking:
+
   dress:
+    - cutout
     - open-front
     - split-front
 
@@ -37,6 +57,52 @@ lingerie:
     - zipper
     # - ... with pasties
     # - latex/pvc
+
+  pasties:
+    shape:
+      - bow-shaped
+      - (butterfly:0.9)
+      - pawprint
+      - floral
+      - starfish
+      - sun-shaped
+      - x-shaped
+
+    simple-shape:
+      - conical
+      - heart-shaped
+      - round
+      - spade-shaped
+      - star-shaped
+      - trefoil
+
+    material: # TODO to material
+
+      #- leather
+      - chromed
+      - glossy
+      - shiny
+      - silicone
+      - silk
+      - tape
+      - '{pvc|rubber}'
+
+      - fuzzy
+
+    foo:
+      - x-shaped tape, pvc, rubber, silicone
+
+      - studded pvc, rubber, silicone,
+
+    deco:
+      - applique
+      - embroidered
+      #- lacy
+      - ornate
+      - rhinestone
+      - sequin
+      - studded
+
 
   neckline:
     - __fash/styles/neckline/plunge-neck__
