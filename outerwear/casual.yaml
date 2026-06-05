@@ -63,22 +63,23 @@ casual:
     #- __fash/outerwear/casual/top-blouse-tunic__ top
     #- __fash/outerwear/casual/sports-top__
 
-  # Either strapless or with straps.
+  # With shoulders, off-shoulder, or cold-shoulder
   sleeved-top:
     - >
-      { __fash/styles/top/sleeved__
+      { __fash/styles/top/casual-all__
       | __fash/styles/upper/neckline/sleeved__ }
         top with __fash/styles/shirt/sleeve/casual__ sleeves
 
   # Either strapless or with straps.
   sleeveless-top:
     - __fash/outerwear/casual/strapless-top__
-    - __fash/styles/upper/neckline/sleeveless__ __fash/styles/top/sleeved__ top
+    - __fash/styles/upper/neckline/sleeveless__ __fash/styles/top/casual-all__ top
 
   # Sleeveless.
   strapless-top:
     - >
-      { 4::strapless __fash/styles/neckline/000-tube-like/strapless__ __fash/styles/top/sleeved__ top
+      { 4::strapless __fash/styles/neckline/000-tube-like/strapless__
+          __fash/styles/top/casual-all__ top
       | __fash/outerwear/casual/bandeau-top__
       | __fash/outerwear/casual/tube-top__ }
 

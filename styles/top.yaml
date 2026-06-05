@@ -71,9 +71,7 @@ top:
     - y-back
     - zip-back
 
-  # TODO Rename, not exclusively sleeved!
-  sleeved:
+  casual-all:
     - __fash/styles/upper/casual__
-    - __fash/styles/upper/top-blouse-tunic__
     - __fash/styles/upper/hem__-hem
     - __fash/styles/top/casual__
