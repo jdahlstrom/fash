@@ -2,6 +2,8 @@ top:
   # Only unique styles not in upper/*
   casual:
     - gored
+    - knot
+    - peplum
     - tied-front
     - twist{|-front}
 
@@ -14,42 +16,33 @@ top:
   bandeau:
     - (bow{-knot|}:0.8)
     - henley
-    - knot
     - o-ring {keyhole|}
     - string keyhole
-    - twisted
     - underwired
     - wireless
 
-    # TODO trims&gathers
-    - flounce
-    - gathered
-    - ruched
-    - (ruffle:0.8)
-
   # TODO unify
   tube:
-    - boho
     - crop
-    - henley
     - keyhole
-    - peplum
     - ribbed
     - smock
-    - smock {crop|flounce|flowy|flyaway}
-    - smocked
+    - __fash/styles/upper/smock__ smock
 
     # Closure
     - button-down
     - half-button
+    - henley
     - zipper
 
-    # TODO trims&gathers
+  # TODO only used by tube and bandeau for now
+  trim-gather:
     - flounce
     - fold-over flounce
     - gathered
     - ruched
     - (ruffle:0.8)
+    - smocked
 
   back:
     - back-closure
@@ -78,6 +71,7 @@ top:
     - y-back
     - zip-back
 
+  # TODO Rename, not exclusively sleeved!
   sleeved:
     - __fash/styles/upper/casual__
     - __fash/styles/upper/top-blouse-tunic__

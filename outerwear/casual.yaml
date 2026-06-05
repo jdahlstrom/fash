@@ -99,10 +99,14 @@ casual:
 
   # Bandeau top variants.
   bandeau-top:
+    - __fash/styles/top/casual__ bandeau top
+    - __fash/styles/top/trim-gather__ bandeau top
     - __fash/styles/top/bandeau__ bandeau top
 
   # Tube top variants, almost synonymous with bandeau.
   tube-top:
+    - __fash/styles/top/casual__ tube top
+    - __fash/styles/top/trim-gather__ tube top
     - __fash/styles/top/tube__ tube top
 
   # Halterneck top variants.
