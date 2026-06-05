@@ -4,20 +4,28 @@
 jumpsuit:
   casual:
     - __fash/styles/upper/casual__
-    - __fash/styles/upper/top-dress-legged__
     - __fash/styles/jumpsuit/fit__
     - __fash/styles/jumpsuit/upper__
 
   upper:
     - apron
-    - hooded
+    - blouson
     - pinafore
+    - cargo
+    - denim
+
+    - button-down
+    - half-button
+
+    # Upper garments as one-pieces
+    # TODO should have their own necklines etc...
+    - cami
+    - hoodie
     - shirt
     - sweater
     - t-shirt
-
-    - cargo
-    - denim
+    - tank
+    - tube
 
   fit:
     - __fash/styles/common/fit/regular__

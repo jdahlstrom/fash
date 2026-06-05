@@ -57,7 +57,7 @@ casual:
     # TODO backs
 
     #- __fash/styles/upper/length__ __fash/styles/upper/casual__ top
-    #- __fash/styles/upper/length__ __fash/styles/upper/top-dress-legged__ top
+    #- __fash/styles/upper/length__ __fash/styles/upper/top-dress__ top
     # TODO
     #- __fash/styles/upper/length__ __fash/styles/top/casual__ top
     #- __fash/outerwear/casual/top-blouse-tunic__ top
@@ -83,7 +83,7 @@ casual:
       | __fash/outerwear/casual/bandeau-top__
       | __fash/outerwear/casual/tube-top__ }
 
-    #- strapless __fash/styles/upper/top-dress-legged__ top # TODO not 100%
+    #- strapless __fash/styles/upper/top-dress__ top # TODO not 100%
 
   sports-top:
     - >
@@ -122,7 +122,7 @@ casual:
         { __fash/styles/upper/casual__
         | __fash/outerwear/casual/top-blouse-tunic__ } top
 
-    # - __fash/styles/upper/top-dress-legged__ halter top # TODO not 100% match
+    # - __fash/styles/upper/top-dress__ halter top # TODO not 100% match
 
     # TODO off-shoulder
     #- off-shoulder halter top with __fash/styles/upper/sleeve/casual/*__ sleeves
@@ -378,7 +378,6 @@ casual:
   sundress:
     # No specified neckline/sleeves (usually gives thin straps, sleeveless)
     - __fash/styles/sundress/skirt__ __fash/styles/upper/casual__ sundress # TODO
-    #- __fash/styles/sundress/skirt__ __fash/styles/upper/top-dress-legged__ sundress # TODO
     - __fash/styles/sundress/skirt__ __fash/styles/sundress/bodice__ sundress # TODO
 
     # Sleeveless

@@ -50,7 +50,7 @@ dress:
   upper:
     casual:
       - __fash/styles/upper/casual__
-      - __fash/styles/upper/top-dress-legged__
+      - __fash/styles/upper/top-dress__
       - __fash/styles/dress/bodice/casual__
     smart:
       - __fash/styles/upper/smart__
@@ -76,13 +76,14 @@ dress:
       # Only good fits for simple skirt silhouettes
       # Also available with their own names such as shirt-dress
       - babydoll
-      # - cami in upper/t-d-l
+      - cami
+      - hoodie
       - shirt
       - sweater
       - t-shirt
+      - tank
+      - tube
       - tunic
-      - sweatshirt
-      - hoodie
 
       #- shift
       - (tent:0.8) # full, not just bodice

@@ -41,7 +41,9 @@ upper:
     #- collarless
     #- polo
 
-  top-dress-legged:
+  # TODO what to do with these?
+  # Most uses are actually commented out currently, needed at all?
+  top-dress:
     - basque
     - blouson
 
