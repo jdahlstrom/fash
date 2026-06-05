@@ -7,34 +7,36 @@ sundress:
   sleeve:
     - '{(cap:0.8)|short}'
     - '{(cap:0.8)|short} __fash/styles/upper/sleeve/casual/short__'
-    - short __fash/styles/upper/sleeve/casual__
-    - '{3/4-length|above-elbow|below-elbow} {flared|wide}'
+    - short __fash/styles/upper/sleeve/casual/*__
+    #- '{3/4-length|above-elbow|below-elbow} {flared|wide}'
 
   bodice: # TODO unify
     - babydoll
-    - boho
-    - button-down
-    - cross-back
-    - '{front|back}-lacing'
-    - backless
-    - blouson
-    - drawstring
-    - open-back
-    - shift
-    - smock
+    #- boho in upper/casual
+    - front-lacing
+    - half-button
+    - loose-fit blouson # TODO fit more generally?
+    - shift {|blouson}
+    #- smock in upper/casual
     - wrap
     - __fash/styles/common/gather__-yoke
-    # Waist
+
+    # Back
+    - backless
+    - back-lacing
+    - cross-back
+    - open-back
+
+  waist:
     - empire-waist
     - tied-waist
     - __fash/styles/common/gather__-waist
-    - '{belt|ribbon-waist|waistband}'
+    - '{belt|drawstring-waist|ribbon-waist|waistband}'
 
   skirt:
-    - __fash/styles/skirt/cut/casual__
-    - __fash/styles/skirt/length/casual__
-    #- __fash/styles/common/trim__-hem
-    #- __fash/styles/common/gather__-hem
+    - __fash/styles/skirt/casual__-skirted
+    - __fash/styles/skirt/hem__-hem
+    - __fash/styles/skirt/length/medium__
 
   material:
     - cotton
