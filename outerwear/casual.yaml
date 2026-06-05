@@ -46,8 +46,8 @@ casual:
   top-blouse-tunic:
     - __fash/styles/upper/length__
     - __fash/styles/upper/top-blouse-tunic__
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem
-    - __fash/styles/upper/top-blouse-tunic-closure__
+    - __fash/styles/upper/hem__-hem
+    - __fash/styles/upper/closure__
 
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
@@ -93,9 +93,9 @@ casual:
 
   # Tank top variants.
   tank-top:
-    - __fash/styles/upper/length__ __fash/styles/upper/top-blouse-tunic-hem__-hem tank top
+    - __fash/styles/upper/length__ __fash/styles/upper/hem__-hem tank top
     - __fash/styles/upper/length__ __fash/styles/upper/neckline/tank-top-like__ top
-    - __fash/styles/upper/top-blouse-tunic-hem__-hem __fash/styles/upper/neckline/tank-top-like__ top
+    - __fash/styles/upper/hem__-hem __fash/styles/upper/neckline/tank-top-like__ top
 
   # Bandeau top variants.
   bandeau-top:
@@ -132,12 +132,13 @@ casual:
   camisole:
     - __fash/styles/camisole/neckline__
         { __fash/styles/upper/casual__
+        | __fash/styles/upper/hem__-hem
         | __fash/styles/camisole/casual__ } camisole
 
     - __fash/styles/upper/length__
         { __fash/styles/upper/casual__
-        | __fash/styles/camisole/casual__ camisole
-        | __fash/styles/upper/top-blouse-tunic-hem__-hem
+        | __fash/styles/upper/hem__-hem
+        | __fash/styles/camisole/casual__
         | __fash/styles/camisole/neckline__ } camisole
 
   # Button-closure shirt, usually with a collar.
@@ -155,7 +156,7 @@ casual:
     - __fash/styles/blouse/fit-length-hem/blouse__
         { __fash/styles/upper/casual__
         | __fash/styles/upper/top-blouse-tunic__
-        | __fash/styles/upper/top-blouse-tunic-closure__
+        | __fash/styles/upper/closure__
         | __fash/styles/blouse/neckline__ } blouse
     - >
       { __fash/styles/blouse/fit-length-hem/blouse__
@@ -164,10 +165,11 @@ casual:
 
   # Casual, blouse-like but longer. Used with pants; not a dress.
   tunic:
+    # TODO Duplicating blouse stuff
     - __fash/styles/blouse/fit-length-hem/tunic__
         { __fash/styles/upper/casual__
         | __fash/styles/upper/top-blouse-tunic__
-        | __fash/styles/upper/top-blouse-tunic-closure__
+        | __fash/styles/upper/closure__
         | __fash/styles/blouse/neckline__ } tunic
     - >
       { __fash/styles/blouse/fit-length-hem/tunic__
