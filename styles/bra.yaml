@@ -44,7 +44,7 @@ bra:
     - strappy
 
   sports:
-    - __fash/styles/upper/back/sports__
+    - __fash/styles/upper/sports-back__
     - __fash/styles/upper/neckline/sports__
     - __fash/styles/upper/neckline/sports-halter__ halter
     - __fash/styles/upper/neckline/tube-like-short__

@@ -15,6 +15,33 @@ top:
     - __fash/styles/upper/top-blouse-tunic-hem__-hem
     - __fash/styles/upper/neckline/sleeved__
 
+  back:
+    - back-closure
+    - back-lacing
+    - backless {|halter}
+    - bowtie-back
+    - crossback
+    - (cutout:0.9)-back
+    - deep v-back
+    - draped-back
+    - gathered-back
+    - high-back
+    - keyhole-back
+    - lace-back
+    - mesh-back
+    - open-back {|halter}
+    - plunge-back
+    - scoop-back
+    - split-back
+    - square-back
+    - strap-back
+    - racerback
+    - tied-back {|halter}
+    - v-back
+    - x-back
+    - y-back
+    - zip-back
+
   # TODO Try to get rid of this in favor of upper/neckline/*
   neckline:
     # Sleeveless, strapless, tube-like.

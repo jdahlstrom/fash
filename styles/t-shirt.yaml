@@ -30,11 +30,17 @@ t-shirt:
     - __fash/styles/upper/neckline/sleeved__
 
   back:
-    #- backless
-    - cutout-back
+    - back-lacing
+    - (cutout:0.9)-back
+    - draped-back neckline
     - keyhole-back
+    - keyhole-closure-back
+    - mesh-back
     - open-back
+    - plunge-back
+    - scoop-back
     - tied-back
+    - v-back
 
   deco:
     - animal print
