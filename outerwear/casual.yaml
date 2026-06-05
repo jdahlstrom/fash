@@ -109,6 +109,12 @@ casual:
     - __fash/styles/top/trim-gather__ tube top
     - __fash/styles/top/tube__ tube top
 
+  # Tops that leave the midriff bare.
+  crop-top:
+    # TODO Allows eg. "crop longline"
+    # Also tops with hems like peplum and babydoll aren't very good
+    - crop __fash/outerwear/casual/top__
+
   # Halterneck top variants.
   halter-top:
     - __fash/styles/upper/neckline/halter__
