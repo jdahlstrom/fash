@@ -2,9 +2,10 @@ skirt:
   # Silhouette
   # The general shape or outline of the skirt
   casual:
+    # TODO some of these should be only skirts, not dress bottoms
     - a-line
-    - boho
-    - cargo
+    - boho  #
+    - cargo #
     - circle
     - column
     - draped
@@ -12,18 +13,18 @@ skirt:
     - flowy
     - gathered
     - gored
-    - gypsy
+    - gypsy #
     - low-slit
     - pleat
     - panel
     - pocket
-    - sarong
+    - sarong #
     - skater
     - straight
     - (swing:0.8)
     - tiered
     - trapeze
-    - wrap
+    - wrap #
   smart:
     - (accordion:0.8)
     - bodycon
@@ -76,8 +77,8 @@ skirt:
     - high
     - midrise
     - yoked
-    - drop-shoulder
     - drawstring
+    - drop
     - gathered
     - ruched
     - contrast

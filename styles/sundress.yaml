@@ -47,7 +47,7 @@ sundress:
   neckline:
     sleeved:
       - __fash/styles/upper/neckline/off-shoulder__
-      - __fash/styles/upper/neckline/cold-shoulder__
+      #- __fash/styles/upper/neckline/cold-shoulder__
       - __fash/styles/neckline/low-neck__
     sleeveless:
       - __fash/styles/upper/neckline/tube-like-long__

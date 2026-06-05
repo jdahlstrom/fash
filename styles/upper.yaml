@@ -18,7 +18,7 @@ upper:
     - peasant
     - flowy
     - ruched smock
-    - ruched-waist # Comes from waist for dresses, others TODO
+    #- ruched-waist # Comes from waist for dresses, others TODO
     - smock
     - smocked
 
@@ -26,7 +26,7 @@ upper:
     - billowy
     - flowy
     - ruched smock
-    - ruched-waist # Comes from waist for dresses, others TODO
+    #- ruched-waist # Comes from waist for dresses, others TODO
     - smocked
 
     # TODO material
@@ -109,7 +109,7 @@ upper:
 
   sleeve:
     length:
-      - (cap:0.6)
+      - (cap:0.6) # TODO not with off-shoulder
       - short
       - above-elbow
       - elbow-length
@@ -124,7 +124,7 @@ upper:
         - (balloon:0.8)
         - batwing
         - dolman
-        - drop-shoulder
+        - drop-shoulder # TODO not with off-shoulder?
         - fitted
         - flared
         - flowy
@@ -232,9 +232,10 @@ upper:
     # NB. Uses styles/neckline/halter indirectly
     halter: # any halterneck
       - __fash/**/100-cami-tank-top/halter-tank-top__ halter tank
-      - __fash/**/100-cami-tank-top/halter-cami__ halter spaghetti-strap
+      - __fash/**/100-cami-tank-top/halter-cami__ halter
       - __fash/**/100-cami-tank-top/halter-high__ halter
-      - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+      # TODO should always have sleeves
+      #- off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
 
     # Has straps or sleeves that hang off shoulder, typically a horizontal neckline.
     # Leaves shoulders bare, but may also have thin shoulder straps!
@@ -251,7 +252,7 @@ upper:
     # Has sleeves, shoulder straps, but leaves the shoulders bare.
     off-shoulder-straps:
       - off-shoulder spaghetti-strap __fash/**/101-off-shoulder-with-straps/spaghetti-strap__
-      - off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
+      #- off-shoulder halter __fash/**/101-off-shoulder-with-straps/halter__
       # TODO own category?
       - '{off-one-shoulder|one-fallen-shoulder} __fash/**/001-off-shoulder-strapless/off-one-shoulder__'
 

@@ -346,7 +346,7 @@ neckline:
     - portrait-neckline
     - split-neck
     - sweetheart-neck
-     (ruffle:0.8){(plunging:0.9)|sweetheart}
+    - (ruffle:0.8) {(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'
     - o-ring
 
