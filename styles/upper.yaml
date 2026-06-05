@@ -1,5 +1,5 @@
-# Common styles for tops, shirts, blouses, tunics, dress bodices and legged one-pieces.
-# Currently excluded are camis, t-shirts, sweaters, sweatshirts, and similar.
+# Common styles for tops, camis, shirts, blouses, tunics, dress bodices and legged one-pieces.
+# Currently excluded are t-shirts, sweaters, sweatshirts, and similar.
 #
 # Includes:
 #
@@ -17,16 +17,17 @@ upper:
     - boho
     - peasant
     - flowy
-    - ruched smock
     #- ruched-waist # Comes from waist for dresses, others TODO
-    - smock
+    - __fash/styles/upper/smock__ smock
+    # TODO Gather
     - smocked
 
   smart:
     - billowy
     - flowy
-    - ruched smock
+    - __fash/styles/upper/smock__ smock
     #- ruched-waist # Comes from waist for dresses, others TODO
+    # TODO Gather
     - smocked
 
     # TODO material
@@ -96,6 +97,18 @@ upper:
     - skirted
     - (swing:0.8)
     - tiered
+
+  # Loose variants
+  smock:
+    - flounce
+    - flowy
+    - flyaway
+    - layered
+    - tiered
+    - open-front
+    #- open-front bow/knot detail etc
+    #- skirted ???
+
 
   length:
     - crop

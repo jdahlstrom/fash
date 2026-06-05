@@ -9,20 +9,12 @@ camisole:
     - draped
     - godet
     - peplum
-    - underwire
-    - __fash/styles/camisole/smock__ smock
+    - smock
+    - __fash/styles/upper/smock__ smock
     - __fash/styles/camisole/waist__ smock
+    - underwire
 
     #- __fash/styles/common/trim__-{hem|trim|yoke} TODO
-
-  # These work best with loose variants like smock
-  # TODO Should be used for common tops too
-  smock:
-    #- open-front bow/knot detail etc
-    - layered
-    - skirted
-    - tiered
-    - open-front
 
   waist:
     - empire-waist
