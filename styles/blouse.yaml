@@ -28,12 +28,6 @@ blouse:
     - flounce-neckline # neck...
     - wrap
 
-  closure:
-    - drawstring-front
-    - button-down
-    - half-button
-    - split-front
-
   fit-length-hem:
     blouse:
       - __fash/styles/common/fit/loose__
