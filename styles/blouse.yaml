@@ -1,8 +1,16 @@
 blouse:
-  casual: # TODO unused
+  casual:
+    - babydoll
+    - kaftan
     - pirate
     - poet
+    - poncho
+    - open-front {babydoll|flyaway|smock}
     - wrap
+
+    # Waist
+    - empire-waist
+    - gathered-waist
 
   smart:
     - peplum

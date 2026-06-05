@@ -62,17 +62,6 @@ upper:
     # Gather
     - ruched
 
-  top-blouse-tunic:
-    - babydoll
-    - kaftan
-    - open-front {babydoll|flyaway|smock}
-    - poncho
-    - wrap
-
-    # Waist
-    - empire-waist
-    - gathered-waist
-
   # Loose variants
   smock:
     - flounce
