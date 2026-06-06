@@ -83,8 +83,6 @@ casual:
       | __fash/outerwear/casual/bandeau-top__
       | __fash/outerwear/casual/tube-top__ }
 
-    #- strapless __fash/styles/upper/top-dress__ top # TODO not 100%
-
   sports-top:
     - >
       { 2::__fash/styles/upper/neckline/sports__
@@ -119,10 +117,7 @@ casual:
   # Halterneck top variants.
   halter-top:
     - __fash/styles/upper/neckline/halter__
-        { __fash/styles/upper/casual__
-        | __fash/outerwear/casual/top-blouse-tunic__ } top
-
-    # - __fash/styles/upper/top-dress__ halter top # TODO not 100% match
+        { __fash/styles/top/casual-all__ | __fash/styles/top/length-hem__ } top
 
     # TODO off-shoulder
     #- off-shoulder halter top with __fash/styles/upper/sleeve/casual/*__ sleeves

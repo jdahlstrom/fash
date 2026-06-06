@@ -41,29 +41,6 @@ upper:
     #- collarless
     #- polo
 
-  # TODO what to do with these?
-  # Most uses are actually commented out currently, needed at all?
-  top-dress:
-    - basque
-    - blouson
-
-    - cami #
-    - tank # TODO should be their own items, with necklines etc
-    - tube #
-
-    - wrap # Closure?
-
-    # Closure
-    - front-lacing
-    - half-button
-    - tied-waist # TODO waist
-
-    # Back/neckline
-    - '{backless|open-back} halter'
-
-    # Gather
-    - ruched
-
   # Loose variants
   # TODO these mostly work with tops, not jump/playsuits
   smock:

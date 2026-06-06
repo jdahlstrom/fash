@@ -52,7 +52,6 @@ dress:
   upper:
     casual:
       - __fash/styles/upper/casual__
-      - __fash/styles/upper/top-dress__
       - __fash/styles/dress/bodice/casual__
     smart:
       - __fash/styles/upper/smart__
