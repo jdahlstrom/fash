@@ -106,20 +106,8 @@ neckline:
 
   # No straps, no shoulders, no sleeves
   000-tube-like:
-    strapless:
-      - (bustier:0.9)
-      - fold-over
-      - henley
-      - keyhole
-      - knot
-      - surplice
-      - sweetheart-neckline # May only work well with fitted bodices
-
-      # TODO trims&gathers
-      - flounce-neckline
-      - ruche-neckline
-      - (ruffle:0.8)-neckline
-
+    top:
+      - __fash/styles/neckline/strapless__
     bra:
       - (bustier:0.9)
       - knot
@@ -237,8 +225,19 @@ neckline:
     - strapless
     - off-one-shoulder
 
-  bandeau:
-    - __fash/**/000-tube-like/bandeau__
+  strapless:
+    - (bustier:0.9)
+    - fold-over
+    - henley
+    - keyhole
+    - knot
+    - surplice
+    - sweetheart-neckline # May only work well with fitted bodices
+
+    # TODO trims&gathers
+    - flounce-neckline
+    - ruche-neckline
+    - (ruffle:0.8)-neckline
 
   # Specific halterneck subtypes not included in with-straps or high-neck.
   halter:

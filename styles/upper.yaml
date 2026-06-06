@@ -17,7 +17,6 @@ upper:
     - boho
     - peasant
     - flowy
-    #- ruched-waist # Comes from waist for dresses, others TODO
     - __fash/styles/upper/smock__ smock
     # TODO Gather
     - smocked
@@ -26,17 +25,17 @@ upper:
     - billowy
     - flowy
     - __fash/styles/upper/smock__ smock
-    #- ruched-waist # Comes from waist for dresses, others TODO
     # TODO Gather
     - smocked
 
-    # TODO material
+  # TODO material
     #- crocheted
     #- denim
     #- flannel
     #- knitted
     #- linen
-    # TODO necklines, plus not common to camis/strapless etc
+
+  # TODO necklines, plus not common to camis/strapless etc
     #- cold-shoulder
     #- collarless
     #- polo
@@ -198,15 +197,18 @@ upper:
     t-shirt-like:
       - __fash/**/111-t-shirt-like/sleeved__
 
+    strapless:
+      - strapless __fash/**/000-tube-like/top__
+
     tube-like-long:
-      - strapless __fash/**/000-tube-like/strapless__
-      - __fash/**/000-tube-like/strapless__ tube
+      - __fash/styles/upper/neckline/strapless__
+      - __fash/**/000-tube-like/top__ tube
       # bandeau only applies to tops
 
     tube-like-short:
-      - __fash/**/000-tube-like/strapless__ bandeau
-      - strapless __fash/**/000-tube-like/strapless__
-      - __fash/**/000-tube-like/strapless__ tube
+      - __fash/styles/upper/neckline/strapless__
+      - __fash/**/000-tube-like/top__ bandeau
+      - __fash/**/000-tube-like/top__ tube
 
     vest-like:
       - sleeveless __fash/**/110-vest-like/sleeveless__

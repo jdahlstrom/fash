@@ -1,15 +1,17 @@
 top:
   # Only unique styles not in upper/*
+  # TODO can we get rid of this?
   casual:
-    - gored
-    - knot
-    - peplum
-    - tied-front
-    - twist{|-front}
+    - gored # move?
+    - knot # hem?
+    - peplum # hem
+    - tied-front # closure?
 
   sports:
-    - fitness
+    - activewear
+    - athleisure
     - basketball
+    - fitness
     - performance
     - sports
 
@@ -18,6 +20,7 @@ top:
     - henley
     - o-ring {keyhole|}
     - string keyhole
+    - twist
     - underwired
     - wireless
 
@@ -72,6 +75,9 @@ top:
     - zip-back
 
   casual-all:
-    - __fash/styles/upper/casual__
+    - >
+      {3::__fash/styles/upper/casual__|__fash/styles/top/casual__}
+
+  length-hem:
+    - __fash/styles/upper/length__
     - __fash/styles/upper/hem__-hem
-    - __fash/styles/top/casual__
