@@ -1,0 +1,198 @@
+casual:
+  upper:
+    - __fash/loungewear/casual/bra__
+    - __fash/loungewear/casual/camisole__
+    - __fash/loungewear/casual/cardigan__
+    - __fash/loungewear/casual/shirt__
+    - __fash/loungewear/casual/sweater__
+    - __fash/loungewear/casual/t-shirt__
+    - __fash/loungewear/casual/top__
+
+  lower:
+    - __fash/loungewear/casual/boxers__
+    - __fash/loungewear/casual/briefs__
+    - __fash/loungewear/casual/pants__
+    - __fash/loungewear/casual/shorts__
+
+  one-piece:
+    - __fash/loungewear/casual/chemise__
+    - __fash/loungewear/casual/dress__
+    - __fash/loungewear/casual/gown__
+    - __fash/loungewear/casual/nightshirt__
+    - __fash/loungewear/casual/playsuit__
+    - __fash/loungewear/casual/tunic__
+
+  two-piece:
+    - __fash/loungewear/casual/bra__ and
+      {__fash/loungewear/casual/pants__|__fash/loungewear/casual/shorts__}
+
+    - __fash/loungewear/casual/camisole__ and __fash/loungewear/casual/panties__
+
+    - __fash/loungewear/casual/t-shirt__ and __fash/loungewear/casual/lower__
+
+    - __fash/loungewear/casual/shirt__ and
+      {__fash/loungewear/casual/pants__|__fash/loungewear/casual/shorts__}
+
+    - __fash/loungewear/casual/top__ and __fash/loungewear/casual/panties__
+
+    - __fash/loungewear/casual/upper__ and __fash/loungewear/casual/lower__
+
+  pajama:
+    - __fash/loungewear/casual/pajama-shirt__ and __fash/styles/pants/length__ pants
+    - __fash/loungewear/casual/pajama-shirt__ and shorts
+
+  # Upper
+
+  bra:
+    - __fash/styles/bra/lounge__ bra
+    - __fash/styles/bra/casual__ bralette
+    - __fash/styles/bra/neckline__ bralette
+    - __fash/styles/bra/sports__ sports bra
+    # __fash/styles/common/ornament/casual__ bra
+
+  top:
+    - __fash/styles/top/lounge__ top
+    - __fash/styles/upper/neckline/tank-top-like__ top
+    - __fash/styles/upper/neckline/sleeveless__ top
+
+    - __fash/styles/common/fit/lounge__ top
+    - __fash/styles/upper/length__ top
+    - __fash/styles/top/lounge__ top
+
+    - __fash/styles/upper/neckline/lounge/sleeved__ top with short sleeves
+    - __fash/styles/upper/neckline/lounge/sleeveless__ top
+    # __fash/styles/common/ornament/casual__ top
+    # TODO some strapless tops
+    # TODO some sleeved tops
+
+  camisole:
+    - __fash/styles/common/fit/lounge__ camisole
+    - __fash/styles/upper/length__ camisole
+    - __fash/styles/top/lounge__ camisole
+    - __fash/styles/upper/neckline/lounge/sleeveless__ camisole
+    # __fash/styles/common/ornament/casual__ camisole
+
+  t-shirt:
+    - __fash/styles/common/fit/lounge__ t-shirt
+    - __fash/styles/upper/length__ t-shirt
+    - __fash/styles/upper/neckline/lounge/sleeved__ t-shirt
+    - __fash/styles/t-shirt/lounge__ t-shirt
+    - __fash/styles/t-shirt/deco__ t-shirt
+
+
+  shirt:
+    #- __fash/styles/blouse/neckline__ blouse
+    #- blouse with __fash/styles/upper/sleeve/loungewear__ sleeves
+
+    - __fash/loungewear/casual/nightshirt-top__
+    - __fash/loungewear/casual/pajama-shirt__
+
+    - __fash/styles/skirt/length/short__ __fash/styles/blouse/neckline__ tunic
+
+
+  nightshirt-top:
+    - __fash/styles/common/fit/lounge__ nightshirt
+    - __fash/styles/upper/neckline/lounge/sleeved__ nightshirt
+
+    - nightshirt with __fash/styles/upper/collar__ collar
+
+    - __fash/styles/upper/length__ nightshirt
+        with __fash/styles/upper/sleeve/loungewear__ sleeves
+
+  pajama-shirt:
+    - pajama shirt with __fash/styles/upper/collar__ collar # collar doesn't work very well
+    - pajama shirt with __fash/styles/upper/sleeve/loungewear__ sleeves
+    #- '{short|mini|micro} __fash/styles/blouse/neckline__ tunic'
+    - __fash/styles/upper/length__ pajama shirt
+    - __fash/styles/common/fit/lounge__ pajama shirt
+
+  sweater:
+    - __fash/styles/common/fit/lounge__ fine-knit {|crop|longline} sweater
+    - __fash/styles/common/fit/lounge__ {|longline} fine-knit off-one-shoulder sweater
+
+  cardigan:
+    - __fash/styles/common/fit/lounge__ open-front cardigan
+    - longline open-front cardigan
+    - knitted open-front cardigan
+    - oversize fine-knit cardigan
+    - longline loose-fit cardigan
+    # TODO
+
+
+  # sweatshirt + hoodie
+
+  # Lower
+
+  pants:
+    - __fash/styles/common/fit/lounge__ __fash/styles/pants/lounge/loose-fit__
+    - __fash/styles/pants/waistline__ __fash/styles/pants/lounge/*__
+    - __fash/styles/pants/length__ __fash/styles/pants/lounge/*__
+
+  shorts:
+    - __fash/styles/common/fit/lounge__ __fash/styles/pants/shorts/lounge__
+    - __fash/styles/pants/waistline__ __fash/styles/pants/shorts/lounge__
+
+  panties:
+    - __fash/loungewear/casual/briefs__
+    - __fash/loungewear/casual/boxers__
+
+  briefs:
+    - __fash/styles/panties/briefs__ panties
+    # __fash/styles/common/ornament/casual__ panties
+
+  boxers:
+    - __fash/styles/panties/boxers__ boxers
+    - __fash/styles/panties/boyshorts__ boyshorts
+    # TODO nightwear/embel??? # __fash/styles/common/ornament/casual__ boyshorts
+
+  skirt: # TODO
+    - __fash/styles/skirt/length/intimate__ __fash/styles/skirt/lounge__
+
+  # One-piece
+
+  skirted:
+    - __fash/loungewear/casual/chemise__
+    - __fash/loungewear/casual/dress__
+    - __fash/loungewear/casual/gown__
+    - __fash/loungewear/casual/nightshirt__
+    #- __fash/loungewear/casual/tunic__ maybe long tunics
+
+  chemise:
+    # Maybe chemise not casual
+    - __fash/styles/skirt/length/intimate__ __fash/styles/camisole/neckline__ chemise
+    #- __fash/styles/skirt/length/intimate__ chemise
+
+  dress:
+    - __fash/styles/skirt/length/intimate__ __fash/styles/dress/neckline/night__ {night|slip |shift }dress
+    - __fash/styles/skirt/length/intimate__ nightdress with __fash/styles/upper/sleeve/loungewear__ sleeves
+    - __fash/styles/dress/neckline/night__ nightdress with __fash/styles/upper/sleeve/loungewear__ sleeves
+
+    # TODO combine
+
+    - __fash/styles/skirt/length/intimate__ __fash/styles/dress/neckline/night__ __fash/styles/dress/lounge__ dress
+    - __fash/styles/skirt/length/intimate__ __fash/styles/dress/lounge__ dress
+    - __fash/styles/skirt/length/intimate__ {night|lounge |shift }dress
+        with __fash/styles/upper/sleeve/loungewear__ sleeves
+    - __fash/styles/skirt/length/intimate__ __fash/styles/dress/lounge__ dress
+
+  gown:
+    - __fash/styles/skirt/length/intimate__ __fash/styles/dress/lounge-gown__ gown
+    - __fash/styles/skirt/length/intimate__ {dressing |morning |night}gown
+        with __fash/styles/upper/sleeve/loungewear__ sleeves
+
+  nightshirt:
+    - __fash/styles/skirt/length/intimate__ nightshirt with __fash/styles/upper/sleeve/loungewear__ sleeves
+
+  # TODO maybe no high necks
+  playsuit:
+    - __fash/styles/common/fit/lounge__ __fash/styles/upper/neckline/lounge/sleeveless__ {playsuit|romper}
+    - __fash/styles/common/fit/lounge__ __fash/styles/upper/neckline/lounge/sleeved__ {playsuit|romper}
+        with __fash/styles/upper/sleeve/loungewear__ sleeves
+  jumpsuit:
+    - __fash/styles/common/fit/lounge__ __fash/styles/upper/neckline/lounge/sleeveless__ jumpsuit
+    - __fash/styles/common/fit/lounge__ __fash/styles/upper/neckline/lounge/sleeved__ jumpsuit
+        with __fash/styles/upper/sleeve/loungewear__ sleeves
+
+  # TODO
+  tunic:
+    - comfy tunic

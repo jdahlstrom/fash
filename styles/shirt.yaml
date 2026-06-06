@@ -73,6 +73,11 @@ shirt:
     - __fash/styles/common/fit/casual__
     - __fash/styles/upper/length__
 
+  pajama:
+    - long-sleeved
+    - short-sleeved
+    - sleeveless
+
   hem:
     smart:
       - layered

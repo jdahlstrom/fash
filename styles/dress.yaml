@@ -49,6 +49,31 @@ dress:
     - shirt # collar type at least
     - tube # can have neckline, sleeves, should have own category
 
+
+  # TODO separate skirt
+  lounge:
+    - a-line
+    - babydoll
+    - cami
+    - column
+    - draped
+    - flared
+    - lounge
+    - night
+    - shift
+    - slip
+    - smock
+    - tank
+    - t-shirt
+    - tiered
+    - wrap
+
+  lounge-gown:
+    - dressing
+    - morning
+    - night
+    - kimono
+
   upper:
     casual:
       - __fash/styles/upper/casual__

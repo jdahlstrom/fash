@@ -263,7 +263,7 @@ casual:
         __fash/styles/pants/waistline__ jeans
 
   shorts:
-    - __fash/styles/pants/shorts__
+    - __fash/styles/pants/shorts/casual__
 
   skirt:
     - >
