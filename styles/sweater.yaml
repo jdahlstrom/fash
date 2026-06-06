@@ -98,3 +98,6 @@ sweater:
     - __fash/styles/upper/length__
     - __fash/styles/sweater/fit__
     - __fash/styles/sweater/hem__-hem
+
+  neckline:
+    - __fash/styles/upper/neckline/t-shirt-like__

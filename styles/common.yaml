@@ -18,7 +18,6 @@ common:
     #- flutter not a trim, just a sleeve type
     #- (lettuce:0.8) not a trim but edge/hem
     #- pintuck not a trim but detail/deco
-    #- stitch not a trim...
   stitch:
     - stitch
     - chain-stitch
@@ -53,6 +52,27 @@ common:
     - textured-knit
     - tricot knit
     - welt knit
+
+
+  # TODO think about where to put this
+  ornament:
+    casual:
+      - lace-edge
+      - lace-trim
+      - picot-trim
+      #- scallop-trim
+      #- cutwork-trim
+      #- embroidery-edge
+      #- (lettuce:0.8)-edge
+      #- flounce-trim
+      #- ruffle-trim
+    smart:
+      - beaded
+      - flounce-trim
+      - lace-trim
+      - rhinestone-detail
+      - rhinestone-edge
+
 
   yoke:
     - __fash/styles/common/gather__-yoke
@@ -98,10 +118,12 @@ common:
       - slim fit
       - fitted
       - comfort fit
-    loungewear:
+    lounge:
       - comfort fit
       - relaxed fit
       - loose fit
+      - baggy
+      - oversize
 
   # TODO to material
   denim:

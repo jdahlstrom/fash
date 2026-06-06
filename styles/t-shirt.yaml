@@ -13,6 +13,15 @@ t-shirt:
     - ringer
     - smock
     - wrap
+
+  lounge:
+    - sleep
+    - babydoll
+    - boyfriend
+    #- peplum
+    - smock
+    - wrap
+
   length:
     - __fash/styles/upper/length__
   fit:
@@ -52,7 +61,7 @@ t-shirt:
     - graphic motif
     - logo
     - picture
-    - pop art
+    - pop art print
     - print
     - rhinestone figure
     - text
