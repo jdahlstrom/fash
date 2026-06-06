@@ -4,23 +4,31 @@
 jumpsuit:
   casual:
     - __fash/styles/upper/casual__
-    - __fash/styles/jumpsuit/fit__
     - __fash/styles/jumpsuit/upper__
 
   upper:
+    # TODO not all are really "upper"
     - apron
     - blouson
     - pinafore
     - cargo
-    - denim
+    - pocket
 
+    # Material
+    - denim
+    - linen
+
+    # Closure
     - button-down
     - half-button
+    - half-zip
+    - zip-up
 
     # Upper garments as one-pieces
     # TODO should have their own necklines etc...
+    # TODO unify with dress styles
     - cami
-    - hoodie
+    - hooded
     - shirt
     - sweater
     - t-shirt
@@ -31,26 +39,45 @@ jumpsuit:
     - __fash/styles/common/fit/regular__
     - __fash/styles/common/fit/loose__
 
-  lower:
-    - __fash/styles/pants/leg/casual__-legged
-    - __fash/styles/pants/length__
-    - __fash/styles/jumpsuit/waist__
+  leg:
+    long:
+      - __fash/styles/pants/leg/casual__
+      - __fash/styles/pants/length__
+      - culottes
+      - drop-crotch
+      - gathered-ankle
+      - harem
+      - palazzo
+    short:
+      - booty shorts
+      - culottes
+      - drop-crotch
+      - flowy-leg
+      - flounce-leg
+      - micro shorts
+      - skort
+
+  # TODO unify with dress/skirt waists
+  waist:
+    - peplum
+    - belt
+    - drawstring
+    - gathered
+    - contrast
+    - blouson
+    - tied
+
+  fit-waist-leg:
+    long:
+      - __fash/styles/jumpsuit/fit__
+      - __fash/styles/jumpsuit/waist__-waist
+      - __fash/styles/jumpsuit/leg/long__
+    short:
+      - __fash/styles/jumpsuit/fit__
+      - __fash/styles/jumpsuit/waist__-waist
+      - __fash/styles/jumpsuit/leg/short__
 
   sleeves:
     - __fash/styles/upper/sleeve/length__
     - '{long|short} __fash/styles/upper/sleeve/casual/common__'
     - short __fash/styles/upper/sleeve/casual/short__
-
-  # TODO unify with dress/skirt waists
-  waist:
-    - peplum
-    - belt-waist
-    - drawstring-waist
-    - gathered-waist
-    - contrast-waist
-    - bloused-waist
-    - tied-waist
-
-  playsuit-lower:
-    - skort
-    - culottes
