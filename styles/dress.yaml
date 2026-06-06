@@ -27,6 +27,7 @@ dress:
   # Should not be combined with most other styles except length
   casual:
     - apron
+    - blouson
     - cargo
     - gypsy
     - kaftan
@@ -35,6 +36,7 @@ dress:
     - prairie
     - sari
     - sarong
+    - wrap
 
   smart:
     - bodycon # TODO can have neckline, sleeves
@@ -43,7 +45,7 @@ dress:
     - dirndl
     - pegged
     - pencil
-    - shift
+    - sheath
     - shirt # collar type at least
     - tube # can have neckline, sleeves, should have own category
 
@@ -80,33 +82,40 @@ dress:
       - hoodie
       - shirt
       - sweater
+      - sweatshirt
       - t-shirt
       - tank
       - tube
       - tunic
 
-      #- shift
-      - (tent:0.8) # full, not just bodice
-      - straight   # full, not just bodice
-      - column     # full, not just bodice
+      # TODO Full silhouette, not just bodice
+      # Any neckline
+      - shift
+      - (tent:0.8)
+      - straight
+      - column
 
     smart:
-      # Not all just bodice types, have skirt implications too
+      # Not just bodice types, have skirt implications too
+
+      # These go best with simple skirts
       - babydoll
-      - blazer       # simple skirts
-      - cami         # simple skirts?
-      - cocktail     # simple skirts
-      - little black # simple skirts
-      - shirt        # simple skirts
+      - blazer
+      - cami
+      - cocktail
+      - little black
+      - shirt
 
-      - basque       # fancier skirts
-      - corset       # fancier skirts
-      - corselette   # fancier skirts
-      - evening      # fancier skirts
+      # These go best with fancier skirts
+      - basque
+      - corset
+      - corselette
+      - evening
 
-      - column       # full, not just bodice
-      - shift        # full, not just bodice
-      - straight     # full, not just bodice
+      # Full silhouette, not just bodice
+      - column
+      - sheath
+      - straight
 
       - illusion-yoke # neckline or yoke attribute
 
@@ -179,18 +188,17 @@ dress:
     casual:
       - blouson
       - contrast
-      - drawstring
       - drop
-      - tied
+      - empire
+      - __fash/styles/common/gather__
+      - '{belt|drawstring|tied|waistband}'
     smart:
       - blouson
+      - contrast
       - empire
-      - ruched
-      - gathered
+      - __fash/styles/common/gather__
       # TODO belts
 
-    # Gather
-    #- __fash/styles/common/gather__-waist
     #- __fash/clothing/ornament/trim/casual__-{hem|trim|yoke} # TODO could be modifier
     #- __fash/clothing/cut/lacing__
 
