@@ -65,6 +65,17 @@ bra:
     - shelf
     - strappy
 
+  lounge:
+    - cami
+    - crop-top
+    - non-pad
+    - seamless # contour
+    - sleep
+    - soft
+    - (t-shirt:0.8)
+    - tank
+    - wireless
+
   sports:
     - __fash/styles/upper/sports-back__
     - __fash/styles/upper/neckline/sports__

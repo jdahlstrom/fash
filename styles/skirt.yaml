@@ -25,6 +25,7 @@ skirt:
     - tiered
     - trapeze
     - wrap #
+
   smart:
     - (accordion:0.8)
     - bodycon
@@ -49,6 +50,14 @@ skirt:
     - trapeze
     - tiered
     - trumpet
+
+  lounge:
+    - a-line
+    - flowy
+    - slip
+    - straight
+    - wrap
+
   # formal:
   # - full
   # - mermaid

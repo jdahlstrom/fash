@@ -12,6 +12,7 @@ pants:
     # Material
     - corduroy pants
     - linen pants
+    - sweatpants
     - velvet pants
 
   smart:
@@ -29,6 +30,30 @@ pants:
     - denim pants
     - linen pants
     - velvet pants
+
+
+  lounge:
+    slim-fit:
+      - leggings
+      - jersey pants
+      - tights
+      - treggings
+      - yoga pants
+
+    loose-fit:
+      - __fash/styles/pants/pajama__ pants
+      - fleece pants
+      - harem pants
+      - jogger pants
+      - linen pants
+      - lounge pants
+      - palazzo pants
+      - sweatpants
+
+  pajama:
+    - pajama
+    - flared-leg pajama
+    - wide-leg pajama
 
   slim-fit:
     - jeggings
@@ -76,11 +101,20 @@ pants:
       - tailored
       - tapered
       - wide-leg
+    lounge:
+      - drop-crotch
+      - flared-leg
+      - flowy
+      - straight-leg
+      - tapered-leg
+      - wide-leg
+
   length:
     - below-knee
     - 3/4-length
     - ankle-length
     - floor-length
+
   jeans:
     - boyfriend
     - cargo
@@ -91,29 +125,47 @@ pants:
     #- gathered-ankle
     #- cropped Concept bleeding...
     #- trumpet cut Concept bleeding...
-  shorts:
-    - beach shorts
-    - bermuda shorts
-    - board shorts
-    - boyfriend shorts
-    - (bubble:0.9) shorts
-    - cargo shorts
-    - chino shorts
-    - culottes shorts
-    - cut-off shorts
-    - flowy shorts
-    - hiking shorts
-    - hot pants
-    - jamaican shorts
-    - jogger shorts
-    - paperbag shorts
-    - skort
-    - spandex shorts
-    - sports shorts
-    - walking shorts
 
-    # Material
-    - corduroy shorts
-    - denim shorts
-    - linen shorts
-    - fleece shorts
+  shorts:
+    casual:
+      - beach shorts
+      - bermuda shorts
+      - board shorts
+      - boyfriend shorts
+      - (bubble:0.9) shorts
+      - cargo shorts
+      - chino shorts
+      - culottes shorts
+      - cut-off shorts
+      - flowy shorts
+      - hiking shorts
+      - hot pants
+      - jamaican shorts
+      - jogger shorts
+      - paperbag shorts
+      - skort
+      - spandex shorts
+      - sports shorts
+      - walking shorts
+
+      # Material
+      - corduroy shorts
+      - denim shorts
+      - linen shorts
+      - fleece shorts
+
+    lounge:
+      - boyfriend lounge shorts
+      - fleece shorts
+      - jersey shorts
+      - jogger shorts
+      - lounge shorts
+      - pajama shorts
+      - slip shorts
+      - sports shorts
+
+  # Helper
+  fit-length:
+    lounge:
+      - __fash/styles/common/fit/lounge__
+      - __fash/styles/pants/length__
