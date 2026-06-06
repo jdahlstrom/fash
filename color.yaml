@@ -162,12 +162,14 @@ color:
     - copper brown
     #- dark brown
     - desert sand
+    - espresso
     - golden brown
     - grayish brown
     - greenish brown
     - hematite brown
     - honey brown
     - khaki
+    - latte
     #- light brown
     - mahogany
     - mustard brown
@@ -319,6 +321,7 @@ color:
     - wisteria purple
   gray:
     - ash gray
+    - anthracite
     - battleship gray
     - bluish gray
     - brownish gray
@@ -339,11 +342,13 @@ color:
     - silver gray
     - silver pink
     - slate gray
+    - smoke gray
     - taupe gray
     - titanium gray
     - warm gray
     - zinc gray
   black:
+    - anthracite
     - black
     - bluish black
     - brownish black
@@ -417,6 +422,7 @@ color:
     - celadon green
     - cream
     - chestnut brown
+    - espresso
     - fallow brown
     - fawn
     - flax
@@ -425,6 +431,7 @@ color:
     - greige
     - hunter green
     - khaki
+    - latte
     - moss green
     - mustard yellow
     - ochre
@@ -448,6 +455,48 @@ color:
     - light __fash/color/earthy__
   earthy-dark:
     - dark __fash/color/earthy__
+
+  denim:
+    gray:
+      - white
+      - light gray
+      - gray
+      - dark gray
+      - black
+    blue:
+      - raw denim
+
+      - white-blue
+      - grey-blue
+      - pale blue
+      - light blue
+      - bright blue
+      - muted blue
+      - medium blue
+      - navy blue
+    indigo:
+      - light indigo
+      - bright indigo
+      - muted indigo
+      - deep indigo
+      - dark indigo
+
+  hosiery:
+    white:
+      - white
+      - ivory
+      - off-white
+    nude:
+      - beige
+      - suntan
+      - taupe
+      - latte
+      - mocha
+      - espresso
+    black:
+      - off-black
+      - ebony
+      - black
 
   named:
     # Group these to reduce overrepresentation of reds
