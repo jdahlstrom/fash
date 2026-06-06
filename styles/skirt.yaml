@@ -72,6 +72,7 @@ skirt:
     - tulip
     #- (peplum:0.8) # Tends to bleed to top with SDXL
 
+  # TODO unify with dress waists
   waist:
     - lowrise
     - high

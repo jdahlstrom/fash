@@ -11,9 +11,7 @@ swimwear:
     - ribbed
     - tie-{front|back}
 
-    # Backs TODO
-    - racerback
-    - crossback
+    # TODO backs
 
     # Shared with bodice
     - (bustier:0.8)

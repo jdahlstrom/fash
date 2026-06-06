@@ -323,7 +323,7 @@ neckline:
 
   # Off-shoulder necklines, with straps or not.
   off-shoulder:
-    - drawstring
+    - drawstring-neckline
     - fold-over
     - henley
     - keyhole {knot|o-ring|}

@@ -65,6 +65,7 @@ upper:
     - ruched
 
   # Loose variants
+  # TODO these mostly work with tops, not jump/playsuits
   smock:
     - flounce
     - flowy
@@ -83,7 +84,7 @@ upper:
     - half-button
     - open-front {knot|strappy|tied}
     - split-front
-    - tied-waist
+    #- tied-waist In waists
 
   # Currently used by blouse-likes.
   hem:
