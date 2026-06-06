@@ -13,25 +13,21 @@ sundress:
   bodice: # TODO unify
     - babydoll
     #- boho in upper/casual
-    - front-lacing
-    - half-button
     - loose-fit blouson # TODO fit more generally?
     - shift {|blouson}
     #- smock in upper/casual
     - wrap
     - __fash/styles/common/gather__-yoke
 
+    # Closure
+    - front-lacing
+    - half-button
+
     # Back
     - backless
     - back-lacing
     - cross-back
     - open-back
-
-  waist:
-    - empire-waist
-    - tied-waist
-    - __fash/styles/common/gather__-waist
-    - '{belt|drawstring-waist|ribbon-waist|waistband}'
 
   skirt:
     - __fash/styles/skirt/casual__-skirted

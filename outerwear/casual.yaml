@@ -340,10 +340,10 @@ casual:
     - __fash/styles/dress/lower/casual__ __fash/styles/dress/waist/casual__-waist dress
     - __fash/styles/dress/waist/casual__-waist __fash/styles/dress/upper/casual__ dress
 
+    - __fash/styles/dress/lower/casual__ __fash/styles/top/back__ dress # TODO
+
     - __fash/outerwear/casual/sleeved-dress__
     - __fash/outerwear/casual/sleeveless-dress__
-
-    # TODO backs
 
     #- __fash/styles/common/trim__-trim dress
     #- __fash/styles/common/trim__-neckline dress
@@ -379,6 +379,9 @@ casual:
     # No specified neckline/sleeves (usually gives thin straps, sleeveless)
     - __fash/styles/sundress/skirt__ __fash/styles/upper/casual__ sundress # TODO
     - __fash/styles/sundress/skirt__ __fash/styles/sundress/bodice__ sundress # TODO
+    - __fash/styles/sundress/skirt__ __fash/styles/top/back__ sundress # TODO
+
+    - __fash/styles/dress/waist/casual__-waist __fash/styles/upper/casual__ sundress # TODO
 
     # Sleeveless
     - __fash/styles/sundress/skirt__ __fash/styles/sundress/bodice__
