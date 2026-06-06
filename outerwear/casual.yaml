@@ -41,27 +41,12 @@ casual:
     - __fash/styles/t-shirt/deco__ t-shirt
     - t-shirt with __fash/styles/t-shirt/sleeve__ sleeves
 
-
-  # TODO placeholder name, move
-  top-blouse-tunic:
-    - __fash/styles/upper/length__
-    - __fash/styles/upper/hem__-hem
-    - __fash/styles/upper/closure__
-    - __fash/styles/blouse/casual__
-
   # Generic womens' top. Overlaps somewhat with t-shirts and camisoles.
   top:
     - __fash/outerwear/casual/sleeved-top__
     - __fash/outerwear/casual/sleeveless-top__
-
-    # TODO backs
-
-    #- __fash/styles/upper/length__ __fash/styles/upper/casual__ top
-    #- __fash/styles/upper/length__ __fash/styles/upper/top-dress__ top
-    # TODO
-    #- __fash/styles/upper/length__ __fash/styles/top/casual__ top
-    #- __fash/outerwear/casual/top-blouse-tunic__ top
-    #- __fash/outerwear/casual/sports-top__
+    - __fash/outerwear/casual/sports-top__
+    # TODO backs, closure, gather, trims
 
   # With shoulders, off-shoulder, or cold-shoulder
   sleeved-top:
