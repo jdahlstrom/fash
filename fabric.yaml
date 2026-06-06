@@ -314,6 +314,7 @@ fabric:
     - muslin   #
     - poplin
     - sateen
+    - melange  # color mix, aka heather TODO to pattern?
 
   linen:
     - batiste

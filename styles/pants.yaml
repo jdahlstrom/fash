@@ -31,14 +31,13 @@ pants:
     - linen pants
     - velvet pants
 
-
   lounge:
     slim-fit:
       - leggings
-      - tights
+      - jeggings
+      - opaque tights
       - treggings
       - yoga pants
-
     loose-fit:
       - __fash/styles/pants/pajama__ pants
       - fleece pants

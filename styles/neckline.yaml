@@ -328,7 +328,6 @@ neckline:
     - keyhole {knot|o-ring|}
     - knot
     - square-neck
-    - surplice
     - tied-front
 
     # TODO trim/gather
@@ -337,13 +336,14 @@ neckline:
     - flounce {|fold-over}
     - (ruffle:0.8)-neckline {|fold-over}
 
-  #  These work best with fitted bodices (eg. some (smart?) tops and dresses)
+  #  These work best with fitted bodices (eg. some dresses and (smart?) tops)
   off-shoulder-fitted:
     - bardot
     - (bustier:0.8)
     - (plunging:0.9)
     - portrait-neckline
     - split-neck
+    - surplice
     - sweetheart-neck
     - (ruffle:0.8) {(plunging:0.9)|sweetheart}
     # TODO - '{|o-ring|sweetheart} {v-neck|deep v|plunging|keyhole}'

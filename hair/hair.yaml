@@ -17,6 +17,13 @@ length:
     - very long
 
 style:
+  all:
+    - __fash/hair/style/very-short__
+    - __fash/hair/style/short__
+    - __fash/hair/style/medium__
+    - __fash/hair/style/long__
+    - __fash/hair/style/with-bangs/*__
+
   common:
     - asymmetric
     - blunt
