@@ -1,4 +1,41 @@
 casual:
+  outfit:
+    - __fash/loungewear/casual/one-piece__
+    - __fash/loungewear/casual/two-piece__
+    - __fash/loungewear/casual/three-piece__
+
+  three-piece:
+    # Three-piece -> outfit
+    - __fash/loungewear/casual/cardigan__ over __fash/loungewear/casual/under-top__ and
+        __fash/loungewear/casual/lower__
+
+    - __fash/loungewear/casual/cardigan__ over __fash/loungewear/casual/under-one-piece__
+
+    - open-front tunic over __fash/loungewear/casual/under-top__ and __fash/loungewear/casual/lower__
+    - open-front nightshirt over __fash/loungewear/casual/under-top__ and __fash/loungewear/casual/lower__
+    - open-front __fash/loungewear/casual/gown__ over __fash/loungewear/casual/under-top__
+        and __fash/loungewear/casual/lower__
+
+  # Top under cardigan or shrug
+  under-top:
+    - crop top
+    - tube top
+    - cami
+    - sleep bra
+    - bralette
+    # TODO
+
+  # Dress under cardigan or shrug
+  under-one-piece:
+    - chemise
+    - cami nightdress
+    - cami slip dress
+    - straight cami dress
+    # TODO
+    - cami bodysuit
+    - cami jumpsuit
+    - cami playsuit
+
   upper:
     - __fash/loungewear/casual/bra__
     - __fash/loungewear/casual/camisole__
