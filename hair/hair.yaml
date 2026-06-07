@@ -193,12 +193,14 @@ style:
 
   very-short:
     - very short __fash/hair/style/by-length/very-short__ cut hair
+
   short:
     - __fash/hair/length/short__ __fash/hair/style/common__ hair
     - __fash/hair/length/short__ __fash/hair/style/by-length/short__ hair
-    - '{|very} short __fash/hair/style/common__ __fash/hair/style/by-length/short__ hair'
-    - '{|very} short __fash/hair/style/common__ hair in __fash/hair/style/tail__'
+    - short __fash/hair/style/common__ __fash/hair/style/by-length/short__ hair
+    - short __fash/hair/style/common__ hair in __fash/hair/style/tail__
     - short __fash/hair/style/common__ hair in a small __fash/hair/style/bun__
+
   medium:
     - medium-length __fash/hair/style/common__ __fash/hair/style/by-length/medium__ hair
     - __fash/hair/length/medium__ __fash/hair/style/common__ hair
@@ -207,6 +209,7 @@ style:
     - __fash/hair/length/medium__ hair in __fash/hair/style/tail__
     - __fash/hair/length/medium__ __fash/hair/style/braided__ hair
     - medium-length __fash/hair/style/common__ hair in a __fash/hair/style/bun__
+
   long:
     - long __fash/hair/style/by-length/long__ hair
     - __fash/hair/length/long__  __fash/hair/style/common__ hair
@@ -217,10 +220,12 @@ style:
     - long __fash/hair/style/common__ hair in a large __fash/hair/style/bun__
 
   any-length:
-    - __fash/hair/style/very-short__
-    - __fash/hair/style/short__
-    - __fash/hair/style/medium__
-    - __fash/hair/style/long__
+    - >
+      { 1:: __fash/hair/style/very-short__
+      | 2:: __fash/hair/style/short__
+      | 3:: __fash/hair/style/medium__
+      | 2:: __fash/hair/style/long__
+      | 3:: __fash/hair/style/with-bangs/*__ }
 
   with-bangs:
     short:
