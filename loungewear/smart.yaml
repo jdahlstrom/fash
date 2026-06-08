@@ -38,6 +38,11 @@ smart:
     - __fash/styles/dress/lounge-smart__ nightdress with __fash/styles/upper/sleeve/smart/*__ sleeves
 
   bodysuit:
-    - __fash/styles/bodysuit/smart__ bodysuit with __fash/styles/common/ornament/smart__ {bust|neckline|yoke}
-    - __fash/styles/upper/neckline/lounge/sleeveless__ bodysuit
-    - __fash/styles/upper/neckline/lounge/sleeved__ bodysuit with __fash/styles/upper/sleeve/smart/*__ sleeves
+    - __fash/styles/bodysuit/smart__ bodysuit with __fash/styles/common/ornament/smart__ {bust|neckline|yoke|sleeves}
+    - __fash/styles/upper/neckline/lounge/sleeveless__ bodysuit with __fash/styles/common/ornament/smart__ {bust|neckline|yoke}
+    - __fash/styles/upper/neckline/lounge/sleeved__ bodysuit with {lace|long|fitted|short|short flutter} sleeves
+    # TODO halter, one-shoulder
+
+    # TODO
+    - bodysuit with illusion {lace|yoke}
+    - bodysuit with {lace|illusion|illusion lace}  cutouts
