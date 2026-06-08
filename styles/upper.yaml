@@ -50,7 +50,6 @@ upper:
     - tiered
     - open-front
     #- open-front bow/knot detail etc
-    #- skirted ???
 
   # Currently used by blouse-likes.
   closure:
@@ -137,6 +136,7 @@ upper:
         - dolman
         - fitted
         - flounce
+        - flowy
         - gathered
         - lace{-trim|}
         - straight

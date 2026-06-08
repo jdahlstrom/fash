@@ -17,6 +17,12 @@ bodysuit:
     - thong
     - zip-up
 
+  smart:
+    - bustier
+    - corselette
+    - shapewear
+    - '{cinch-waist|waist-cinch|waist-cincher|waspie}'
+
   intimate:
     - cutout
     - lace-trim

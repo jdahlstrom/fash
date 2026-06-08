@@ -20,8 +20,9 @@ camisole:
     - basque
     - contour
     - flowy
-    - __fash/styles/upper/smock__ smock
-    - __fash/styles/camisole/waist__ smock
+    - flyaway-hem
+    #- __fash/styles/upper/smock__ smock
+    #- __fash/styles/camisole/waist__
 
   waist:
     - empire-waist
@@ -29,6 +30,9 @@ camisole:
     - gathered-waist
 
   neckline:
-    - >
-      { 3::__fash/**/100-cami-tank-top/cami__
-      | __fash/**/100-cami-tank-top/halter-cami__ halter }
+    casual:
+      - >
+        { 3::__fash/**/100-cami-tank-top/cami__
+        | __fash/**/100-cami-tank-top/halter-cami__ halter }
+    smart:
+      - __fash/neckline/spaghetti-strap__

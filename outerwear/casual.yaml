@@ -127,9 +127,9 @@ casual:
     - __fash/styles/camisole/casual__
         { __fash/styles/upper/length__
         | __fash/styles/upper/hem__-hem
-        | __fash/styles/camisole/neckline__ } camisole
+        | __fash/styles/camisole/neckline/casual__ } camisole
 
-    - __fash/styles/camisole/neckline__
+    - __fash/styles/camisole/neckline/casual__
         { __fash/styles/upper/casual__
         | __fash/styles/upper/length
         | __fash/styles/upper/hem__-hem
@@ -139,7 +139,7 @@ casual:
         { __fash/styles/upper/casual__
         | __fash/styles/upper/hem__-hem
         | __fash/styles/camisole/casual__
-        | __fash/styles/camisole/neckline__ } camisole
+        | __fash/styles/camisole/neckline/casual__ } camisole
 
 
   # Button-closure shirt, usually with a collar.
@@ -406,7 +406,7 @@ casual:
 
   # TODO is this really casual or outerwear? Maybe just loungewear
   babydoll-dress:
-    - __fash/styles/skirt/length/short__ __fash/styles/camisole/neckline__ babydoll dress
+    - __fash/styles/skirt/length/short__ __fash/styles/camisole/neckline/casual__ babydoll dress
 
   # TODO not sure if blouson should have its own entry
   #blouson-dress:

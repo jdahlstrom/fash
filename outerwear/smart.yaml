@@ -37,7 +37,7 @@ smart:
     - __fash/styles/upper/smart__ camisole
     #- __fash/styles/upper/length__ camisole
     #- __fash/styles/upper/hem__-hem camisole
-    - __fash/styles/camisole/neckline__ camisole
+    - __fash/styles/camisole/neckline/smart__ camisole
     - __fash/styles/camisole/style__ camisole
 
   top:

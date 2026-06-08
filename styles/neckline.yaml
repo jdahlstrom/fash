@@ -3,7 +3,7 @@
 #   SSS
 #   thl
 #   roe
-#   000 Strap/shoulder/sleeveless, nothing above armpits "tube"
+#   000 Strap/shoulder/sleeveless, tubular, nothing above armpits
 #     * strapless (more structure than tube)
 #       * top, dress
 #     * strapless backless
@@ -31,7 +31,8 @@
 #       * top, dress, bikini
 #     * halter shoulder/sleeveless high/crew/scoop/...
 #       * top, dress, bikini
-#     * tank top types here?...
+#     * tank top
+#       * top, dress
 #     * backless [halter]
 #       * top, dress, suits, more
 #
@@ -43,10 +44,9 @@
 #     * cold shoulder (crew/scoop/...)
 #       * top, dress, t-shirt, sweater, shirt, blouse, tunic
 #
-#   110 straps, shoulders, sleeveless "tank top?" or "vest?"
-#     * ...or tank top types here? Probably doesn't matter much.
+#   110 straps, shoulders, sleeveless, "vest"
 #     * sleeveless everything (t-shirt types, crew/boat/scoop/v/...)
-#       * top, dress, sweater, blouse, tunic, (t-shirt? is it just a tank top?)
+#       * top, dress, sweater, blouse, tunic, t-shirt
 #     * backless?
 #     * NO halternecks here!
 #
@@ -187,7 +187,7 @@ neckline:
   basic-top:
     - crewneck
     - henley  # Casual + a bit weird with swimsuits
-    - keyhole-neckline
+    - keyhole-neckline # Maybe not so "basic"
     - scoop-neck
     - split-neck  # round neck with a v-shaped cut
     - square-neck
@@ -199,8 +199,7 @@ neckline:
     - '{|wide} boatneck'
     - collared
     - draped-neckline
-    - keyhole mock neck
-    - mock neck
+    - '{|keyhole} mock neck'
     #- half-button      # henley is essentially this already
 
     - flounce-neckline
