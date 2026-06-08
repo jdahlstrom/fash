@@ -35,4 +35,4 @@ camisole:
         { 3::__fash/**/100-cami-tank-top/cami__
         | __fash/**/100-cami-tank-top/halter-cami__ halter }
     smart:
-      - __fash/neckline/spaghetti-strap__
+      - __fash/styles/neckline/spaghetti-strap__

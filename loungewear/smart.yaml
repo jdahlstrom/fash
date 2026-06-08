@@ -39,5 +39,5 @@ smart:
 
   bodysuit:
     - __fash/styles/bodysuit/smart__ bodysuit with __fash/styles/common/ornament/smart__ {bust|neckline|yoke}
-    - __fash/style/upper/neckline/lounge/sleeveless__ bodysuit
-    - __fash/style/upper/neckline/lounge/sleeved__ bodysuit with __fash/styles/upper/sleeve/smart/*__ sleeves
+    - __fash/styles/upper/neckline/lounge/sleeveless__ bodysuit
+    - __fash/styles/upper/neckline/lounge/sleeved__ bodysuit with __fash/styles/upper/sleeve/smart/*__ sleeves
