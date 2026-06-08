@@ -1,20 +1,41 @@
 smart:
+
+  # Upper
+
+  camisole:
+    - __fash/styles/camisole/smart__ camisole
+    - camisole with __fash/styles/common/ornament/smart__ hem
+    - camisole with __fash/styles/common/ornament/smart__ bust
+    - camisole with __fash/styles/common/ornament/smart__ neckline
+
+  # Lower
+
   panties:
-    - bloomers
+    - __fash/styles/common/trim/smart__-trim __fash/styles/panties/smart__
+    - __fash/styles/common/edge/smart__-edge __fash/styles/panties/thong__
+
+  shorts:
     - bloomer shorts
-    - boxer briefs
-    - boyshorts panties
-    - '{|high-waist} french knickers'
-    - g-string
-    - girl boxers
-    - high-leg panties
-    - high-waist panties
-    - low-rise panties
     - slip shorts
-    - '{hipsters|hiphugger} panties'
-    - thong
+
+  # One-piece
+
+  chemise:
+    - __fash/styles/camisole/smart__ chemise
+    #- chemise with __fash/styles/common/ornament/smart__ hem
+    #- chemise with __fash/styles/common/ornament/smart__ bust
+    #- chemise with __fash/styles/common/ornament/smart__ neckline
+
+    #- __fash/styles/skirt/length/intimate__ chemise
+    #- __fash/styles/dress/lounge-smart__ chemise
 
   gown:
     - morning gown
-    - nightgown
     - dressing gown
+    - peignoir
+
+  nightgown:
+    - __fash/styles/dress/lounge-smart__ nightgown
+
+  nightdress:
+    - __fash/styles/dress/lounge-smart__ nightdress

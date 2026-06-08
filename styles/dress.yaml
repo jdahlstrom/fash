@@ -64,6 +64,7 @@ dress:
     - shift
     - slip
     - smock
+    - straight
     - tiered
     - wrap
 
@@ -75,6 +76,26 @@ dress:
     - sweatshirt
     - tank
     - t-shirt
+
+  lounge-smart:
+    # Bodice
+    - babydoll
+    - basque
+    - cami
+    - corselette
+    - empire-waist
+
+    # Silhouette
+    - shift
+    - slip
+    - straight
+
+    # Skirt
+    - circle-skirted
+    - fit-and-flare
+    - flared-hem
+    #- layered-hem not really with lounge
+    - tiered-hem
 
   # TODO nightgown is different from the others
   lounge-gown:

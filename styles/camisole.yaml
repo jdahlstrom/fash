@@ -2,7 +2,7 @@ camisole:
   # Cami-specific styles not in upper/casual
   casual:
     - babydoll
-    - basque
+    #- basque
     - blouson
     - contour
     - draped
@@ -14,6 +14,14 @@ camisole:
     - underwire
 
     #- __fash/styles/common/trim__-{hem|trim|yoke} TODO
+
+  smart:
+    - babydoll
+    - basque
+    - contour
+    - flowy
+    - __fash/styles/upper/smock__ smock
+    - __fash/styles/camisole/waist__ smock
 
   waist:
     - empire-waist

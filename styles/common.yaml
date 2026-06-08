@@ -7,17 +7,7 @@ common:
     - smocked
     #- tuck    # TODO
     #- pintuck # Not sure if these should be here
-  trim:
-    - contrast
-    - cutwork
-    - flounce
-    - frill
-    - lace
-    - picot # specifically crocheted/knitted?
-    - scallop
-    #- flutter not a trim, just a sleeve type
-    #- (lettuce:0.8) not a trim but edge/hem
-    #- pintuck not a trim but detail/deco
+
   stitch:
     - stitch
     - chain-stitch
@@ -54,25 +44,95 @@ common:
     - welt knit
 
 
+  trim:
+    casual:
+      - contrast
+
+    smart:
+      - cutwork
+      - eyelet
+      - flounce
+      - '{|cutwork|lace|tulle} frill'
+      - __fash/styles/common/ornament/lace__ lace
+      - picot # specifically crocheted/knitted?
+      - ruffle
+      - scallop {|lace}
+
+  edge:
+    smart:
+      - applique
+      - cutwork
+      - eyelet
+      #- rhinestone
+      - whitework
+      - embroidery
+      - (lettuce:0.8)
+
+    #- pintuck not a trim but detail/deco
+
+  detail:
+    smart:
+      - applique
+      - embroidered
+      - lace
+      - rhinestone
+      - __fash/styles/common/stitch__
+
   # TODO think about where to put this
   ornament:
     casual:
       - lace-edge
       - lace-trim
       - picot-trim
-      #- scallop-trim
-      #- cutwork-trim
-      #- embroidery-edge
-      #- (lettuce:0.8)-edge
-      #- flounce-trim
-      #- ruffle-trim
-    smart:
-      - beaded
-      - flounce-trim
-      - lace-trim
-      - rhinestone-detail
-      - rhinestone-edge
 
+    smart:
+      - __fash/styles/common/trim/smart__-trim
+      - __fash/styles/common/edge/smart__-edge
+      - __fash/styles/common/detail/smart__-detail
+
+      - beaded
+      - floral rhinestone
+
+      - lacy
+      - needle lace
+      - whitework
+
+    lace:
+      - 3D
+      - alencon
+      - applique
+      - basketweave
+      - botanical
+      - broderie anglaise
+      - bruges
+      - brussels
+      - chantilly
+      - corded
+      - crochet
+      - cutwork
+      - edging
+      - elastic
+      - embossed
+      - embroidered
+      - eyelet
+      - filet
+      - floral
+      - gathered
+      - geometric
+      - guipure
+      - irish {|crochet}
+      - knit
+      - macramé
+      - mesh
+      - needle
+      - ric-rac
+      - sheer
+      - smocked
+      - torchon
+
+      # Decorated
+      - beaded
+      - sequined
 
   yoke:
     - __fash/styles/common/gather__-yoke

@@ -39,22 +39,6 @@ bra:
     - twisted
     - underwire
 
-  ornate: # Smart/intimate/ornate
-    - lacy
-    - lace-trim
-    - scallop lace-trim
-    - flounce-trim
-    - ruffle-trim
-    - sheer lace
-    - embroidered
-    - sheer embroidered
-    - rhinestone-detail
-    - whitework
-    - needle lace
-    - cutwork-trim
-    - eyelet-trim
-    - eyelet-edge
-
   sexy:
     - cage-neckline
     - mesh

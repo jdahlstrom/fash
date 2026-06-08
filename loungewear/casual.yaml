@@ -181,16 +181,11 @@ casual:
   # One-piece
 
   skirted:
-    - __fash/loungewear/casual/chemise__
+    #- __fash/loungewear/casual/chemise__
     - __fash/loungewear/casual/dress__
     - __fash/loungewear/casual/gown__
     - __fash/loungewear/casual/nightshirt__
     - __fash/loungewear/casual/tunic__
-
-  chemise:
-    # Maybe chemise not casual
-    - __fash/styles/skirt/length/intimate__ __fash/styles/camisole/neckline__ chemise
-    #- __fash/styles/skirt/length/intimate__ chemise
 
   dress:
     - __fash/styles/dress/fit-length/lounge__ __fash/styles/dress/lounge__ lounge dress
