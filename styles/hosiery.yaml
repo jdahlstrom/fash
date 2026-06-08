@@ -26,3 +26,10 @@ hosiery:
       - knee-high
       - above-knee
       - thigh-high
+  sheen:
+    - sheeny
+    - semi-sheeny
+    - satin
+    - glossy
+    - semi-matt
+    - matt
