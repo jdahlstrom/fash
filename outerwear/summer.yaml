@@ -1,0 +1,56 @@
+summer:
+
+  upper:
+    - __fash/outerwear/summer/camisole__
+    - __fash/outerwear/summer/shirt__
+    - __fash/outerwear/summer/t-shirt__
+    - __fash/outerwear/summer/top__
+    - __fash/outerwear/summer/tunic__
+
+    - '{crop|loose-fit} __fash/outerwear/casual/blouse__'
+
+  camisole:
+    - '{loose-fit|} {crop|} __fash/outerwear/casual/camisole__'
+
+  shirt:
+    - '{loose-fit|relaxed-fit|} __fash/styles/shirt/style__ shirt with {short|(cap:0.6)} sleeves'
+    - '{loose-fit|relaxed-fit|} __fash/styles/shirt/style__ shirt with short __fash/styles/upper/sleeve/style/short__ sleeves'
+
+  t-shirt:
+    - '{crop|loose-fit|} __fash/outerwear/casual/t-shirt__'
+
+  top:
+    - '{loose-fit|} {crop|} top with short __fash/styles/upper/sleeve/style/short__ sleeves'
+    - '{loose-fit|} {crop|} __fash/styles/top/hemline__-hemline top'
+    - '{loose-fit|} {crop|} __fash/styles/top/neckline/common__ top'
+    - __fash/outerwear/casual/strapless-top__
+    - '{loose-fit|} {crop|} __fash/outerwear/casual/tank-top__'
+
+  tunic:
+    - '{loose-fit|} __fash/styles/shirt/neckline/tunic__ tunic'
+    - '{loose-fit|} __fash/styles/shirt/tunic__ tunic with __fash/outerwear/summer/styles/sleeve__ sleeves'
+
+  lower:
+    - __fash/outerwear/casual/skirt__
+    - __fash/outerwear/casual/shorts__
+    - __fash/outerwear/summer/pants__
+
+  pants:
+    - __fash/styles/common/fit/loose__ {3/4-length|} __fash/styles/pants/any-fit__
+    - 3/4-length __fash/styles/pants/loose-fit__
+    - 3/4-length __fash/styles/pants/slim-fit__
+
+  one-piece:
+    - __fash/outerwear/casual/dress__
+    - __fash/outerwear/casual/sundress__
+    - __fash/outerwear/casual/legged__
+
+  styles:
+    fit:
+      - ''
+      - loose-fit
+      - relaxed-fit
+    sleeve:
+      - cap
+      - short
+      - short __fash/styles/upper/sleeve/style/short__
